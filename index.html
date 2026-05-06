@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cổng Ôn Tập Nam Khánh | Learning Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #f8fafc; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.4); }
+        .exam-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(79, 70, 229, 0.1); }
+    </style>
+</head>
+<body x-data="portalData()" x-init="loadStats()">
+
+    <!-- Ambient Background -->
+    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-indigo-100 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-blue-100 rounded-full blur-[100px]"></div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">
+            <div>
+                <h1 class="text-4xl font-black text-slate-900 tracking-tight">Cổng Ôn Tập <span class="text-indigo-600">Nam Khánh</span></h1>
+                <p class="text-slate-500 font-medium mt-2">Theo dõi tiến trình và chinh phục mọi kỳ thi</p>
+            </div>
+            <div class="flex items-center gap-3 bg-white p-2 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg">
+                    <i data-lucide="award"></i>
+                </div>
+                <div class="pr-4">
+                    <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Hạng của bạn</p>
+                    <p class="text-sm font-bold text-slate-800">Siêu Anh Hùng</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="glass-card p-8 rounded-[2rem] shadow-xl">
+                <p class="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">Tiến trình</p>
+                <div class="flex items-end gap-2">
+                    <h3 class="text-4xl font-black text-slate-900" x-text="completedCount">0</h3>
+                    <span class="text-slate-400 font-bold mb-1">/ 30 bài</span>
+                </div>
+                <div class="mt-4 h-2 bg-slate-100 rounded-full overflow-hidden">
+                    <div class="h-full bg-indigo-600 rounded-full transition-all duration-1000" :style="`width: ${(completedCount/30)*100}%`"></div>
+                </div>
+            </div>
+
+            <div class="glass-card p-8 rounded-[2rem] shadow-xl">
+                <p class="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">Điểm trung bình</p>
+                <div class="flex items-end gap-2">
+                    <h3 class="text-4xl font-black text-emerald-600" x-text="averageScore.toFixed(1)">0.0</h3>
+                    <span class="text-slate-400 font-bold mb-1">GPA</span>
+                </div>
+                <p class="text-[10px] text-slate-400 mt-2">Dựa trên các bài đã hoàn thành</p>
+            </div>
+
+            <div class="glass-card p-8 rounded-[2rem] shadow-xl bg-gradient-to-br from-indigo-600 to-blue-700 text-white">
+                <p class="text-xs font-black text-indigo-200 uppercase tracking-widest mb-2">Thử thách tiếp theo</p>
+                <h3 class="text-xl font-bold">Luyện đề số <span x-text="nextExam"></span></h3>
+                <button @click="startNext()" class="mt-4 w-full py-3 bg-white text-indigo-600 rounded-xl font-black text-xs hover:bg-indigo-50 transition-all flex items-center justify-center gap-2">
+                    Bắt đầu ngay <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Exam Grid -->
+        <div class="flex items-center justify-between mb-8">
+            <h2 class="text-2xl font-black text-slate-900">Danh sách đề thi</h2>
+            <button @click="resetData()" class="text-xs font-bold text-slate-400 hover:text-rose-500 transition-colors">Đặt lại lịch sử</button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <template x-for="i in 30">
+                <div class="exam-card glass-card p-6 rounded-[2rem] transition-all duration-300 relative overflow-hidden flex flex-col">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-10 h-10 bg-slate-100 rounded-xl flex items-center justify-center text-slate-500 font-black text-sm" x-text="i"></div>
+                        <template x-if="results[i]">
+                            <div class="bg-emerald-50 text-emerald-600 px-3 py-1 rounded-full text-[10px] font-black border border-emerald-100">
+                                <span x-text="results[i]"></span> đ
+                            </div>
+                        </template>
+                    </div>
+                    <h4 class="font-bold text-slate-800 mb-4">Đề kiểm tra số <span x-text="i"></span></h4>
+                    <a :href="`output/de_${i}.html`" class="mt-auto block w-full py-3 rounded-xl font-bold text-xs text-center transition-all"
+                       :class="results[i] ? 'bg-emerald-100 text-emerald-700 hover:bg-emerald-200' : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-600 hover:text-white'">
+                       <span x-text="results[i] ? 'Làm lại' : 'Vào thi ngay'"></span>
+                    </a>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <script>
+        function portalData() {
+            return {
+                results: {},
+                completedCount: 0,
+                averageScore: 0,
+                nextExam: 1,
+
+                loadStats() {
+                    const saved = localStorage.getItem('nam_khanh_results');
+                    if (saved) {
+                        this.results = JSON.parse(saved);
+                        const scores = Object.values(this.results);
+                        this.completedCount = scores.length;
+                        this.averageScore = scores.reduce((a, b) => a + b, 0) / (scores.length || 1);
+                        
+                        // Tìm bài tiếp theo chưa làm
+                        for(let i=1; i<=30; i++) {
+                            if(!this.results[i]) {
+                                this.nextExam = i;
+                                break;
+                            }
+                        }
+                    }
+                    lucide.createIcons();
+                },
+
+                startNext() {
+                    window.location.href = `output/de_${this.nextExam}.html`;
+                },
+
+                resetData() {
+                    if(confirm('Bạn có chắc chắn muốn xóa toàn bộ lịch sử làm bài?')) {
+                        localStorage.removeItem('nam_khanh_results');
+                        location.reload();
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

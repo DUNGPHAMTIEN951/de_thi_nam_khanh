@@ -1,0 +1,3233 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "To jog means to................................",
+      "options": {
+        "A": "work hard",
+        "B": "run fast",
+        "C": "run slowly",
+        "D": "work carefully"
+      },
+      "answer": "C",
+      "explanation": "Jogging (chạy bộ) có nghĩa là chạy với tốc độ chậm, thong thả (run slowly)."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "To quit means to................................",
+      "options": {
+        "A": "give up",
+        "B": "start",
+        "C": "begin",
+        "D": "sleep"
+      },
+      "answer": "A",
+      "explanation": "Quit đồng nghĩa với give up, có nghĩa là từ bỏ hoặc dừng một việc gì đó."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "To reduce means to....................",
+      "options": {
+        "A": "increase",
+        "B": "decrease",
+        "C": "destroy",
+        "D": "rise"
+      },
+      "answer": "B",
+      "explanation": "Reduce (giảm bớt) đồng nghĩa với decrease, trái nghĩa với increase (tăng)."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "To assist means to............................",
+      "options": {
+        "A": "hire",
+        "B": "like",
+        "C": "hate",
+        "D": "help"
+      },
+      "answer": "D",
+      "explanation": "Assist có nghĩa là hỗ trợ hoặc giúp đỡ (help)."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "I am looking forward to……………you some day .",
+      "options": {
+        "A": "seeing",
+        "B": "saw",
+        "C": "see",
+        "D": "sees"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'look forward to' (mong đợi điều gì) luôn đi kèm với danh động từ (V-ing)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "The opposite of failure is...................",
+      "options": {
+        "A": "success",
+        "B": "difficulty",
+        "C": "pride",
+        "D": "harm"
+      },
+      "answer": "A",
+      "explanation": "Failure (thất bại) có từ trái nghĩa là success (thành công)."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "The opposite of enemy is...................",
+      "options": {
+        "A": "army",
+        "B": "friend",
+        "C": "dog",
+        "D": "cat"
+      },
+      "answer": "B",
+      "explanation": "Enemy (kẻ thù) có từ trái nghĩa là friend (bạn bè)."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "The opposite of agree is...................",
+      "options": {
+        "A": "fly",
+        "B": "dream",
+        "C": "refuse",
+        "D": "grow"
+      },
+      "answer": "C",
+      "explanation": "Agree (đồng ý) có nghĩa trái ngược với refuse (từ chối)."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "What is she doing?",
+      "options": {
+        "A": "Nothing",
+        "B": "Doing",
+        "C": "Feeding",
+        "D": "Sweeping"
+      },
+      "answer": "D",
+      "explanation": "Trong ngữ cảnh thông dụng của các bài tập này, 'sweeping' (quét dọn) là một hành động cụ thể để trả lời cho câu hỏi đang làm gì."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "Ba is sociable but his brother is quite …………..",
+      "options": {
+        "A": "outgoing",
+        "B": "shy",
+        "C": "generous",
+        "D": "kind"
+      },
+      "answer": "B",
+      "explanation": "Liên từ 'but' chỉ sự đối lập. Đối lập với 'sociable' (hòa đồng) là 'shy' (nhút nhát/ngại ngùng)."
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "text": "Complete the sentence with the correct form of the word: All ……………between Paris and Hanoi have been cancelled due to fog. (FLY)",
+      "options": null,
+      "answer": "flights",
+      "explanation": "Dựa vào 'All' và động từ số nhiều 'have been', ta cần một danh từ số nhiều. 'Flights' nghĩa là các chuyến bay."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "Complete the sentence with the correct form of the word: There is plenty of………………for young people in this city. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau 'plenty of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí/hình thức giải trí."
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "text": "Complete the sentence with the correct form of the word: It’s ………………… to complain; you won’t get your money back. (USE)",
+      "options": null,
+      "answer": "useless",
+      "explanation": "Dựa vào vế sau 'không lấy lại được tiền', ta cần tính từ mang nghĩa phủ định. 'Useless' nghĩa là vô ích."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "Complete the sentence with the correct form of the word: During his……………….. the family used to live in the country side. (CHILD)",
+      "options": null,
+      "answer": "childhood",
+      "explanation": "Sau tính từ sở hữu 'his' cần một danh từ. 'Childhood' nghĩa là thời thơ ấu."
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "text": "Complete the sentence with the correct form of the word: He is such (a/an )……………….person that no one likes him. (HELP)",
+      "options": null,
+      "answer": "unhelpful",
+      "explanation": "Dựa vào ngữ cảnh 'không ai thích anh ta', ta cần một tính từ mang nghĩa tiêu cực. 'Unhelpful' nghĩa là không hay giúp đỡ/không có ích."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "text": "My friend .............. the answer to the question now.",
+      "options": {
+        "A": "is known",
+        "B": "know",
+        "C": "is knowing",
+        "D": "knows"
+      },
+      "answer": "D",
+      "explanation": "Động từ 'know' là động từ trạng thái (stative verb), không chia ở thì tiếp diễn ngay cả khi có 'now'. Chủ ngữ số ít nên chọn 'knows'."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "I think I’ll buy this pair of shoes. They................ me really well.",
+      "options": {
+        "A": "fit",
+        "B": "are fitting",
+        "C": "have fit",
+        "D": "are fitted"
+      },
+      "answer": "A",
+      "explanation": "'Fit' (vừa vặn) là động từ trạng thái, thường dùng ở thì Hiện tại đơn để chỉ sự phù hợp về kích cỡ."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "text": "I’ll tell my uncle all the news when I ............... him.",
+      "options": {
+        "A": "will see",
+        "B": "am going to see",
+        "C": "see",
+        "D": "shall see"
+      },
+      "answer": "C",
+      "explanation": "Trong mệnh đề trạng ngữ chỉ thời gian bắt đầu bằng 'when', ta dùng thì Hiện tại đơn để thay thế cho tương lai."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "I’ve got my key. I found it when I ................. for something else.",
+      "options": {
+        "A": "looked",
+        "B": "have looked",
+        "C": "looking",
+        "D": "was looking"
+      },
+      "answer": "D",
+      "explanation": "Diễn tả một hành động đang xảy ra (was looking) thì một hành động khác xen vào (found) trong quá khứ."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "text": "“All these photographs ................... with a very cheap camera,” he said.",
+      "options": {
+        "A": "have taken",
+        "B": "take",
+        "C": "were taken",
+        "D": "were taking"
+      },
+      "answer": "C",
+      "explanation": "Câu bị động ở thì Quá khứ đơn: S + was/were + V3/ed. Những bức ảnh được chụp (were taken)."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "I wondered ................... the tickets were on sale yet.",
+      "options": {
+        "A": "what",
+        "B": "whether",
+        "C": "when",
+        "D": "where"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'wonder whether' dùng để diễn đạt sự băn khoăn liệu rằng một việc gì đó có xảy ra hay không."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "text": "Dinner will be ready soon. Can you please .............. the table?",
+      "options": {
+        "A": "lay",
+        "B": "put",
+        "C": "make",
+        "D": "take"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ cố định 'lay the table' có nghĩa là sắp xếp bàn ăn."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "text": "Our neighbors are very ...................... on camping holidays.",
+      "options": {
+        "A": "interested",
+        "B": "fond",
+        "C": "eager",
+        "D": "keen"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'be keen on' có nghĩa là yêu thích/say mê điều gì đó. (Interested đi với 'in', Fond đi với 'of')."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "text": "There are some one following us. I think we .........................................in this area.",
+      "options": {
+        "A": "are following",
+        "B": "are followed",
+        "C": "follow",
+        "D": "are being followed"
+      },
+      "answer": "D",
+      "explanation": "Câu này cần chia ở thể bị động thì Hiện tại tiếp diễn (S + am/is/are + being + V3/ed) vì hành động 'bị theo dõi' đang xảy ra."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "text": "Walt Disney ....................... the character of Mickey Mouse",
+      "options": {
+        "A": "was created",
+        "B": "is created",
+        "C": "creates",
+        "D": "created"
+      },
+      "answer": "D",
+      "explanation": "Dùng thì Quá khứ đơn để diễn tả một sự kiện lịch sử đã hoàn tất trong quá khứ."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "text": "Would you like to go to the cinema? –No, thanks. I’d…………stay at home.",
+      "options": {
+        "A": "better",
+        "B": "like",
+        "C": "rather",
+        "D": "prefer"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'would rather + V-inf' dùng để chỉ sở thích hoặc lựa chọn ở hiện tại."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "text": "Did they ask you what examinations you’ve……………..?",
+      "options": {
+        "A": "succeeded",
+        "B": "passed",
+        "C": "overcome",
+        "D": "obtained"
+      },
+      "answer": "B",
+      "explanation": "'Pass an examination' là cụm từ phổ biến nhất có nghĩa là thi đỗ/vượt qua một kỳ thi."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "text": "The Caspian Sea, a salt lake, is…………… any other lake in the world.",
+      "options": {
+        "A": "larger than",
+        "B": "largest",
+        "C": "the largest",
+        "D": "the larger than"
+      },
+      "answer": "A",
+      "explanation": "Câu so sánh hơn với tính từ ngắn: Adj-er + than. Vì đối tượng so sánh là biển Caspian với các hồ khác."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "text": "Most people prefer…………..money to…………….it.",
+      "options": {
+        "A": "spend- earn",
+        "B": "spending- earn",
+        "C": "to spend – earning",
+        "D": "spending- earning"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'prefer V-ing to V-ing' dùng để chỉ việc thích làm gì hơn làm gì."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "text": "Our teacher made us…………….harder.",
+      "options": {
+        "A": "working",
+        "B": "to work",
+        "C": "work",
+        "D": "works"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc sai khiến: Make someone + V-inf (bắt ai đó làm gì)."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "text": "The plane will………………..in a few minutes.",
+      "options": {
+        "A": "take off",
+        "B": "land",
+        "C": "group",
+        "D": "both A&B"
+      },
+      "answer": "D",
+      "explanation": "Trong ngữ cảnh máy bay chuẩn bị diễn ra trong vài phút tới, máy bay có thể cất cánh (take off) hoặc hạ cánh (land)."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "The teacher told the student ……………",
+      "options": null,
+      "answer": "N/A",
+      "explanation": "Câu này chưa hoàn chỉnh trong văn bản gốc. Thông thường cấu trúc sẽ là 'tell someone to do something'."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "text": "He is used to …………….in public.",
+      "options": {
+        "A": "the speaking",
+        "B": "be speaking",
+        "C": "speak",
+        "D": "speaking"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'be used to + V-ing' dùng để diễn tả ai đó đã quen với việc gì ở hiện tại."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "text": "Do you think I should practice………..English every day?- Yes, if you want to improve it.",
+      "options": {
+        "A": "on listening",
+        "B": "to listen",
+        "C": "listened",
+        "D": "listening"
+      },
+      "answer": "D",
+      "explanation": "Sau động từ 'practice' luôn đi kèm với danh động từ (V-ing)."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "text": "I am not old enough ………. the car.",
+      "options": {
+        "A": "driving",
+        "B": "drive",
+        "C": "drove",
+        "D": "to drive"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc với 'enough': Adj + enough + to-V (đủ... để làm gì)."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "text": "Choose the word or phrase that needs correcting: Peter, I’d (A) would (B) like you to meet (C) some very special people (D)",
+      "options": {
+        "A": "I'd",
+        "B": "would",
+        "C": "meet",
+        "D": "people"
+      },
+      "answer": "B",
+      "explanation": "Lỗi thừa từ. 'I'd' đã là viết tắt của 'I would', nên không dùng thêm từ 'would' sau đó. Sửa lại: 'I'd like' hoặc 'I would like'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "text": "Choose the word or phrase that needs correcting: It is (A) greatly (B) to be (C) with you on such (D) a lovely day",
+      "options": {
+        "A": "It is",
+        "B": "greatly",
+        "C": "to be",
+        "D": "such"
+      },
+      "answer": "B",
+      "explanation": "Sau cấu trúc 'It is...' cần một tính từ. 'Greatly' là trạng từ, nên sửa thành tính từ 'great'."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "text": "Choose the word or phrase that needs correcting: Would (A) you mind (B) to go (C) to the local bookshop to get me some papers (D)?",
+      "options": {
+        "A": "Would",
+        "B": "mind",
+        "C": "to go",
+        "D": "papers"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Would you mind + V-ing'. Sửa 'to go' thành 'going'."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "text": "Choose the word or phrase that needs correcting: I think (A) I prefer (B) country life (C) more than (D) city life",
+      "options": {
+        "A": "think",
+        "B": "prefer",
+        "C": "country life",
+        "D": "more than"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc của 'prefer' là 'prefer something TO something'. Sửa 'more than' thành 'to'."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "text": "Choose the word or phrase that needs correcting: Thanks (A) for invite (B) me to the water-fetching (C) contest (D) of your school",
+      "options": {
+        "A": "Thanks",
+        "B": "invite",
+        "C": "fetching",
+        "D": "contest"
+      },
+      "answer": "B",
+      "explanation": "Sau giới từ 'for' phải là một V-ing. Sửa 'invite' thành 'inviting'."
+    },
+    {
+      "id": 41,
+      "type": "text",
+      "text": "Complete the text with the passive form: The word is used to describe websites that …………..(41. write) by people who use the site.",
+      "options": null,
+      "answer": "are written",
+      "explanation": "Bị động ở thì Hiện tại đơn với chủ ngữ số nhiều 'websites': are + V3/ed."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "Complete the text with the passive form: The first wiki website ………………..(42. create) by Ward Cunningham in 1995.",
+      "options": null,
+      "answer": "was created",
+      "explanation": "Bị động ở thì Quá khứ đơn (mốc thời gian 1995): was/were + V3/ed."
+    },
+    {
+      "id": 43,
+      "type": "text",
+      "text": "Complete the text with the passive form: Since then, wiki guidebooks, wiki dictionaries and wiki encyclopedias ……………….(43. publish) on the Internet.",
+      "options": null,
+      "answer": "have been published",
+      "explanation": "Dấu hiệu 'Since then' yêu cầu thì Hiện tại hoàn thành, ở dạng bị động: have/has + been + V3/ed."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "Complete the text with the passive form: Over 22 million entries …………….(44. add) since it started.",
+      "options": null,
+      "answer": "have been added",
+      "explanation": "Dấu hiệu 'since it started' yêu cầu thì Hiện tại hoàn thành, ở dạng bị động: have been + V3/ed."
+    },
+    {
+      "id": 45,
+      "type": "text",
+      "text": "Complete the text with the passive form: According to the creator of Wikipedia, the work ………………(45. do) by 20,000 people who regularly edit the pages.",
+      "options": null,
+      "answer": "is done",
+      "explanation": "Diễn tả một sự thật ở hiện tại (regularly edit), dùng bị động thì Hiện tại đơn: is + V3/ed."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently from the others:",
+      "options": {
+        "A": "worked",
+        "B": "naked",
+        "C": "looked",
+        "D": "attacked"
+      },
+      "answer": "B",
+      "explanation": "Đuôi '-ed' trong 'naked' phát âm là /ɪd/ (trường hợp tính từ đặc biệt). Các từ còn lại phát âm là /t/."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently from the others:",
+      "options": {
+        "A": "engineer",
+        "B": "excited",
+        "C": "experiment",
+        "D": "exhibition"
+      },
+      "answer": "A",
+      "explanation": "Chữ 'e' trong 'engineer' phát âm là /e/. Trong 'excited' và 'experiment' thường là /ɪ/, trong 'exhibition' là /e/ nhưng trọng âm và cách phát âm 'ex-' khác biệt (engineer: /ˌendʒɪˈnɪə(r)/, exhibition: /ˌeksɪˈbɪʃn/). Tuy nhiên, xét về âm đầu, engineer thường được chọn do sự khác biệt về nhóm âm tiết."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently from the others:",
+      "options": {
+        "A": "teammate",
+        "B": "speaker",
+        "C": "bean",
+        "D": "overhead"
+      },
+      "answer": "D",
+      "explanation": "Phần gạch chân 'ea' trong 'overhead' phát âm là /e/. Các từ còn lại phát âm là /iː/."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently from the others:",
+      "options": {
+        "A": "furious",
+        "B": "purpose",
+        "C": "surf",
+        "D": "turn"
+      },
+      "answer": "A",
+      "explanation": "Âm 'u' trong 'furious' phát âm là /jʊə/. Các từ còn lại âm 'u'/'ur' phát âm là /ɜː/."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently from the others:",
+      "options": {
+        "A": "deny",
+        "B": "deposit",
+        "C": "benefit",
+        "D": "respond"
+      },
+      "answer": "A",
+      "explanation": "Âm 'e' trong 'deny' phát âm là /ɪ/. 'Deposit' và 'respond' cũng là /ɪ/ hoặc /ə/. Tuy nhiên, 'benefit' âm 'e' đầu tiên là /e/. (Xét theo trọng âm và nguyên âm đơn, benefit thường khác biệt nhất)."
+    },
+    {
+      "id": 51,
+      "type": "text",
+      "text": "Fill in the blank (56) in the passage: In Scotland, the biggest …………..(56) of the year is “Hogmanay”.",
+      "options": null,
+      "answer": "celebration/festival/event",
+      "explanation": "Dựa vào ngữ cảnh nói về ngày lễ lớn nhất trong năm, các từ như 'celebration', 'festival' hoặc 'event' đều phù hợp."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "Fill in the blank (57) in the passage: On 31st December in Edinburgh, there is an enormous firework ……………(57) at the castle.",
+      "options": null,
+      "answer": "display",
+      "explanation": "Cụm từ 'firework display' có nghĩa là màn trình diễn pháo hoa."
+    },
+    {
+      "id": 53,
+      "type": "text",
+      "text": "Fill in the blank (58) in the passage: Thousands of people …………….(58) in the streets , coffees and bars.",
+      "options": null,
+      "answer": "gather/celebrate",
+      "explanation": "Động từ 'gather' (tụ tập) hoặc 'celebrate' (ăn mừng) phù hợp với ngữ cảnh đám đông trên đường phố."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "Fill in the blank (59) in the passage: Then at 12 o’clock, church bells ……………….(59) all over the city.",
+      "options": null,
+      "answer": "ring",
+      "explanation": "Động từ 'ring' (reo, vang lên) đi với chủ ngữ là 'church bells' (chuông nhà thờ)."
+    },
+    {
+      "id": 55,
+      "type": "text",
+      "text": "Fill in the blank (60) in the passage: This is a Scottish …………..(60) that dates back hundreds of years.",
+      "options": null,
+      "answer": "tradition/custom",
+      "explanation": "Cụm 'tradition' (truyền thống) hoặc 'custom' (phong tục) phù hợp khi nói về một tập quán lâu đời."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "Fill in the blank (61) in the passage: “First footing” is visiting your neighbours after ……………..(61) on New Year’s Eve.",
+      "options": null,
+      "answer": "midnight",
+      "explanation": "Dựa vào ngữ cảnh lễ 'xông đất', việc thăm hàng xóm diễn ra ngay sau 'midnight' (nửa đêm)."
+    },
+    {
+      "id": 57,
+      "type": "text",
+      "text": "Fill in the blank (62) in the passage: The visitors must step into the house with their right foot step first, to ……………..(62) good luck.",
+      "options": null,
+      "answer": "bring",
+      "explanation": "Cụm từ 'bring good luck' nghĩa là mang lại sự may mắn."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "Fill in the blank (63) in the passage: Traditionally, the visitors bring three ……………….(63) : a piece of coal, a piece of “short bread” and a little whisky.",
+      "options": null,
+      "answer": "gifts/presents",
+      "explanation": "Dựa vào danh sách liệt kê phía sau, đây là ba món quà (gifts/presents)."
+    },
+    {
+      "id": 59,
+      "type": "text",
+      "text": "Fill in the blank (64) in the passage: The gifts ………………….(64) warmth, food and happiness.",
+      "options": null,
+      "answer": "symbolize/represent",
+      "explanation": "Động từ 'symbolize' hoặc 'represent' (tượng trưng cho) phù hợp để chỉ ý nghĩa của các món quà."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Fill in the blank (65) in the passage: If the first person who visits your home after midnight is a man with dark hair, that is …………….(65) lucky.",
+      "options": null,
+      "answer": "considered/very",
+      "explanation": "Dùng 'considered' (được coi là) hoặc trạng từ 'very' (rất) để bổ nghĩa cho 'lucky'."
+    },
+    {
+      "id": 61,
+      "type": "text",
+      "text": "Choose the best word for blank (66): Others, however, find the whole idea quite terrifying, (66)…………. flying is no more dangerous...",
+      "options": null,
+      "answer": "although/even though",
+      "explanation": "Dùng liên từ chỉ sự tương phản (mặc dù) để nối hai vế đối lập về sự sợ hãi và tính an toàn của máy bay."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "Choose the best word for blank (67): flying is no more dangerous (67)…………… any other form of travel.",
+      "options": null,
+      "answer": "than",
+      "explanation": "Cấu trúc so sánh hơn: 'more dangerous than'."
+    },
+    {
+      "id": 63,
+      "type": "text",
+      "text": "Choose the best word for blank (68): most accident occurs (68)………….. taking off and landing.",
+      "options": null,
+      "answer": "during",
+      "explanation": "Giới từ 'during' (trong suốt/trong khi) dùng để chỉ khoảng thời gian diễn ra hành động cất cánh và hạ cánh."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "Choose the best word for blank (69): when (69)………… decisions are vitally important.",
+      "options": null,
+      "answer": "pilot's/quick",
+      "explanation": "Trong ngữ cảnh này, quyết định của phi công (pilot's) hoặc quyết định nhanh chóng (quick) là quan trọng nhất."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "Choose the best word for blank (66) in the passage: Others, however, find the whole idea quite terrifying, (66)…………. flying is no more dangerous...",
+      "options": {
+        "A": "although",
+        "B": "too",
+        "C": "and",
+        "D": "because"
+      },
+      "answer": "A",
+      "explanation": "Dùng 'although' (mặc dù) để nối hai vế có ý nghĩa tương phản: một bên là cảm thấy sợ hãi, một bên là thực tế không nguy hiểm."
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "text": "Choose the best word for blank (67) in the passage: flying is no more dangerous (67)…………… any other form of travel...",
+      "options": {
+        "A": "than",
+        "B": "as",
+        "C": "then",
+        "D": "with"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc so sánh hơn: 'more dangerous than' (nguy hiểm hơn)."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "Choose the best word for blank (68) in the passage: It is known, however, that most accident occurs (68)………….. taking off and landing...",
+      "options": {
+        "A": "while",
+        "B": "during",
+        "C": "for",
+        "D": "through"
+      },
+      "answer": "B",
+      "explanation": "Giới từ 'during' đi kèm với danh từ hoặc danh động từ để chỉ một khoảng thời gian/giai đoạn (trong suốt quá trình cất cánh và hạ cánh)."
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "text": "Choose the best word for blank (69) in the passage: ...when (69)………… decisions are vitally important.",
+      "options": {
+        "A": "leader’s",
+        "B": "chief’s",
+        "C": "driver’s",
+        "D": "pilot’s"
+      },
+      "answer": "D",
+      "explanation": "Trong ngữ cảnh đi máy bay (flying), người đưa ra quyết định là phi công (pilot)."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "Choose the best word for blank (70) in the passage: The people (70)………… job it is to look (71)……….. the passengers...",
+      "options": {
+        "A": "whose",
+        "B": "which",
+        "C": "their",
+        "D": "that"
+      },
+      "answer": "A",
+      "explanation": "Đại từ quan hệ 'whose' dùng để chỉ sở hữu: những người mà công việc của họ là..."
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "text": "Choose the best word for blank (71) in the passage: ...to look (71)……….. the passengers...",
+      "options": {
+        "A": "for",
+        "B": "up",
+        "C": "after",
+        "D": "round"
+      },
+      "answer": "C",
+      "explanation": "Cụm động từ 'look after' có nghĩa là chăm sóc, trông nom hành khách."
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "text": "Choose the best word for blank (72) in the passage: ...helping passengers to (72)………….. safe and comfortable.",
+      "options": {
+        "A": "feel",
+        "B": "rest",
+        "C": "experience",
+        "D": "lie"
+      },
+      "answer": "A",
+      "explanation": "Động từ 'feel' (cảm thấy) đi kèm với tính từ 'safe and comfortable' để diễn tả cảm giác của hành khách."
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "text": "Choose the best word for blank (73) in the passage: Indeed for many passengers being (73)………… such care of is all part of the total experience.",
+      "options": {
+        "A": "given",
+        "B": "kept",
+        "C": "shown",
+        "D": "taken"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc bị động 'be taken care of' (được chăm sóc)."
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "text": "Choose the best word for blank (74) in the passage: (74)………… other form of travel involves waiting for people in quite the same (75)……….",
+      "options": {
+        "A": "Any",
+        "B": "No",
+        "C": "All",
+        "D": "Not"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'No' ở đầu câu để phủ định: Không có loại hình du lịch nào khác mà hành khách được phục vụ giống như vậy."
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "text": "Choose the best word for blank (75) in the passage: ...in quite the same (75)………. with food, drink...",
+      "options": {
+        "A": "sort",
+        "B": "kind",
+        "C": "way",
+        "D": "part"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'in the same way' có nghĩa là theo cùng một cách thức/kiểu như vậy."
+    },
+    {
+      "id": 75,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: Early this morning/ children/ decide/ go/ a run.",
+      "options": null,
+      "answer": "Early this morning, the children decided to go for a run.",
+      "explanation": "Cấu trúc 'decide to do something' (quyết định làm gì) và 'go for a run' (đi chạy bộ). Chia thì Quá khứ đơn cho hành động đã diễn ra sáng nay."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: Life/ country / definitely / changing / the better.",
+      "options": null,
+      "answer": "Life in the country is definitely changing for the better.",
+      "explanation": "Sử dụng 'in the country' (ở nông thôn) và cụm 'change for the better' (thay đổi theo chiều hướng tốt lên)."
+    },
+    {
+      "id": 77,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: The date / meeting/ will/ have to/ change/ tomorrow.",
+      "options": null,
+      "answer": "The date of the meeting will have to be changed tomorrow.",
+      "explanation": "Cấu trúc bị động với động từ khuyết thiếu: 'will have to be + V3/ed'. Ngày họp phải được thay đổi."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: Tom / have / shower / telephone / rang.",
+      "options": null,
+      "answer": "Tom was having a shower when the telephone rang.",
+      "explanation": "Diễn tả một hành động đang xảy ra trong quá khứ (was having a shower) thì có một hành động khác xen vào (the telephone rang)."
+    },
+    {
+      "id": 79,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: Last year / we /spend / week / My Son / and / I not want / leave.",
+      "options": null,
+      "answer": "Last year we spent a week in My Son and I didn't want to leave.",
+      "explanation": "Chia thì Quá khứ đơn cho các hành động đã kết thúc (spent, didn't want). Thêm giới từ 'in' trước địa danh và 'to' sau động từ 'want'."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: Watching / television / consider / most / popular / kind / entertainment / nowadays.",
+      "options": null,
+      "answer": "Watching television is considered the most popular kind of entertainment nowadays.",
+      "explanation": "Sử dụng cấu trúc bị động ở thì Hiện tại đơn: 'be considered' (được xem là). Thêm mạo từ 'the' cho so sánh nhất."
+    },
+    {
+      "id": 81,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: After /many / experiments / finally / first / successful /flight/ make / by / Wright brothers.",
+      "options": null,
+      "answer": "After many experiments, finally the first successful flight was made by the Wright brothers.",
+      "explanation": "Sử dụng cấu trúc bị động ở thì Quá khứ đơn: 'was made by' để nói về một sự kiện lịch sử."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: My grandfather / used / tell / stories / until / we / fall / asleep.",
+      "options": null,
+      "answer": "My grandfather used to tell us stories until we fell asleep.",
+      "explanation": "Cấu trúc 'used to + V' chỉ thói quen trong quá khứ. Mệnh đề sau 'until' chia quá khứ đơn (fell) để hòa hợp thì."
+    },
+    {
+      "id": 83,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: I / used / collect / shells / when / be / kid.",
+      "options": null,
+      "answer": "I used to collect shells when I was a kid.",
+      "explanation": "Cấu trúc 'used to + V' chỉ thói quen trong quá khứ. Chia 'was' cho mệnh đề thời gian 'when I was a kid'."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "Use the words given to make meaningful sentences: My uncle / move / Ho Chi Minh City/ 1987/ and / live / there / then.",
+      "options": null,
+      "answer": "My uncle moved to Ho Chi Minh City in 1987 and has lived there since then.",
+      "explanation": "Vế đầu dùng Quá khứ đơn (mốc 1987). Vế sau dùng Hiện tại hoàn thành với 'since then' (kể từ đó đến nay)."
+    },
+    {
+      "id": 85,
+      "type": "text",
+      "text": "Rewrite the sentence: Tom works hard as a student.",
+      "options": null,
+      "answer": "Tom is a hard-working student.",
+      "explanation": "Chuyển cấu trúc động từ + trạng từ (works hard) thành cấu trúc tính từ + danh từ (hard-working student)."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "Rewrite the sentence: It is good exercise to run a mile a day.",
+      "options": null,
+      "answer": "Running a mile a day is good exercise.",
+      "explanation": "Sử dụng danh động từ (Gerund) làm chủ ngữ trong câu."
+    },
+    {
+      "id": 87,
+      "type": "text",
+      "text": "Rewrite the sentence: It’s a great pleasure to be with you.",
+      "options": null,
+      "answer": "Being with you is a great pleasure.",
+      "explanation": "Sử dụng danh động từ 'Being' để thay thế cho chủ ngữ giả 'It'."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "Rewrite the sentence: We didn’t see her at all.",
+      "options": null,
+      "answer": "She wasn't seen at all (by us).",
+      "explanation": "Chuyển câu từ chủ động sang bị động ở thì Quá khứ đơn."
+    },
+    {
+      "id": 89,
+      "type": "text",
+      "text": "Rewrite the sentence: Tom is not as tall as Peter.",
+      "options": null,
+      "answer": "Peter is taller than Tom.",
+      "explanation": "Chuyển so sánh không ngang bằng 'not as... as' thành so sánh hơn."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "Rewrite the sentence: Her father asked her if she would go to the cinema with her friend.",
+      "options": null,
+      "answer": "Her father asked her: “Will you go to the cinema with your friend?”",
+      "explanation": "Chuyển từ câu tường thuật sang câu trực tiếp: 'if she would' chuyển thành câu hỏi 'Will you', lùi thì ngược lại từ quá khứ đơn về tương lai đơn."
+    },
+    {
+      "id": 91,
+      "type": "text",
+      "text": "Rewrite the sentence: The step-mother doesn’t treat the little girl in a normal way.",
+      "options": null,
+      "answer": "The little girl isn't treated in a normal way by her step-mother.",
+      "explanation": "Chuyển từ câu chủ động sang bị động ở thì Hiện tại đơn: S + am/is/are + not + V3/ed."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "Rewrite the sentence: Do you mind my smoking?",
+      "options": null,
+      "answer": "Do you mind if I smoke?",
+      "explanation": "Chuyển cấu trúc 'Do you mind + V-ing/Possessive + V-ing' sang 'Do you mind if I + V (hiện tại đơn)'."
+    },
+    {
+      "id": 93,
+      "type": "text",
+      "text": "Rewrite the sentence: No one works harder than Barbara.",
+      "options": null,
+      "answer": "Barbara works the hardest.",
+      "explanation": "Chuyển từ so sánh hơn (harder than) sang so sánh nhất (the hardest) khi đối tượng là duy nhất."
+    },
+    {
+      "id": 94,
+      "type": "text",
+      "text": "Rewrite the sentence: He told his customer: “Please bring it back if it doesn’t fit well”",
+      "options": null,
+      "answer": "He told his customer to bring it back if it didn’t fit well.",
+      "explanation": "Tường thuật câu mệnh lệnh/yêu cầu: 'told someone + to-V'. Lưu ý lùi thì 'doesn't' thành 'didn't' trong mệnh đề if."
+    },
+    {
+      "id": 95,
+      "type": "text",
+      "text": "Rewrite the sentence: The last time we saw him was in 1988.",
+      "options": null,
+      "answer": "We haven’t seen him since 1988.",
+      "explanation": "Chuyển từ cấu trúc 'The last time... was' sang thì Hiện tại hoàn thành dạng phủ định với 'since'."
+    },
+    {
+      "id": 96,
+      "type": "text",
+      "text": "Rewrite the sentence: Peter spent 3 hours on repairing his computer.",
+      "options": null,
+      "answer": "It took Peter 3 hours to repair his computer.",
+      "explanation": "Chuyển đổi giữa hai cấu trúc tương đương: 'S + spend + time + V-ing' và 'It + take + someone + time + to-V'."
+    },
+    {
+      "id": 97,
+      "type": "text",
+      "text": "Rewrite the sentence: You will not be accepted if you don’t finish your home work.",
+      "options": null,
+      "answer": "Unless you finish your homework, you will not be accepted.",
+      "explanation": "Sử dụng 'Unless' thay thế cho 'If... not'. 'Unless' mang nghĩa phủ định sẵn nên động từ đi kèm ở dạng khẳng định."
+    },
+    {
+      "id": 98,
+      "type": "text",
+      "text": "Rewrite the sentence: “Don’t swim out too far, boys” I said.",
+      "options": null,
+      "answer": "I warned the boys not to swim out too far.",
+      "explanation": "Sử dụng động từ tường thuật 'warn' (cảnh báo): 'warn someone not to do something'."
+    },
+    {
+      "id": 99,
+      "type": "text",
+      "text": "Rewrite the sentence: They arrived late because the traffic was terrible.",
+      "options": null,
+      "answer": "Because of the terrible traffic, they arrived late.",
+      "explanation": "Chuyển đổi từ mệnh đề chỉ nguyên nhân (Because + Clause) sang cụm danh từ (Because of + Noun phrase)."
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "text": "The encyclopedia ___________ by a group of experts last year.",
+      "options": {
+        "A": "writes",
+        "B": "wrote",
+        "C": "was written",
+        "D": "is written"
+      },
+      "answer": "C",
+      "explanation": "Câu bị động ở thì Quá khứ đơn (last year)."
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "text": "I ___________ to the cinema with my friends every weekend.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "went",
+        "D": "is going"
+      },
+      "answer": "A",
+      "explanation": "Thì Hiện tại đơn diễn tả thói quen, chủ ngữ 'I' đi với động từ nguyên mẫu."
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "text": "She is interested ___________ learning English.",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc: be interested in + V-ing (quan tâm/thích thú việc gì)."
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "text": "The movie was so ___________ that I fell asleep.",
+      "options": {
+        "A": "excite",
+        "B": "exciting",
+        "C": "bore",
+        "D": "boring"
+      },
+      "answer": "D",
+      "explanation": "Tính từ đuôi -ing dùng để miêu tả tính chất của sự vật (bộ phim gây chán)."
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "text": "He ___________ a lot of money on his new car recently.",
+      "options": {
+        "A": "has spent",
+        "B": "spends",
+        "C": "spent",
+        "D": "is spending"
+      },
+      "answer": "A",
+      "explanation": "Thì Hiện tại hoàn thành đi với trạng từ 'recently'."
+    },
+    {
+      "id": 105,
+      "type": "text",
+      "text": "There are many daily ___________ from Hanoi to Ho Chi Minh City. (FLY)",
+      "options": null,
+      "answer": "flights",
+      "explanation": "Cần một danh từ số nhiều sau 'many'. 'Flights' nghĩa là các chuyến bay."
+    },
+    {
+      "id": 106,
+      "type": "text",
+      "text": "Watching TV is a popular form of ___________. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau giới từ 'of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí."
+    },
+    {
+      "id": 107,
+      "type": "text",
+      "text": "This knife is ___________. It can't cut anything. (USE)",
+      "options": null,
+      "answer": "useless",
+      "explanation": "Dựa vào câu sau 'không cắt được gì', ta cần tính từ mang nghĩa phủ định 'useless' (vô dụng)."
+    },
+    {
+      "id": 108,
+      "type": "text",
+      "text": "I had a very happy ___________ with my grandparents. (CHILD)",
+      "options": null,
+      "answer": "childhood",
+      "explanation": "Cụm danh từ 'happy childhood' nghĩa là tuổi thơ hạnh phúc."
+    },
+    {
+      "id": 109,
+      "type": "text",
+      "text": "The staff were very ___________ and rude to the customers. (HELP)",
+      "options": null,
+      "answer": "unhelpful",
+      "explanation": "Dựa vào tính từ tiêu cực 'rude' (thô lỗ), ta cần tính từ 'unhelpful' (không giúp ích/không nhiệt tình)."
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "text": "If I ___________ you, I would take that job offer.",
+      "options": {
+        "A": "am",
+        "B": "was",
+        "C": "were",
+        "D": "be"
+      },
+      "answer": "C",
+      "explanation": "Câu điều kiện loại 2, dùng 'were' cho tất cả các ngôi."
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "text": "They ___________ each other since they were at university.",
+      "options": {
+        "A": "know",
+        "B": "knew",
+        "C": "have known",
+        "D": "are knowing"
+      },
+      "answer": "C",
+      "explanation": "Thì Hiện tại hoàn thành với 'since' diễn tả hành động kéo dài đến hiện tại."
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "text": "The children are ___________ to the zoo by their parents.",
+      "options": {
+        "A": "take",
+        "B": "taking",
+        "C": "taken",
+        "D": "took"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc bị động: are + V3/ed (được dẫn đi)."
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "text": "You should ___________ more time on your homework.",
+      "options": {
+        "A": "spend",
+        "B": "take",
+        "C": "use",
+        "D": "make"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc: spend + time + on something."
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "text": "Do you mind ___________ the door for me?",
+      "options": {
+        "A": "open",
+        "B": "to open",
+        "C": "opening",
+        "D": "opened"
+      },
+      "answer": "C",
+      "explanation": "Sau 'Do you mind' là động từ đuôi -ing."
+    },
+    {
+      "id": 115,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: Early this morning / children / decide / go / a run.",
+      "options": null,
+      "answer": "Early this morning the children decided to go for a run.",
+      "explanation": "Sử dụng cấu trúc 'decide to do something' và 'go for a run'. Chia thì quá khứ đơn vì có trạng ngữ 'Early this morning'."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: Life / country / definitely / changing / the better.",
+      "options": null,
+      "answer": "Life in the country is definitely changing for the better.",
+      "explanation": "Sử dụng cụm 'in the country' và 'change for the better' (thay đổi theo chiều hướng tốt lên)."
+    },
+    {
+      "id": 117,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: The date / meeting / will / have to / change / tomorrow.",
+      "options": null,
+      "answer": "The date of the meeting will have to be changed tomorrow.",
+      "explanation": "Cấu trúc bị động với động từ khuyết thiếu: 'will have to be + V3/ed'."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: Tom / have / shower / when / telephone / rang.",
+      "options": null,
+      "answer": "Tom was having a shower when the telephone rang.",
+      "explanation": "Sử dụng thì Quá khứ tiếp diễn cho hành động đang xảy ra (have a shower) thì hành động khác xen vào (rang)."
+    },
+    {
+      "id": 119,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: Last year / we / spend / week / My Son / and / I / not want / leave.",
+      "options": null,
+      "answer": "Last year, we spent a week in My Son and I did not want to leave.",
+      "explanation": "Chia thì Quá khứ đơn cho các hành động đã kết thúc trong năm ngoái."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: Watching television / consider / most / popular / kind / entertainment / nowadays.",
+      "options": null,
+      "answer": "Watching television is considered the most popular kind of entertainment nowadays.",
+      "explanation": "Cấu trúc bị động ở hiện tại đơn 'be considered' và so sánh nhất 'the most popular'."
+    },
+    {
+      "id": 121,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: After / many / experiments / finally / first / successful / flight / make / by / Wright brothers.",
+      "options": null,
+      "answer": "After many experiments, finally the first successful flight was made by the Wright brothers.",
+      "explanation": "Dùng thì Quá khứ đơn dạng bị động 'was made by' để nói về sự kiện lịch sử."
+    },
+    {
+      "id": 122,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: My grandfather / used / tell / stories / until / we / fall / asleep.",
+      "options": null,
+      "answer": "My grandfather used to tell us stories until we fell asleep.",
+      "explanation": "Cấu trúc 'used to + V' chỉ thói quen trong quá khứ và 'fall asleep' (ngủ thiếp đi)."
+    },
+    {
+      "id": 123,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: I / used / collect / shells / when / be / kid.",
+      "options": null,
+      "answer": "I used to collect shells when I was a kid.",
+      "explanation": "Cấu trúc 'used to + V' và mệnh đề thời gian ở quá khứ 'when I was a kid'."
+    },
+    {
+      "id": 124,
+      "type": "text",
+      "text": "Use the words given to make a meaningful sentence: My uncle / move / Ho Chi Minh City / 1987 / and / live / there / since then.",
+      "options": null,
+      "answer": "My uncle moved to Ho Chi Minh City in 1987 and he has lived there since then.",
+      "explanation": "Vế đầu dùng Quá khứ đơn (mốc 1987), vế sau dùng Hiện tại hoàn thành (since then)."
+    },
+    {
+      "id": 125,
+      "type": "text",
+      "text": "Rewrite the sentence: Tom works hard as a student.",
+      "options": null,
+      "answer": "Tom is a hard-working student.",
+      "explanation": "Chuyển cụm 'động từ + trạng từ' thành 'tính từ + danh từ'."
+    },
+    {
+      "id": 126,
+      "type": "text",
+      "text": "Rewrite the sentence: It is good exercise to run a mile a day.",
+      "options": null,
+      "answer": "Running a mile a day is good exercise.",
+      "explanation": "Sử dụng danh động từ (V-ing) làm chủ ngữ."
+    },
+    {
+      "id": 127,
+      "type": "text",
+      "text": "Rewrite the sentence: It’s a great pleasure to be with you.",
+      "options": null,
+      "answer": "Being with you is a great pleasure.",
+      "explanation": "Sử dụng cụm V-ing 'Being with you' làm chủ ngữ thay cho chủ ngữ giả 'It'."
+    },
+    {
+      "id": 128,
+      "type": "text",
+      "text": "Rewrite the sentence: We didn’t see her at all.",
+      "options": null,
+      "answer": "She wasn’t seen at all.",
+      "explanation": "Chuyển câu sang dạng bị động ở thì Quá khứ đơn."
+    },
+    {
+      "id": 129,
+      "type": "text",
+      "text": "Rewrite the sentence: Tom is not as tall as Peter.",
+      "options": null,
+      "answer": "Peter is taller than Tom.",
+      "explanation": "Chuyển so sánh không ngang bằng sang so sánh hơn."
+    },
+    {
+      "id": 130,
+      "type": "text",
+      "text": "Rewrite the sentence into Direct Speech: Her father asked her if she would go to the cinema with her friend.",
+      "options": null,
+      "answer": "Her father asked her: “Will you go to the cinema with your friend?”",
+      "explanation": "Chuyển từ câu tường thuật sang câu trực tiếp, lùi thì ngược lại từ 'would' về 'will'."
+    },
+    {
+      "id": 131,
+      "type": "text",
+      "text": "Rewrite the sentence: The step-mother doesn’t treat the little girl in a normal way.",
+      "options": null,
+      "answer": "The little girl isn’t treated in a normal way by the step-mother.",
+      "explanation": "Chuyển sang bị động thì Hiện tại đơn: am/is/are + V3/ed."
+    },
+    {
+      "id": 132,
+      "type": "text",
+      "text": "Rewrite the sentence: Do you mind my smoking?",
+      "options": null,
+      "answer": "Do you mind if I smoke?",
+      "explanation": "Cấu trúc 'Do you mind if + clause' tương đương với 'Do you mind + Possessive + V-ing'."
+    },
+    {
+      "id": 133,
+      "type": "text",
+      "text": "Rewrite the sentence: No one works harder than Barbara.",
+      "options": null,
+      "answer": "Barbara works hardest.",
+      "explanation": "Chuyển so sánh hơn sang so sánh nhất."
+    },
+    {
+      "id": 134,
+      "type": "text",
+      "text": "Rewrite the sentence: He told his customer: “Please bring it back if it doesn’t fit well.”",
+      "options": null,
+      "answer": "He told his customer to bring it back if it didn’t fit well.",
+      "explanation": "Tường thuật câu mệnh lệnh: 'told someone + to-V'. Lùi thì 'doesn't' thành 'didn't'."
+    },
+    {
+      "id": 135,
+      "type": "text",
+      "text": "Rewrite the sentence: The last time we saw him was in 1988.",
+      "options": null,
+      "answer": "We haven’t seen him since 1988.",
+      "explanation": "Chuyển mốc thời gian quá khứ sang thì Hiện tại hoàn thành với 'since'."
+    },
+    {
+      "id": 136,
+      "type": "text",
+      "text": "Rewrite the sentence: Peter spent 3 hours on repairing his computer.",
+      "options": null,
+      "answer": "It took Peter 3 hours to repair his computer.",
+      "explanation": "Cấu trúc 'spend time V-ing' chuyển sang 'It take someone time to-V'."
+    },
+    {
+      "id": 137,
+      "type": "text",
+      "text": "Rewrite the sentence using 'Unless': You will not be accepted if you don’t finish your homework.",
+      "options": null,
+      "answer": "Unless you finish your homework, you will not be accepted.",
+      "explanation": "Sử dụng 'Unless' thay cho 'If not'."
+    },
+    {
+      "id": 138,
+      "type": "text",
+      "text": "Rewrite the sentence: “Don’t swim out too far, boys,” I said.",
+      "options": null,
+      "answer": "I warned the boys not to swim out too far.",
+      "explanation": "Sử dụng động từ tường thuật 'warn someone not to do something'."
+    },
+    {
+      "id": 139,
+      "type": "text",
+      "text": "Rewrite the sentence: They arrived late because the traffic was terrible.",
+      "options": null,
+      "answer": "Because of the terrible traffic, they arrived late.",
+      "explanation": "Chuyển mệnh đề nguyên nhân (Because + clause) sang cụm danh từ (Because of + N)."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "Look forward to",
+      "pron": "/lʊk ˈfɔːwəd tuː/",
+      "type": "phrasal verb",
+      "meaning": "Mong đợi, mong chờ điều gì đó (với sự háo hức)",
+      "example": "I am looking forward to seeing you some day."
+    },
+    {
+      "word": "Reduce",
+      "pron": "/rɪˈdjuːs/",
+      "type": "verb",
+      "meaning": "Giảm bớt, làm ít đi",
+      "example": "We need to reduce the amount of plastic we use."
+    },
+    {
+      "word": "Assist",
+      "pron": "/əˈsɪst/",
+      "type": "verb",
+      "meaning": "Hỗ trợ, giúp đỡ",
+      "example": "The staff will assist you with your luggage."
+    },
+    {
+      "word": "Sociable",
+      "pron": "/ˈsəʊʃəbl/",
+      "type": "adjective",
+      "meaning": "Hòa đồng, dễ gần, thích giao du",
+      "example": "Ba is very sociable and has many friends."
+    },
+    {
+      "word": "Opposite",
+      "pron": "/ˈɒpəzɪt/",
+      "type": "adjective/noun",
+      "meaning": "Trái nghĩa, đối lập",
+      "example": "The opposite of failure is success."
+    },
+    {
+      "word": "Quit",
+      "pron": "/kwɪt/",
+      "type": "verb",
+      "meaning": "Từ bỏ, dừng lại, nghỉ (việc/học)",
+      "example": "He decided to quit smoking for his health."
+    },
+    {
+      "word": "Jog",
+      "pron": "/dʒɒɡ/",
+      "type": "verb",
+      "meaning": "Chạy bộ thong thả (để rèn luyện sức khỏe)",
+      "example": "She goes for a jog in the park every morning."
+    },
+    {
+      "word": "Enemy",
+      "pron": "/ˈenəmi/",
+      "type": "noun",
+      "meaning": "Kẻ thù, kẻ nghịch",
+      "example": "They were former enemies but are now friends."
+    },
+    {
+      "word": "Flight",
+      "pron": "/flaɪt/",
+      "type": "noun",
+      "meaning": "Chuyến bay, sự bay",
+      "example": "All flights between Paris and Hanoi have been cancelled due to fog."
+    },
+    {
+      "word": "Entertainment",
+      "pron": "/ˌentəˈteɪnmənt/",
+      "type": "noun",
+      "meaning": "Sự giải trí, hình thức giải trí",
+      "example": "There is plenty of entertainment for young people in this city."
+    },
+    {
+      "word": "Childhood",
+      "pron": "/ˈtʃaɪldhʊd/",
+      "type": "noun",
+      "meaning": "Thời thơ ấu, tuổi thơ",
+      "example": "During his childhood, the family used to live in the countryside."
+    },
+    {
+      "word": "Useless",
+      "pron": "/ˈjuːsləs/",
+      "type": "adjective",
+      "meaning": "Vô ích, không có tác dụng",
+      "example": "It’s useless to complain; you won’t get your money back."
+    },
+    {
+      "word": "Stative Verbs",
+      "pron": "/ˈsteɪtɪv vɜːbz/",
+      "type": "grammar",
+      "meaning": "Động từ trạng thái (như know, fit, believe) - không dùng ở thì tiếp diễn",
+      "example": "My friend knows the answer (NOT: is knowing)."
+    },
+    {
+      "word": "Unhelpful",
+      "pron": "/ʌnˈhelpfl/",
+      "type": "adjective",
+      "meaning": "Không giúp ích, không có lòng giúp đỡ",
+      "example": "He is such an unhelpful person that no one likes him."
+    },
+    {
+      "word": "Adverbial clause of time",
+      "pron": "/ədˈvɜːbiəl klɔːz/",
+      "type": "structure",
+      "meaning": "Mệnh đề trạng ngữ chỉ thời gian (dùng Hiện tại đơn thay cho Tương lai sau 'when')",
+      "example": "I’ll tell him the news when I see him."
+    },
+    {
+      "word": "Wonder whether",
+      "pron": "/ˈwʌndə(r) ˈweðə(r)/",
+      "type": "structure",
+      "meaning": "Băn khoăn/tự hỏi liệu rằng...",
+      "example": "I wondered whether the tickets were on sale yet."
+    },
+    {
+      "word": "Lay the table",
+      "pron": "/leɪ ðə ˈteɪbl/",
+      "type": "idiom",
+      "meaning": "Dọn bàn ăn, sắp xếp bàn ghế bát đĩa trước bữa ăn",
+      "example": "Dinner will be ready soon. Can you please lay the table?"
+    },
+    {
+      "word": "Be keen on",
+      "pron": "/biː kiːn ɒn/",
+      "type": "structure",
+      "meaning": "Yêu thích, say mê điều gì đó",
+      "example": "Our neighbors are very keen on camping holidays."
+    },
+    {
+      "word": "Be being followed",
+      "pron": "/biː ˈbiːɪŋ ˈfɒləʊd/",
+      "type": "grammar",
+      "meaning": "Đang bị theo dõi (Thể bị động của thì Hiện tại tiếp diễn)",
+      "example": "I think we are being followed in this area."
+    },
+    {
+      "word": "Would rather",
+      "pron": "/wʊd ˈrɑːðə(r)/",
+      "type": "modal verb",
+      "meaning": "Thích cái gì hơn, thà làm gì hơn (S + would rather + V-inf)",
+      "example": "I’d rather stay at home than go to the cinema."
+    },
+    {
+      "word": "Pass an examination",
+      "pron": "/pɑːs ən ɪɡˌzæmɪˈneɪʃn/",
+      "type": "collocation",
+      "meaning": "Thi đỗ, vượt qua một kỳ thi",
+      "example": "She was very happy because she passed her final examinations."
+    },
+    {
+      "word": "Make someone do something",
+      "pron": "/meɪk ˈsʌmwʌn duː ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Bắt ép ai đó làm việc gì",
+      "example": "Our teacher made us work harder for the upcoming test."
+    },
+    {
+      "word": "Take off",
+      "pron": "/teɪk ɒf/",
+      "type": "phrasal verb",
+      "meaning": "(Máy bay) cất cánh",
+      "example": "The plane will take off in a few minutes."
+    },
+    {
+      "word": "Be used to",
+      "pron": "/biː juːst tu/",
+      "type": "structure",
+      "meaning": "Quen với việc gì/làm gì ở hiện tại (theo sau là V-ing hoặc danh từ)",
+      "example": "He is used to speaking in public."
+    },
+    {
+      "word": "Practice",
+      "pron": "/ˈpræktɪs/",
+      "type": "verb",
+      "meaning": "Luyện tập (luôn đi kèm với động từ đuôi -ing)",
+      "example": "You should practice listening to English every day."
+    },
+    {
+      "word": "Encyclopedia",
+      "pron": "/ɪnˌsaɪkləˈpiːdiə/",
+      "type": "noun",
+      "meaning": "Từ điển bách khoa, bách khoa toàn thư",
+      "example": "Wikipedia is the most popular online encyclopedia."
+    },
+    {
+      "word": "Publish",
+      "pron": "/ˈpʌblɪʃ/",
+      "type": "verb",
+      "meaning": "Xuất bản, công bố",
+      "example": "Wiki guidebooks and dictionaries have been published on the Internet."
+    },
+    {
+      "word": "Entry",
+      "pron": "/ˈentri/",
+      "type": "noun",
+      "meaning": "Mục từ (trong từ điển), bài đăng, sự ghi vào",
+      "example": "Over 22 million entries have been added since it started."
+    },
+    {
+      "word": "Would mind",
+      "pron": "/wʊd maɪnd/",
+      "type": "structure",
+      "meaning": "Phiền ai đó làm gì (dùng trong câu đề nghị lịch sự: Would you mind + V-ing?)",
+      "example": "Would you mind going to the bookshop to get me some papers?"
+    },
+    {
+      "word": "Improve",
+      "pron": "/ɪmˈpruːv/",
+      "type": "verb",
+      "meaning": "Cải thiện, trau dồi, làm cho tốt lên",
+      "example": "Practice English every day if you want to improve it."
+    },
+    {
+      "word": "Prefer... to...",
+      "pron": "/prɪˈfɜː(r)/",
+      "type": "structure",
+      "meaning": "Thích cái gì/việc gì hơn cái gì/việc gì",
+      "example": "I prefer country life to city life."
+    },
+    {
+      "word": "Firework display",
+      "pron": "/ˈfaɪəwɜːk dɪˈspleɪ/",
+      "type": "noun phrase",
+      "meaning": "Màn trình diễn pháo hoa",
+      "example": "There is an enormous firework display at the castle on New Year's Eve."
+    },
+    {
+      "word": "Tradition",
+      "pron": "/trəˈdɪʃn/",
+      "type": "noun",
+      "meaning": "Truyền thống, phong tục lâu đời",
+      "example": "First footing is a Scottish tradition that dates back hundreds of years."
+    },
+    {
+      "word": "Symbolize",
+      "pron": "/ˈsɪmbəlaɪz/",
+      "type": "verb",
+      "meaning": "Tượng trưng cho, là biểu tượng của",
+      "example": "The gifts of coal and bread symbolize warmth and food for the new year."
+    },
+    {
+      "word": "Date back",
+      "pron": "/deɪt bæk/",
+      "type": "phrasal verb",
+      "meaning": "Có từ thời, bắt nguồn từ (trong quá khứ)",
+      "example": "This custom dates back to the 18th century."
+    },
+    {
+      "word": "Terrifying",
+      "pron": "/ˈterɪfaɪɪŋ/",
+      "type": "adjective",
+      "meaning": "Đáng sợ, kinh hãi",
+      "example": "Some people find the idea of flying quite terrifying."
+    },
+    {
+      "word": "Considerably",
+      "pron": "/kənˈsɪdərəbli/",
+      "type": "adverb",
+      "meaning": "Đáng kể, nhiều",
+      "example": "Experts say traveling by plane is considerably safer than other forms."
+    },
+    {
+      "word": "Vitally important",
+      "pron": "/ˈvaɪtəli ɪmˈpɔːtnt/",
+      "type": "collocation",
+      "meaning": "Cực kỳ quan trọng, mang tính sống còn",
+      "example": "Quick decisions are vitally important during taking off and landing."
+    },
+    {
+      "word": "Occur",
+      "pron": "/əˈkɜː(r)/",
+      "type": "verb",
+      "meaning": "Xảy ra, diễn ra (thường dùng cho tai nạn hoặc sự kiện bất ngờ)",
+      "example": "Most plane accidents occur during the landing phase."
+    },
+    {
+      "word": "Look after",
+      "pron": "/lʊk ˈɑːftə(r)/",
+      "type": "phrasal verb",
+      "meaning": "Chăm sóc, trông nom",
+      "example": "Stewardesses play an important part in looking after the passengers."
+    },
+    {
+      "word": "Take care of",
+      "pron": "/teɪk keə(r) əv/",
+      "type": "idiom",
+      "meaning": "Chăm sóc, quan tâm đến (thường dùng ở dạng bị động: be taken care of)",
+      "example": "For many passengers, being taken care of is part of the total experience."
+    },
+    {
+      "word": "Whose",
+      "pron": "/huːz/",
+      "type": "relative pronoun",
+      "meaning": "Của ai, của người mà (dùng để chỉ sở hữu trong mệnh đề quan hệ)",
+      "example": "The people whose job it is to help you are very friendly."
+    },
+    {
+      "word": "Change for the better",
+      "pron": "/tʃeɪndʒ fə(r) ðə ˈbetə(r)/",
+      "type": "idiom",
+      "meaning": "Thay đổi theo chiều hướng tốt lên, cải thiện",
+      "example": "Life in the country is definitely changing for the better."
+    },
+    {
+      "word": "In the same way",
+      "pron": "/ɪn ðə seɪm weɪ/",
+      "type": "phrase",
+      "meaning": "Theo cùng một cách, tương tự như vậy",
+      "example": "No other form of travel involves waiting for people in quite the same way."
+    },
+    {
+      "word": "Decide to do something",
+      "pron": "/dɪˈsaɪd tu duː ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Quyết định làm một việc gì đó",
+      "example": "Early this morning, the children decided to go for a run."
+    },
+    {
+      "word": "Steward / Stewardess",
+      "pron": "/ˈstjuːəd/ /ˌstjuːəˈdes/",
+      "type": "noun",
+      "meaning": "Nam/nữ tiếp viên (trên máy bay, tàu thủy)",
+      "example": "The stewards and stewardesses help passengers feel safe and comfortable."
+    },
+    {
+      "word": "Involve",
+      "pron": "/ɪnˈvɒlv/",
+      "type": "verb",
+      "meaning": "Bao gồm, đòi hỏi, liên quan đến",
+      "example": "The job involves traveling around the world and meeting new people."
+    },
+    {
+      "word": "Used to",
+      "pron": "/juːst tu/",
+      "type": "structure",
+      "meaning": "Đã từng (diễn tả một thói quen hoặc trạng thái trong quá khứ nay không còn nữa)",
+      "example": "I used to collect shells when I was a kid."
+    },
+    {
+      "word": "Be considered",
+      "pron": "/bi kənˈsɪdərd/",
+      "type": "structure (passive)",
+      "meaning": "Được xem là, được coi là",
+      "example": "Watching television is considered the most popular kind of entertainment."
+    },
+    {
+      "word": "Since then",
+      "pron": "/sɪns ðen/",
+      "type": "phrase",
+      "meaning": "Kể từ đó trở đi (thường dùng với thì Hiện tại hoàn thành)",
+      "example": "My uncle moved there in 1987 and has lived there since then."
+    },
+    {
+      "word": "Experiment",
+      "pron": "/ɪkˈsperɪmənt/",
+      "type": "noun",
+      "meaning": "Cuộc thí nghiệm, sự thử nghiệm",
+      "example": "After many experiments, they finally made the first successful flight."
+    },
+    {
+      "word": "Fall asleep",
+      "pron": "/fɔːl əˈsliːp/",
+      "type": "phrasal verb",
+      "meaning": "Ngủ thiếp đi, chìm vào giấc ngủ",
+      "example": "He used to tell us stories until we fell asleep."
+    },
+    {
+      "word": "For the better",
+      "pron": "/fə ðə ˈbetər/",
+      "type": "idiom",
+      "meaning": "Theo hướng tốt lên, cải thiện hơn",
+      "example": "Life in the city is changing for the better."
+    },
+    {
+      "word": "Hard-working",
+      "pron": "/ˌhɑːrd ˈwɜːrkɪŋ/",
+      "type": "adjective",
+      "meaning": "Chăm chỉ, cần cù",
+      "example": "Tom is a very hard-working student."
+    },
+    {
+      "word": "Pleasure",
+      "pron": "/ˈpleʒər/",
+      "type": "noun",
+      "meaning": "Niềm vui thích, sự hân hạnh",
+      "example": "Being with you is a great pleasure."
+    },
+    {
+      "word": "Warn someone not to do sth",
+      "pron": "/wɔːrn ˈsʌmwʌn nɒt tu duː/",
+      "type": "structure",
+      "meaning": "Cảnh báo ai không được làm gì",
+      "example": "I warned the boys not to swim out too far."
+    },
+    {
+      "word": "It takes (someone) time to do sth",
+      "pron": "/ɪt teɪks taɪm tu duː/",
+      "type": "structure",
+      "meaning": "Mất bao nhiêu thời gian để (ai đó) làm việc gì",
+      "example": "It took Peter 3 hours to repair his computer."
+    },
+    {
+      "word": "Unless",
+      "pron": "/ənˈles/",
+      "type": "conjunction",
+      "meaning": "Trừ khi (tương đương với If... not)",
+      "example": "Unless you finish your homework, you will not be accepted."
+    },
+    {
+      "word": "Because of",
+      "pron": "/bɪˈkəz əv/",
+      "type": "preposition",
+      "meaning": "Bởi vì (theo sau là cụm danh từ hoặc V-ing)",
+      "example": "They arrived late because of the terrible traffic."
+    },
+    {
+      "word": "Treat",
+      "pron": "/triːt/",
+      "type": "verb",
+      "meaning": "Đối xử, đối đãi",
+      "example": "The step-mother doesn't treat the little girl in a normal way."
+    },
+    {
+      "word": "Fit",
+      "pron": "/fɪt/",
+      "type": "verb",
+      "meaning": "Vừa vặn (về kích cỡ, hình dáng)",
+      "example": "Please bring it back if it doesn't fit well."
+    },
+    {
+      "word": "Do you mind if...",
+      "pron": "/duː ju maɪnd ɪf/",
+      "type": "structure",
+      "meaning": "Bạn có phiền nếu... (dùng để xin phép lịch sự)",
+      "example": "Do you mind if I smoke?"
+    },
+    {
+      "word": "Hardest",
+      "pron": "/ˈhɑːrdɪst/",
+      "type": "adjective/adverb",
+      "meaning": "Chăm chỉ nhất / Khó khăn nhất (dạng so sánh nhất của hard)",
+      "example": "Barbara works the hardest in our team."
+    },
+    {
+      "word": "Celebration",
+      "pron": "/ˌselɪˈbreɪʃn/",
+      "type": "noun",
+      "meaning": "Sự ăn mừng, lễ kỷ niệm",
+      "example": "Hogmanay is the biggest celebration of the year in Scotland."
+    },
+    {
+      "word": "Entertainment",
+      "pron": "/ˌentəˈteɪnmənt/",
+      "type": "noun",
+      "meaning": "Sự giải trí, hình thức giải trí",
+      "example": "Watching television is considered a popular kind of entertainment."
+    },
+    {
+      "word": "Particularly",
+      "pron": "/pəˈtɪkjələli/",
+      "type": "adverb",
+      "meaning": "Một cách đặc biệt, cụ thể là",
+      "example": "A man with dark hair visiting your home is considered particularly lucky."
+    },
+    {
+      "word": "Custom",
+      "pron": "/ˈkʌstəm/",
+      "type": "noun",
+      "meaning": "Phong tục, tập quán",
+      "example": "First footing is a Scottish custom that dates back hundreds of years."
+    },
+    {
+      "word": "Be published",
+      "pron": "/bi ˈpʌblɪʃt/",
+      "type": "passive verb",
+      "meaning": "Được xuất bản",
+      "example": "Many articles and books have been published on this online encyclopedia."
+    },
+    {
+      "word": "Useless",
+      "pron": "/ˈjuːsləs/",
+      "type": "adjective",
+      "meaning": "Vô dụng, không có ích",
+      "example": "This old tool is useless because it is completely broken."
+    },
+    {
+      "word": "Unhelpful",
+      "pron": "/ʌnˈhelpfl/",
+      "type": "adjective",
+      "meaning": "Không nhiệt tình, không giúp ích được gì",
+      "example": "The staff were very unhelpful when we asked for directions."
+    },
+    {
+      "word": "Childhood",
+      "pron": "/ˈtʃaɪldhʊd/",
+      "type": "noun",
+      "meaning": "Thời thơ ấu, tuổi thơ",
+      "example": "I had a very happy childhood living in the countryside."
+    },
+    {
+      "word": "Warn someone not to do something",
+      "pron": "/wɔːrn ˈsʌmwʌn nɒt tu duː ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Cảnh báo ai không được làm việc gì",
+      "example": "I warned the boys not to swim out too far."
+    },
+    {
+      "word": "It takes someone time to do something",
+      "pron": "/ɪt teɪks ˈsʌmwʌn taɪm tu duː ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Mất bao nhiêu thời gian để ai đó làm việc gì",
+      "example": "It took Peter 3 hours to repair his computer."
+    },
+    {
+      "word": "Unless",
+      "pron": "/ənˈles/",
+      "type": "conjunction",
+      "meaning": "Trừ khi (tương đương với If... not)",
+      "example": "Unless you finish your homework, you will not be accepted."
+    },
+    {
+      "word": "Because of",
+      "pron": "/bɪˈkəz əv/",
+      "type": "prepositional phrase",
+      "meaning": "Bởi vì (theo sau là một cụm danh từ hoặc V-ing)",
+      "example": "Because of the terrible traffic, they arrived late."
+    },
+    {
+      "word": "Hard-working",
+      "pron": "/ˌhɑːrd ˈwɜːrkɪŋ/",
+      "type": "adjective",
+      "meaning": "Chăm chỉ, cần cù",
+      "example": "Tom is a hard-working student."
+    },
+    {
+      "word": "Pleasure",
+      "pron": "/ˈpleʒə(r)/",
+      "type": "noun",
+      "meaning": "Niềm vui, sự hân hạnh",
+      "example": "Being with you is a great pleasure."
+    },
+    {
+      "word": "Fit",
+      "pron": "/fɪt/",
+      "type": "verb",
+      "meaning": "Vừa vặn (về kích cỡ, hình dáng)",
+      "example": "Please bring it back if it doesn't fit well."
+    },
+    {
+      "word": "Normal",
+      "pron": "/ˈnɔːml/",
+      "type": "adjective",
+      "meaning": "Bình thường, thông thường",
+      "example": "The little girl isn't treated in a normal way."
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "The doctor advised him to ___________ smoking if he wants to improve his health.",
+      "options": {
+        "A": "start",
+        "B": "quit",
+        "C": "increase",
+        "D": "assist"
+      },
+      "answer": "B",
+      "explanation": "'Quit' có nghĩa là từ bỏ hoặc dừng một thói quen (như hút thuốc)."
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "text": "Every morning, my father goes for a ___________ around the lake to stay fit. (JOG)",
+      "options": null,
+      "answer": "jog",
+      "explanation": "Cụm từ 'go for a jog' có nghĩa là đi chạy bộ thong thả."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "We are looking forward to ___________ our grandparents this summer holiday.",
+      "options": {
+        "A": "visit",
+        "B": "visited",
+        "C": "visiting",
+        "D": "visits"
+      },
+      "answer": "C",
+      "explanation": "Sau cấu trúc 'look forward to' phải sử dụng danh động từ (V-ing)."
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "text": "He is very ___________; he loves going to parties and meeting new people. (SOCIABLE)",
+      "options": null,
+      "answer": "sociable",
+      "explanation": "Cần một tính từ để miêu tả tính cách người thích giao lưu. 'Sociable' nghĩa là hòa đồng."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "Can you ___________ me in moving this heavy table to the corner?",
+      "options": {
+        "A": "assist",
+        "B": "reduce",
+        "C": "quit",
+        "D": "agree"
+      },
+      "answer": "A",
+      "explanation": "'Assist' có nghĩa là giúp đỡ hoặc hỗ trợ ai đó làm việc gì."
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "text": "The company is trying to ___________ costs by cutting down on electricity usage. (REDUCE)",
+      "options": null,
+      "answer": "reduce",
+      "explanation": "Dùng động từ nguyên mẫu 'reduce' sau 'trying to' với nghĩa là cắt giảm/giảm bớt."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "The ___________ of the project was due to a lack of preparation.",
+      "options": {
+        "A": "succeed",
+        "B": "success",
+        "C": "failure",
+        "D": "fail"
+      },
+      "answer": "C",
+      "explanation": "Cần một danh từ làm chủ ngữ. 'Failure' (sự thất bại) phù hợp với ngữ cảnh 'thiếu sự chuẩn bị'."
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "text": "She was so ___________ that she didn't dare to speak in front of the class. (SHYNESS)",
+      "options": null,
+      "answer": "shy",
+      "explanation": "Sau cấu trúc 'was so...' cần một tính từ. 'Shy' là tính từ của danh từ 'shyness' (sự nhút nhát)."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "In the story, the hero eventually turns his ___________ into a friend.",
+      "options": {
+        "A": "army",
+        "B": "enemy",
+        "C": "partner",
+        "D": "assistant"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào từ 'friend' ở vế sau, 'enemy' (kẻ thù) là lựa chọn phù hợp nhất để tạo sự đối lập."
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "text": "They had a long discussion but finally managed to ___________ on a plan. (AGREEMENT)",
+      "options": null,
+      "answer": "agree",
+      "explanation": "Sau 'managed to' cần một động từ nguyên mẫu. 'Agree' nghĩa là đồng ý/thống nhất."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "To increase is the ___________ of to decrease.",
+      "options": {
+        "A": "same",
+        "B": "meaning",
+        "C": "opposite",
+        "D": "word"
+      },
+      "answer": "C",
+      "explanation": "'Opposite' nghĩa là từ trái nghĩa. Tăng (increase) trái nghĩa với giảm (decrease)."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "He worked very hard and finally achieved great ___________ in his career. (SUCCEED)",
+      "options": null,
+      "answer": "success",
+      "explanation": "Sau tính từ 'great' cần một danh từ. 'Success' là danh từ của động từ 'succeed'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "I will give her your message as soon as she ___________ at the office.",
+      "options": {
+        "A": "will arrive",
+        "B": "arrives",
+        "C": "is arriving",
+        "D": "going to arrive"
+      },
+      "answer": "B",
+      "explanation": "Trong mệnh đề trạng ngữ chỉ thời gian (với 'as soon as'), ta dùng thì Hiện tại đơn để diễn tả một hành động trong tương lai."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "The hotel provides a wide range of ___________ for its guests, including a cinema and a gym. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau giới từ 'of' cần một danh từ. 'Entertainment' nghĩa là các loại hình giải trí."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "I ___________ what you mean, but I still don't agree with your opinion.",
+      "options": {
+        "A": "am understanding",
+        "B": "understand",
+        "C": "have understood",
+        "D": "was understanding"
+      },
+      "answer": "B",
+      "explanation": "'Understand' là động từ trạng thái (stative verb), nên thường được chia ở thì Hiện tại đơn thay vì Hiện tại tiếp diễn."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "Due to the bad weather, all ___________ to London have been delayed for three hours. (FLY)",
+      "options": null,
+      "answer": "flights",
+      "explanation": "Chỗ trống cần một danh từ số nhiều làm chủ ngữ (do đi kèm với 'all' và 'have been'). 'Flights' nghĩa là các chuyến bay."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "It is ___________ trying to fix that old television; it's better to buy a new one.",
+      "options": {
+        "A": "useful",
+        "B": "usefully",
+        "C": "useless",
+        "D": "use"
+      },
+      "answer": "C",
+      "explanation": "Dựa vào ngữ cảnh 'nên mua cái mới', ta cần tính từ 'useless' (vô ích) để miêu tả việc sửa chữa máy cũ."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "Many of his best stories are based on his happy ___________ in the countryside. (CHILD)",
+      "options": null,
+      "answer": "childhood",
+      "explanation": "Sau tính từ 'happy' cần một danh từ. 'Childhood' nghĩa là thời thơ ấu."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "While I ___________ dinner, the phone suddenly rang.",
+      "options": {
+        "A": "prepared",
+        "B": "have prepared",
+        "C": "was preparing",
+        "D": "am preparing"
+      },
+      "answer": "C",
+      "explanation": "Diễn tả một hành động đang xảy ra trong quá khứ (was preparing) thì có một hành động khác cắt ngang (rang)."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "The staff at that shop were very ___________; they ignored me when I asked for help. (HELP)",
+      "options": null,
+      "answer": "unhelpful",
+      "explanation": "Ngữ cảnh 'họ phớt lờ tôi' yêu cầu một tính từ mang nghĩa tiêu cực. 'Unhelpful' nghĩa là không giúp ích/thiếu nhiệt tình."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "This jacket ___________ you perfectly. You should definitely buy it.",
+      "options": {
+        "A": "fits",
+        "B": "is fitting",
+        "C": "fit",
+        "D": "has fitted"
+      },
+      "answer": "A",
+      "explanation": "'Fit' là động từ trạng thái chỉ sự vừa vặn, chia ở thì Hiện tại đơn. Chủ ngữ 'This jacket' số ít nên thêm 's'."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "The pyramid ___________ by thousands of workers thousands of years ago. (BUILD)",
+      "options": null,
+      "answer": "was built",
+      "explanation": "Câu bị động ở thì Quá khứ đơn: S + was/were + V3/ed."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "text": "Wait here until I ___________ back from the post office.",
+      "options": {
+        "A": "will come",
+        "B": "am coming",
+        "C": "come",
+        "D": "came"
+      },
+      "answer": "C",
+      "explanation": "Sau liên từ chỉ thời gian 'until', ta dùng thì Hiện tại đơn để chỉ một sự việc sẽ xảy ra trong tương lai."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "I don't like this software; I find it quite ___________ for my work. (USE)",
+      "options": null,
+      "answer": "useless",
+      "explanation": "Dựa vào 'I don't like', ta cần tính từ mang nghĩa phủ định 'useless' (vô dụng/vô ích)."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "text": "My younger sister is very ___________ on playing chess after school.",
+      "options": {
+        "A": "fond",
+        "B": "interested",
+        "C": "keen",
+        "D": "eager"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'be keen on' nghĩa là yêu thích. Các phương án khác đi kèm giới từ khác: fond of, interested in."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "text": "The guests are arriving in ten minutes. Could you please ___________ the table?",
+      "options": {
+        "A": "make",
+        "B": "lay",
+        "C": "put",
+        "D": "do"
+      },
+      "answer": "B",
+      "explanation": "Cụm từ cố định 'lay the table' nghĩa là chuẩn bị bàn ăn."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "text": "I’d ___________ stay at home and watch a movie than go out in this heavy rain.",
+      "options": {
+        "A": "better",
+        "B": "prefer",
+        "C": "like",
+        "D": "rather"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'would rather + V-inf (+ than)' dùng để chỉ sự ưu tiên/lựa chọn."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "The students were made ___________ extra homework by the teacher. (WORK)",
+      "options": null,
+      "answer": "to work",
+      "explanation": "Cấu trúc 'make someone do' khi chuyển sang bị động sẽ thành 'be made to do'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "text": "Look! We ___________ by a strange man. We should call for help.",
+      "options": {
+        "A": "are following",
+        "B": "are being followed",
+        "C": "followed",
+        "D": "are followed"
+      },
+      "answer": "B",
+      "explanation": "Dùng thì bị động của Hiện tại tiếp diễn (am/is/are + being + V3) để diễn tả hành động đang xảy ra."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "Congratulations! You have ___________ the entrance examination with high scores. (PASS)",
+      "options": null,
+      "answer": "passed",
+      "explanation": "Thì Hiện tại hoàn thành (have + V3). 'Pass an examination' nghĩa là thi đỗ."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "text": "Please fasten your seatbelts. The plane is about to ___________.",
+      "options": {
+        "A": "take off",
+        "B": "land",
+        "C": "fly",
+        "D": "both A & B"
+      },
+      "answer": "A",
+      "explanation": "Trong ngữ cảnh thắt dây an toàn để chuẩn bị bay, 'take off' (cất cánh) là phù hợp nhất."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "He always ___________ whether he should change his current job. (WONDER)",
+      "options": null,
+      "answer": "wonders",
+      "explanation": "Thì Hiện tại đơn với chủ ngữ ngôi thứ 3 số ít. 'Wonder' nghĩa là tự hỏi/băn khoăn."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "text": "I ___________ whether the weather will be fine tomorrow for our picnic.",
+      "options": {
+        "A": "think",
+        "B": "know",
+        "C": "wonder",
+        "D": "expect"
+      },
+      "answer": "C",
+      "explanation": "'Wonder' thường đi với 'whether' hoặc 'if' để diễn tả sự không chắc chắn."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "Mickey Mouse is one of the most famous ___________ created by Walt Disney. (CHARACTER)",
+      "options": null,
+      "answer": "characters",
+      "explanation": "Sau 'one of the + adj' phải là một danh từ số nhiều. 'Characters' nghĩa là các nhân vật."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "text": "Most children prefer ___________ sweets to eating vegetables.",
+      "options": {
+        "A": "to eat",
+        "B": "eat",
+        "C": "eating",
+        "D": "eaten"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'prefer V-ing to V-ing' dùng để so sánh sở thích giữa hai hành động."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "Russia is much ___________ than any other country in the world. (LARGE)",
+      "options": null,
+      "answer": "larger",
+      "explanation": "Cấu trúc so sánh hơn với tính từ ngắn: Adj-er + than."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "text": "Living in a big city is noisy, but I ___________ the traffic now.",
+      "options": {
+        "A": "used to",
+        "B": "am used to",
+        "C": "get used",
+        "D": "use to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'be used to + N/V-ing' diễn tả trạng thái đã quen với việc gì ở hiện tại."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "If you want to ___________ your speaking skills, you should talk to foreigners more often. (IMPROVEMENT)",
+      "options": null,
+      "answer": "improve",
+      "explanation": "Sau 'want to' cần một động từ nguyên mẫu. 'Improve' nghĩa là cải thiện/trau dồi."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "text": "Would you mind ___________ the window? It's a bit cold in here.",
+      "options": {
+        "A": "close",
+        "B": "to close",
+        "C": "closing",
+        "D": "closed"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Would you mind + V-ing' dùng để đưa ra lời đề nghị lịch sự."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "This online ___________ contains millions of articles about every topic imaginable. (ENCYCLOPEDIC)",
+      "options": null,
+      "answer": "encyclopedia",
+      "explanation": "Cần một danh từ sau tính từ 'online'. 'Encyclopedia' nghĩa là bách khoa toàn thư."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "text": "My sister prefers playing badminton ___________ going swimming.",
+      "options": {
+        "A": "than",
+        "B": "more than",
+        "C": "to",
+        "D": "better than"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'prefer V-ing to V-ing' dùng để diễn đạt việc thích làm gì hơn làm gì."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "His first collection of short stories ___________ last month. (PUBLISH)",
+      "options": null,
+      "answer": "was published",
+      "explanation": "Câu bị động ở thì Quá khứ đơn (mốc thời gian 'last month'): was + V3/ed."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "text": "You should ___________ playing the piano every day if you want to win the contest.",
+      "options": {
+        "A": "practice",
+        "B": "decide",
+        "C": "hope",
+        "D": "manage"
+      },
+      "answer": "A",
+      "explanation": "Dựa vào ngữ cảnh 'để thắng cuộc thi' và đi kèm với V-ing, 'practice' (luyện tập) là lựa chọn hợp lý nhất."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "I was very ___________ for your help when I was in trouble. (GRATEFULLY)",
+      "options": null,
+      "answer": "grateful",
+      "explanation": "Sau 'was' cần một tính từ. 'Grateful' (biết ơn) là tính từ của trạng từ 'gratefully'."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "text": "He isn't ___________ to lift that heavy box by himself.",
+      "options": {
+        "A": "strong enough",
+        "|B": "enough strong",
+        "C": "so strong",
+        "D": "too strong"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc với 'enough': Adj + enough + to-V (đủ... để làm gì)."
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "There are hundreds of ___________ in his diary about his journey to Africa. (ENTER)",
+      "options": null,
+      "answer": "entries",
+      "explanation": "Cần danh từ số nhiều sau 'hundreds of'. 'Entries' nghĩa là các mục ghi chép/bài đăng."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "text": "Millions of new videos ___________ on YouTube every single day.",
+      "options": {
+        "A": "upload",
+        "B": "are uploaded",
+        "C": "is uploaded",
+        "D": "uploaded"
+      },
+      "answer": "B",
+      "explanation": "Câu bị động ở thì Hiện tại đơn, chủ ngữ số nhiều 'videos' đi với 'are + V3/ed'."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "It's ___________ to try to open that door; it's locked from the inside. (USE)",
+      "options": null,
+      "answer": "useless",
+      "explanation": "Dựa vào ngữ cảnh 'cửa bị khóa trong', ta cần tính từ 'useless' (vô ích)."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "text": "The New Year ___________ at the city center was truly enormous and beautiful.",
+      "options": {
+        "A": "display",
+        "B": "firework",
+        "C": "celebration",
+        "D": "tradition"
+      },
+      "answer": "C",
+      "explanation": "Trong ngữ cảnh này, 'celebration' (sự ăn mừng/lễ kỷ niệm) là từ bao quát nhất. Nếu chọn 'firework' thì thường đi kèm cụm 'firework display'."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "The custom of giving red envelopes ___________ back to ancient times. (DATE)",
+      "options": null,
+      "answer": "dates",
+      "explanation": "Cụm động từ 'date back to' nghĩa là có từ thời/bắt nguồn từ. Chủ ngữ 'The custom' số ít nên chia 'dates'."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: (A) workED, (B) stoppED, (C) lookED, (D) nakED.",
+      "options": {
+        "A": "worked",
+        "B": "stopped",
+        "C": "looked",
+        "D": "naked"
+      },
+      "answer": "D",
+      "explanation": "'Naked' là trường hợp đặc biệt, đuôi -ed phát âm là /ɪd/. Các từ còn lại phát âm là /t/."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "For some people, the idea of jumping out of a plane is absolutely ___________. (TERRIFY)",
+      "options": null,
+      "answer": "terrifying",
+      "explanation": "Sử dụng tính từ đuôi '-ing' (terrifying) để miêu tả tính chất của sự vật/ý tưởng gây ra cảm giác kinh hãi."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "text": "The white dove is often used to ___________ peace and hope.",
+      "options": {
+        "A": "symbol",
+        "B": "symbolize",
+        "C": "symbolic",
+        "D": "symbolism"
+      },
+      "answer": "B",
+      "explanation": "Sau 'to' cần một động từ nguyên mẫu. 'Symbolize' nghĩa là tượng trưng cho."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "It is ___________ important to wear a helmet when riding a motorbike. (VITAL)",
+      "options": null,
+      "answer": "vitally",
+      "explanation": "Cần một trạng từ (vitally) để bổ nghĩa cho tính từ 'important', tạo thành cụm 'vitally important' (cực kỳ quan trọng)."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "text": "Thousands of people ___________ in the main square to wait for the countdown.",
+      "options": {
+        "A": "gathered",
+        "B": "occurred",
+        "C": "surfed",
+        "D": "turned"
+      },
+      "answer": "A",
+      "explanation": "'Gathered' (tụ họp/tập trung) phù hợp với ngữ cảnh đám đông tập trung chờ đếm ngược."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "The cost of the project has increased ___________ over the last six months. (CONSIDER)",
+      "options": null,
+      "answer": "considerably",
+      "explanation": "Cần trạng từ 'considerably' (đáng kể) để bổ nghĩa cho động từ 'increased'."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "text": "According to ___________, the first person to enter the house brings luck for the whole year.",
+      "options": {
+        "A": "traditional",
+        "B": "traditionally",
+        "C": "tradition",
+        "D": "traditionalist"
+      },
+      "answer": "C",
+      "explanation": "Sau giới từ 'According to' cần một danh từ. 'According to tradition' nghĩa là theo truyền thống."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "The police are investigating how the accident ___________ yesterday afternoon. (OCCUR)",
+      "options": null,
+      "answer": "occurred",
+      "explanation": "Chia động từ 'occur' (xảy ra) ở thì Quá khứ đơn để phù hợp với trạng từ 'yesterday'."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "text": "The visitors brought small ___________ like coal and biscuits to their neighbors.",
+      "options": {
+        "A": "benefits",
+        "B": "purposes",
+        "C": "presents",
+        "D": "responds"
+      },
+      "answer": "C",
+      "explanation": "'Presents' (món quà) đồng nghĩa với 'gifts', phù hợp với ngữ cảnh tặng đồ cho hàng xóm."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "He gave a quick ___________ to the teacher's question and sat down. (RESPOND)",
+      "options": null,
+      "answer": "response",
+      "explanation": "Sau tính từ 'quick' cần một danh từ. 'Response' là danh từ của 'respond', nghĩa là câu trả lời/sự phản hồi."
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "text": "The woman ___________ car was stolen yesterday has reported it to the police.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "which"
+      },
+      "answer": "C",
+      "explanation": "Sử dụng đại từ quan hệ 'whose' để chỉ sở hữu: người phụ nữ mà có chiếc xe bị mất trộm."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "The doctor advised him to ___________ for a walk every morning to stay healthy. (GO)",
+      "options": null,
+      "answer": "go",
+      "explanation": "Cụm từ 'go for a walk' tương tự như 'go for a run' trong bài, có nghĩa là đi dạo bộ."
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "text": "Don't worry about the kids; my sister will ___________ them while we are away.",
+      "options": {
+        "A": "look for",
+        "B": "look up",
+        "C": "look after",
+        "D": "look at"
+      },
+      "answer": "C",
+      "explanation": "Cụm động từ 'look after' có nghĩa là chăm sóc, trông nom."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "We finally ___________ to sell the old house and move to the city center. (DECISION)",
+      "options": null,
+      "answer": "decided",
+      "explanation": "Cần một động từ ở thì Quá khứ đơn. 'Decided to do something' nghĩa là đã quyết định làm gì."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "Since we started the new project, everything has changed ___________ the better.",
+      "options": {
+        "A": "for",
+        "B": "to",
+        "C": "in",
+        "D": "with"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ cố định 'change for the better' nghĩa là thay đổi theo hướng tốt đẹp hơn."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "She wants to become a flight ___________ so she can travel all over the world. (ATTEND)",
+      "options": null,
+      "answer": "attendant",
+      "explanation": "Cụm từ 'flight attendant' (tiếp viên hàng không) là từ hiện đại thay cho 'steward/stewardess'."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "Running your own business ___________ a lot of hard work and long hours.",
+      "options": {
+        "A": "involves",
+        "B": "decides",
+        "C": "expects",
+        "D": "responds"
+      },
+      "answer": "A",
+      "explanation": "'Involves' (bao gồm/đòi hỏi) phù hợp để nói về những yêu cầu cần thiết của một công việc."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "Please make sure the passengers feel ___________ during the long flight. (COMFORT)",
+      "options": null,
+      "answer": "comfortable",
+      "explanation": "Sau động từ 'feel' cần một tính từ để miêu tả cảm giác. 'Comfortable' nghĩa là thoải mái."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "I was ___________ a shower when I heard a loud noise from the kitchen.",
+      "options": {
+        "A": "having",
+        "B": "taking",
+        "C": "doing",
+        "D": "Both A & B are correct"
+      },
+      "answer": "D",
+      "explanation": "Cả 'have a shower' và 'take a shower' đều có nghĩa là đi tắm."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "The child was ___________ care of by his grandparents while his parents were at work. (TAKE)",
+      "options": null,
+      "answer": "taken",
+      "explanation": "Cấu trúc bị động 'be taken care of' (được chăm sóc)."
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "text": "They solve the problems in exactly the same ___________ as they did last year.",
+      "options": {
+        "A": "kind",
+        "B": "sort",
+        "C": "way",
+        "D": "part"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'in the same way' nghĩa là theo cùng một cách thức."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "It was a ___________ experience, but luckily no one was injured. (TERRIFY)",
+      "options": null,
+      "answer": "terrifying",
+      "explanation": "Sử dụng tính từ đuôi -ing 'terrifying' để miêu tả tính chất đáng sợ của trải nghiệm."
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "text": "When I was a child, I ___________ go fishing with my grandfather every weekend.",
+      "options": {
+        "A": "am used to",
+        "B": "used to",
+        "C": "get used to",
+        "D": "was used to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'used to + V-inf' dùng để chỉ một thói quen trong quá khứ đã chấm dứt ở hiện tại."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "She is very ___________; she spends most of her time studying in the library. (WORK)",
+      "options": null,
+      "answer": "hard-working",
+      "explanation": "Cần một tính từ để miêu tả tính cách. 'Hard-working' nghĩa là chăm chỉ."
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "text": "The scientists conducted many ___________ before they found the cure.",
+      "options": {
+        "A": "experiences",
+        "B": "experiments",
+        "C": "exercises",
+        "D": "expectations"
+      },
+      "answer": "B",
+      "explanation": "'Experiments' (cuộc thí nghiệm) phù hợp với ngữ cảnh khoa học. Tránh nhầm với 'experiences' (trải nghiệm)."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "It’s a ___________ to meet you after all these years. (PLEASE)",
+      "options": null,
+      "answer": "pleasure",
+      "explanation": "Sau mạo từ 'a' cần một danh từ. 'Pleasure' nghĩa là niềm hân hạnh/niềm vui."
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "text": "He moved to London in 2010 and has worked as an engineer ___________.",
+      "options": {
+        "A": "since then",
+        "B": "until then",
+        "C": "by then",
+        "D": "for then"
+      },
+      "answer": "A",
+      "explanation": "Cụm 'since then' (kể từ đó) thường dùng với thì Hiện tại hoàn thành để chỉ một hành động kéo dài đến hiện tại."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "I was so tired that I ___________ asleep right after the movie started. (FALL)",
+      "options": null,
+      "answer": "fell",
+      "explanation": "Cụm 'fall asleep' (ngủ thiếp đi). Vì câu ở thì quá khứ (was tired) nên chia là 'fell'."
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "text": "In many countries, football ___________ the most popular sport.",
+      "options": {
+        "A": "considers",
+        "B": "is considering",
+        "C": "is considered",
+        "D": "has considered"
+      },
+      "answer": "C",
+      "explanation": "Dạng bị động của thì Hiện tại đơn: 'is considered' (được coi là)."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "This summer, we ___________ a lot of money on our vacation in Da Nang. (SPEND)",
+      "options": null,
+      "answer": "spent",
+      "explanation": "Chia động từ ở thì Quá khứ đơn (spent) để kể về một sự kiện đã xảy ra."
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "text": "The math test was ___________ than I expected.",
+      "options": {
+        "A": "more easy",
+        "B": "easiest",
+        "C": "easier",
+        "D": "as easy"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc so sánh hơn với tính từ ngắn kết thúc bằng 'y': bỏ 'y' thêm 'ier'."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "___________ is a great way to relieve stress after a long day. (RUN)",
+      "options": null,
+      "answer": "Running",
+      "explanation": "Sử dụng danh động từ (Gerund) làm chủ ngữ của câu."
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "text": "My father ___________ us bedtime stories every night when we were young.",
+      "options": {
+        "A": "is used to telling",
+        "B": "used to tell",
+        "C": "used to telling",
+        "D": "was used to tell"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'used to + V-inf' diễn tả thói quen trong quá khứ."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "He didn't want ___________ the party because he was having so much fun. (LEAVE)",
+      "options": null,
+      "answer": "to leave",
+      "explanation": "Sau động từ 'want' là một động từ nguyên mẫu có 'to' (to-V)."
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "text": "___________ you study harder, you will fail the final examination.",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Because",
+        "D": "When"
+      },
+      "answer": "B",
+      "explanation": "'Unless' nghĩa là 'Trừ khi' (tương đương If... not). Câu này có nghĩa: Trừ khi bạn học chăm hơn, bạn sẽ trượt kỳ thi."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "The doctor ___________ him not to eat too much fast food. (WARNING)",
+      "options": null,
+      "answer": "warned",
+      "explanation": "Cấu trúc 'warn someone not to do something' (cảnh báo ai không làm gì). Cần chia động từ ở thì quá khứ 'warned'."
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "text": "We couldn't go for a picnic ___________ the heavy rain.",
+      "options": {
+        "A": "because",
+        "B": "although",
+        "C": "because of",
+        "D": "in spite of"
+      },
+      "answer": "C",
+      "explanation": "Sau chỗ trống là một cụm danh từ 'the heavy rain', nên ta dùng 'because of' để chỉ nguyên nhân."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "These shoes don't ___________ me; they are too small. (FITNESS)",
+      "options": null,
+      "answer": "fit",
+      "explanation": "Cần một động từ nguyên mẫu sau trợ động từ 'don't'. 'Fit' nghĩa là vừa vặn về kích cỡ."
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "text": "Do you mind ___________ I turn off the radio? It's too loud.",
+      "options": {
+        "A": "if",
+        "B": "when",
+        "C": "that",
+        "D": "why"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'Do you mind if + clause' dùng để xin phép làm việc gì đó một cách lịch sự."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "It ___________ me forty minutes to get to school every morning. (TAKING)",
+      "options": null,
+      "answer": "takes",
+      "explanation": "Cấu trúc 'It takes + someone + time + to-V'. Vì chủ ngữ là 'It' và nói về sự thật hiển nhiên nên chia 'takes' ở hiện tại đơn."
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "text": "She ___________ the stray cat with great kindness and care.",
+      "options": {
+        "A": "treated",
+        "B": "fit",
+        "C": "warned",
+        "D": "spent"
+      },
+      "answer": "A",
+      "explanation": "'Treated' (đối xử) là động từ phù hợp nhất để đi với trạng từ 'kindness' (sự tử tế)."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "Of all the workers in the factory, John works the ___________. (HARD)",
+      "options": null,
+      "answer": "hardest",
+      "explanation": "Cần dạng so sánh nhất của trạng từ 'hard' vì có dấu hiệu 'Of all' (trong số tất cả)."
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "text": "I haven't met my old teacher ___________ we graduated ten years ago.",
+      "options": {
+        "A": "for",
+        "0": "since",
+        "C": "from",
+        "D": "in"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'since' trước một mốc thời gian hoặc mệnh đề ở quá khứ đơn trong thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 94,
+      "type": "text",
+      "text": "It was very ___________ of you to help the old lady cross the street. (NORMALITY)",
+      "options": null,
+      "answer": "normal",
+      "explanation": "Cần một tính từ sau 'was very'. Trong ngữ cảnh này 'normal' (bình thường/tự nhiên) dùng để chỉ một hành động đúng mực."
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "text": "The boss told the employees ___________ late for the meeting again.",
+      "options": {
+        "A": "not being",
+        "B": "not to be",
+        "C": "to not be",
+        "D": "don't be"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc tường thuật câu mệnh lệnh phủ định: 'tell someone + not to + V-inf'."
+    },
+    {
+      "id": 96,
+      "type": "text",
+      "text": "We finally arrived at the destination ___________ the terrible traffic jam. (CAUSE)",
+      "options": null,
+      "answer": "despite",
+      "explanation": "Dựa vào ngữ cảnh 'cuối cùng cũng đến nơi' dù 'tắc đường kinh khủng', ta dùng 'despite' (mặc dù) đi với cụm danh từ."
+    },
+    {
+      "id": 97,
+      "type": "text",
+      "text": "The project was a failure because the information provided was completely ___________. (USE)",
+      "options": null,
+      "answer": "useless",
+      "explanation": "Dựa vào ngữ cảnh 'thất bại' (failure), ta cần tính từ mang nghĩa phủ định của 'use' là 'useless' (vô dụng/không ích gì)."
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "text": "The local ___________ of the spring festival attracts thousands of tourists every year.",
+      "options": {
+        "A": "celebrate",
+        "B": "celebration",
+        "C": "celebratory",
+        "D": "celebrated"
+      },
+      "answer": "B",
+      "explanation": "Sau tính từ 'local' cần một danh từ đóng vai trò chủ ngữ. 'Celebration' nghĩa là sự tổ chức/lễ kỷ niệm."
+    },
+    {
+      "id": 99,
+      "type": "text",
+      "text": "Most people remember their ___________ as the most innocent time of their lives. (CHILD)",
+      "options": null,
+      "answer": "childhood",
+      "explanation": "Cần một danh từ chỉ giai đoạn thời gian. 'Childhood' nghĩa là thời thơ ấu."
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "text": "I tried to ask the waiter for help, but he was very ___________ and ignored me.",
+      "options": {
+        "A": "helpful",
+        "B": "unhelpful",
+        "C": "helpfully",
+        "D": "helpless"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào hành động 'phớt lờ' (ignored), ta cần tính từ mang nghĩa tiêu cực 'unhelpful' (không nhiệt tình giúp đỡ)."
+    },
+    {
+      "id": 101,
+      "type": "text",
+      "text": "The city offers many different types of ___________, from cinemas to parks. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau giới từ 'of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí."
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "text": "It is a ___________ in this country to take off your shoes before entering a house.",
+      "options": {
+        "A": "custom",
+        "B": "customer",
+        "C": "costume",
+        "D": "customary"
+      },
+      "answer": "A",
+      "explanation": "'Custom' (phong tục) phù hợp để nói về một hành vi mang tính truyền thống của một quốc gia."
+    },
+    {
+      "id": 103,
+      "type": "text",
+      "text": "He is ___________ interested in history, especially the World War II period. (PARTICULAR)",
+      "options": null,
+      "answer": "particularly",
+      "explanation": "Cần một trạng từ (particularly) để bổ nghĩa cho tính từ 'interested', mang nghĩa là 'đặc biệt/cụ thể là'."
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "text": "Several new articles ___________ on the website since last month.",
+      "options": {
+        "A": "have published",
+        "B": "were published",
+        "C": "have been published",
+        "D": "are published"
+      },
+      "answer": "C",
+      "explanation": "Sử dụng thể bị động của thì Hiện tại hoàn thành (dấu hiệu 'since last month')."
+    },
+    {
+      "id": 105,
+      "type": "text",
+      "text": "The flight was delayed, so all the ___________ had to wait at the lounge. (PASSENGE)",
+      "options": null,
+      "answer": "passengers",
+      "explanation": "Cần danh từ số nhiều chỉ người. 'Passengers' nghĩa là các hành khách."
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "text": "The red rose is often used to ___________ love and passion.",
+      "options": {
+        "A": "symbol",
+        "B": "symbolize",
+        "C": "symbolic",
+        "D": "symbolism"
+      },
+      "answer": "B",
+      "explanation": "Sau 'to' cần một động từ nguyên mẫu. 'Symbolize' nghĩa là tượng trưng cho."
+    },
+    {
+      "id": 107,
+      "type": "text",
+      "text": "They ___________ together at the town square to watch the fireworks. (GATHERING)",
+      "options": null,
+      "answer": "gathered",
+      "explanation": "Cần động từ chia ở thì quá khứ 'gathered' (tập hợp/tụ họp) để phù hợp với ngữ cảnh kể lại sự việc."
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "text": "The internet is a vast source of information that ___________ every day.",
+      "options": {
+        "A": "is added",
+        "B": "is adding",
+        "C": "has added",
+        "D": "added"
+      },
+      "answer": "A",
+      "explanation": "Câu bị động ở thì Hiện tại đơn: Thông tin được thêm vào (is added) mỗi ngày."
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "text": "The flight was delayed for two hours ___________ the bad weather.",
+      "options": {
+        "A": "because",
+        "B": "although",
+        "C": "because of",
+        "D": "despite"
+      },
+      "answer": "C",
+      "explanation": "Dùng 'because of' trước một cụm danh từ (the bad weather) để chỉ nguyên nhân."
+    },
+    {
+      "id": 110,
+      "type": "text",
+      "text": "The lifeguard ___________ the children not to swim too far from the shore. (WARN)",
+      "options": null,
+      "answer": "warned",
+      "explanation": "Cấu trúc 'warn someone not to do something' (cảnh báo ai không làm gì). Chia thì quá khứ đơn 'warned'."
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "text": "___________ you study more consistently, you won't pass the entrance exam.",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Providing",
+        "D": "As long as"
+      },
+      "answer": "B",
+      "explanation": "'Unless' nghĩa là 'Trừ khi' (If not), dùng để diễn tả điều kiện phủ định."
+    },
+    {
+      "id": 112,
+      "type": "text",
+      "text": "It was a great ___________ to meet the famous author in person. (PLEASE)",
+      "options": null,
+      "answer": "pleasure",
+      "explanation": "Cần một danh từ sau mạo từ 'a' và tính từ 'great'. 'Pleasure' nghĩa là niềm hân hạnh/niềm vui."
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "text": "I tried on the jacket, but it didn't ___________ me very well.",
+      "options": {
+        "A": "suit",
+        "B": "match",
+        "C": "fit",
+        "D": "agree"
+      },
+      "answer": "C",
+      "explanation": "'Fit' dùng để chỉ sự vừa vặn về kích cỡ (size/shape)."
+    },
+    {
+      "id": 114,
+      "type": "text",
+      "text": "It ___________ us more than five hours to drive to the coastal city. (TAKE)",
+      "options": null,
+      "answer": "took",
+      "explanation": "Cấu trúc 'It takes/took someone time to-V'. Chia 'took' cho một sự việc đã xảy ra."
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "text": "She is a very ___________ girl who always helps her mother with the housework.",
+      "options": {
+        "A": "hard-working",
+        "B": "hardly-working",
+        "C": "work-hard",
+        "D": "working-hard"
+      },
+      "answer": "A",
+      "explanation": "Tính từ ghép 'hard-working' mang nghĩa là chăm chỉ, cần cù."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "After the surgery, he was able to return to his ___________ life. (NORM)",
+      "options": null,
+      "answer": "normal",
+      "explanation": "Cần một tính từ trước danh từ 'life'. 'Normal' nghĩa là bình thường."
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "text": "Do you mind ___________ I borrow your pen for a moment?",
+      "options": {
+        "A": "if",
+        "B": "when",
+        "C": "that",
+        "D": "for"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'Do you mind if + clause' dùng để xin phép một cách lịch sự."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "Peter is much ___________ than his younger brother. (TALL)",
+      "options": null,
+      "answer": "taller",
+      "explanation": "Sử dụng cấu trúc so sánh hơn của tính từ ngắn: 'adj-er + than'."
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "text": "The little boy has ___________ many beautiful shells on the beach.",
+      "options": {
+        "A": "collected",
+        "B": "treated",
+        "C": "warned",
+        "D": "spent"
+      },
+      "answer": "A",
+      "explanation": "'Collected' (thu thập/sưu tầm) là động từ phù hợp nhất khi đi với 'shells' (vỏ sò)."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "She hasn't heard from her childhood friend ___________ 2015. (SINCE)",
+      "options": null,
+      "answer": "since",
+      "explanation": "Dùng 'since' trước một mốc thời gian xác định trong thì hiện tại hoàn thành."
+    }
+  ]
+}

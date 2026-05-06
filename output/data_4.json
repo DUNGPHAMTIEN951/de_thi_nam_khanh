@@ -1,0 +1,2957 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "Choose one of word whose underlined part is pronounced differently from the others.",
+      "options": {
+        "A": "christmas",
+        "B": "character",
+        "C": "school",
+        "D": "church"
+      },
+      "answer": "D",
+      "explanation": "Các đáp án A, B, C phần gạch chân phát âm là /k/. Đáp án D phát âm là /tʃ/."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "Choose one of word whose underlined part is pronounced differently from the others.",
+      "options": {
+        "A": "traveled",
+        "B": "surprised",
+        "C": "worked",
+        "D": "climbed"
+      },
+      "answer": "C",
+      "explanation": "Các đáp án A, B, D có đuôi -ed phát âm là /d/. Đáp án C kết thúc bằng âm vô thanh /k/ nên -ed phát âm là /t/."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "Choose one of word whose underlined part is pronounced differently from the others.",
+      "options": {
+        "A": "tour",
+        "B": "pour",
+        "C": "your",
+        "D": "course"
+      },
+      "answer": "A",
+      "explanation": "Đáp án A phát âm là /ʊə/. Các đáp án B, C, D phát âm là /ɔː/."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "Choose one of word whose underlined part is pronounced differently from the others.",
+      "options": {
+        "A": "towel",
+        "B": "down",
+        "C": "window",
+        "D": "flower"
+      },
+      "answer": "C",
+      "explanation": "Các đáp án A, B, D phát âm là /aʊ/. Đáp án C phát âm là /əʊ/."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "Choose one of word whose underlined part is pronounced differently from the others.",
+      "options": {
+        "A": "cook",
+        "B": "food",
+        "C": "too",
+        "D": "pool"
+      },
+      "answer": "A",
+      "explanation": "Đáp án A phát âm là /ʊ/ (u ngắn). Các đáp án B, C, D phát âm là /uː/ (u dài)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "His handwriting is terrible. It’s not easy at all ….........what he writes.",
+      "options": {
+        "A": "to see",
+        "B": "to read",
+        "C": "reading",
+        "D": "seeing"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'It + be + adj + (for O) + to-V'. Về nghĩa, 'handwriting' (chữ viết) thì đi với động từ 'read' (đọc)."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "The city is ……………….on the shore of Lake Michigan.",
+      "options": {
+        "A": "visited",
+        "B": "lied",
+        "C": "laying",
+        "D": "located"
+      },
+      "answer": "D",
+      "explanation": "'Be located on/in/at' có nghĩa là nằm ở vị trí nào đó, tọa lạc tại đâu."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "Kim Tan town is……………….. busier.",
+      "options": {
+        "A": "becoming",
+        "B": "doing",
+        "C": "making",
+        "D": "having"
+      },
+      "answer": "A",
+      "explanation": "Động từ 'become' kết hợp với tính từ ở dạng so sánh hơn để diễn tả một sự thay đổi, trở nên như thế nào đó."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "The Smiths never go out in the evening, ……………….?",
+      "options": {
+        "A": "do they",
+        "B": "don’t they",
+        "C": "doesn’t he",
+        "D": "does he"
+      },
+      "answer": "A",
+      "explanation": "Câu hỏi đuôi. Mệnh đề chính có 'never' (phủ định) và chủ ngữ số nhiều 'The Smiths' nên phần đuôi dùng trợ động từ khẳng định 'do' và đại từ 'they'."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "Ba is strong enough…………….. his father with the work on the farm.",
+      "options": {
+        "A": "to help",
+        "B": "helping",
+        "C": "help",
+        "D": "helped"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'Adj + enough + to-V': đủ... để làm gì."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "Ba is strong enough ................... his father with the work on the farm.",
+      "options": {
+        "A": "helping",
+        "B": "help",
+        "C": "helps",
+        "D": "to help"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc: Adj + enough + to-V (Đủ... để làm gì)."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "text": "Last week my child …………… to the biggest zoo in town by my wife.",
+      "options": {
+        "A": "took",
+        "B": "were taken",
+        "C": "went",
+        "D": "has gone"
+      },
+      "answer": "B",
+      "explanation": "Câu bị động ở thì Quá khứ đơn (dấu hiệu 'last week' và 'by my wife'). Lưu ý: 'child' là số ít nhưng trong đề thi này đáp án 'were taken' có thể là lỗi đánh máy của 'was taken', tuy nhiên đây là lựa chọn duy nhất đúng về cấu trúc bị động."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "I tried my ……………not to laugh, but I couldn’t.",
+      "options": {
+        "A": "good",
+        "B": "well",
+        "C": "best",
+        "D": "better"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ cố định: 'Try one's best to do something' (Cố gắng hết sức để làm gì)."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "text": "Are you proud…………….your country and its tradition?",
+      "options": {
+        "A": "about",
+        "B": "on",
+        "C": "of",
+        "D": "for"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc: Be proud of something/somebody (Tự hào về cái gì/ai đó)."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "I want to ask my parents ................... some money.",
+      "options": {
+        "A": "from",
+        "B": "for",
+        "C": "with",
+        "D": "about"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc: Ask (somebody) for something (Xin ai đó cái gì)."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "text": "You are very different ........................ your brother.",
+      "options": {
+        "A": "to",
+        "B": "for",
+        "C": "with",
+        "D": "from"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc: Be different from somebody/something (Khác biệt với ai/cái gì)."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "I am better ........................ English than Nam.",
+      "options": {
+        "A": "than",
+        "B": "with",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc: Be good/better at something (Giỏi/giỏi hơn về lĩnh vực gì)."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "text": "He seldom goes fishing, ...................?",
+      "options": {
+        "A": "doesn't he",
+        "B": "is he",
+        "C": "does he",
+        "D": "isn't he"
+      },
+      "answer": "C",
+      "explanation": "Câu hỏi đuôi: 'seldom' mang nghĩa phủ định nên phần đuôi phải ở dạng khẳng định. Động từ 'goes' dùng trợ động từ 'does'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "Heavy rains …….the plane for several hours",
+      "options": {
+        "A": "stopped",
+        "B": "prevented",
+        "C": "delayed",
+        "D": "kept"
+      },
+      "answer": "C",
+      "explanation": "Dựa vào ngữ cảnh 'plane' (máy bay) và 'heavy rains' (mưa lớn), động từ 'delayed' (trì hoãn) là phù hợp nhất."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "text": "You must go to school ……the ages of 5 and 16. it is compulsory.",
+      "options": {
+        "A": "from",
+        "B": "over",
+        "C": "during",
+        "D": "between"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'between ... and ...' dùng để chỉ một khoảng giữa hai mốc thời gian hoặc con số."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "Sorry to keep you…………",
+      "options": {
+        "A": "wait",
+        "B": "waiting",
+        "C": "to wait",
+        "D": "waited"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'keep someone doing something' nghĩa là bắt ai đó cứ phải tiếp tục làm việc gì (trong trường hợp này là bắt ai đó chờ đợi)."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "I‘ve decided (stop) ……………...smoking.",
+      "options": null,
+      "answer": "to stop",
+      "explanation": "Sau động từ 'decide' ta dùng cấu trúc 'decide to-V' (quyết định làm gì)."
+    },
+    {
+      "id": 23,
+      "type": "text",
+      "text": "I (visit) .........................singapore two years ago.",
+      "options": null,
+      "answer": "visited",
+      "explanation": "Dấu hiệu 'two years ago' chỉ thời điểm trong quá khứ, nên dùng thì Quá khứ đơn."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "Look at those black clouds. It (rain).",
+      "options": null,
+      "answer": "is going to rain",
+      "explanation": "Dùng 'be going to' để dự đoán một sự việc sắp xảy ra dựa trên bằng chứng hiện tại (mây đen)."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "We are tired of (work)…………… for low salary.",
+      "options": null,
+      "answer": "working",
+      "explanation": "Sau giới từ (of) động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "This is the second time you (break)……a cup.",
+      "options": null,
+      "answer": "have broken",
+      "explanation": "Cấu trúc 'This is the first/second... time + hiện tại hoàn thành' dùng để nói về trải nghiệm."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "(you/do) …………… the homework yet?",
+      "options": null,
+      "answer": "Have you done",
+      "explanation": "Dấu hiệu 'yet' dùng trong câu nghi vấn của thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "Mai is in her room. She (play) the guitar.",
+      "options": null,
+      "answer": "is playing",
+      "explanation": "Hành động đang xảy ra tại thời điểm nói (Mai đang ở trong phòng) nên dùng thì Hiện tại tiếp diễn."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "The teacher said that we should ( not make ) …………… noise in class.",
+      "options": null,
+      "answer": "not make",
+      "explanation": "Sau động từ khuyết thiếu 'should' là động từ nguyên mẫu không 'to'. Dạng phủ định là 'should not + V'."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "Water …………( cover) most of the Earth’s surface.",
+      "options": null,
+      "answer": "covers",
+      "explanation": "Diễn tả một sự thật hiển nhiên, dùng thì Hiện tại đơn. 'Water' là danh từ không đếm được nên động từ thêm 's'."
+    },
+    {
+      "id": 31,
+      "type": "text",
+      "text": "The gate ……………...( lock) at 6.30 p.m everyday.",
+      "options": null,
+      "answer": "is locked",
+      "explanation": "Câu mang nghĩa bị động (cái cổng được khóa) và diễn tả thói quen hàng ngày, dùng bị động thì Hiện tại đơn."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "Where did the lesson take place?",
+      "options": null,
+      "answer": "It took place at a small school in England.",
+      "explanation": "Dựa vào câu đầu tiên của đoạn văn: 'It was the first lesson after the summer holidays at a small school in England.'"
+    },
+    {
+      "id": 33,
+      "type": "text",
+      "text": "What was the lesson about?",
+      "options": null,
+      "answer": "The lesson was about the seasons of the year.",
+      "explanation": "Dựa vào câu thứ hai của đoạn văn: 'The lesson was about the seasons of the year.'"
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "What did the teacher ask Tom to do?",
+      "options": null,
+      "answer": "The teacher asked Tom to stop talking and tell the class when the best time for apples is.",
+      "explanation": "Dựa vào lời nói của thầy giáo: 'stop talking, Tom,' và 'Can you tell us when is the best time of apples?'"
+    },
+    {
+      "id": 35,
+      "type": "text",
+      "text": "What did the teacher ask the class to do?",
+      "options": null,
+      "answer": "The teacher asked the class to listen to him.",
+      "explanation": "Dựa vào câu: 'Now listen to me' khi thầy giáo đang nói với học sinh (pupils)."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "Did the teacher say “Stop talking, Tom,”?",
+      "options": null,
+      "answer": "Yes, he did.",
+      "explanation": "Đoạn văn xác nhận thầy giáo đã nói câu này: '“stop talking, Tom,” he said.'"
+    },
+    {
+      "id": 37,
+      "type": "text",
+      "text": "Write the correct form of the word: Their children have quite ……………… characters. (DIFFERENCE)",
+      "options": null,
+      "answer": "different",
+      "explanation": "Trước danh từ 'characters' cần một tính từ để bổ nghĩa. 'Different' là dạng tính từ của 'difference'."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "Write the correct form of the word: My brother bought a new ………….. rod yesterday. (FISH)",
+      "options": null,
+      "answer": "fishing",
+      "explanation": "Cụm danh từ 'fishing rod' nghĩa là cần câu cá."
+    },
+    {
+      "id": 39,
+      "type": "text",
+      "text": "Write the correct form of the word: Mr. Jane runs his business very ………….. (SUCCESS)",
+      "options": null,
+      "answer": "successfully",
+      "explanation": "Cần một trạng từ để bổ nghĩa cho động từ 'runs' (vận hành/điều hành). 'Successfully' là trạng từ của 'success'."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "I like the city life because there are many kinds of ………. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau 'kinds of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí."
+    },
+    {
+      "id": 41,
+      "type": "text",
+      "text": "The scouts do the……………..work. (VOLUNTEER)",
+      "options": null,
+      "answer": "voluntary",
+      "explanation": "Trước danh từ 'work' cần một tính từ để bổ nghĩa. 'Voluntary work' là công việc tình nguyện."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "Is there anything……………… on TV tonight? (INTEREST)",
+      "options": null,
+      "answer": "interesting",
+      "explanation": "Tính từ đuôi -ing (interesting) được dùng để miêu tả tính chất của sự vật (chương trình TV)."
+    },
+    {
+      "id": 43,
+      "type": "text",
+      "text": "What is the correct……………..of this word? (PRONOUNCE)",
+      "options": null,
+      "answer": "pronunciation",
+      "explanation": "Sau mạo từ 'the' và tính từ 'correct' cần một danh từ. 'Pronunciation' là cách phát âm."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "My uncle often spends his free time doing volunteer work at a local............. (ORPHAN)",
+      "options": null,
+      "answer": "orphanage",
+      "explanation": "Cần một danh từ chỉ nơi chốn sau tính từ 'local'. 'Orphanage' nghĩa là trại trẻ mồ côi."
+    },
+    {
+      "id": 45,
+      "type": "text",
+      "text": "Relax for some minutes and you’ll feel more………….. (COMFORT)",
+      "options": null,
+      "answer": "comfortable",
+      "explanation": "Sau động từ liên kết 'feel' và trạng từ 'more' cần một tính từ. 'Comfortable' nghĩa là dễ chịu, thoải mái."
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "In electronics, we learn to repair ...................appliances. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm danh từ 'household appliances' nghĩa là thiết bị gia dụng."
+    },
+    {
+      "id": 47,
+      "type": "text",
+      "text": "Find and correct the mistake: He has waited there for a quarter past six.",
+      "options": null,
+      "answer": "for -> since",
+      "explanation": "Trong thì hiện tại hoàn thành, 'since' dùng cho mốc thời gian cụ thể (6 giờ 15)."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "Find and correct the mistake: Surface mail is many cheaper than air mail.",
+      "options": null,
+      "answer": "many -> much",
+      "explanation": "Dùng 'much' để nhấn mạnh cho tính từ so sánh hơn (much cheaper)."
+    },
+    {
+      "id": 49,
+      "type": "text",
+      "text": "Find and correct the mistake: They do their best to keeping the family happy.",
+      "options": null,
+      "answer": "keeping -> keep",
+      "explanation": "Cấu trúc 'do one's best to-V' (cố gắng hết sức để làm gì)."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "Find and correct the mistake: The armchair is in the living room, among the television and sofa.",
+      "options": null,
+      "answer": "among -> between",
+      "explanation": "Dùng 'between' khi nói về vị trí giữa hai vật (TV và sofa)."
+    },
+    {
+      "id": 51,
+      "type": "text",
+      "text": "Find and correct the mistake: Tourists usually have a bus to the countryside.",
+      "options": null,
+      "answer": "have -> take",
+      "explanation": "Cụm từ 'take a bus' nghĩa là bắt xe buýt."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "Fill in the blank (1): Charlie Chaplin was born in a very poor part of London. (1) ………………father was a comedian...",
+      "options": null,
+      "answer": "His",
+      "explanation": "Tính từ sở hữu thay thế cho Charlie Chaplin."
+    },
+    {
+      "id": 53,
+      "type": "text",
+      "text": "Fill in the blank (2): ...and his mother worked (2) ………………a dancer and a singer.",
+      "options": null,
+      "answer": "as",
+      "explanation": "Cấu trúc 'work as + nghề nghiệp' (làm nghề gì)."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "Fill in the blank (3): Neither of them (3) ………………successful so the family...",
+      "options": null,
+      "answer": "was",
+      "explanation": "Chủ ngữ 'Neither of them' đi kèm động từ số ít ở quá khứ."
+    },
+    {
+      "id": 55,
+      "type": "text",
+      "text": "Fill in the blank (4): ...so the family (4) ……………… very little money.",
+      "options": null,
+      "answer": "had",
+      "explanation": "Kể về quá khứ, dùng 'had' để chỉ sự sở hữu (có rất ít tiền)."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "Fill in the blank (5): The first time he himself earned (5) ……………… by dancing and singing...",
+      "options": null,
+      "answer": "money",
+      "explanation": "Dựa vào ngữ cảnh 'earned' (kiếm được), danh từ phù hợp nhất là 'money'."
+    },
+    {
+      "id": 57,
+      "type": "text",
+      "text": "Fill in the blank (6): ...but what he loved best was working (6) ………………the theatre.",
+      "options": null,
+      "answer": "in",
+      "explanation": "Giới từ chỉ nơi chốn 'in the theatre' (trong rạp hát)."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "Fill in the blank (7): When he (7) ……………… about fifteen, he joined a traveling theatre company...",
+      "options": null,
+      "answer": "was",
+      "explanation": "Thì quá khứ đơn diễn tả độ tuổi của nhân vật trong quá khứ."
+    },
+    {
+      "id": 59,
+      "type": "text",
+      "text": "Fill in the blank (8): On one such tour, (8) ……………… was offered a part in a film...",
+      "options": null,
+      "answer": "he",
+      "explanation": "Đại từ chủ ngữ thay thế cho Charlie Chaplin."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Fill in the blank (9): ...he eventually became both a famous actor (9) ……………… film director.",
+      "options": null,
+      "answer": "and",
+      "explanation": "Cấu trúc tương quan 'both ... and ...' (cả ... và ...)."
+    },
+    {
+      "id": 61,
+      "type": "text",
+      "text": "Fill in the blank (10): He died in Switzerland in 1977, at the (10) ……………… of 88.",
+      "options": null,
+      "answer": "age",
+      "explanation": "Cụm từ 'at the age of + số tuổi' (vào độ tuổi bao nhiêu)."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "It’s 2.5 km…………my school………..the movie theatre.",
+      "options": null,
+      "answer": "from - to",
+      "explanation": "Cấu trúc 'from A to B' dùng để chỉ khoảng cách từ địa điểm này đến địa điểm kia."
+    },
+    {
+      "id": 63,
+      "type": "text",
+      "text": "I live ………..Xuan Dieu street……….my grandparents",
+      "options": null,
+      "answer": "on - with",
+      "explanation": "Dùng giới từ 'on' trước tên đường và 'with' để chỉ việc sống cùng với ai đó."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "She is talking…………her students in the school yard.",
+      "options": null,
+      "answer": "to / with",
+      "explanation": "Cấu trúc 'talk to/with someone' nghĩa là nói chuyện với ai đó."
+    },
+    {
+      "id": 65,
+      "type": "text",
+      "text": "My new house is different……….my old house.",
+      "options": null,
+      "answer": "from",
+      "explanation": "Cấu trúc 'different from' nghĩa là khác với cái gì."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "My father is a farmer. He works………..a farm.",
+      "options": null,
+      "answer": "on",
+      "explanation": "Dùng giới từ 'on' đi với danh từ 'farm' (trên nông trường/trang trại)."
+    },
+    {
+      "id": 67,
+      "type": "text",
+      "text": "Does your aunt work ……….the central hospital? – Yes, she is a nurse there.",
+      "options": null,
+      "answer": "at / in",
+      "explanation": "Dùng 'at' hoặc 'in' để chỉ nơi chốn làm việc là một cơ quan/địa điểm cụ thể."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "I’m always busy. I must work ………..early morning until night.",
+      "options": null,
+      "answer": "from",
+      "explanation": "Cấu trúc 'from ... until ...' dùng để chỉ một khoảng thời gian từ lúc nào đến lúc nào."
+    },
+    {
+      "id": 69,
+      "type": "text",
+      "text": "Mr. Minh is a journalist. He writes ………..Tuoi Tre newspaper.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cấu trúc 'write for a newspaper' nghĩa là viết bài cho một tờ báo."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "This apartment is suitable………….my family.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Tính từ 'suitable' đi với giới từ 'for' (phù hợp cho ai/cái gì)."
+    },
+    {
+      "id": 71,
+      "type": "text",
+      "text": "I often help my parents ………….the housework after school.",
+      "options": null,
+      "answer": "with",
+      "explanation": "Cấu trúc 'help someone with something' nghĩa là giúp ai đó việc gì."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "Rewrite: She eats more chocolate than I.\nI …………………………………………………………….",
+      "options": null,
+      "answer": "I don't eat as much chocolate as she (does). / I eat less chocolate than she (does).",
+      "explanation": "Chuyển từ câu so sánh hơn sang so sánh không bằng hoặc dùng từ trái nghĩa (more -> less)."
+    },
+    {
+      "id": 73,
+      "type": "text",
+      "text": "Rewrite: Vinh keeps forgetting his homework.\nVinh is …………………………………………………………….",
+      "options": null,
+      "answer": "Vinh is always forgetting his homework.",
+      "explanation": "Sử dụng cấu trúc 'Be + always + V-ing' để phàn nàn về một thói quen xấu lặp đi lặp lại."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "Rewrite: Keeping the environment clean is very important.\nIt is …………………………………………………………….",
+      "options": null,
+      "answer": "It is very important to keep the environment clean.",
+      "explanation": "Cấu trúc chủ ngữ giả: 'It + be + adj + to-V' tương đương với dạng 'V-ing + be + adj'."
+    },
+    {
+      "id": 75,
+      "type": "text",
+      "text": "Rewrite the sentence: No one helped Lan to do the homework.",
+      "options": null,
+      "answer": "Lan did the homework by herself / Lan did the homework on her own.",
+      "explanation": "Chuyển từ câu phủ định (không ai giúp) sang cấu trúc nhấn mạnh tự mình làm (by oneself/on one's own)."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "Rewrite the sentence: It’s three years since I last spoke to her.",
+      "options": null,
+      "answer": "I haven’t spoken to her for three years.",
+      "explanation": "Chuyển từ cấu trúc 'It is + thời gian + since + quá khứ đơn' sang thì Hiện tại hoàn thành dạng phủ định với 'for'."
+    },
+    {
+      "id": 77,
+      "type": "text",
+      "text": "Rewrite the sentence: Tam doesn’t type as fast as she used to.",
+      "options": null,
+      "answer": "Tam used to type faster than she does now / Tam used to type more quickly than she does now.",
+      "explanation": "Chuyển từ so sánh không bằng ở hiện tại sang cấu trúc 'used to' kết hợp với so sánh hơn."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "Rewrite the sentence: How long is it since you used the car?",
+      "options": null,
+      "answer": "When did you last use the car?",
+      "explanation": "Chuyển câu hỏi 'How long' (thì hiện tại/hoàn thành) sang 'When' (thì quá khứ đơn với last)."
+    },
+    {
+      "id": 79,
+      "type": "text",
+      "text": "Rewrite the sentence: We started living here 15 years ago.",
+      "options": null,
+      "answer": "We have lived/been living here for 15 years.",
+      "explanation": "Chuyển từ thì Quá khứ đơn (started + V-ing) sang thì Hiện tại hoàn thành (hoặc hoàn thành tiếp diễn) với 'for'."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "Rewrite the sentence: Let’s meet inside the centre, at the cafe corner?",
+      "options": null,
+      "answer": "How about meeting inside the centre, at the cafe corner?",
+      "explanation": "Chuyển đổi các cấu trúc đưa ra lời đề nghị: 'Let's + V' tương đương với 'How about + V-ing'."
+    },
+    {
+      "id": 81,
+      "type": "text",
+      "text": "Rewrite the sentence: Nam is very strong, he can do heavy work.",
+      "options": null,
+      "answer": "Nam is strong enough to do heavy work.",
+      "explanation": "Kết hợp hai câu sử dụng cấu trúc 'Adj + enough + to-V' (đủ... để làm gì)."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "Where did the lesson take place?",
+      "options": null,
+      "answer": "The lesson took place in a small school in England.",
+      "explanation": "Câu trả lời xác nhận địa điểm diễn ra buổi học dựa trên nội dung bài đọc."
+    },
+    {
+      "id": 83,
+      "type": "text",
+      "text": "What was the lesson about?",
+      "options": null,
+      "answer": "The lesson was about the seasons of the year.",
+      "explanation": "Câu trả lời xác nhận chủ đề của buổi học là về các mùa trong năm."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "What did the teacher ask Tom to do?",
+      "options": null,
+      "answer": "The teacher asked Tom to stop talking.",
+      "explanation": "Yêu cầu của giáo viên đối với riêng học sinh tên Tom."
+    },
+    {
+      "id": 85,
+      "type": "text",
+      "text": "What did the teacher ask the class to do?",
+      "options": null,
+      "answer": "The teacher asked the class to listen to him.",
+      "explanation": "Yêu cầu của giáo viên đối với toàn bộ lớp học."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "Did the teacher say 'Stop talking, Tom,'?",
+      "options": null,
+      "answer": "Yes, he did.",
+      "explanation": "Câu hỏi xác nhận hành động cụ thể của giáo viên trong văn bản."
+    },
+    {
+      "id": 87,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: Their children have quite _________ characters. (DIFFERENCE)",
+      "options": null,
+      "answer": "different",
+      "explanation": "Cần một tính từ để bổ nghĩa cho danh từ 'characters'."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: Is there anything _________ on TV tonight? (INTEREST)",
+      "options": null,
+      "answer": "interesting",
+      "explanation": "Dùng tính từ đuôi -ing để miêu tả tính chất của một sự vật (chương trình TV)."
+    },
+    {
+      "id": 89,
+      "type": "text",
+      "text": "Give the correct form of the verb: I've decided _________ smoking. (STOP)",
+      "options": null,
+      "answer": "to stop",
+      "explanation": "Cấu trúc 'decide + to-V' (quyết định làm gì)."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "Give the correct form of the verb: It looks like it _________ rain. (BE GOING TO)",
+      "options": null,
+      "answer": "is going to rain",
+      "explanation": "Dùng 'be going to' để đưa ra dự đoán dựa trên bằng chứng hiện tại."
+    },
+    {
+      "id": 91,
+      "type": "text",
+      "text": "Give the correct form of the verb: We are tired of _________ for such a low salary. (WORK)",
+      "options": null,
+      "answer": "working",
+      "explanation": "Sau giới từ (of) động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "Give the correct form of the verb: Water _________ most of the Earth's surface. (COVER)",
+      "options": null,
+      "answer": "covers",
+      "explanation": "Sự thật hiển nhiên chia ở thì Hiện tại đơn, chủ ngữ số ít (Water)."
+    },
+    {
+      "id": 93,
+      "type": "text",
+      "text": "Give the correct form of the verb: This is the second time you _________ a cup. (BREAK)",
+      "options": null,
+      "answer": "have broken",
+      "explanation": "Cấu trúc 'This is the second time + Present Perfect' (Đây là lần thứ hai làm gì)."
+    },
+    {
+      "id": 94,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: My father loves going ___________. (FISH)",
+      "options": null,
+      "answer": "fishing",
+      "explanation": "Cấu trúc 'go + V-ing' dùng cho các hoạt động giải trí (đi câu cá)."
+    },
+    {
+      "id": 95,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: She managed to finish the project ___________. (SUCCESS)",
+      "options": null,
+      "answer": "successfully",
+      "explanation": "Cần một trạng từ để bổ nghĩa cho động từ 'finish'."
+    },
+    {
+      "id": 96,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: I like the city life because there are many kinds of ___________. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau 'kinds of' cần một danh từ để chỉ sự giải trí."
+    },
+    {
+      "id": 97,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: The scouts do the ___________ work. (VOLUNTEER)",
+      "options": null,
+      "answer": "voluntary",
+      "explanation": "Cần một tính từ đứng trước danh từ 'work' để tạo thành cụm 'công việc tình nguyện'."
+    },
+    {
+      "id": 98,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: What is the correct ___________ of this word? (PRONOUNCE)",
+      "options": null,
+      "answer": "pronunciation",
+      "explanation": "Sau mạo từ 'the' và tính từ 'correct' cần một danh từ (sự phát âm)."
+    },
+    {
+      "id": 99,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: My uncle often does volunteer work at a local ___________. (ORPHAN)",
+      "options": null,
+      "answer": "orphanage",
+      "explanation": "Danh từ 'orphanage' nghĩa là trại trẻ mồ côi."
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: Relax for some minutes and you’ll feel more ___________. (COMFORT)",
+      "options": null,
+      "answer": "comfortable",
+      "explanation": "Sau động từ liên kết 'feel' cần một tính từ miêu tả cảm xúc con người."
+    },
+    {
+      "id": 101,
+      "type": "text",
+      "text": "Give the correct form of the word in bracket: In electronics, we learn to repair ___________ appliances. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm danh từ 'household appliances' nghĩa là thiết bị gia dụng."
+    },
+    {
+      "id": 102,
+      "type": "text",
+      "text": "Find and correct the mistake: He has waited there for a quarter past six.",
+      "options": null,
+      "answer": "for -> since",
+      "explanation": "Dùng 'since' cho một mốc thời gian cụ thể trong thì hiện tại hoàn thành."
+    },
+    {
+      "id": 103,
+      "type": "text",
+      "text": "Find and correct the mistake: Surface mail is many cheaper than air mail.",
+      "options": null,
+      "answer": "many -> much",
+      "explanation": "Dùng 'much' để nhấn mạnh mức độ trong câu so sánh hơn với tính từ ngắn."
+    },
+    {
+      "id": 104,
+      "type": "text",
+      "text": "Find and correct the mistake: They do their best to keeping the family happy.",
+      "options": null,
+      "answer": "keeping -> keep",
+      "explanation": "Cấu trúc 'do one's best to + V-infinitive' (cố gắng hết sức để làm gì)."
+    },
+    {
+      "id": 105,
+      "type": "text",
+      "text": "Find and correct the mistake: The armchair is in the living room, among the television and sofa.",
+      "options": null,
+      "answer": "among -> between",
+      "explanation": "Dùng 'between' khi nói về vị trí giữa 2 vật thể cụ thể."
+    },
+    {
+      "id": 106,
+      "type": "text",
+      "text": "Find and correct the mistake: Tourists usually have a bus to the countryside.",
+      "options": null,
+      "answer": "have -> take",
+      "explanation": "Cụm từ cố định là 'take a bus' (đi xe buýt)."
+    },
+    {
+      "id": 107,
+      "type": "text",
+      "text": "Fill in the blank with a suitable word: Charlie Chaplin's (1) ___________ father was a comedian...",
+      "options": null,
+      "answer": "His",
+      "explanation": "Sử dụng tính từ sở hữu thay thế cho tên riêng nam giới đã nhắc trước đó."
+    },
+    {
+      "id": 108,
+      "type": "text",
+      "text": "Fill in the blank with a suitable word: ...his mother worked (2) ___________ a dancer and a singer.",
+      "options": null,
+      "answer": "as",
+      "explanation": "Cấu trúc 'work as + nghề nghiệp'."
+    },
+    {
+      "id": 109,
+      "type": "text",
+      "text": "Fill in the blank with a suitable word: Neither of them (3) ___________ successful so the family (4) ___________ very little money.",
+      "options": null,
+      "answer": "was / had",
+      "explanation": "'Neither of' đi với động từ số ít; 'had' chia quá khứ để chỉ sự sở hữu."
+    },
+    {
+      "id": 110,
+      "type": "text",
+      "text": "Fill in the blank with a suitable word: He eventually became both a famous actor (9) ___________ film director.",
+      "options": null,
+      "answer": "and",
+      "explanation": "Cặp liên từ tương quan 'both ... and ...' (cả... và...)."
+    },
+    {
+      "id": 111,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: It’s 2.5 km (1) ___________ my school (2) ___________ the movie theatre.",
+      "options": null,
+      "answer": "from - to",
+      "explanation": "Cấu trúc 'from... to...' chỉ khoảng cách giữa hai điểm."
+    },
+    {
+      "id": 112,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: My new house is different __________ my old house.",
+      "options": null,
+      "answer": "from",
+      "explanation": "Cấu trúc 'different from' dùng để chỉ sự khác biệt."
+    },
+    {
+      "id": 113,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: My father is a farmer. He works __________ a farm.",
+      "options": null,
+      "answer": "on",
+      "explanation": "Giới từ 'on' thường đi với danh từ 'farm' (trên nông trường)."
+    },
+    {
+      "id": 114,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: Does your aunt work __________ the central hospital?",
+      "options": null,
+      "answer": "in",
+      "explanation": "Dùng 'in' để chỉ vị trí làm việc bên trong một tòa nhà/tổ chức."
+    },
+    {
+      "id": 115,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: I must work __________ early morning until night.",
+      "options": null,
+      "answer": "from",
+      "explanation": "Cấu trúc 'from... until...' dùng để chỉ khoảng thời gian từ lúc nào đến lúc nào."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: Mr. Minh is a journalist. He writes __________ Tuoi Tre newspaper.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cấu trúc 'write for' nghĩa là viết bài cho một tờ báo hoặc tạp chí."
+    },
+    {
+      "id": 117,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: This apartment is suitable __________ my family.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cấu trúc 'suitable for' nghĩa là phù hợp cho ai/cái gì."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "Fill in the blank with a suitable preposition: I often help my parents __________ the housework after school.",
+      "options": null,
+      "answer": "with",
+      "explanation": "Cấu trúc 'help someone with something' nghĩa là giúp ai đó việc gì."
+    },
+    {
+      "id": 119,
+      "type": "text",
+      "text": "Rewrite the sentence: She eats more chocolate than I.\nI ............................................................",
+      "options": null,
+      "answer": "I don't eat as much chocolate as she does.",
+      "explanation": "Chuyển từ so sánh hơn (more) sang so sánh không bằng (not as... as)."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "Rewrite the sentence: Vinh keeps forgetting his homework.\nVinh is ............................................................",
+      "options": null,
+      "answer": "Vinh is always forgetting his homework.",
+      "explanation": "Sử dụng cấu trúc 'be always V-ing' để phàn nàn về một hành động lặp đi lặp lại."
+    },
+    {
+      "id": 121,
+      "type": "text",
+      "text": "Rewrite the sentence: Keeping the environment clean is very important.\nIt's ............................................................",
+      "options": null,
+      "answer": "It's very important to keep the environment clean.",
+      "explanation": "Sử dụng chủ ngữ giả 'It is + Adj + to-V' thay cho cấu trúc V-ing đứng đầu câu."
+    },
+    {
+      "id": 122,
+      "type": "text",
+      "text": "Rewrite the sentence: No one helped Lan to do the homework.\nLan did ............................................................",
+      "options": null,
+      "answer": "Lan did the homework herself.",
+      "explanation": "Sử dụng đại từ phản thân 'herself' để nhấn mạnh việc tự làm một mình."
+    },
+    {
+      "id": 123,
+      "type": "text",
+      "text": "Rewrite the sentence: It’s three years since I last spoke to her.\nI haven’t ............................................................",
+      "options": null,
+      "answer": "I haven’t spoken to her for three years.",
+      "explanation": "Chuyển từ mốc thời gian (since) sang khoảng thời gian (for) trong thì hiện tại hoàn thành."
+    },
+    {
+      "id": 124,
+      "type": "text",
+      "text": "Rewrite the sentence: Tam typed fast in the past, but he doesn't now.\nTam used ............................................................",
+      "options": null,
+      "answer": "Tam used to type fast.",
+      "explanation": "Cấu trúc 'used to + V' diễn tả thói quen hoặc tình trạng trong quá khứ."
+    },
+    {
+      "id": 125,
+      "type": "text",
+      "text": "Rewrite the sentence: How long is it since you used the car?\nWhen ............................................................",
+      "options": null,
+      "answer": "When did you use the car?",
+      "explanation": "Chuyển từ câu hỏi khoảng thời gian sang câu hỏi thời điểm (When + quá khứ đơn)."
+    },
+    {
+      "id": 126,
+      "type": "text",
+      "text": "Rewrite the sentence: We started living here 15 years ago.\nWe have ............................................................",
+      "options": null,
+      "answer": "We have lived here for 15 years.",
+      "explanation": "Chuyển từ quá khứ đơn (started) sang hiện tại hoàn thành (have lived) kèm giới từ 'for'."
+    },
+    {
+      "id": 127,
+      "type": "text",
+      "text": "Rewrite the sentence: Let's meet inside the center, at the cafe corner.\nHow ............................................................",
+      "options": null,
+      "answer": "How about meeting inside the center, at the cafe corner?",
+      "explanation": "Sử dụng cấu trúc gợi ý 'How about + V-ing' thay cho 'Let's + V'."
+    },
+    {
+      "id": 128,
+      "type": "text",
+      "text": "Rewrite the sentence: Nam is very strong, he can do heavy work.\nNam is ............................................................",
+      "options": null,
+      "answer": "Nam is strong enough to do heavy work.",
+      "explanation": "Sử dụng cấu trúc 'Adj + enough + to-V' để chỉ khả năng làm việc gì đó."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "Located",
+      "pron": "/ləʊˈkeɪtɪd/",
+      "type": "adjective",
+      "meaning": "Tọa lạc, nằm ở (vị trí nào đó)",
+      "example": "The city is located on the shore of Lake Michigan."
+    },
+    {
+      "word": "Handwriting",
+      "pron": "/ˈhændraɪtɪŋ/",
+      "type": "noun",
+      "meaning": "Chữ viết tay",
+      "example": "His handwriting is terrible; it is very difficult to read."
+    },
+    {
+      "word": "Become + Adj-er",
+      "pron": "/bɪˈkʌm/",
+      "type": "structure",
+      "meaning": "Trở nên như thế nào đó (diễn tả sự thay đổi trạng thái)",
+      "example": "Kim Tan town is becoming busier every day."
+    },
+    {
+      "word": "Strong enough to",
+      "pron": "/strɒŋ ɪˈnʌf tuː/",
+      "type": "structure",
+      "meaning": "Đủ khỏe để làm gì (Cấu trúc: Adj + enough + to-V)",
+      "example": "Ba is strong enough to help his father with the farm work."
+    },
+    {
+      "word": "Shore",
+      "pron": "/ʃɔː(r)/",
+      "type": "noun",
+      "meaning": "Bờ (biển, hồ, sông)",
+      "example": "They took a long walk along the shore of the lake."
+    },
+    {
+      "word": "Character",
+      "pron": "/ˈkærəktə(r)/",
+      "type": "noun",
+      "meaning": "Nhân vật, tính cách (phát âm là /k/)",
+      "example": "He is the main character in the new movie."
+    },
+    {
+      "word": "Towel",
+      "pron": "/ˈtaʊəl/",
+      "type": "noun",
+      "meaning": "Khăn tắm, khăn lau",
+      "example": "Please bring me a dry towel after I swim."
+    },
+    {
+      "word": "Tag question with 'Never'",
+      "pron": "/tæɡ ˈkwestʃən/",
+      "type": "structure",
+      "meaning": "Câu hỏi đuôi với từ phủ định 'Never' (phần đuôi phải ở dạng khẳng định)",
+      "example": "The Smiths never go out in the evening, do they?"
+    },
+    {
+      "word": "Be proud of",
+      "pron": "/bi praʊd əv/",
+      "type": "structure",
+      "meaning": "Tự hào về (ai đó hoặc điều gì đó)",
+      "example": "Are you proud of your country and its tradition?"
+    },
+    {
+      "word": "Try one's best",
+      "pron": "/traɪ wʌnz best/",
+      "type": "idiom",
+      "meaning": "Cố gắng hết sức mình",
+      "example": "I tried my best not to laugh, but I couldn't."
+    },
+    {
+      "word": "Ask for",
+      "pron": "/ɑːsk fɔː(r)/",
+      "type": "phrasal verb",
+      "meaning": "Hỏi xin (cái gì đó)",
+      "example": "I want to ask my parents for some money."
+    },
+    {
+      "word": "Different from",
+      "pron": "/ˈdɪfrənt frəm/",
+      "type": "prepositional phrase",
+      "meaning": "Khác biệt với",
+      "example": "You are very different from your brother."
+    },
+    {
+      "word": "Be good/better at",
+      "pron": "/bi ɡʊd æt/",
+      "type": "structure",
+      "meaning": "Giỏi/tốt về (một lĩnh vực, kỹ năng nào đó)",
+      "example": "I am better at English than Nam."
+    },
+    {
+      "word": "Delay",
+      "pron": "/dɪˈleɪ/",
+      "type": "verb",
+      "meaning": "Trì hoãn, làm chậm trễ",
+      "example": "Heavy rains delayed the plane for several hours."
+    },
+    {
+      "word": "Seldom",
+      "pron": "/ˈseldəm/",
+      "type": "adverb",
+      "meaning": "Hiếm khi (mang nghĩa phủ định trong câu hỏi đuôi)",
+      "example": "He seldom goes fishing, does he?"
+    },
+    {
+      "word": "Tradition",
+      "pron": "/trəˈdɪʃn/",
+      "type": "noun",
+      "meaning": "Truyền thống",
+      "example": "We should be proud of our country's traditions."
+    },
+    {
+      "word": "Compulsory",
+      "pron": "/kəmˈpʌlsəri/",
+      "type": "adjective",
+      "meaning": "Bắt buộc",
+      "example": "You must go to school between the ages of 5 and 16; it is compulsory."
+    },
+    {
+      "word": "Keep someone waiting",
+      "pron": "/kiːp ˈsʌmwʌn ˈweɪtɪŋ/",
+      "type": "structure",
+      "meaning": "Để ai đó phải chờ đợi",
+      "example": "I'm so sorry to keep you waiting for so long."
+    },
+    {
+      "word": "Decide to-V",
+      "pron": "/dɪˈsaɪd/",
+      "type": "structure",
+      "meaning": "Quyết định làm việc gì đó",
+      "example": "I've decided to stop smoking to improve my health."
+    },
+    {
+      "word": "Be tired of + V-ing",
+      "pron": "/bi ˈtaɪəd əv/",
+      "type": "structure",
+      "meaning": "Mệt mỏi/chán ngấy vì việc gì đó",
+      "example": "We are tired of working for such a low salary."
+    },
+    {
+      "word": "Surface",
+      "pron": "/ˈsɜːfɪs/",
+      "type": "noun",
+      "meaning": "Bề mặt",
+      "example": "Water covers most of the Earth’s surface."
+    },
+    {
+      "word": "Break",
+      "pron": "/breɪk/",
+      "type": "verb",
+      "meaning": "Làm vỡ, bẻ gãy",
+      "example": "This is the second time you have broken a cup."
+    },
+    {
+      "word": "Season",
+      "pron": "/ˈsiːzn/",
+      "type": "noun",
+      "meaning": "Mùa (trong năm)",
+      "example": "The lesson was about the four seasons of the year."
+    },
+    {
+      "word": "Make noise",
+      "pron": "/meɪk nɔɪz/",
+      "type": "phrase",
+      "meaning": "Làm ồn, gây ồn ào",
+      "example": "The teacher said that we should not make noise in class."
+    },
+    {
+      "word": "Take place",
+      "pron": "/teɪk pleɪs/",
+      "type": "phrasal verb",
+      "meaning": "Diễn ra, xảy ra (tại một địa điểm/thời gian cụ thể)",
+      "example": "Where did the lesson take place?"
+    },
+    {
+      "word": "Pupil",
+      "pron": "/ˈpjuːpl/",
+      "type": "noun",
+      "meaning": "Học sinh (thường dùng cho tiểu học)",
+      "example": "The teacher stopped and looked at one of the pupils."
+    },
+    {
+      "word": "Grow",
+      "pron": "/ɡrəʊ/",
+      "type": "verb",
+      "meaning": "Phát triển, mọc lên",
+      "example": "In spring, everything begins to grow."
+    },
+    {
+      "word": "Field",
+      "pron": "/fiːld/",
+      "type": "noun",
+      "meaning": "Cánh đồng",
+      "example": "There are many flowers in the fields and gardens."
+    },
+    {
+      "word": "Fishing rod",
+      "pron": "/ˈfɪʃɪŋ rɒd/",
+      "type": "noun phrase",
+      "meaning": "Cần câu cá",
+      "example": "My brother bought a new fishing rod yesterday."
+    },
+    {
+      "word": "Run a business",
+      "pron": "/rʌn ə ˈbɪznəs/",
+      "type": "phrase",
+      "meaning": "Điều hành, quản lý một doanh nghiệp",
+      "example": "Mr. Jane runs his business very successfully."
+    },
+    {
+      "word": "Different",
+      "pron": "/ˈdɪfrənt/",
+      "type": "adjective",
+      "meaning": "Khác biệt, khác nhau",
+      "example": "Their children have quite different characters."
+    },
+    {
+      "word": "Stop doing something",
+      "pron": "/stɒp ˈduːɪŋ/",
+      "type": "structure",
+      "meaning": "Dừng hẳn một việc gì đó đang làm",
+      "example": "The teacher said: 'Stop talking, Tom!'"
+    },
+    {
+      "word": "Entertainment",
+      "pron": "/ˌentəˈteɪnmənt/",
+      "type": "noun",
+      "meaning": "Sự giải trí, các hình thức giải trí",
+      "example": "There are many kinds of entertainment in the city."
+    },
+    {
+      "word": "Voluntary",
+      "pron": "/ˈvɒləntri/",
+      "type": "adjective",
+      "meaning": "Tình nguyện, tự nguyện",
+      "example": "The scouts do voluntary work to help the community."
+    },
+    {
+      "word": "Orphanage",
+      "pron": "/ˈɔːfənɪdʒ/",
+      "type": "noun",
+      "meaning": "Trại trẻ mồ côi",
+      "example": "He spends his free time helping at a local orphanage."
+    },
+    {
+      "word": "Household appliances",
+      "pron": "/ˈhaʊshəʊld əˈplaɪənsɪz/",
+      "type": "noun phrase",
+      "meaning": "Thiết bị gia dụng",
+      "example": "In electronics class, we learn how to repair household appliances."
+    },
+    {
+      "word": "Both ... and ...",
+      "pron": "/bəʊθ ... ænd .../",
+      "type": "conjunction",
+      "meaning": "Cả ... và ... (dùng để liên kết hai yếu tố tương đương)",
+      "example": "Charlie Chaplin became both a famous actor and a film director."
+    },
+    {
+      "word": "Work as",
+      "pron": "/wɜːk æz/",
+      "type": "structure",
+      "meaning": "Làm nghề gì đó, làm việc với tư cách là",
+      "example": "His mother worked as a dancer and a singer."
+    },
+    {
+      "word": "At the age of",
+      "pron": "/æt ðə eɪdʒ əv/",
+      "type": "phrase",
+      "meaning": "Vào độ tuổi là...",
+      "example": "He died in Switzerland in 1977 at the age of 88."
+    },
+    {
+      "word": "Earn money",
+      "pron": "/ɜːn ˈmʌni/",
+      "type": "phrase",
+      "meaning": "Kiếm tiền (bằng công sức lao động)",
+      "example": "The first time he earned money was by dancing and singing."
+    },
+    {
+      "word": "From ... to ...",
+      "pron": "/frɒm ... tuː .../",
+      "type": "prepositional phrase",
+      "meaning": "Từ ... đến ... (chỉ khoảng cách địa lý hoặc thời gian)",
+      "example": "It’s 2.5 km from my school to the movie theatre."
+    },
+    {
+      "word": "Help someone with something",
+      "pron": "/help ˈsʌmwʌn wɪð ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Giúp đỡ ai đó việc gì",
+      "example": "I often help my parents with the housework after school."
+    },
+    {
+      "word": "Different from",
+      "pron": "/ˈdɪfrənt frəm/",
+      "type": "prepositional phrase",
+      "meaning": "Khác với, khác biệt so với cái gì",
+      "example": "My new house is different from my old house."
+    },
+    {
+      "word": "Suitable for",
+      "pron": "/ˈsuːtəbl fɔː(r)/",
+      "type": "adjective phrase",
+      "meaning": "Phù hợp cho ai/cái gì",
+      "example": "This apartment is suitable for my family."
+    },
+    {
+      "word": "Write for",
+      "pron": "/raɪt fɔː(r)/",
+      "type": "phrasal verb",
+      "meaning": "Viết bài cho (một tờ báo, tạp chí...)",
+      "example": "Mr. Minh is a journalist. He writes for Tuoi Tre newspaper."
+    },
+    {
+      "word": "Be always V-ing",
+      "pron": "/bi ˈɔːlweɪz -ɪŋ/",
+      "type": "grammar structure",
+      "meaning": "Luôn luôn làm gì (diễn tả sự phàn nàn về một thói quen xấu)",
+      "example": "Vinh is always forgetting his homework."
+    },
+    {
+      "word": "It is + Adj + to-V",
+      "pron": "/ɪt ɪz ... tuː .../",
+      "type": "grammar structure",
+      "meaning": "Thật là như thế nào khi làm việc gì đó",
+      "example": "It is very important to keep the environment clean."
+    },
+    {
+      "word": "Talk to/with someone",
+      "pron": "/tɔːk tuː/wɪð ˈsʌmwʌn/",
+      "type": "structure",
+      "meaning": "Nói chuyện với ai đó",
+      "example": "She is talking to her students in the school yard."
+    },
+    {
+      "word": "By oneself / On one's own",
+      "pron": "/baɪ wʌnˈself/ - /ɒn wʌnz əʊn/",
+      "type": "phrase",
+      "meaning": "Tự thân làm, một mình làm (không có sự trợ giúp)",
+      "example": "Lan did the homework by herself."
+    },
+    {
+      "word": "Since / For",
+      "pron": "/sɪns/ - /fɔː(r)/",
+      "type": "preposition",
+      "meaning": "Kể từ khi (mốc thời gian) / Trong khoảng (khoảng thời gian)",
+      "example": "I haven’t spoken to her for three years."
+    },
+    {
+      "word": "Used to + V",
+      "pron": "/juːst tuː/",
+      "type": "structure",
+      "meaning": "Đã từng làm gì (thói quen hoặc tình trạng trong quá khứ nay không còn nữa)",
+      "example": "Tam used to type faster than she does now."
+    },
+    {
+      "word": "How about + V-ing?",
+      "pron": "/haʊ əˈbaʊt/",
+      "type": "structure",
+      "meaning": "Thế còn việc... thì sao? (Dùng để đưa ra lời đề nghị)",
+      "example": "How about meeting inside the centre?"
+    },
+    {
+      "word": "Adj + enough + to-V",
+      "pron": "/əˈnʌf/",
+      "type": "structure",
+      "meaning": "Đủ... để làm việc gì đó",
+      "example": "Nam is strong enough to do heavy work."
+    },
+    {
+      "word": "Last (V)",
+      "pron": "/lɑːst/",
+      "type": "verb/adverb",
+      "meaning": "Lần cuối cùng làm gì",
+      "example": "When did you last use the car?"
+    },
+    {
+      "word": "Heavy work",
+      "pron": "/ˈhevi wɜːk/",
+      "type": "noun phrase",
+      "meaning": "Công việc nặng nhọc",
+      "example": "He is very strong, he can do heavy work."
+    },
+    {
+      "word": "Start/Begin + V-ing",
+      "pron": "/stɑːt/ - /bɪˈɡɪn/",
+      "type": "structure",
+      "meaning": "Bắt đầu làm một việc gì đó",
+      "example": "We started living here 15 years ago."
+    },
+    {
+      "word": "Decide to do something",
+      "pron": "/dɪˈsaɪd tuː duː ˈsʌmθɪŋ/",
+      "type": "structure",
+      "meaning": "Quyết định làm việc gì đó",
+      "example": "I've decided to stop smoking."
+    },
+    {
+      "word": "Be tired of doing something",
+      "pron": "/bi ˈtaɪəd əv ˈduːɪŋ/",
+      "type": "structure",
+      "meaning": "Mệt mỏi hoặc chán ngấy vì phải làm việc gì đó",
+      "example": "We are tired of working for such a low salary."
+    },
+    {
+      "word": "Surface",
+      "pron": "/ˈsɜːfɪs/",
+      "type": "noun",
+      "meaning": "Bề mặt (của một vật thể, hành tinh hoặc chất lỏng)",
+      "example": "Water covers most of the Earth's surface."
+    },
+    {
+      "word": "Be going to",
+      "pron": "/bi ˈɡəʊɪŋ tuː/",
+      "type": "structure",
+      "meaning": "Sắp sửa (dự đoán một sự việc dựa trên bằng chứng hiện tại)",
+      "example": "Look at those black clouds! It is going to rain."
+    },
+    {
+      "word": "Lock",
+      "pron": "/lɒk/",
+      "type": "verb",
+      "meaning": "Khóa lại, đóng chặt bằng chìa khóa",
+      "example": "The door is locked from the inside."
+    },
+    {
+      "word": "Season",
+      "pron": "/ˈsiːzn/",
+      "type": "noun",
+      "meaning": "Mùa trong năm",
+      "example": "The lesson was about the seasons of the year."
+    },
+    {
+      "word": "Interesting",
+      "pron": "/ˈɪntrəstɪŋ/",
+      "type": "adjective",
+      "meaning": "Thú vị, gây sự chú ý",
+      "example": "Is there anything interesting on TV tonight?"
+    },
+    {
+      "word": "Cover",
+      "pron": "/ˈkʌvə(r)/",
+      "type": "verb",
+      "meaning": "Bao phủ, che phủ",
+      "example": "Snow covers the ground in winter."
+    },
+    {
+      "word": "Successfully",
+      "pron": "/səkˈsesfəli/",
+      "type": "adverb",
+      "meaning": "Một cách thành công",
+      "example": "She managed to finish the project successfully."
+    },
+    {
+      "word": "Pronunciation",
+      "pron": "/prəˌnʌnsiˈeɪʃn/",
+      "type": "noun",
+      "meaning": "Cách phát âm, sự phát âm",
+      "example": "What is the correct pronunciation of this word?"
+    },
+    {
+      "word": "Voluntary work",
+      "pron": "/ˈvɒləntri wɜːk/",
+      "type": "noun phrase",
+      "meaning": "Công việc tình nguyện",
+      "example": "The scouts do voluntary work to help the community."
+    },
+    {
+      "word": "Comfortable",
+      "pron": "/ˈkʌmftəbl/",
+      "type": "adjective",
+      "meaning": "Thoải mái, dễ chịu",
+      "example": "Relax for some minutes and you’ll feel more comfortable."
+    },
+    {
+      "word": "Neither ... nor",
+      "pron": "/ˈnaɪðə(r)/ ... /nɔː(r)/",
+      "type": "conjunction",
+      "meaning": "Không ... cũng không (dùng cho 2 đối tượng)",
+      "example": "Neither of them was successful in the competition."
+    },
+    {
+      "word": "Take a bus",
+      "pron": "/teɪk ə bʌs/",
+      "type": "phrase",
+      "meaning": "Đi xe buýt, bắt xe buýt",
+      "example": "Tourists usually take a bus to the countryside."
+    },
+    {
+      "word": "Difference between",
+      "pron": "/ˈdɪfrəns bɪˈtwiːn/",
+      "type": "phrase",
+      "meaning": "Sự khác biệt giữa (hai vật/người)",
+      "example": "Is there any difference between these two pictures?"
+    },
+    {
+      "word": "Do one's best to",
+      "pron": "/duː wʌnz best tuː/",
+      "type": "structure",
+      "meaning": "Cố gắng hết sức mình để làm gì",
+      "example": "They do their best to keep the family happy."
+    },
+    {
+      "word": "As much ... as",
+      "pron": "/əz mʌtʃ ... əz/",
+      "type": "structure",
+      "meaning": "Nhiều bằng ... (dùng trong câu so sánh bằng với danh từ không đếm được)",
+      "example": "I don't eat as much chocolate as she does."
+    },
+    {
+      "word": "Always + V-ing",
+      "pron": "/ˈɔːlweɪz -ɪŋ/",
+      "type": "grammar structure",
+      "meaning": "Luôn luôn ... (dùng với thì hiện tại tiếp diễn để phàn nàn về một thói quen xấu)",
+      "example": "Vinh is always forgetting his homework."
+    },
+    {
+      "word": "Environment",
+      "pron": "/ɪnˈvaɪrənmənt/",
+      "type": "noun",
+      "meaning": "Môi trường",
+      "example": "It’s very important to keep the environment clean."
+    },
+    {
+      "word": "Herself / Himself",
+      "pron": "/hɜːˈself/ /hɪmˈself/",
+      "type": "reflexive pronoun",
+      "meaning": "Tự thân cô ấy / anh ấy (làm gì đó một mình)",
+      "example": "Lan did the homework herself."
+    },
+    {
+      "word": "Used to + V",
+      "pron": "/juːst tuː/",
+      "type": "structure",
+      "meaning": "Đã từng làm gì (thói quen trong quá khứ)",
+      "example": "Tam used to type fast."
+    },
+    {
+      "word": "How about + V-ing?",
+      "pron": "/haʊ əˈbaʊt/",
+      "type": "structure",
+      "meaning": "Thế còn việc ... thì sao? (Cấu trúc đưa ra lời đề nghị)",
+      "example": "How about meeting inside the center?"
+    },
+    {
+      "word": "Enough to + V",
+      "pron": "/ɪˈnʌf tuː/",
+      "type": "structure",
+      "meaning": "Đủ để làm việc gì đó",
+      "example": "Nam is strong enough to do heavy work."
+    },
+    {
+      "word": "Heavy work",
+      "pron": "/ˈhevi wɜːk/",
+      "type": "noun phrase",
+      "meaning": "Công việc nặng nhọc",
+      "example": "He is strong enough to do heavy work."
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "The new luxury hotel is ___________ right in the heart of the city.",
+      "options": {
+        "A": "lied",
+        "B": "located",
+        "C": "standing",
+        "D": "stayed"
+      },
+      "answer": "B",
+      "explanation": "'Be located' là cấu trúc dùng để chỉ vị trí, tọa lạc của một địa điểm."
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "text": "I can't read this letter because the ___________ is so messy. (WRITE)",
+      "options": null,
+      "answer": "handwriting",
+      "explanation": "Cần một danh từ chỉ 'chữ viết tay'. 'Handwriting' là danh từ ghép từ 'hand' và 'writing'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "With the new factory opening, the quiet village is ___________ much noisier.",
+      "options": {
+        "A": "making",
+        "&B": "doing",
+        "C": "becoming",
+        "D": "having"
+      },
+      "answer": "C",
+      "explanation": "Động từ 'become' + tính từ diễn tả sự thay đổi trạng thái, trở nên như thế nào đó."
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "text": "The children aren't old ___________ to stay home alone. (ENOUGH)",
+      "options": null,
+      "answer": "enough",
+      "explanation": "Cấu trúc 'Adj + enough + to-V' dùng để chỉ mức độ đủ để làm gì."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "You never clean the floor after cooking, ___________?",
+      "options": {
+        "A": "don't you",
+        "B": "do you",
+        "C": "are you",
+        "D": "aren't you"
+      },
+      "answer": "B",
+      "explanation": "Trong câu hỏi đuôi, nếu mệnh đề chính có từ phủ định 'never', phần đuôi phải ở dạng khẳng định."
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "text": "We spent the whole afternoon walking along the ___________ of the lake. (SHORE)",
+      "options": null,
+      "answer": "shore",
+      "explanation": "'Shore' là danh từ chỉ bờ hồ hoặc bờ biển."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "Harry Potter is a very famous ___________ in children's literature.",
+      "options": {
+        "A": "characteristic",
+        "B": "character",
+        "C": "characterize",
+        "D": "characterly"
+      },
+      "answer": "B",
+      "explanation": "'Character' ở đây có nghĩa là nhân vật trong tác phẩm văn học."
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "text": "It is not ___________ to finish this project in just one day. (EASE)",
+      "options": null,
+      "answer": "easy",
+      "explanation": "Sau 'not' và trước 'to-V' trong cấu trúc giả định 'It is + adj' cần một tính từ."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "She ___________ the mountain yesterday despite the heavy rain.",
+      "options": {
+        "A": "climb",
+        "B": "climbs",
+        "C": "climbed",
+        "D": "climbing"
+      },
+      "answer": "C",
+      "explanation": "Dấu hiệu 'yesterday' cho thấy câu chia ở thì quá khứ đơn, động từ 'climb' thêm đuôi '-ed'."
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "text": "Don't forget to pack a ___________ for the beach. (TOWEL)",
+      "options": null,
+      "answer": "towel",
+      "explanation": "'Towel' (khăn tắm) là vật dụng cần thiết khi đi biển."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "Which word has a different sound? A. church, B. school, C. character, D. Christmas.",
+      "options": {
+        "A": "church",
+        "B": "school",
+        "C": "character",
+        "D": "Christmas"
+      },
+      "answer": "A",
+      "explanation": "'Church' phát âm là /tʃ/, các từ còn lại phát âm là /k/."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "The students ___________ (work) very hard for the final exam last month.",
+      "options": null,
+      "answer": "worked",
+      "explanation": "Thì quá khứ đơn với dấu hiệu 'last month', động từ 'work' thêm đuôi '-ed'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "The flight was ___________ because of the thick fog this morning.",
+      "options": {
+        "A": "prevented",
+        "B": "delayed",
+        "C": "stopped",
+        "D": "held"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'delayed' để nói về việc trì hoãn chuyến bay do thời tiết."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "We should take pride in our national ___________. (TRADITION)",
+      "options": null,
+      "answer": "traditions",
+      "explanation": "Sau tính từ 'national' cần một danh từ. 'Traditions' là các truyền thống."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "She is very proud ___________ her daughter's achievements at school.",
+      "options": {
+        "A": "on",
+        "B": "with",
+        "C": "of",
+        "D": "about"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc cố định: 'be proud of' (tự hào về...)."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "He always ___________ his best to complete the work on time. (TRY)",
+      "options": null,
+      "answer": "tries",
+      "explanation": "Cụm từ 'try one's best'. Chủ ngữ 'He' nên động từ 'try' chia thành 'tries' ở thì hiện tại đơn."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "The lifestyle in the city is quite different ___________ that in the countryside.",
+      "options": {
+        "A": "from",
+        "B": "to",
+        "C": "with",
+        "D": "as"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc: 'different from' (khác biệt với)."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "My sister is much ___________ at math than I am. (GOOD)",
+      "options": null,
+      "answer": "better",
+      "explanation": "Câu có từ 'than' nên cần dùng dạng so sánh hơn của 'good' là 'better'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "He ___________ talks to strangers, does he?",
+      "options": {
+        "A": "usually",
+        "B": "seldom",
+        "C": "often",
+        "D": "always"
+      },
+      "answer": "B",
+      "explanation": "Phần câu hỏi đuôi là 'does he' (khẳng định) nên mệnh đề chính phải mang nghĩa phủ định. 'Seldom' (hiếm khi) phù hợp."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "You should ask the teacher ___________ help if you don't understand the lesson.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cấu trúc: 'ask somebody for something' (xin ai đó điều gì/sự giúp đỡ)."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "She has a great talent ___________ singing.",
+      "options": {
+        "A": "at",
+        "B": "for",
+        "C": "in",
+        "D": "with"
+      },
+      "answer": "B",
+      "explanation": "Cụm từ: 'have a talent for something' (có tài năng về việc gì)."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "The heavy rain ___________ us from going out last night. (PREVENT)",
+      "options": null,
+      "answer": "prevented",
+      "explanation": "Cấu trúc 'prevent somebody from doing something'. Chia thì quá khứ đơn vì có 'last night'."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "text": "My brother is really interested ___________ history.",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "in",
+        "D": "about"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc: 'be interested in' (quan tâm/thích thú về cái gì)."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "Is she ___________ (good) at English than her brother?",
+      "options": null,
+      "answer": "better",
+      "explanation": "Sử dụng cấu trúc so sánh hơn 'better at' theo ngữ cảnh của bài học."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "text": "In Vietnam, wearing a helmet while riding a motorbike is ___________.",
+      "options": {
+        "A": "optional",
+        "B": "compulsory",
+        "C": "free",
+        "D": "relaxed"
+      },
+      "answer": "B",
+      "explanation": "'Compulsory' nghĩa là bắt buộc, phù hợp với ngữ cảnh tuân thủ luật lệ giao thông."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "The moon's ___________ is covered with rocks and dust. (SURFACE)",
+      "options": null,
+      "answer": "surface",
+      "explanation": "Cần một danh từ chỉ 'bề mặt'. 'Surface' là bề mặt của một vật thể hoặc hành tinh."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "text": "I am ___________ of doing the same thing every day. I need a change.",
+      "options": {
+        "A": "tired",
+        "B": "tiring",
+        "C": "tire",
+        "D": "tiresome"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'be tired of + V-ing/Noun' nghĩa là mệt mỏi hoặc chán ngấy điều gì đó."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "After a long discussion, they finally ___________ to buy a new house. (DECIDE)",
+      "options": null,
+      "answer": "decided",
+      "explanation": "Câu kể về một sự việc đã kết thúc, dùng thì quá khứ đơn của 'decide'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "text": "Please don't ___________ so much noise; the baby is sleeping.",
+      "options": {
+        "A": "do",
+        "B": "give",
+        "C": "make",
+        "D": "create"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ cố định (collocation) là 'make noise' (gây ồn)."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "Autumn is my favorite ___________ of the year because of the cool weather. (SEASON)",
+      "options": null,
+      "answer": "season",
+      "explanation": "Cần một danh từ chỉ 'mùa' trong năm."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "text": "I'm sorry to ___________ you waiting so long at the station.",
+      "options": {
+        "A": "let",
+        "B": "make",
+        "C": "keep",
+        "D": "get"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'keep someone waiting' (để ai đó chờ đợi)."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "The shop assistant was very ___________ and helped me find what I needed. (HELP)",
+      "options": null,
+      "answer": "helpful",
+      "explanation": "Cần một tính từ sau 'was very' để chỉ tính chất của người bán hàng. 'Helpful' nghĩa là hay giúp đỡ."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "text": "The library is located ___________ the post office and the bank.",
+      "options": {
+        "A": "among",
+        "B": "between",
+        "C": "inside",
+        "D": "from"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'between... and...' khi nói về vị trí ở giữa hai địa điểm cụ thể."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "He has ___________ (break) the window three times this month!",
+      "options": null,
+      "answer": "broken",
+      "explanation": "Dùng thì hiện tại hoàn thành (have + V3) để nói về số lần thực hiện hành động tính đến hiện tại."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "text": "It’s cloudy. It looks like it’s ___________ rain.",
+      "options": {
+        "A": "going to",
+        "B": "will",
+        "C": "about",
+        "D": "shall"
+      },
+      "answer": "A",
+      "explanation": "Dùng 'be going to' để dự báo sự việc dựa trên bằng chứng thực tế (trời nhiều mây)."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "Is primary education ___________ in your country? (COMPEL)",
+      "options": null,
+      "answer": "compulsory",
+      "explanation": "Cần tính từ 'compulsory' để bổ nghĩa cho danh từ 'education' trong câu hỏi."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "text": "The football match will ___________ at the National Stadium this Sunday.",
+      "options": {
+        "A": "take part",
+        "B": "take place",
+        "C": "take after",
+        "D": "take over"
+      },
+      "answer": "B",
+      "explanation": "Cụm động từ 'take place' có nghĩa là diễn ra, thường dùng cho các sự kiện đã được lên lịch."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "She managed to finish the project ___________. (SUCCESS)",
+      "options": null,
+      "answer": "successfully",
+      "explanation": "Cần một trạng từ để bổ nghĩa cho động từ 'managed to finish'. 'Successfully' là trạng từ của 'success'."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "text": "The ___________ are listening attentively to the teacher's lecture.",
+      "options": {
+        "A": "pupils",
+        "B": "farmers",
+        "C": "doctors",
+        "D": "drivers"
+      },
+      "answer": "A",
+      "explanation": "'Pupils' có nghĩa là học sinh, phù hợp với ngữ cảnh nghe bài giảng (lecture) từ giáo viên."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "There are many ___________ in the garden during the spring. (FLOWER)",
+      "options": null,
+      "answer": "flowers",
+      "explanation": "Sau 'many' cần một danh từ đếm được số nhiều."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "text": "In spring, the weather becomes warm and trees start to ___________.",
+      "options": {
+        "A": "grow",
+        "B": "stop",
+        "C": "break",
+        "D": "lock"
+      },
+      "answer": "A",
+      "explanation": "'Grow' (mọc, phát triển) là hành động đặc trưng của cây cối vào mùa xuân."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "My father loves going ___________ at the weekend. (FISH)",
+      "options": null,
+      "answer": "fishing",
+      "explanation": "Cụm từ 'go fishing' có nghĩa là đi câu cá."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "text": "You shouldn't ___________ in the library. People are trying to study.",
+      "options": {
+        "A": "stop talking",
+        "B": "keep talking",
+        "C": "start talking",
+        "D": "enjoy talking"
+      },
+      "answer": "B",
+      "explanation": "Dựa trên ngữ cảnh thư viện cần sự yên tĩnh, 'keep talking' (tiếp tục nói chuyện) là hành động không nên làm."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "Is there any ___________ between these two pictures? (DIFFER)",
+      "options": null,
+      "answer": "difference",
+      "explanation": "Sau 'any' và trước giới từ 'between' cần một danh từ. 'Difference' là danh từ của động từ 'differ'."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "text": "The farmer is working hard in the ___________ to harvest the rice.",
+      "options": {
+        "A": "office",
+        "B": "field",
+        "C": "school",
+        "D": "hospital"
+      },
+      "answer": "B",
+      "explanation": "'Field' (cánh đồng) là nơi làm việc đặc trưng của nông dân (farmer)."
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "Tom is a ___________ boy; he never stops talking in class. (TALK)",
+      "options": null,
+      "answer": "talkative",
+      "explanation": "Cần một tính từ để miêu tả tính cách của Tom. 'Talkative' nghĩa là hay nói, lém lỉnh."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "text": "It’s very cold in ___________, and sometimes it snows.",
+      "options": {
+        "A": "spring",
+        "B": "summer",
+        "C": "autumn",
+        "D": "winter"
+      },
+      "answer": "D",
+      "explanation": "Mùa đông (winter) là mùa có đặc điểm thời tiết lạnh và đôi khi có tuyết rơi."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "They have ___________ (run) this restaurant for over ten years.",
+      "options": null,
+      "answer": "run",
+      "explanation": "Cấu trúc hiện tại hoàn thành 'have + V3'. Động từ 'run' có dạng cột 3 vẫn là 'run'."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "text": "The city offers many forms of ___________ such as cinemas, parks, and theaters.",
+      "options": {
+        "A": "entertain",
+        "B": "entertainment",
+        "C": "entertaining",
+        "D": "entertained"
+      },
+      "answer": "B",
+      "explanation": "Sau cụm 'forms of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "Every summer, she participates in ___________ activities to help the poor. (VOLUNTEER)",
+      "options": null,
+      "answer": "voluntary",
+      "explanation": "Trước danh từ 'activities' cần một tính từ. 'Voluntary activities' là các hoạt động tình nguyện."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "text": "After her parents passed away, the little girl was sent to a local ___________.",
+      "options": {
+        "A": "hospital",
+        "B": "orphanage",
+        "C": "theatre",
+        "D": "stadium"
+      },
+      "answer": "B",
+      "explanation": "'Orphanage' là trại trẻ mồ côi, phù hợp với ngữ cảnh trẻ em mất cha mẹ."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "Modern ___________ like washing machines and dishwashers save us a lot of time. (APPLY)",
+      "options": null,
+      "answer": "appliances",
+      "explanation": "'Household appliances' là thiết bị gia dụng. Ở đây cần dạng số nhiều vì có 'washing machines and dishwashers'."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "text": "Leonardo da Vinci was ___________ a brilliant artist and a talented inventor.",
+      "options": {
+        "A": "neither",
+        "B": "either",
+        "C": "both",
+        "D": "not"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'both A and B' dùng để chỉ cả hai vai trò/đặc điểm của một người."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "You should check your ___________ before the speech. (PRONOUNCE)",
+      "options": null,
+      "answer": "pronunciation",
+      "explanation": "Sau tính từ sở hữu 'your' cần một danh từ. 'Pronunciation' nghĩa là cách phát âm."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "text": "My older sister works ___________ a nurse in a large hospital in the city center.",
+      "options": {
+        "A": "as",
+        "B": "for",
+        "C": "like",
+        "D": "at"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'work as + danh từ chỉ nghề nghiệp' để nói về công việc của ai đó."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "Sit on this armchair; it is much more ___________ than that one. (COMFORT)",
+      "options": null,
+      "answer": "comfortable",
+      "explanation": "Sau 'more' trong cấu trúc so sánh hơn cần một tính từ. 'Comfortable' nghĩa là dễ chịu, thoải mái."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "text": "Mozart began composing music at the ___________ of five.",
+      "options": {
+        "A": "old",
+        "B": "time",
+        "C": "year",
+        "D": "age"
+      },
+      "answer": "D",
+      "explanation": "Cụm từ 'at the age of + số tuổi' dùng để chỉ một mốc thời gian theo độ tuổi."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "The local government is trying to help the poor ___________ money. (EARN)",
+      "options": null,
+      "answer": "earn",
+      "explanation": "Cụm từ 'earn money' nghĩa là kiếm tiền từ sức lao động."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "text": "She has lived in this small apartment ___________ 2010.",
+      "options": {
+        "A": "for",
+        "B": "since",
+        "C": "at",
+        "D": "in"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'since' với một mốc thời gian cụ thể (2010) trong thì hiện tại hoàn thành."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "I found the movie very ___________; I couldn't take my eyes off the screen. (INTEREST)",
+      "options": null,
+      "answer": "interesting",
+      "explanation": "Dùng tính từ đuôi -ing để miêu tả tính chất của sự vật (bộ phim)."
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "text": "The price of this laptop is quite different ___________ the one I saw yesterday.",
+      "options": {
+        "A": "with",
+        "B": "to",
+        "C": "from",
+        "D": "at"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'different from' dùng để chỉ sự khác biệt giữa hai đối tượng."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "It is very ___________ to wear a face mask in public places. (IMPORTANCE)",
+      "options": null,
+      "answer": "important",
+      "explanation": "Cấu trúc 'It is + Adj + to-V'. Ta cần tính từ 'important' để hoàn thành câu."
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "text": "My younger brother is ___________ losing his keys. It's so annoying!",
+      "options": {
+        "A": "usually",
+        "B": "often",
+        "C": "always",
+        "D": "sometimes"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Be + always + V-ing' dùng để phàn nàn về một thói quen gây khó chịu."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "This job is not ___________ for people who want to work from home. (SUIT)",
+      "options": null,
+      "answer": "suitable",
+      "explanation": "Cần một tính từ sau 'is not'. 'Suitable' (phù hợp) đi với giới từ 'for'."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "Can you help me ___________ my science project this weekend?",
+      "options": {
+        "A": "with",
+        "B": "on",
+        "C": "for",
+        "D": "about"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'help someone with something' (giúp ai đó việc gì)."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "How far is it ___________ your house to the nearest supermarket?",
+      "options": null,
+      "answer": "from",
+      "explanation": "Cấu trúc 'from A to B' dùng để hỏi hoặc chỉ khoảng cách giữa hai địa điểm."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "He is a famous writer. He writes ___________ several fashion magazines.",
+      "options": {
+        "A": "to",
+        "B": "for",
+        "C": "with",
+        "D": "in"
+      },
+      "answer": "B",
+      "explanation": "Cụm từ 'write for' (viết bài cho một tổ chức/tờ báo)."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "Does your father work ___________ a farm or in a factory?",
+      "options": null,
+      "answer": "on",
+      "explanation": "Giới từ 'on' đi kèm với danh từ 'farm'."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "It is difficult ___________ Japanese in just six months.",
+      "options": {
+        "A": "learn",
+        "B": "learning",
+        "C": "to learn",
+        "D": "learned"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc chủ ngữ giả 'It is + Adj + to-V'."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "She is always ___________ (talk) in class, which makes the teacher angry.",
+      "options": null,
+      "answer": "talking",
+      "explanation": "Cấu trúc phàn nàn 'be always + V-ing'."
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "text": "Are you talking ___________ your classmates about the field trip?",
+      "options": {
+        "A": "for",
+        "B": "with",
+        "C": "at",
+        "D": "on"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'talk with/to someone' (nói chuyện với ai)."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "This room is ___________ from the one we stayed in last year. (DIFFER)",
+      "options": null,
+      "answer": "different",
+      "explanation": "Sau động từ tobe 'is' cần một tính từ. 'Different' là dạng tính từ của 'differ'."
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "text": "She is not ___________ to reach the top shelf.",
+      "options": {
+        "A": "tall enough",
+        "B": "enough tall",
+        "C": "short enough",
+        "D": "enough short"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'Adj + enough' (đủ... để làm gì). Tính từ phải đứng trước 'enough'."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "I haven't seen my cousin ___________ last Christmas.",
+      "options": null,
+      "answer": "since",
+      "explanation": "Dùng 'since' với một mốc thời gian cụ thể (Giáng sinh năm ngoái) trong thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "text": "My grandfather ___________ smoke when he was young, but he quit years ago.",
+      "options": {
+        "A": "uses to",
+        "B": "used to",
+        "C": "is used to",
+        "D": "was used to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'used to + V' diễn tả một thói quen trong quá khứ nay không còn nữa."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "How about ___________ (go) to the cinema tonight?",
+      "options": null,
+      "answer": "going",
+      "explanation": "Sau cấu trúc gợi ý 'How about' động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "text": "They have lived in this city ___________ twenty years.",
+      "options": {
+        "A": "since",
+        "B": "for",
+        "C": "during",
+        "D": "in"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'for' với một khoảng thời gian (20 năm) trong thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "Don't worry about me. I can do it by ___________. (I)",
+      "options": null,
+      "answer": "myself",
+      "explanation": "Cụm từ 'by myself' nghĩa là tự mình làm (đại từ phản thân của 'I')."
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "text": "When did you ___________ your old teacher?",
+      "options": {
+        "A": "last meet",
+        "B": "lastly meet",
+        "C": "meet last",
+        "D": "meeting last"
+      },
+      "answer": "A",
+      "explanation": "Trong câu hỏi thì Quá khứ đơn với 'last' (lần cuối), trạng từ 'last' thường đứng trước động từ nguyên mẫu."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "He is very ___________; he can carry these heavy bags easily. (STRENGTH)",
+      "options": null,
+      "answer": "strong",
+      "explanation": "Sau trạng từ 'very' cần một tính từ. 'Strong' là tính từ của danh từ 'strength'."
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "text": "He is not ___________ to drive a car. He is only 15.",
+      "options": {
+        "A": "old enough",
+        "B": "enough old",
+        "C": "young enough",
+        "D": "enough young"
+      },
+      "answer": "A",
+      "explanation": "Dựa vào ngữ cảnh 15 tuổi là chưa đủ tuổi lái xe, dùng 'old enough'."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "We ___________ (start) learning English five years ago.",
+      "options": null,
+      "answer": "started",
+      "explanation": "Dấu hiệu 'five years ago' cho biết câu ở thì Quá khứ đơn."
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "text": "It is ___________ that he is moving to another country next month.",
+      "options": {
+        "A": "surprise",
+        "B": "surprised",
+        "C": "surprising",
+        "D": "surprisingly"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'It is + Adj'. Ta dùng tính từ đuôi -ing để miêu tả tính chất của một sự việc."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "She used to be a ___________ runner when she was at school. (FASTEN)",
+      "options": null,
+      "answer": "fast",
+      "explanation": "Cần một tính từ trước danh từ 'runner'. 'Fast' vừa là tính từ vừa là trạng từ."
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "text": "Look at those dark clouds! It ___________ soon.",
+      "options": {
+        "A": "will rain",
+        "B": "is going to rain",
+        "C": "rains",
+        "D": "is raining"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'be going to' để dự đoán một sự việc sắp xảy ra dựa trên bằng chứng hiện tại (mây đen)."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "I am bored with ___________ the same thing every day. (DO)",
+      "options": null,
+      "answer": "doing",
+      "explanation": "Sau giới từ 'with', động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "text": "The Earth's ___________ is mostly covered by water.",
+      "options": {
+        "A": "face",
+        "B": "surface",
+        "C": "outside",
+        "D": "cover"
+      },
+      "answer": "B",
+      "explanation": "'Surface' (bề mặt) là từ chính xác để miêu tả lớp vỏ bên ngoài của Trái Đất."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "They have ___________ to move to a new house next month. (DECISION)",
+      "options": null,
+      "answer": "decided",
+      "explanation": "Sau 'have' trong thì hiện tại hoàn thành cần một động từ ở dạng quá khứ phân từ (V3)."
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "text": "Could you please ___________ making so much noise? I'm studying.",
+      "options": {
+        "A": "stop",
+        "B": "to stop",
+        "C": "stopping",
+        "D": "stopped"
+      },
+      "answer": "A",
+      "explanation": "Sau 'Could you please' là động từ nguyên mẫu không 'to'."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "How many ___________ are there in your country? (SEASON)",
+      "options": null,
+      "answer": "seasons",
+      "explanation": "Sau 'How many' cần một danh từ đếm được số nhiều."
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "text": "She ___________ the broken window with a piece of plastic yesterday.",
+      "options": {
+        "A": "covers",
+        "B": "covered",
+        "C": "is covering",
+        "D": "has covered"
+      },
+      "answer": "B",
+      "explanation": "Dấu hiệu 'yesterday' cho biết câu ở thì Quá khứ đơn."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "I'm sorry, I can't open the door. It is ___________. (LOCK)",
+      "options": null,
+      "answer": "locked",
+      "explanation": "Cần một tính từ hoặc phân từ hai để chỉ trạng thái của cái cửa (bị khóa)."
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "text": "We've been ___________ for this company for over ten years.",
+      "options": {
+        "A": "work",
+        "B": "to work",
+        "C": "worked",
+        "D": "working"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc thì Hiện tại hoàn thành tiếp diễn: 'have been + V-ing'."
+    },
+    {
+      "id": 94,
+      "type": "text",
+      "text": "The lecture was so ___________ that everyone fell asleep. (INTEREST)",
+      "options": null,
+      "answer": "uninteresting",
+      "explanation": "Dựa vào ngữ cảnh 'mọi người ngủ gật', ta cần tính từ mang nghĩa tiêu cực (không thú vị)."
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "text": "This is the first time I ___________ this kind of fruit.",
+      "options": {
+        "A": "eat",
+        "B": "ate",
+        "C": "have eaten",
+        "D": "am eating"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'This is the first time + Present Perfect' để nói về trải nghiệm."
+    },
+    {
+      "id": 96,
+      "type": "text",
+      "text": "The teacher ___________ the class to be quiet. (ASK)",
+      "options": null,
+      "answer": "asked",
+      "explanation": "Động từ chia ở quá khứ đơn để thuật lại lời yêu cầu của giáo viên."
+    },
+    {
+      "id": 97,
+      "type": "text",
+      "text": "The campaign was a great success. They raised the funds ___________. (SUCCESS)",
+      "options": null,
+      "answer": "successfully",
+      "explanation": "Cần một trạng từ (successfully) để bổ nghĩa cho động từ 'raised'."
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "text": "Children who lose their parents often live in a(n) ___________.",
+      "options": {
+        "A": "hospital",
+        "B": "orphanage",
+        "C": "theatre",
+        "D": "school"
+      },
+      "answer": "B",
+      "explanation": "'Orphanage' nghĩa là trại trẻ mồ môi, nơi nuôi dưỡng trẻ em mất cha mẹ."
+    },
+    {
+      "id": 99,
+      "type": "text",
+      "text": "To improve your English, you should practice your ___________ every day. (PRONOUNCE)",
+      "options": null,
+      "answer": "pronunciation",
+      "explanation": "Sau tính từ sở hữu 'your' cần một danh từ. 'Pronunciation' là cách phát âm."
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "text": "Don't sit on that chair. It's very ___________.",
+      "options": {
+        "A": "comfort",
+        "B": "comfortable",
+        "C": "uncomfortable",
+        "D": "comfortably"
+      },
+      "answer": "C",
+      "explanation": "Dựa vào lời khuyên 'Đừng ngồi', ta cần tính từ mang nghĩa tiêu cực 'uncomfortable' (không thoải mái)."
+    },
+    {
+      "id": 101,
+      "type": "text",
+      "text": "We need to buy some new ___________ appliances for our kitchen. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm từ 'household appliances' chỉ các thiết bị dùng trong gia đình."
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "text": "The teacher told the students to do their ___________ to pass the exam.",
+      "options": {
+        "A": "good",
+        "B": "well",
+        "C": "best",
+        "D": "better"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'do one's best' có nghĩa là cố gắng hết sức mình."
+    },
+    {
+      "id": 103,
+      "type": "text",
+      "text": "He decided to join the ___________ program to help local children. (VOLUNTEER)",
+      "options": null,
+      "answer": "voluntary / volunteer",
+      "explanation": "Trước danh từ 'program' cần một tính từ. 'Voluntary' (tình nguyện) là lựa chọn phổ biến nhất."
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "text": "Is there any difference ___________ the two versions of this song?",
+      "options": {
+        "A": "among",
+        "B": "between",
+        "C": "with",
+        "D": "from"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'between' khi so sánh sự khác biệt giữa hai đối tượng."
+    },
+    {
+      "id": 105,
+      "type": "text",
+      "text": "Charlie Chaplin was a famous ___________ and film director. (ACT)",
+      "options": null,
+      "answer": "actor",
+      "explanation": "Cần danh từ chỉ người 'actor' (diễn viên) để tương ứng với 'film director' (đạo diễn)."
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "text": "I'm not used to ___________ a bus to work; I usually drive.",
+      "options": {
+        "A": "take",
+        "B": "taking",
+        "C": "took",
+        "D": "taken"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'be used to + V-ing' diễn tả việc đang quen với điều gì đó. Cụm từ đi kèm là 'take a bus'."
+    },
+    {
+      "id": 107,
+      "type": "text",
+      "text": "He has lived in London ___________ he was born. (SINCE/FOR)",
+      "options": null,
+      "answer": "since",
+      "explanation": "Dùng 'since' trước một mốc thời gian hoặc một mệnh đề ở thì quá khứ đơn."
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "text": "Traveling by plane is ___________ more expensive than by train.",
+      "options": {
+        "A": "many",
+        "B": "very",
+        "C": "much",
+        "D": "more"
+      },
+      "answer": "C",
+      "explanation": "Dùng 'much' để nhấn mạnh cho tính từ so sánh hơn (much more expensive)."
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "text": "The box is ___________ for me to carry alone. Can you help me?",
+      "options": {
+        "A": "heavy enough",
+        "B": "enough heavy",
+        "C": "too heavy",
+        "D": "heavy too"
+      },
+      "answer": "C",
+      "explanation": "Dựa vào câu 'Can you help me?', ta hiểu cái hộp 'quá nặng' (too heavy) để bê một mình. Nếu dùng 'enough' phải là 'light enough' (đủ nhẹ)."
+    },
+    {
+      "id": 110,
+      "type": "text",
+      "text": "We should reduce the use of plastic to protect the ___________. (ENVIRONMENT)",
+      "options": null,
+      "answer": "environment",
+      "explanation": "Cần một danh từ sau mạo từ 'the'. 'Environment' nghĩa là môi trường."
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "text": "My sister ___________ play with dolls when she was a little girl.",
+      "options": {
+        "A": "is used to",
+        "B": "used to",
+        "C": "get used to",
+        "D": "uses to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'used to + V' diễn tả thói quen trong quá khứ."
+    },
+    {
+      "id": 112,
+      "type": "text",
+      "text": "How about ___________ (have) a picnic by the river this Sunday?",
+      "options": null,
+      "answer": "having",
+      "explanation": "Sau cấu trúc đề nghị 'How about', động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "text": "You are ___________ losing your umbrella! Be more careful.",
+      "options": {
+        "A": "often",
+        "B": "usually",
+        "C": "always",
+        "D": "never"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'be + always + V-ing' dùng để phàn nàn về một hành động gây khó chịu."
+    },
+    {
+      "id": 114,
+      "type": "text",
+      "text": "It is ___________ for students to do their homework before class. (IMPORTANCE)",
+      "options": null,
+      "answer": "important",
+      "explanation": "Cấu trúc 'It is + Adj + to-V'. Tính từ của 'importance' là 'important'."
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "text": "I don't have ___________ money as you do.",
+      "options": {
+        "A": "as many",
+        "B": "as much",
+        "C": "more",
+        "D": "less"
+      },
+      "answer": "B",
+      "explanation": "So sánh không bằng với danh từ không đếm được (money) dùng 'as much ... as'."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "He is not ___________ to join the army. He is too young. (STRENGTH)",
+      "options": null,
+      "answer": "strong enough",
+      "explanation": "Cần cấu trúc 'Adj + enough'. Tính từ của 'strength' là 'strong'."
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "text": "She did all the decorations by ___________.",
+      "options": {
+        "A": "her",
+        "B": "hers",
+        "C": "herself",
+        "D": "she"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'by herself' đồng nghĩa với 'alone/on her own' (tự mình làm)."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "I haven't met him ___________ we left school in 2020.",
+      "options": null,
+      "answer": "since",
+      "explanation": "Dùng 'since' trước một mốc thời gian hoặc mệnh đề quá khứ đơn trong thì hiện tại hoàn thành."
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "text": "Farmers usually have to do a lot of ___________ work.",
+      "options": {
+        "A": "heavy",
+        "B": "hardly",
+        "C": "light",
+        "D": "easy"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ 'heavy work' chỉ công việc nặng nhọc, phù hợp với ngữ cảnh công việc của nông dân."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "When ___________ you last see her? (DO)",
+      "options": null,
+      "answer": "did",
+      "explanation": "Câu hỏi thời điểm trong quá khứ với 'last', ta dùng trợ động từ 'did'."
+    }
+  ]
+}

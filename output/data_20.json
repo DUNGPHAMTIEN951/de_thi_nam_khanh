@@ -1,0 +1,2541 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: cliam, wait, said, paid",
+      "options": {
+        "A": "cliam",
+        "B": "wait",
+        "C": "said",
+        "D": "paid"
+      },
+      "answer": "C",
+      "explanation": "'Said' phát âm là /sed/ (âm 'e'), trong khi các từ còn lại phát âm là /eɪ/."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: watch, bath, want, wash",
+      "options": {
+        "A": "watch",
+        "B": "bath",
+        "C": "want",
+        "D": "wash"
+      },
+      "answer": "B",
+      "explanation": "'Bath' thường phát âm là /bɑːθ/ (Anh-Anh) hoặc /bæθ/ (Anh-Mỹ), các từ còn lại có âm /ɒ/ hoặc /ɔː/."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: sure, mixture, injure, pleasure",
+      "options": {
+        "A": "sure",
+        "B": "mixture",
+        "C": "injure",
+        "D": "pleasure"
+      },
+      "answer": "A",
+      "explanation": "'Sure' phát âm là /ʃɔː(r)/ (âm 'sh'), các từ còn lại kết thúc bằng âm /tʃə(r)/, /dʒə(r)/ hoặc /ʒə(r)/."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: few, new, threw, knew",
+      "options": {
+        "A": "few",
+        "B": "new",
+        "C": "threw",
+        "D": "knew"
+      },
+      "answer": "C",
+      "explanation": "'Threw' phát âm là /θruː/ (âm 'u:'), các từ còn lại phát âm là /juː/."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: clothes, matches, colleges, churches",
+      "options": {
+        "A": "clothes",
+        "B": "matches",
+        "C": "colleges",
+        "D": "churches"
+      },
+      "answer": "A",
+      "explanation": "'Clothes' phát âm đuôi là /z/, các từ còn lại phát âm đuôi là /ɪz/."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: watched, naked, liked, looked",
+      "options": {
+        "A": "watched",
+        "B": "naked",
+        "C": "liked",
+        "D": "looked"
+      },
+      "answer": "B",
+      "explanation": "'Naked' là trường hợp đặc biệt phát âm là /ɪd/, các từ còn lại phát âm đuôi 'ed' là /t/."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: sunbathe, father, theater, weather",
+      "options": {
+        "A": "sunbathe",
+        "B": "father",
+        "C": "theater",
+        "D": "weather"
+      },
+      "answer": "C",
+      "explanation": "'Theater' phát âm âm 'th' là /θ/ (vô thanh), các từ còn lại là /ð/ (hữu thanh)."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: pour, four, flour, resource",
+      "options": {
+        "A": "pour",
+        "B": "four",
+        "C": "flour",
+        "D": "resource"
+      },
+      "answer": "C",
+      "explanation": "'Flour' phát âm là /ˈflaʊə(r)/, các từ còn lại có âm /ɔː(r)/."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: clear, wear, bear, ware",
+      "options": {
+        "A": "clear",
+        "B": "wear",
+        "C": "bear",
+        "D": "ware"
+      },
+      "answer": "A",
+      "explanation": "'Clear' phát âm là /klɪə(r)/, các từ còn lại có âm /eə(r)/."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: sixty, my, sky, fly",
+      "options": {
+        "A": "sixty",
+        "B": "my",
+        "C": "sky",
+        "D": "fly"
+      },
+      "answer": "A",
+      "explanation": "'Sixty' kết thúc bằng âm /i/, các từ còn lại kết thúc bằng âm /aɪ/."
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "text": "Yesterday, I (1. spend) ……………… two hours (2. do)………… the homework.",
+      "options": null,
+      "answer": "1. spent / 2. doing",
+      "explanation": "1. Yesterday là dấu hiệu quá khứ đơn (V2/ed). 2. Cấu trúc 'spend time doing something' (dành thời gian làm việc gì)."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "The thiefs (3. catch)…………….. when they (4. leave)………….. the bank.",
+      "options": null,
+      "answer": "3. were caught / 4. were leaving",
+      "explanation": "3. Câu bị động ở quá khứ đơn (những tên trộm bị bắt). 4. Hành động đang xảy ra trong quá khứ (đang rời ngân hàng) thì hành động khác xen vào."
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "text": "Two hours ago, Mrs Brown (5. have)………… Alice (6. take)……….. her son to the school.",
+      "options": null,
+      "answer": "5. had / 6. take",
+      "explanation": "5. 'Two hours ago' dùng quá khứ đơn. 6. Cấu trúc nhờ vả chủ động: 'have someone do something' (nhờ ai làm gì)."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "How many times you (7. be)………… to Ho Chi Minh City?",
+      "options": null,
+      "answer": "7. have you been",
+      "explanation": "Hỏi về trải nghiệm (đã từng bao nhiêu lần) dùng thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "text": "The moon (8. move)……………… around the earth.",
+      "options": null,
+      "answer": "8. moves",
+      "explanation": "Diễn tả một sự thật hiển nhiên/chân lý dùng thì Hiện tại đơn."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "Next summer, my parents will let me (9. visit)…………….. my grandfather.",
+      "options": null,
+      "answer": "9. visit",
+      "explanation": "Cấu trúc 'let someone do something' (cho phép ai làm gì), động từ để nguyên mẫu không 'to'."
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "text": "How about (10. go)……………… to the zoo?",
+      "options": null,
+      "answer": "10. going",
+      "explanation": "Sau cấu trúc gợi ý 'How about' là động từ thêm đuôi -ing."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "She went out the room ………………….. saying a word.",
+      "options": null,
+      "answer": "without",
+      "explanation": "'Without saying a word' nghĩa là mà không nói một lời nào."
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "text": "The life in the countryside is changing …………. better.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cụm từ 'change for the better' nghĩa là thay đổi theo hướng tốt lên."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "She was born ……………… 2 o’clock …………….. 18th July.",
+      "options": null,
+      "answer": "at / on",
+      "explanation": "Dùng 'at' trước giờ cụ thể và 'on' trước ngày/tháng."
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "text": "Mary is thinking ……………… importing flowers ………….. China.",
+      "options": null,
+      "answer": "of (hoặc about) / from",
+      "explanation": "'Think of/about' (nghĩ về) và 'import from' (nhập khẩu từ đâu)."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "They are traveling ……………….. the airport …………….. a bus.",
+      "options": null,
+      "answer": "to / by",
+      "explanation": "'Travel to' (đi đến đâu) và 'by bus' (bằng xe buýt)."
+    },
+    {
+      "id": 23,
+      "type": "text",
+      "text": "I am afraid………………. Ghost.",
+      "options": null,
+      "answer": "of",
+      "explanation": "Cấu trúc 'be afraid of something/somebody' có nghĩa là sợ hãi cái gì/ai đó."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "The fight………………... deforestation is very important.",
+      "options": null,
+      "answer": "against",
+      "explanation": "Cụm từ 'the fight against something' có nghĩa là cuộc chiến chống lại cái gì đó (ở đây là chống nạn phá rừng)."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "Ha Long Bay is in………………… VietNam (north).",
+      "options": null,
+      "answer": "Northern",
+      "explanation": "Cần một tính từ chỉ phương hướng để bổ nghĩa cho danh từ 'VietNam'. 'Northern' nghĩa là thuộc về phía Bắc."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "The wild animals are being…………………..(appear).",
+      "options": null,
+      "answer": "disappearing",
+      "explanation": "Dựa vào ngữ cảnh 'đang bị/đang trở nên', ta dùng 'disappearing' (đang dần biến mất) để chỉ thực trạng của động vật hoang dã."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "I couldn’t find any………………. between the two pictures (different).",
+      "options": null,
+      "answer": "difference",
+      "explanation": "Sau 'any' cần một danh từ. 'Difference' nghĩa là sự khác biệt."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "She is a ……………… she sells flowers at a shop in Canada (flower).",
+      "options": null,
+      "answer": "florist",
+      "explanation": "Cần một danh từ chỉ người. 'Florist' là người bán hoa/chủ cửa hàng hoa."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "Long put…………… on that towel to stop the bleeding (press).",
+      "options": null,
+      "answer": "pressure",
+      "explanation": "Cụm từ 'put pressure on something' nghĩa là gây áp lực/đè nén lên cái gì đó."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "The question isn’t good. It’s ………….. to ask (import).",
+      "options": null,
+      "answer": "unimportant",
+      "explanation": "Dựa vào vế trước 'câu hỏi không tốt', ta cần một tính từ mang nghĩa phủ định: 'unimportant' (không quan trọng)."
+    },
+    {
+      "id": 31,
+      "type": "text",
+      "text": "His father soon died of a ……………… heart (break).",
+      "options": null,
+      "answer": "broken",
+      "explanation": "Cụm từ 'a broken heart' nghĩa là một trái tim tan vỡ (thường dùng để chỉ sự đau buồn tột độ)."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "Don’t let the child go out because it’s……………. (wind).",
+      "options": null,
+      "answer": "windy",
+      "explanation": "Sau 'It's' (It is) cần một tính từ để miêu tả thời tiết. 'Windy' nghĩa là có gió/trời lộng gió."
+    },
+    {
+      "id": 33,
+      "type": "text",
+      "text": "I am going to have a……………… check-up next Monday (medicine).",
+      "options": null,
+      "answer": "medical",
+      "explanation": "Cụm từ 'medical check-up' nghĩa là kiểm tra sức khỏe/khám tổng quát."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "The knife is ……………… it can cut everything (use).",
+      "options": null,
+      "answer": "useful",
+      "explanation": "Vế sau 'có thể cắt mọi thứ' cho thấy con dao rất có ích, vì vậy dùng tính từ 'useful'."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "text": "I finish ………….. the book and went to bed.",
+      "options": {
+        "A": "read",
+        "B": "to read",
+        "C": "reading",
+        "D": "reads"
+      },
+      "answer": "C",
+      "explanation": "Sau động từ 'finish' ta sử dụng danh động từ (V-ing)."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "text": "That man can tell us where …………….",
+      "options": {
+        "A": "does John live",
+        "B": "is John living",
+        "C": "John lives",
+        "D": "John live"
+      },
+      "answer": "C",
+      "explanation": "Đây là câu hỏi gián tiếp (Embedded question), trật tự từ phải là S + V và không dùng trợ động từ như câu hỏi trực tiếp."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "text": "…………… clothes do you prefer, T- shirt or pullover?",
+      "options": {
+        "A": "Which",
+        "B": "What",
+        "C": "Where",
+        "D": "How"
+      },
+      "answer": "A",
+      "explanation": "Dùng 'Which' khi muốn hỏi về sự lựa chọn giữa các đối tượng cụ thể đã được đưa ra (T-shirt or pullover)."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "text": "Can you …………… your paper with you when I come there, please?",
+      "options": {
+        "A": "collect",
+        "B": "bring",
+        "C": "get",
+        "D": "take"
+      },
+      "answer": "B",
+      "explanation": "'Bring' dùng để diễn tả việc mang vật gì đó đến gần người nói hơn."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "text": "Smoking is harmful …………….. your health.",
+      "options": {
+        "A": "on",
+        "B": "for",
+        "C": "to",
+        "D": "about"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'be harmful to somebody/something' (có hại cho ai/cái gì)."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "text": "Do you find anything …………….. there?",
+      "options": {
+        "A": "interested",
+        "B": "useful",
+        "C": "bored",
+        "D": "easily"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'find + something + adj'. 'Useful' (hữu ích) là tính từ phù hợp nhất về cả ngữ pháp và ngữ nghĩa."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "text": "Ann is very busy these days. She has …………… free time.",
+      "options": {
+        "A": "much",
+        "B": "many",
+        "C": "little",
+        "D": "few"
+      },
+      "answer": "C",
+      "explanation": "Vì Ann bận rộn nên cô ấy có 'ít' thời gian. 'Time' là danh từ không đếm được nên dùng 'little'."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "text": "It’s raining very ……………",
+      "options": {
+        "A": "wet",
+        "B": "badly",
+        "C": "hard",
+        "D": "firmly"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'rain hard' có nghĩa là mưa to, mưa nặng hạt."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "text": "A new shopping [center] is ……………. In my neighborhood today.",
+      "options": {
+        "A": "being opened",
+        "B": "opened",
+        "C": "opening",
+        "D": "be opened"
+      },
+      "answer": "A",
+      "explanation": "Câu bị động ở thì hiện tại tiếp diễn (am/is/are + being + V3/ed) diễn tả một hành động đang được thực hiện."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "text": "The stolen machines were ………………. a lot of money.",
+      "options": {
+        "A": "valued",
+        "B": "cost",
+        "C": "price",
+        "D": "worth"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'be worth + amount of money' dùng để chỉ giá trị của một vật gì đó."
+    },
+    {
+      "id": 45,
+      "type": "text",
+      "text": "Has anyone asked you for your opinions? (Rewrite using Passive Voice)",
+      "options": null,
+      "answer": "Have you been asked for your opinions?",
+      "explanation": "Chuyển từ câu chủ động sang bị động ở thì Hiện tại hoàn thành: Have/Has + S + been + V3/ed?"
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "Nam said that... (Câu này trong đề gốc bị thiếu vế sau để chuyển đổi, thường là chuyển từ câu trực tiếp sang gián tiếp)",
+      "options": null,
+      "answer": "N/A",
+      "explanation": "Đề bài đưa ra cấu trúc câu gián tiếp nhưng thiếu nội dung câu trực tiếp phía trước để hoàn thiện."
+    },
+    {
+      "id": 47,
+      "type": "text",
+      "text": "I had a dog once, but I don’t have anymore.",
+      "options": null,
+      "answer": "I used to have a dog.",
+      "explanation": "Sử dụng cấu trúc 'used to + V-inf' để diễn tả một thói quen hoặc trạng thái đã từng có trong quá khứ nhưng giờ không còn nữa."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "The water was so cold that the children couldn’t swim in it. (Rewrite using 'too')",
+      "options": null,
+      "answer": "The water was too cold for the children to swim in.",
+      "explanation": "Chuyển đổi cấu trúc 'so... that' (quá đến nỗi mà) sang 'too... for someone to do something' (quá... để cho ai làm gì)."
+    },
+    {
+      "id": 49,
+      "type": "text",
+      "text": "The water was so cold that the children couldn’t swim in it.",
+      "options": null,
+      "answer": "The water was too cold for the children to swim in.",
+      "explanation": "Cấu trúc 'so + adj + that + clause' chuyển sang 'too + adj + for someone to do something'."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "“Eat more and more vegetables,” the doctor said.",
+      "options": null,
+      "answer": "The doctor told me to eat more and more vegetables.",
+      "explanation": "Chuyển từ câu mệnh lệnh trực tiếp sang gián tiếp: S + told + sb + to-V."
+    },
+    {
+      "id": 51,
+      "type": "text",
+      "text": "To live on your salary must be hard.",
+      "options": null,
+      "answer": "It must be hard to live on your salary.",
+      "explanation": "Sử dụng chủ ngữ giả 'It': It + be + adj + to-V."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "Tom is the best player in the team.",
+      "options": null,
+      "answer": "No one in the team is better than Tom (hoặc as good as Tom).",
+      "explanation": "Chuyển từ so sánh nhất sang so sánh hơn hoặc so sánh bằng với danh từ phủ định."
+    },
+    {
+      "id": 53,
+      "type": "text",
+      "text": "It’s interesting to read this book.",
+      "options": null,
+      "answer": "This book is interesting to read.",
+      "explanation": "Chuyển đổi cấu trúc chủ ngữ giả 'It' sang dùng danh từ làm chủ ngữ chính."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "I spend half an hour traveling to work by motorbike everyday.",
+      "options": null,
+      "answer": "It takes me half an hour to travel to work by motorbike everyday.",
+      "explanation": "Chuyển đổi giữa hai cấu trúc tương đương: S + spend + time + V-ing = It takes + sb + time + to-V."
+    },
+    {
+      "id": 55,
+      "type": "text",
+      "text": "Peter said he wasn’t feeling well then.",
+      "options": null,
+      "answer": "Peter said “I am not feeling well now.”",
+      "explanation": "Chuyển từ câu gián tiếp sang câu trực tiếp. Lùi thì và trạng từ: 'wasn't' thành 'am not', 'then' thành 'now'."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "A boy was injured in the accident, he is now in the hospital.",
+      "options": null,
+      "answer": "The boy who was injured in the accident is now in the hospital.",
+      "explanation": "Sử dụng đại từ quan hệ 'who' để nối hai câu có cùng đối tượng."
+    },
+    {
+      "id": 57,
+      "type": "text",
+      "text": "Find and correct mistakes in the passage: 'In a modern life today, the work of the farm is less hard because he is helped a lot by machines...'",
+      "options": null,
+      "answer": "1. a modern life -> modern life; 2. mean -> means; 3. work hours -> working hours; 4. intertain -> entertainment; 5. Her life -> His life; 6. better and good -> better and better; 7. universityes -> universities; 8. have -> has; 9. hardly -> hard",
+      "explanation": "Các lỗi sai bao gồm: mạo từ (a), chia động từ số ít (means/has), danh từ ghép (working hours), loại từ (entertainment), tính từ sở hữu đồng nhất (His), cấu trúc so sánh lũy tiến (better and better), lỗi chính tả (universities) và trạng từ (hardly là hiếm khi, phải dùng hard là chăm chỉ)."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "Can newspapers be recycled?",
+      "options": null,
+      "answer": "Yes, they can. (Most types of paper can be recycled. Newspapers have been recycled profitably for decades).",
+      "explanation": "Dựa vào câu đầu tiên và câu thứ hai của đoạn văn bản: 'Most types of paper can be recycled. Newspapers have been recycled profitably for decades'."
+    },
+    {
+      "id": 59,
+      "type": "text",
+      "text": "Why should all paper products be marked with the percentage and type of recycled content?",
+      "options": null,
+      "answer": "Because it’s important to know what you are buying in a paper product, as 'recycled paper' can mean anything from 100% to 1% recycled content.",
+      "explanation": "Dựa vào đoạn văn: 'It’s important to know what you are buying in a paper product, for that reason virtually all paper products should be marked...'"
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Are all recycled paper products the same?",
+      "options": null,
+      "answer": "No, they aren't. (Recycled paper can mean anything from 100% true recycled paper to 1% re-manufactured ends).",
+      "explanation": "Đoạn văn giải thích rằng nhãn 'recycled paper' có thể chỉ hàm lượng tái chế khác nhau từ 1% đến 100%, nên chúng không giống nhau."
+    },
+    {
+      "id": 61,
+      "type": "text",
+      "text": "What does “Post-consumer” mean?",
+      "options": null,
+      "answer": "It means the paper that people return to recycling centers after using it.",
+      "explanation": "Dựa vào câu cuối của đoạn văn: '“Post- consumer” mean the paper that you and I return to recycling centers.'"
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "Điền dạng đúng của động từ/từ vựng cho các câu từ (2) đến (10) trong mục II và III (Dựa trên đáp án cho sẵn).",
+      "options": null,
+      "answer": "(2) doing, (4) were leaving, (6) take, (8) moves, (10) going",
+      "explanation": "Đây là danh sách các đáp án cho phần chia động từ hoặc điền từ trong đoạn văn bản."
+    },
+    {
+      "id": 63,
+      "type": "text",
+      "text": "Cung cấp giới từ phù hợp cho các câu từ 1 đến 7 trong mục III.",
+      "options": null,
+      "answer": "1. without, 2. for, 3. at – on, 4. of / about – from, 5. to / in, 6. of, 7. against",
+      "explanation": "Danh sách các giới từ tương ứng với các câu hỏi trong đề bài gốc."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "Cung cấp dạng đúng của từ (Word Form) cho các câu từ 1 đến 10 trong mục IV.",
+      "options": null,
+      "answer": "1. northern, 2. disappeared, 3. differences, 4. florist, 5. pressure, 6. unimportant, 7. broken, 8. windy, 9. medical, 10. useful",
+      "explanation": "Các biến thể của từ loại (danh từ, tính từ, động từ) dựa trên từ gốc của đề thi."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "Chọn đáp án đúng cho các câu hỏi trắc nghiệm từ 1 đến 10 trong mục V.",
+      "options": {
+        "1": "C",
+        "2": "C",
+        "3": "A",
+        "4": "B",
+        "5": "D",
+        "6": "B",
+        "7": "D",
+        "8": "C",
+        "9": "C",
+        "10": "D"
+      },
+      "answer": "Theo danh sách",
+      "explanation": "Bảng đáp án cho phần câu hỏi trắc nghiệm nhiều lựa chọn."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "Viết lại câu sau sang dạng bị động (Passive Voice): 'Has anyone asked you for your opinion?'",
+      "options": null,
+      "answer": "Have you been asked for your opinion?",
+      "explanation": "Chuyển đổi câu hỏi từ chủ động sang bị động ở thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 67,
+      "type": "text",
+      "text": "Rewrite the sentence: 'I don't have a dog anymore.' (Using 'Used to')",
+      "options": null,
+      "answer": "I used to have a dog.",
+      "explanation": "Cấu trúc 'used to + V-inf' diễn tả một thói quen hoặc trạng thái trong quá khứ nay không còn nữa."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "Rewrite the sentence: 'The water was too cold for the children to swim in.' (Using 'Enough')",
+      "options": null,
+      "answer": "The water wasn’t warm enough for the children to swim in.",
+      "explanation": "Cấu trúc 'not + adj (ngược nghĩa) + enough' tương đương với 'too + adj'."
+    },
+    {
+      "id": 69,
+      "type": "text",
+      "text": "Reported speech: 'Eat more and more vegetables,' the doctor said to me.",
+      "options": null,
+      "answer": "The doctor told me to eat more and more vegetables.",
+      "explanation": "Câu mệnh lệnh gián tiếp: S + told + sb + to-V."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "Rewrite the sentence: 'To live on your salary must be hard.' (Starting with 'It')",
+      "options": null,
+      "answer": "It must be hard to live on your salary.",
+      "explanation": "Sử dụng chủ ngữ giả 'It' để nhấn mạnh tính chất: It + be + adj + to-V."
+    },
+    {
+      "id": 71,
+      "type": "text",
+      "text": "Rewrite the sentence: 'Tom is the best player in the team.' (Using 'No one')",
+      "options": null,
+      "answer": "No one in the team plays as well as Tom.",
+      "explanation": "Chuyển đổi so sánh nhất sang so sánh bằng với đại từ phủ định 'No one'."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "Rewrite the sentence: 'It is interesting to read this book.'",
+      "options": null,
+      "answer": "This book is interesting to be read.",
+      "explanation": "Chuyển đổi từ cấu trúc chủ ngữ giả sang cấu trúc bị động với danh từ làm chủ ngữ."
+    },
+    {
+      "id": 73,
+      "type": "text",
+      "text": "Rewrite the sentence: 'I spend half an hour traveling to work by motorbike everyday.' (Using 'Takes')",
+      "options": null,
+      "answer": "It takes me half an hour to travel to work by motorbike everyday.",
+      "explanation": "Cấu trúc tương đương: S + spend + time + V-ing = It takes + sb + time + to-V."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "Direct speech: Peter said he wasn't feeling well then.",
+      "options": null,
+      "answer": "Peter said “I am not feeling well now”.",
+      "explanation": "Chuyển từ gián tiếp sang trực tiếp: lùi thì ngược lại (wasn't -> am not) và đổi trạng từ (then -> now)."
+    },
+    {
+      "id": 75,
+      "type": "text",
+      "text": "Combine sentences: A boy was injured in the accident. He is now in the hospital.",
+      "options": null,
+      "answer": "The boy injured in the accident is now in the hospital.",
+      "explanation": "Sử dụng mệnh đề quan hệ rút gọn (dạng bị động V3/ed) để nối hai câu."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "Find and correct mistakes in the passage based on the key: 1. farm, 2. mean, 3. work, 4. entertain, 5. Her, 6. good, 7. Berofe, 8. universityes, 9. have, 10. hardly.",
+      "options": null,
+      "answer": "1. farmer, 2. means, 3. working, 4. entertainment, 5. His, 6. better, 7. After, 8. universities, 9. has, 10. hard",
+      "explanation": "Chỉnh sửa lỗi về từ loại, chia động từ, lỗi chính tả và ngữ nghĩa trong ngữ cảnh bài đọc."
+    },
+    {
+      "id": 77,
+      "type": "text",
+      "text": "Reading Comprehension Questions: 1. Can newspapers be recycled? 2. Why mark paper products? 3. Are all recycled papers the same? 4. What is Post-consumer paper?",
+      "options": null,
+      "answer": "1. Yes, they can. 2. To help consumers know what they are buying. 3. No, they aren't. 4. It's the paper returned to recycling centers.",
+      "explanation": "Các câu hỏi vấn đáp dựa trên nội dung bài đọc về tái chế giấy."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "Pronounce",
+      "pron": "/prəˈnaʊns/",
+      "type": "verb",
+      "meaning": "Phát âm",
+      "example": "How do you pronounce this word correctly?"
+    },
+    {
+      "word": "Mixture",
+      "pron": "/ˈmɪkstʃə(r)/",
+      "type": "noun",
+      "meaning": "Sự pha trộn, hỗn hợp",
+      "example": "The city is a fascinating mixture of old and new."
+    },
+    {
+      "word": "Pleasure",
+      "pron": "/ˈpleʒə(r)/",
+      "type": "noun",
+      "meaning": "Niềm vui thích, sự hài lòng",
+      "example": "It is a pleasure to meet you."
+    },
+    {
+      "word": "Naked",
+      "pron": "/ˈneɪkɪd/",
+      "type": "adjective",
+      "meaning": "Trần trụi, không che đậy (trường hợp đặc biệt phát âm đuôi -ed là /ɪd/)",
+      "example": "The trees were naked after the storm."
+    },
+    {
+      "word": "Sunbathe",
+      "pron": "/ˈsʌnbeɪð/",
+      "type": "verb",
+      "meaning": "Tắm nắng",
+      "example": "They spent the whole afternoon sunbathing on the beach."
+    },
+    {
+      "word": "Resource",
+      "pron": "/rɪˈsɔːs/",
+      "type": "noun",
+      "meaning": "Nguồn lực, tài nguyên",
+      "example": "Water is a vital natural resource."
+    },
+    {
+      "word": "Injure",
+      "pron": "/ˈɪndʒə(r)/",
+      "type": "verb",
+      "meaning": "Làm bị thương",
+      "example": "He injured his leg while playing football."
+    },
+    {
+      "word": "Differently",
+      "pron": "/ˈdɪfrəntli/",
+      "type": "adverb",
+      "meaning": "Khác biệt, một cách khác nhau",
+      "example": "Each person perceives the world differently."
+    },
+    {
+      "word": "Spend time doing something",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Dành thời gian làm việc gì đó",
+      "example": "I spend two hours doing the homework every day."
+    },
+    {
+      "word": "Change for the better",
+      "pron": "N/A",
+      "type": "idiom",
+      "meaning": "Thay đổi theo hướng tốt lên, cải thiện",
+      "example": "The life in the countryside is changing for the better."
+    },
+    {
+      "word": "Without",
+      "pron": "/wɪˈðaʊt/",
+      "type": "preposition",
+      "meaning": "Mà không có, không làm gì đó (thường đi với V-ing)",
+      "example": "She went out the room without saying a word."
+    },
+    {
+      "word": "Import",
+      "pron": "/ˈɪmpɔːt/",
+      "type": "verb",
+      "meaning": "Nhập khẩu",
+      "example": "Many companies are thinking of importing flowers from China."
+    },
+    {
+      "word": "Let someone do something",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Để cho ai, cho phép ai làm gì (V nguyên mẫu không 'to')",
+      "example": "My parents will let me visit my grandfather next summer."
+    },
+    {
+      "word": "Thief",
+      "pron": "/θiːf/",
+      "type": "noun",
+      "meaning": "Kẻ trộm (số nhiều: thieves)",
+      "example": "The thieves were caught when they were leaving the bank."
+    },
+    {
+      "word": "Have someone do something",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Nhờ/thuê ai đó làm gì (cấu trúc nhờ vả chủ động)",
+      "example": "Mrs. Brown had Alice take her son to school."
+    },
+    {
+      "word": "How about + V-ing?",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Hay là làm gì đó đi? (Dùng để đưa ra lời gợi ý)",
+      "example": "How about going to the zoo this weekend?"
+    },
+    {
+      "word": "Afraid of",
+      "pron": "/əˈfreɪd əv/",
+      "type": "adjective phrase",
+      "meaning": "Sợ hãi cái gì/ai đó",
+      "example": "I am afraid of ghosts."
+    },
+    {
+      "word": "Fight against",
+      "pron": "/faɪt əˈɡenst/",
+      "type": "verb phrase",
+      "meaning": "Cuộc chiến chống lại cái gì (tệ nạn, thiên tai...)",
+      "example": "The fight against deforestation is very important."
+    },
+    {
+      "word": "Disappear",
+      "pron": "/ˌdɪsəˈpɪə(r)/",
+      "type": "verb",
+      "meaning": "Biến mất",
+      "example": "The wild animals are disappearing because of habitat loss."
+    },
+    {
+      "word": "Florist",
+      "pron": "/ˈflɒrɪst/",
+      "type": "noun",
+      "meaning": "Người bán hoa, chủ cửa hàng hoa",
+      "example": "She is a florist; she sells flowers at a shop in Canada."
+    },
+    {
+      "word": "Pressure",
+      "pron": "/ˈpreʃə(r)/",
+      "type": "noun",
+      "meaning": "Sức ép, áp lực",
+      "example": "Long put pressure on that towel to stop the bleeding."
+    },
+    {
+      "word": "Medical check-up",
+      "pron": "/ˈmedɪkl tʃek ʌp/",
+      "type": "noun phrase",
+      "meaning": "Kiểm tra sức khỏe, khám tổng quát",
+      "example": "I am going to have a medical check-up next Monday."
+    },
+    {
+      "word": "Northern",
+      "pron": "/ˈnɔːðən/",
+      "type": "adjective",
+      "meaning": "Thuộc về phía Bắc",
+      "example": "Ha Long Bay is in Northern Vietnam."
+    },
+    {
+      "word": "Difference",
+      "pron": "/ˈdɪfrəns/",
+      "type": "noun",
+      "meaning": "Sự khác biệt",
+      "example": "I couldn’t find any difference between the two pictures."
+    },
+    {
+      "word": "Finish + V-ing",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Hoàn thành việc làm gì đó",
+      "example": "I finish reading the book and went to bed."
+    },
+    {
+      "word": "Harmful to",
+      "pron": "/ˈhɑːmfʊl tuː/",
+      "type": "adjective phrase",
+      "meaning": "Có hại cho (sức khỏe, môi trường...)",
+      "example": "Smoking is harmful to your health."
+    },
+    {
+      "word": "Embedded question",
+      "pron": "N/A",
+      "type": "grammar",
+      "meaning": "Câu hỏi gián tiếp (dùng trật tự câu trần thuật: S + V)",
+      "example": "That man can tell us where John lives."
+    },
+    {
+      "word": "Little",
+      "pron": "/ˈlɪtl/",
+      "type": "determiner",
+      "meaning": "Ít (dùng cho danh từ không đếm được, mang nghĩa phủ định)",
+      "example": "She is very busy; she has little free time."
+    },
+    {
+      "word": "Bring",
+      "pron": "/brɪŋ/",
+      "type": "verb",
+      "meaning": "Mang/đem vật gì đó đến gần người nói",
+      "example": "Can you bring your paper with you when I come there?"
+    },
+    {
+      "word": "Which (clothes)",
+      "pron": "/wɪtʃ/",
+      "type": "pronoun",
+      "meaning": "Cái nào (dùng khi có sự lựa chọn giữa các phương án cụ thể)",
+      "example": "Which clothes do you prefer, T-shirt or pullover?"
+    },
+    {
+      "word": "Pullover",
+      "pron": "/ˈpʊləʊvə(r)/",
+      "type": "noun",
+      "meaning": "Áo len chui đầu",
+      "example": "Which clothes do you prefer, T-shirt or pullover?"
+    },
+    {
+      "word": "Find something + adj",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Cảm thấy/Thấy cái gì đó như thế nào",
+      "example": "Do you find anything useful there?"
+    },
+    {
+      "word": "Rain hard",
+      "pron": "N/A",
+      "type": "phrase",
+      "meaning": "Mưa to, mưa nặng hạt",
+      "example": "It’s raining very hard, so we should stay indoors."
+    },
+    {
+      "word": "Be worth",
+      "pron": "/biː wɜːθ/",
+      "type": "structure",
+      "meaning": "Đáng giá bao nhiêu/ Có giá trị là...",
+      "example": "The stolen machines were worth a lot of money."
+    },
+    {
+      "word": "Used to + V-inf",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Đã từng làm gì (thói quen hoặc trạng thái trong quá khứ nay không còn)",
+      "example": "I used to have a dog, but I don’t have it anymore."
+    },
+    {
+      "word": "So... that",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Quá... đến nỗi mà...",
+      "example": "The water was so cold that the children couldn’t swim in it."
+    },
+    {
+      "word": "Too... for someone to do",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Quá... để cho ai đó làm việc gì",
+      "example": "The water was too cold for the children to swim in."
+    },
+    {
+      "word": "Neighborhood",
+      "pron": "/ˈneɪbəhʊd/",
+      "type": "noun",
+      "meaning": "Khu vực lân cận, hàng xóm",
+      "example": "A new shopping center is being opened in my neighborhood today."
+    },
+    {
+      "word": "Opinion",
+      "pron": "/əˈpɪnjən/",
+      "type": "noun",
+      "meaning": "Ý kiến, quan điểm",
+      "example": "Has anyone asked you for your opinions?"
+    },
+    {
+      "word": "Passive Voice (Continuous)",
+      "pron": "N/A",
+      "type": "grammar",
+      "meaning": "Câu bị động ở thì tiếp diễn (am/is/are + being + V3/ed)",
+      "example": "A new shop is being opened in my neighborhood."
+    },
+    {
+      "word": "It takes (someone) time to do something",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Mất bao nhiêu thời gian để (ai đó) làm việc gì",
+      "example": "It takes me half an hour to travel to work by motorbike everyday."
+    },
+    {
+      "word": "The best / Better than",
+      "pron": "N/A",
+      "type": "grammar",
+      "meaning": "So sánh nhất và so sánh hơn (dùng để diễn đạt cùng một ý nghĩa)",
+      "example": "Tom is the best player in the team = No one in the team is better than Tom."
+    },
+    {
+      "word": "Injured",
+      "pron": "/ˈɪndʒəd/",
+      "type": "adjective",
+      "meaning": "Bị thương (thường do tai nạn)",
+      "example": "A boy was injured in the accident."
+    },
+    {
+      "word": "Live on (salary/income)",
+      "pron": "N/A",
+      "type": "phrasal verb",
+      "meaning": "Sống dựa vào (mức lương/thu nhập)",
+      "example": "To live on your salary must be hard."
+    },
+    {
+      "word": "It is + adj + to-V",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Thật là như thế nào khi làm việc gì đó (cấu trúc chủ ngữ giả)",
+      "example": "It’s interesting to read this book."
+    },
+    {
+      "word": "Reported Speech (Imperative)",
+      "pron": "N/A",
+      "type": "grammar",
+      "meaning": "Câu tường thuật dạng mệnh lệnh (S + told/asked + O + to-V)",
+      "example": "The doctor told me to eat more vegetables."
+    },
+    {
+      "word": "Vegetable",
+      "pron": "/ˈvedʒtəbl/",
+      "type": "noun",
+      "meaning": "Rau củ",
+      "example": "The doctor said I should eat more vegetables."
+    },
+    {
+      "word": "Relative Clause (Who)",
+      "pron": "N/A",
+      "type": "grammar",
+      "meaning": "Mệnh đề quan hệ với 'who' (dùng để nối hai câu có cùng chủ ngữ chỉ người)",
+      "example": "The boy who was injured in the accident is now in the hospital."
+    },
+    {
+      "word": "Recycle",
+      "pron": "/ˌriːˈsaɪkl/",
+      "type": "verb",
+      "meaning": "Tái chế",
+      "example": "Most types of paper can be recycled to protect the environment."
+    },
+    {
+      "word": "Profitably",
+      "pron": "/ˈprɒfɪtəbli/",
+      "type": "adverb",
+      "meaning": "Một cách có lãi, có lợi nhuận",
+      "example": "Newspapers have been recycled profitably for decades."
+    },
+    {
+      "word": "Virtually",
+      "pron": "/ˈvɜːtʃuəli/",
+      "type": "adverb",
+      "meaning": "Hầu như, gần như",
+      "example": "Virtually all paper products should be marked with the percentage of recycled content."
+    },
+    {
+      "word": "Entertainment",
+      "pron": "/ˌentəˈteɪnmənt/",
+      "type": "noun",
+      "meaning": "Sự giải trí, hình thức giải trí",
+      "example": "He has more free time for entertainment like watching television."
+    },
+    {
+      "word": "Better and better",
+      "pron": "N/A",
+      "type": "structure",
+      "meaning": "Ngày càng tốt hơn (so sánh lũy tiến)",
+      "example": "His life is getting better and better day by day."
+    },
+    {
+      "word": "Work hard",
+      "pron": "N/A",
+      "type": "phrase",
+      "meaning": "Làm việc chăm chỉ (tránh nhầm với 'hardly' nghĩa là hiếm khi)",
+      "example": "The farmer still has to work hard but his life is much improved."
+    },
+    {
+      "word": "Post-consumer",
+      "pron": "/ˌpəʊst kənˈsjuːmə(r)/",
+      "type": "adjective",
+      "meaning": "Sau tiêu dùng (vật liệu đã qua sử dụng và được thu gom để tái chế)",
+      "example": "Post-consumer paper is what we return to recycling centers."
+    },
+    {
+      "word": "Percentage",
+      "pron": "/pəˈsentɪdʒ/",
+      "type": "noun",
+      "meaning": "Tỷ lệ phần trăm",
+      "example": "Check the percentage of recycled content before buying paper products."
+    },
+    {
+      "word": "Be marked with",
+      "pron": "/biː mɑːkt wɪð/",
+      "type": "structure",
+      "meaning": "Được đánh dấu/ghi nhãn với (thông tin gì đó)",
+      "example": "All paper products should be marked with the percentage of recycled content."
+    },
+    {
+      "word": "Recycled content",
+      "pron": "/ˌriːˈsaɪkld ˈkɒntent/",
+      "type": "noun phrase",
+      "meaning": "Thành phần tái chế (lượng vật liệu tái chế có trong sản phẩm)",
+      "example": "The label shows that the book has 50% recycled content."
+    },
+    {
+      "word": "Virtually",
+      "pron": "/ˈvɜːtʃuəli/",
+      "type": "adverb",
+      "meaning": "Hầu như, gần như hoàn toàn",
+      "example": "Virtually all types of paper can be recycled profitably."
+    },
+    {
+      "word": "Post-consumer",
+      "pron": "/ˌpəʊst kənˈsjuːmə(r)/",
+      "type": "adjective",
+      "meaning": "Sau tiêu dùng (vật liệu đã qua sử dụng và được thu gom để tái chế)",
+      "example": "Post-consumer waste is the paper that we return to recycling centers."
+    },
+    {
+      "word": "Re-manufactured ends",
+      "pron": "/ˌriː mænjuˈfæktʃəd endz/",
+      "type": "noun phrase",
+      "meaning": "Phần dư thừa/đầu thừa trong quá trình tái sản xuất",
+      "example": "Some paper is made from re-manufactured ends of large paper rolls."
+    },
+    {
+      "word": "Profitably",
+      "pron": "/ˈprɒfɪtəbli/",
+      "type": "adverb",
+      "meaning": "Một cách có lãi, có lợi nhuận",
+      "example": "Newspapers have been recycled profitably for decades."
+    },
+    {
+      "word": "Disappear",
+      "pron": "/ˌdɪsəˈpɪə(r)/",
+      "type": "verb",
+      "meaning": "Biến mất",
+      "example": "The sun disappeared behind the clouds."
+    },
+    {
+      "word": "Difference",
+      "pron": "/ˈdɪfrəns/",
+      "type": "noun",
+      "meaning": "Sự khác biệt",
+      "example": "There are many differences between the two cultures."
+    },
+    {
+      "word": "Pressure",
+      "pron": "/ˈpreʃə(r)/",
+      "type": "noun",
+      "meaning": "Áp lực",
+      "example": "She is under a lot of pressure at work lately."
+    },
+    {
+      "word": "Florist",
+      "pron": "/ˈflɒrɪst/",
+      "type": "noun",
+      "meaning": "Người bán hoa / Cửa hàng hoa",
+      "example": "I stopped at the florist to buy some roses."
+    },
+    {
+      "word": "Against",
+      "pron": "/əˈɡeɪnst/",
+      "type": "preposition",
+      "meaning": "Chống lại / Tựa vào",
+      "example": "They are fighting against the new law."
+    },
+    {
+      "word": "Unimportant",
+      "pron": "/ˌʌnɪmˈpɔːtnt/",
+      "type": "adjective",
+      "meaning": "Không quan trọng",
+      "example": "Don't worry about that; it's an unimportant detail."
+    },
+    {
+      "word": "Medical",
+      "pron": "/ˈmedɪkl/",
+      "type": "adjective",
+      "meaning": "Thuộc về y khoa",
+      "example": "He needs urgent medical attention after the accident."
+    },
+    {
+      "word": "Northern",
+      "pron": "/ˈnɔːðən/",
+      "type": "adjective",
+      "meaning": "Thuộc về phía Bắc",
+      "example": "They live in the northern part of the country."
+    },
+    {
+      "word": "Used to + V-inf",
+      "pron": "/juːst tuː/",
+      "type": "structure",
+      "meaning": "Đã từng làm gì (thói quen hoặc trạng thái trong quá khứ nay không còn nữa)",
+      "example": "I used to have a dog when I was a child."
+    },
+    {
+      "word": "Enough",
+      "pron": "/ɪˈnʌf/",
+      "type": "adverb/adj",
+      "meaning": "Đủ (đứng sau tính từ, đứng trước danh từ)",
+      "example": "The water wasn’t warm enough for the children to swim in."
+    },
+    {
+      "word": "Farmer",
+      "pron": "/ˈfɑːmə(r)/",
+      "type": "noun",
+      "meaning": "Nông dân (phân biệt với 'farm' là trang trại)",
+      "example": "The farmer is helped a lot by modern machines."
+    },
+    {
+      "word": "Working hours",
+      "pron": "/ˈwɜːkɪŋ ˈaʊəz/",
+      "type": "compound noun",
+      "meaning": "Giờ làm việc",
+      "example": "New technology means less labor and fewer working hours are spent."
+    },
+    {
+      "word": "Consumer",
+      "pron": "/kənˈsjuːmə(r)/",
+      "type": "noun",
+      "meaning": "Người tiêu dùng",
+      "example": "Labels help consumers know what they are buying in a paper product."
+    },
+    {
+      "word": "Hard vs. Hardly",
+      "pron": "/hɑːd/ vs /ˈhɑːdli/",
+      "type": "adverb",
+      "meaning": "Hard (chăm chỉ/mạnh) đối lập với Hardly (hiếm khi/hầu như không)",
+      "example": "The farmer still has to work hard (not hardly) to improve his life."
+    },
+    {
+      "word": "University",
+      "pron": "/ˌjuːnɪˈvɜːsəti/",
+      "type": "noun",
+      "meaning": "Trường đại học (số nhiều: universities)",
+      "example": "Before they finish school, they are sent to universities."
+    },
+    {
+      "word": "After",
+      "pron": "/ˈɑːftə(r)/",
+      "type": "preposition/conjunction",
+      "meaning": "Sau khi (đối lập với 'before')",
+      "example": "After they finish school, they can find a good job."
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "The ______ of different cultures makes this city a unique place to live.",
+      "options": {
+        "A": "mixture",
+        "B": "mixes",
+        "C": "mixed",
+        "D": "mixturing"
+      },
+      "answer": "A",
+      "explanation": "Cần một danh từ sau mạo từ 'The'. 'Mixture' nghĩa là sự pha trộn/hỗn hợp."
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "text": "It was a ______ to meet such a famous scientist at the conference. (PLEASE)",
+      "options": null,
+      "answer": "pleasure",
+      "explanation": "Cần danh từ 'pleasure' (niềm vinh hạnh/vui thích) sau mạo từ 'a'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "Be careful! You might ______ yourself if you use that sharp knife.",
+      "options": {
+        "A": "injury",
+        "B": "injure",
+        "C": "injured",
+        "D": "injurious"
+      },
+      "answer": "B",
+      "explanation": "Sau động từ khuyết thiếu 'might' cần một động từ nguyên mẫu. 'Injure' là làm bị thương."
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "text": "How do you ______ your last name? I want to make sure I say it right. (PRONOUNCE)",
+      "options": null,
+      "answer": "pronounce",
+      "explanation": "Cần động từ nguyên mẫu 'pronounce' (phát âm) trong câu hỏi với trợ động từ 'do'."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "We should protect our natural ______ like water, forest, and minerals.",
+      "options": {
+        "A": "sources",
+        "B": "resources",
+        "C": "origins",
+        "D": "materials"
+      },
+      "answer": "B",
+      "explanation": "'Natural resources' là cụm từ cố định chỉ tài nguyên thiên nhiên."
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "text": "The little boy ______ down and cried because he lost his toy. (WATCH)",
+      "options": null,
+      "answer": "watched",
+      "explanation": "Chia động từ ở thì quá khứ đơn 'watched' (đã quan sát/theo dõi) để phù hợp với vế sau 'cried'."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "They decided to go to the beach to ______ and enjoy the fresh air.",
+      "options": {
+        "A": "sun",
+        "B": "sunbathe",
+        "C": "sunny",
+        "D": "sunlight"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'to + V-inf'. 'Sunbathe' là động từ tắm nắng."
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "text": "The twins look alike, but they behave very ______. (DIFFER)",
+      "options": null,
+      "answer": "differently",
+      "explanation": "Cần một trạng từ (differently) để bổ nghĩa cho động từ 'behave'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "I need some ______ to make cookies for the party tonight.",
+      "options": {
+        "A": "flower",
+        "B": "flour",
+        "C": "floor",
+        "D": "flood"
+      },
+      "answer": "B",
+      "explanation": "'Flour' là bột mì (nguyên liệu làm bánh), phát âm giống 'flower' nhưng nghĩa khác nhau."
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "text": "The old ______ in this town are famous for their beautiful architecture. (CHURCH)",
+      "options": null,
+      "answer": "churches",
+      "explanation": "Chủ ngữ số nhiều đi với động từ 'are', danh từ 'church' chuyển sang số nhiều là 'churches'."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "Are you ______ that you have locked the door before leaving?",
+      "options": {
+        "A": "sure",
+        "B": "clear",
+        "C": "new",
+        "D": "said"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'Are you sure (that)...?' dùng để hỏi về sự chắc chắn."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "The sky is very ______ today; there isn't a single cloud. (CLEAR)",
+      "options": null,
+      "answer": "clear",
+      "explanation": "Cần tính từ 'clear' (trong xanh/sạch) để miêu tả bầu trời sau trạng từ 'very'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "My sister spent the whole afternoon ___________ her room for the upcoming party.",
+      "options": {
+        "A": "decorate",
+        "B": "decorating",
+        "C": "to decorate",
+        "D": "decorated"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'spend time + V-ing' (dành thời gian làm việc gì)."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "The local government is trying to change the public transport system ___________ the better.",
+      "options": null,
+      "answer": "for",
+      "explanation": "Cụm từ cố định 'change for the better' nghĩa là thay đổi để trở nên tốt đẹp hơn."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "The police ___________ the suspect while he was trying to escape through the back door.",
+      "options": {
+        "A": "catch",
+        "B": "catches",
+        "C": "caught",
+        "D": "were catching"
+      },
+      "answer": "C",
+      "explanation": "Dùng thì Quá khứ đơn (caught) để diễn tả một hành động xen vào một hành động khác đang xảy ra trong quá khứ."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "Two ___________ broke into the jewelry store last night and stole many valuable items. (THIEF)",
+      "options": null,
+      "answer": "thieves",
+      "explanation": "Danh từ 'thief' (tên trộm) có dạng số nhiều bất quy tắc là 'thieves'."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "I’ll have the technician ___________ my computer as it has been very slow lately.",
+      "options": {
+        "A": "check",
+        "B": "checking",
+        "C": "to check",
+        "D": "checked"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc nhờ vả chủ động: 'have someone + V (nguyên mẫu)' (nhờ/thuê ai đó làm gì)."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "The price of ___________ goods has increased due to the high shipping costs. (IMPORT)",
+      "options": null,
+      "answer": "imported",
+      "explanation": "Cần một tính từ dạng phân từ (imported - được nhập khẩu) để bổ nghĩa cho danh từ 'goods'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "He left the office ___________ saying goodbye to anyone, which was quite unusual.",
+      "options": {
+        "A": "not",
+        "B": "without",
+        "C": "no",
+        "D": "beside"
+      },
+      "answer": "B",
+      "explanation": "Giới từ 'without' + V-ing mang nghĩa 'mà không làm gì'."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "___________ having a picnic by the river this weekend? The weather is going to be great.",
+      "options": null,
+      "answer": "How about / What about",
+      "explanation": "Cấu trúc gợi ý 'How about/What about + V-ing?' (Hay là... nhé?)."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "The company decided to let the employees ___________ from home twice a week.",
+      "options": {
+        "A": "work",
+        "B": "working",
+        "C": "to work",
+        "D": "worked"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'let someone + V (nguyên mẫu)' (cho phép ai làm gì)."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "My mother was born ___________ 1975 in a small village near the mountains.",
+      "options": null,
+      "answer": "in",
+      "explanation": "Sử dụng giới từ 'in' trước năm (1975)."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "text": "They are thinking ___________ moving to the city to find better job opportunities.",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "of",
+        "D": "for"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'think of/about + V-ing' (đang cân nhắc/nghĩ về việc gì)."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "The moon ___________ light from the sun instead of producing its own. (REFLECT)",
+      "options": null,
+      "answer": "reflects",
+      "explanation": "Diễn tả một sự thật hiển nhiên (Mặt trăng phản chiếu ánh sáng từ Mặt trời) nên dùng thì Hiện tại đơn, chủ ngữ số ít thêm 's'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "text": "Many people are ___________ spiders, but most of them are harmless.",
+      "options": {
+        "A": "afraid of",
+        "B": "afraid at",
+        "C": "afraid with",
+        "D": "afraid for"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'be afraid of something' nghĩa là sợ hãi cái gì."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "The local government is launching a campaign to ___________ deforestation. (FIGHT)",
+      "options": null,
+      "answer": "fight",
+      "explanation": "Cần một động từ nguyên mẫu sau 'to' để chỉ mục đích: chiến đấu chống lại nạn phá rừng."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "text": "The magician made the rabbit ___________ into thin air, leaving the audience amazed.",
+      "options": {
+        "A": "appear",
+        "B": "disappear",
+        "C": "appearance",
+        "D": "disappearance"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào ngữ cảnh 'vào không trung khiến khán giả kinh ngạc', ta chọn 'disappear' (biến mất)."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "It is ___________ for you to finish this report before the meeting starts. (IMPORT)",
+      "options": null,
+      "answer": "important",
+      "explanation": "Sau 'It is' cần một tính từ. 'Important' nghĩa là quan trọng."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "text": "She went to the ___________ to buy a beautiful bouquet of roses for her mother's birthday.",
+      "options": {
+        "A": "flower",
+        "B": "floral",
+        "C": "florist's",
+        "D": "flourish"
+      },
+      "answer": "C",
+      "explanation": "'Florist's' (hoặc florist's shop) chỉ cửa hàng bán hoa."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "The doctor applied ___________ to the wound to stop the blood from flowing. (PRESS)",
+      "options": null,
+      "answer": "pressure",
+      "explanation": "Cần một danh từ làm tân ngữ cho động từ 'applied'. 'Pressure' nghĩa là áp lực/sự đè nén."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "text": "Sapa is a famous tourist destination located in ___________ Vietnam.",
+      "options": {
+        "A": "North",
+        "B": "Northern",
+        "C": "Northerly",
+        "D": "Northernmost"
+      },
+      "answer": "B",
+      "explanation": "Sử dụng tính từ 'Northern' để chỉ vị trí địa lý của một vùng trong một quốc gia."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "There are many ___________ between the two versions of the story. (DIFFER)",
+      "options": null,
+      "answer": "differences",
+      "explanation": "Sau 'many' cần một danh từ số nhiều. 'Differences' nghĩa là những sự khác biệt."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "text": "You should have a ___________ check-up at least once a year to monitor your health.",
+      "options": {
+        "A": "medical",
+        "B": "medicine",
+        "C": "medically",
+        "D": "medicated"
+      },
+      "answer": "A",
+      "explanation": "Cụm danh từ 'medical check-up' nghĩa là khám sức khỏe tổng quát."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "Be careful when you go out; the weather is very ___________ today. (WIND)",
+      "options": null,
+      "answer": "windy",
+      "explanation": "Sau 'is very' cần một tính từ miêu tả thời tiết. 'Windy' nghĩa là có nhiều gió."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "text": "He felt ___________ after his girlfriend moved to another country.",
+      "options": {
+        "A": "break",
+        "B": "broken-hearted",
+        "C": "breaking",
+        "D": "breakable"
+      },
+      "answer": "B",
+      "explanation": "Tính từ 'broken-hearted' dùng để chỉ cảm giác đau lòng, tan vỡ tình cảm."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "This multi-tool is extremely ___________ for camping trips. (USE)",
+      "options": null,
+      "answer": "useful",
+      "explanation": "Cần một tính từ mang nghĩa tích cực. 'Useful' nghĩa là hữu ích/có ích."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "text": "I will call you as soon as I finish ___________ my homework.",
+      "options": {
+        "A": "do",
+        "B": "to do",
+        "C": "doing",
+        "D": "done"
+      },
+      "answer": "C",
+      "explanation": "Sau 'finish' luôn đi kèm với danh động từ (V-ing)."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "Could you please tell me what time the next train ___________? (LEAVE)",
+      "options": null,
+      "answer": "leaves",
+      "explanation": "Trong câu hỏi gián tiếp (Embedded question), trật tự từ là S + V và không mượn trợ động từ 'does'."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "text": "Living in a noisy environment can be very ___________ to your mental health.",
+      "options": {
+        "A": "harm",
+        "B": "harmful",
+        "C": "harmless",
+        "D": "harmfully"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'be + adj + to someone'. 'Harmful' là tính từ nghĩa là có hại."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "Please remember to ___________ your umbrella with you. It's going to rain later. (BRING)",
+      "options": null,
+      "answer": "bring",
+      "explanation": "Dùng 'bring' để diễn tả hành động mang vật gì đó theo cùng đến nơi người nói/người nghe đang hướng tới."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "text": "___________ book do you want to borrow, the red one or the blue one?",
+      "options": {
+        "A": "What",
+        "B": "Which",
+        "C": "Whose",
+        "D": "Who"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'Which' khi người nói đưa ra một số lựa chọn cụ thể (cuốn màu đỏ hay màu xanh)."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "The lecture was so ___________ that half of the students fell asleep. (BORE)",
+      "options": null,
+      "answer": "boring",
+      "explanation": "Dùng tính từ đuôi -ing (boring) để miêu tả tính chất của sự vật/sự việc gây ra cảm xúc cho người khác."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "text": "I'm sorry, I can't go out tonight. I have ___________ money left until the end of the month.",
+      "options": {
+        "A": "few",
+        "B": "a few",
+        "C": "little",
+        "D": "a little"
+      },
+      "answer": "C",
+      "explanation": "'Money' là danh từ không đếm được. 'Little' mang nghĩa phủ định (rất ít, không đủ dùng)."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "When the weather gets cold, I love wearing a warm ___________ and a scarf. (PULLOVER)",
+      "options": null,
+      "answer": "pullover",
+      "explanation": "'Pullover' là áo len chui đầu, phù hợp với ngữ cảnh thời tiết lạnh."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "text": "Did you find the instructions in the manual ___________ for your project?",
+      "options": {
+        "A": "use",
+        "|B": "usefully",
+        "C": "useful",
+        "D": "uselessness"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'find something + adj' (thấy cái gì đó như thế nào)."
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "I don't know where my keys ___________. Have you seen them? (BE)",
+      "options": null,
+      "answer": "are",
+      "explanation": "Câu hỏi gián tiếp: 'where' + S (my keys) + V (are)."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "text": "Would you like ___________ milk in your coffee?",
+      "options": {
+        "A": "a little",
+        "B": "a few",
+        "C": "many",
+        "D": "few"
+      },
+      "answer": "A",
+      "explanation": "'Milk' không đếm được. 'A little' dùng trong câu đề nghị/yêu cầu mang nghĩa 'một chút' (đủ dùng)."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "The chemicals from that factory are highly ___________ to the local river. (HARM)",
+      "options": null,
+      "answer": "harmful",
+      "explanation": "Cần tính từ 'harmful' (có hại) đứng sau trạng từ 'highly' để bổ nghĩa cho chủ ngữ."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "text": "We couldn't go out because it was raining __________.",
+      "options": {
+        "A": "hardly",
+        "B": "hard",
+        "C": "bad",
+        "D": "firmly"
+      },
+      "answer": "B",
+      "explanation": "'Rain hard' là cụm từ cố định chỉ trời mưa to. 'Hardly' mang nghĩa là hiếm khi/hầu như không, không phù hợp."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "The antique vase my grandmother gave me is __________ a fortune now. (WORTH)",
+      "options": null,
+      "answer": "worth",
+      "explanation": "Cấu trúc 'be worth + giá tiền/danh từ' dùng để chỉ giá trị của vật."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "text": "A new hospital __________ in the city center to serve the local community.",
+      "options": {
+        "A": "is building",
+        "B": "is being built",
+        "C": "builds",
+        "D": "is be built"
+      },
+      "answer": "B",
+      "explanation": "Câu bị động ở thì Hiện tại tiếp diễn: S + am/is/are + being + V3/ed (đang được xây dựng)."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "I __________ (smoke) a lot, but I gave it up two years ago.",
+      "options": null,
+      "answer": "used to smoke",
+      "explanation": "Cấu trúc 'used to + V-inf' diễn tả một thói quen trong quá khứ nay không còn nữa."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "text": "The box was __________ heavy __________ I couldn't lift it by myself.",
+      "options": {
+        "A": "too / that",
+        "B": "so / that",
+        "C": "very / that",
+        "D": "too / to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'so + adj + that + clause' (quá... đến nỗi mà)."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "In my __________, we always help each other during difficult times. (NEIGHBOR)",
+      "options": null,
+      "answer": "neighborhood",
+      "explanation": "Cần danh từ 'neighborhood' (khu vực lân cận/tình làng nghĩa xóm) sau tính từ sở hữu."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "text": "The coffee was __________ hot for me to drink immediately.",
+      "options": {
+        "A": "so",
+        "B": "too",
+        "C": "very",
+        "D": "enough"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'too + adj + (for someone) + to do something' (quá... để cho ai làm gì)."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "What is your personal __________ on the new school regulations? (OPINE)",
+      "options": null,
+      "answer": "opinion",
+      "explanation": "Cần danh từ 'opinion' (ý kiến/quan điểm) sau tính từ 'personal'."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "text": "The test results __________ to the students by the teacher tomorrow.",
+      "options": {
+        "A": "will give",
+        "B": "will be given",
+        "C": "are giving",
+        "D": "give"
+      },
+      "answer": "B",
+      "explanation": "Câu bị động thì Tương lai đơn: will be + V3/ed (kết quả sẽ được đưa cho học sinh)."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "This movie is so ___________ that I've seen it three times. (VALUE)",
+      "options": null,
+      "answer": "valuable",
+      "explanation": "Cần tính từ 'valuable' (có giá trị/đáng xem) để miêu tả bộ phim."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "text": "It is __________ late to start the project now; we should wait until tomorrow.",
+      "options": {
+        "A": "so",
+        "B": "too",
+        "C": "enough",
+        "D": "such"
+      },
+      "answer": "B",
+      "explanation": "'Too late' (quá muộn) chỉ mức độ vượt quá khả năng thực hiện hành động."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Did you __________ (live) in the countryside when you were a child?",
+      "options": null,
+      "answer": "use to live",
+      "explanation": "Câu nghi vấn của 'used to': Did + S + use to + V-inf? (bỏ 'd' ở 'used')."
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "text": "It ___________ my father forty minutes to drive to his office every morning.",
+      "options": {
+        "A": "spends",
+        "B": "takes",
+        "C": "lasts",
+        "D": "passes"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'It takes + somebody + time + to do something' (Ai đó mất bao nhiêu thời gian để làm gì)."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "The doctor advised me to include more ___________ in my daily meals. (VEGETABLE)",
+      "options": null,
+      "answer": "vegetables",
+      "explanation": "Sau 'more' và trong ngữ cảnh chung, ta dùng danh từ số nhiều 'vegetables' (rau củ)."
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "text": "No one in my class is ___________ at English than Huong.",
+      "options": {
+        "A": "good",
+        "B": "well",
+        "C": "better",
+        "D": "the best"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc so sánh hơn với tính từ bất quy tắc: 'good' chuyển thành 'better'. Có 'than' là dấu hiệu so sánh hơn."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "The ___________ man was quickly taken to the nearest hospital by an ambulance. (INJURY)",
+      "options": null,
+      "answer": "injured",
+      "explanation": "Cần một tính từ đứng trước danh từ 'man'. 'Injured' nghĩa là bị thương."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "It is ___________ to explore the ancient history of this city.",
+      "options": {
+        "A": "interest",
+        "B": "interested",
+        "C": "interesting",
+        "D": "interestingly"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'It is + adj + to-V'. Tính từ đuôi -ing (interesting) dùng để miêu tả tính chất của việc khám phá lịch sử."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "With the current inflation, it's getting harder for people to live ___________ their monthly salary.",
+      "options": null,
+      "answer": "on",
+      "explanation": "Cụm động từ 'live on something' nghĩa là sống dựa vào cái gì (thu nhập, lương)."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "The teacher told us ___________ noise while she was explaining the lesson.",
+      "options": {
+        "A": "not make",
+        "B": "not to make",
+        "C": "don't make",
+        "D": "not making"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc câu tường thuật mệnh lệnh phủ định: 'told + somebody + not to + V'."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "I ___________ (not/feel) very well yesterday, so I stayed at home.",
+      "options": null,
+      "answer": "did not feel / didn't feel",
+      "explanation": "Dấu hiệu 'yesterday' cho thấy câu chia ở thì Quá khứ đơn dạng phủ định."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "The man ___________ lives next door is a famous musician.",
+      "options": {
+        "A": "which",
+        "B": "whom",
+        "C": "who",
+        "D": "whose"
+      },
+      "answer": "C",
+      "explanation": "Sử dụng đại từ quan hệ 'who' làm chủ ngữ thay thế cho danh từ chỉ người 'The man'."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "It was ___________ cold that we had to cancel our picnic. (EXTREME)",
+      "options": null,
+      "answer": "extremely",
+      "explanation": "Cần một trạng từ đứng trước tính từ 'cold' để bổ nghĩa. 'Extremely' nghĩa là vô cùng, cực kỳ."
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "text": "I ___________ to the cinema once a week, but now I'm too busy.",
+      "options": {
+        "A": "used to going",
+        "B": "used to go",
+        "C": "use to go",
+        "D": "get used to go"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'used to + V-inf' diễn tả một thói quen trong quá khứ nay không còn nữa."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "To improve your health, you should ___________ (spend) more time exercising.",
+      "options": null,
+      "answer": "spend",
+      "explanation": "Sau động từ khuyết thiếu 'should' là động từ nguyên mẫu không 'to'."
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "text": "By ___________ old glass and plastic, we can help protect the environment.",
+      "options": {
+        "A": "recycling",
+        "B": "reusing",
+        "C": "reducing",
+        "D": "remaking"
+      },
+      "answer": "A",
+      "explanation": "'Recycling' (tái chế) là quá trình xử lý rác thải thành vật liệu mới."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "The business has been operating ___________ for many years. (PROFIT)",
+      "options": null,
+      "answer": "profitably",
+      "explanation": "Cần một trạng từ để bổ nghĩa cho động từ 'operating'. 'Profitably' nghĩa là một cách có lãi."
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "text": "Because of the new technology, the ___________ of the farm is less hard than before.",
+      "options": {
+        "A": "worker",
+        "B": "work",
+        "C": "working",
+        "D": "worked"
+      },
+      "answer": "B",
+      "explanation": "'The work of the farm' (công việc đồng áng). Ở đây ta cần một danh từ chỉ sự vật."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "The quality of healthcare in this area is getting ___________ day by day. (GOOD)",
+      "options": null,
+      "answer": "better and better",
+      "explanation": "Cấu trúc so sánh lũy tiến 'adj-er and adj-er' diễn tả sự thay đổi ngày càng tăng. 'Good' -> 'better and better'."
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "text": "She ___________ works ___________, so she always achieves high results.",
+      "options": {
+        "A": "hardly / hard",
+        "B": "hard / hardly",
+        "C": "always / hard",
+        "D": "hardly / hardly"
+      },
+      "answer": "C",
+      "explanation": "'Work hard' là làm việc chăm chỉ. 'Hardly' mang nghĩa phủ định (hiếm khi/hầu như không) nên không phù hợp vế sau."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "There are many forms of ___________ available in the city, such as cinemas and parks. (ENTERTAIN)",
+      "options": null,
+      "answer": "entertainment",
+      "explanation": "Sau 'forms of' cần một danh từ. 'Entertainment' nghĩa là sự giải trí."
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "text": "All paper products should be marked with the ___________ of recycled content.",
+      "options": {
+        "A": "amount",
+        "B": "number",
+        "C": "percentage",
+        "D": "quality"
+      },
+      "answer": "C",
+      "explanation": "'Percentage' (tỷ lệ phần trăm) thường được dùng để chỉ hàm lượng thành phần trong sản phẩm."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "He wants to go to ___________ after finishing high school. (UNIVERSITY)",
+      "options": null,
+      "answer": "university",
+      "explanation": "Cần danh từ chỉ cấp học đại học. Lưu ý cách viết đúng chính tả là 'university'."
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "text": "___________ all of the students in this class passed the final exam.",
+      "options": {
+        "A": "Virtually",
+        "B": "Real",
+        "C": "Good",
+        "D": "Main"
+      },
+      "answer": "A",
+      "explanation": "'Virtually' là trạng từ mang nghĩa 'hầu như/gần như', thường đứng trước 'all'."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "The new machines ___________ the farmers to produce more food with less labor. (HELP)",
+      "options": null,
+      "answer": "help",
+      "explanation": "Chủ ngữ 'The new machines' là số nhiều, động từ 'help' chia ở thì Hiện tại đơn giữ nguyên."
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "text": "Wait a minute, this manual is ___________ useless for beginners.",
+      "options": {
+        "A": "virtually",
+        "B": "hardly",
+        "C": "profitably",
+        "D": "well"
+      },
+      "answer": "A",
+      "explanation": "'Virtually useless' nghĩa là gần như vô dụng."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "Modern machines mean more food is ___________ and less work hours are spent. (PRODUCE)",
+      "options": null,
+      "answer": "produced",
+      "explanation": "Cấu trúc bị động: 'is + V3/ed'. 'Produced' nghĩa là được sản xuất."
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "text": "The environmental organization ___________ all local businesses to reduce plastic waste.",
+      "options": {
+        "A": "encourages",
+        "B": "recycles",
+        "C": "marks",
+        "D": "means"
+      },
+      "answer": "A",
+      "explanation": "'Encourage' (khuyến khích) phù hợp nhất về nghĩa trong ngữ cảnh tổ chức môi trường vận động doanh nghiệp."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "Every bottle should be ___________ with a clear label showing its ingredients. (MARK)",
+      "options": null,
+      "answer": "marked",
+      "explanation": "Cấu trúc bị động 'be + V3/ed'. 'Marked' nghĩa là được đánh dấu hoặc ghi nhãn."
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "text": "We should use products with a high ___________ of recycled materials.",
+      "options": {
+        "A": "number",
+        "B": "percentage",
+        "C": "quality",
+        "D": "virtually"
+      },
+      "answer": "B",
+      "explanation": "'Percentage' (tỷ lệ phần trăm) dùng để chỉ hàm lượng vật liệu tái chế có trong sản phẩm."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "Waste that is returned to factories by the public is called ___________ waste.",
+      "options": null,
+      "answer": "post-consumer",
+      "explanation": "'Post-consumer' là thuật ngữ chỉ rác thải sau tiêu dùng (người dân trả lại trung tâm tái chế)."
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "text": "The factory has been running ___________ since it switched to solar power.",
+      "options": {
+        "A": "profit",
+        "B": "profitable",
+        "C": "profitably",
+        "D": "profiting"
+      },
+      "answer": "C",
+      "explanation": "Cần một trạng từ (profitably) để bổ nghĩa cho động từ 'running' (vận hành một cách có lãi)."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "It is ___________ impossible to recycle some types of contaminated plastic. (VIRTUAL)",
+      "options": null,
+      "answer": "virtually",
+      "explanation": "Trạng từ 'virtually' có nghĩa là 'hầu như/gần như', dùng để bổ nghĩa cho tính từ 'impossible'."
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "text": "The ___________ of the new paper product is 100% true recycled fiber.",
+      "options": {
+        "A": "content",
+        "B": "container",
+        "C": "context",
+        "D": "contact"
+      },
+      "answer": "A",
+      "explanation": "'Content' (thành phần/hàm lượng) dùng để chỉ vật chất cấu thành nên sản phẩm."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "Old newspapers can be ___________ many times to save trees. (RECYCLE)",
+      "options": null,
+      "answer": "recycled",
+      "explanation": "Câu bị động với động từ khuyết thiếu: 'can be + V3/ed'."
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "text": "What does the term 'biodegradable' ___________ exactly?",
+      "options": {
+        "A": "say",
+        "B": "mean",
+        "C": "tell",
+        "D": "explain"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'What does X mean?' dùng để hỏi về ý nghĩa hoặc định nghĩa của một từ/thuật ngữ."
+    },
+    {
+      "id": 94,
+      "type": "text",
+      "text": "There are different ___________ of recycled paper on the market today. (TYPE)",
+      "options": null,
+      "answer": "types",
+      "explanation": "Sau 'different' và 'there are' cần một danh từ số nhiều. 'Types' nghĩa là các loại."
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "text": "Buying recycled products is a(n) ___________ way to protect our planet.",
+      "options": {
+        "A": "importance",
+        "B": "importantly",
+        "C": "important",
+        "D": "unimportant"
+      },
+      "answer": "C",
+      "explanation": "Cần một tính từ (important) để bổ nghĩa cho danh từ 'way' (cách quan trọng)."
+    },
+    {
+      "id": 96,
+      "type": "text",
+      "text": "The company specializes in the ___________ of aluminum cans. (RE-MANUFACTURE)",
+      "options": null,
+      "answer": "re-manufacture / re-manufacturing",
+      "explanation": "Sau 'the' cần một danh từ hoặc danh động từ chỉ quá trình tái sản xuất."
+    },
+    {
+      "id": 97,
+      "type": "text",
+      "text": "The magician made the rabbit ___________ into thin air. (APPEAR)",
+      "options": null,
+      "answer": "disappear",
+      "explanation": "Dựa vào ngữ cảnh 'biến vào không trung', ta cần tiền tố phủ định 'dis-' để tạo thành động từ 'disappear' (biến mất)."
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "text": "The ___________ part of Vietnam is known for its beautiful mountainous landscapes.",
+      "options": {
+        "A": "North",
+        "B": "Northern",
+        "C": "Northerly",
+        "D": "Northerner"
+      },
+      "answer": "B",
+      "explanation": "Cần một tính từ (Northern) để bổ nghĩa cho danh từ 'part' (Phần phía Bắc của Việt Nam)."
+    },
+    {
+      "id": 99,
+      "type": "text",
+      "text": "Is there any ___________ between these two versions of the story? (DIFFER)",
+      "options": null,
+      "answer": "difference",
+      "explanation": "Sau 'any' và trong cấu trúc 'Is there any...', ta cần một danh từ. 'Difference' có nghĩa là sự khác biệt."
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "text": "He is currently under a lot of ___________ to finish the project before Friday.",
+      "options": {
+        "A": "press",
+        "B": "pressing",
+        "C": "pressure",
+        "D": "pressed"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'under pressure' nghĩa là đang chịu áp lực."
+    },
+    {
+      "id": 101,
+      "type": "text",
+      "text": "We went to the ___________ to buy a beautiful bouquet of flowers for her birthday. (FLOWER)",
+      "options": null,
+      "answer": "florist",
+      "explanation": "Từ chỉ người bán hoa hoặc cửa hàng hoa là 'florist'."
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "text": "It was just a minor mistake, so it is quite ___________ in the long run.",
+      "options": {
+        "A": "important",
+        "B": "unimportant",
+        "C": "importance",
+        "D": "importantly"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào cụm 'minor mistake' (lỗi nhỏ), ta chọn tính từ mang nghĩa phủ định 'unimportant' (không quan trọng)."
+    },
+    {
+      "id": 103,
+      "type": "text",
+      "text": "The doctor says he needs a full ___________ check-up. (MEDICINE)",
+      "options": null,
+      "answer": "medical",
+      "explanation": "Cần một tính từ đứng trước danh từ 'check-up'. 'Medical check-up' là kiểm tra y tế/sức khỏe."
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "text": "The local people are struggling ___________ the construction of the new dam.",
+      "options": {
+        "A": "for",
+        "Ax": "against",
+        "C": "with",
+        "D": "to"
+      },
+      "answer": "B",
+      "explanation": "Giới từ 'against' đi với struggle/fight mang nghĩa là đấu tranh chống lại cái gì đó."
+    },
+    {
+      "id": 105,
+      "type": "text",
+      "text": "This multi-tool is very ___________ for camping trips. (USE)",
+      "options": null,
+      "answer": "useful",
+      "explanation": "Cần một tính từ để bổ nghĩa cho chủ ngữ 'this multi-tool'. 'Useful' nghĩa là hữu ích."
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "text": "Be careful! The ladder is ___________ and might fall at any time.",
+      "options": {
+        "A": "break",
+        "B": "breaking",
+        "C": "broken",
+        "D": "breakable"
+      },
+      "answer": "C",
+      "explanation": "'Broken' (bị hỏng/gãy) là tính từ phù hợp nhất để miêu tả tình trạng của chiếc thang."
+    },
+    {
+      "id": 107,
+      "type": "text",
+      "text": "It’s very ___________ today, so don’t forget to wear a jacket. (WIND)",
+      "options": null,
+      "answer": "windy",
+      "explanation": "Cần một tính từ chỉ thời tiết. 'Windy' nghĩa là có nhiều gió."
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "text": "I’ll meet you ___________ the airport ___________ Tuesday morning.",
+      "options": {
+        "A": "in / in",
+        "B": "at / on",
+        "C": "on / at",
+        "D": "at / in"
+      },
+      "answer": "B",
+      "explanation": "Dùng 'at' cho địa điểm cụ thể (airport) và 'on' cho các buổi trong một ngày cụ thể (Tuesday morning)."
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "text": "My father ___________ smoking two years ago, and he feels much healthier now.",
+      "options": {
+        "A": "uses to",
+        "B": "used to",
+        "C": "is used to",
+        "D": "gave up"
+      },
+      "answer": "D",
+      "explanation": "Dựa vào ngữ cảnh 'cảm thấy khỏe hơn', chọn 'gave up' (từ bỏ). 'Used to' thường đi với thói quen khẳng định trong quá khứ."
+    },
+    {
+      "id": 110,
+      "type": "text",
+      "text": "The coffee was ___________ hot for me to drink immediately. (TOO)",
+      "options": null,
+      "answer": "too",
+      "explanation": "Cấu trúc 'too + adj + (for sb) + to-V' (quá... để cho ai làm gì)."
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "text": "The ___________ are working hard on the field despite the hot weather.",
+      "options": {
+        "A": "farm",
+        "B": "farmers",
+        "C": "farming",
+        "D": "farmed"
+      },
+      "answer": "B",
+      "explanation": "Cần một danh từ chỉ người số nhiều làm chủ ngữ cho động từ 'are working'. 'Farmers' là những người nông dân."
+    },
+    {
+      "id": 112,
+      "type": "text",
+      "text": "We need to reduce our ___________ hours to have more time for our family. (WORK)",
+      "options": null,
+      "answer": "working",
+      "explanation": "Cụm danh từ 'working hours' có nghĩa là giờ làm việc."
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "text": "He studied very ___________, so he passed the entrance exam to the top university.",
+      "options": {
+        "A": "hardly",
+        "B": "hard",
+        "C": "harder",
+        "D": "hardest"
+      },
+      "answer": "B",
+      "explanation": "'Work/Study hard' là học tập chăm chỉ. 'Hardly' mang nghĩa phủ định là 'hầu như không'."
+    },
+    {
+      "id": 114,
+      "type": "text",
+      "text": "___________ they finished their homework, they went out to play soccer. (AFTER)",
+      "options": null,
+      "answer": "After",
+      "explanation": "Dùng liên từ 'After' để chỉ một hành động xảy ra sau khi một hành động khác kết thúc."
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "text": "This film is so ___________ that I have seen it three times.",
+      "options": {
+        "A": "interest",
+        "B": "interested",
+        "C": "interesting",
+        "D": "interestingly"
+      },
+      "answer": "C",
+      "explanation": "Tính từ đuôi '-ing' dùng để miêu tả đặc điểm, tính chất của sự vật (bộ phim)."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "The government is encouraging ___________ to use recycled paper products. (CONSUME)",
+      "options": null,
+      "answer": "consumers",
+      "explanation": "Cần một danh từ chỉ người số nhiều. 'Consumers' nghĩa là những người tiêu dùng."
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "text": "It ___________ us two hours to clean the house yesterday.",
+      "options": {
+        "A": "spent",
+        "B": "took",
+        "C": "lasted",
+        "D": "passed"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'It took + sb + time + to-V' trong quá khứ (chia 'took' vì có 'yesterday')."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "There are many famous ___________ in the world. (UNIVERSITY)",
+      "options": null,
+      "answer": "universities",
+      "explanation": "Sau 'many' cần danh từ số nhiều. 'University' chuyển thành 'universities' (đổi 'y' thành 'i' rồi thêm 'es')."
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "text": "“I am not feeling well now,” she said. -> She said she ___________ well then.",
+      "options": {
+        "A": "is not feeling",
+        "B": "was not feeling",
+        "C": "not felt",
+        "D": "has not felt"
+      },
+      "answer": "B",
+      "explanation": "Câu tường thuật lùi thì từ Hiện tại tiếp diễn (am not feeling) sang Quá khứ tiếp diễn (was not feeling)."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "Is this room large ___________ for ten people to stay in? (ENOUGH)",
+      "options": null,
+      "answer": "enough",
+      "explanation": "Cấu trúc 'adj + enough + (for sb) + to-V' (đủ... để làm gì)."
+    }
+  ]
+}

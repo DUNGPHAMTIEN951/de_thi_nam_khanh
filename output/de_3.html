@@ -1,0 +1,3400 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Practice 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: #f8fafc;
+        }
+
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+
+        .backface-hidden {
+            backface-visibility: hidden;
+        }
+
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-inner {
+            transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+        }
+
+        .flip-card.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 4px;
+        }
+
+        .question-block {
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .question-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        input[type="radio"]:checked+span {
+            font-weight: 700;
+            color: #1d4ed8;
+        }
+
+        #sidebar {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .tooltip-arrow::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: 20px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 6px solid white;
+        }
+        .notes-editor {
+            background-image: linear-gradient(#f1f5f9 1px, transparent 1px);
+            background-size: 100% 1.5rem;
+            line-height: 1.5rem;
+        }
+
+        #noteSidebar {
+            transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            width: 0;
+            opacity: 0;
+        }
+
+        #noteSidebar.open {
+            width: 350px;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 antialiased flex h-screen overflow-hidden bg-gray-100">
+
+    <div id="sidebarOverlay" onclick="toggleSidebar()"
+        class="fixed inset-0 bg-black bg-opacity-50 z-20 hidden lg:hidden transition-opacity"></div>
+
+    <aside id="sidebar"
+        class="w-72 bg-white shadow-2xl h-full flex flex-col z-30 fixed lg:relative transform -translate-x-full lg:translate-x-0">
+        <div class="p-5 bg-blue-700 text-white flex justify-between items-center shrink-0 shadow-md">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-graduation-cap text-3xl"></i>
+                <h1 class="font-bold text-lg leading-tight">Luyện Thi Anh<br><span
+                        class="text-sm font-normal text-blue-200">Đề Ôn Tập Chi Tiết</span></h1>
+            </div>
+            <button onclick="toggleSidebar()"
+                class="lg:hidden text-white hover:text-blue-200 focus:outline-none text-2xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="flex-1 overflow-y-auto p-4" id="testList">
+            <a href="../index.html"
+                class="w-full block text-center py-3 bg-gray-100 hover:bg-gray-200 rounded-lg font-bold text-gray-700 mb-4 transition">
+                <i class="fa-solid fa-house mr-2"></i> Quay lại trang chủ
+            </a>
+            <!-- Test items can be dynamically added or just link to index -->
+        </div>
+    </aside>
+
+    <main class="flex-1 flex flex-col h-full relative overflow-hidden w-full">
+        <header class="bg-white shadow-sm z-10 shrink-0">
+            <div class="px-4 md:px-6 py-4 flex justify-between items-center border-b border-gray-100">
+                <div class="flex items-center gap-4">
+                    <button onclick="toggleSidebar()"
+                        class="text-gray-500 hover:text-blue-600 focus:outline-none text-2xl p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-800 truncate" id="currentTestTitle">ENGLISH
+                        PRACTICE 3</h2>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="toggleNotes()" id="btn-notes"
+                        class="text-sm font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200 px-4 py-1.5 rounded-full flex items-center shadow-sm transition-colors">
+                        <i class="fa-solid fa-note-sticky mr-2"></i> Ghi Chú
+                    </button>
+                    <div
+                        class="text-sm font-bold text-blue-700 bg-blue-100 px-4 py-1.5 rounded-full flex items-center shadow-sm whitespace-nowrap">
+                        <i class="fa-solid fa-pen-nib mr-2"></i> <span id="qCountDisplay">0</span> Câu Hỏi
+                    </div>
+                </div>
+            </div>
+            <div class="flex border-b border-gray-200 px-2 md:px-6 bg-gray-50 overflow-x-auto no-scrollbar">
+                <button onclick="switchTab('test')" id="tab-test"
+                    class="py-3 px-4 md:px-6 text-blue-700 border-b-2 border-blue-600 font-bold focus:outline-none flex items-center gap-2 bg-white whitespace-nowrap">
+                    <i class="fa-solid fa-file-pen"></i> Làm Bài Thi
+                </button>
+                <button onclick="switchTab('flashcard')" id="tab-flashcard"
+                    class="py-3 px-4 md:px-6 text-gray-500 hover:text-blue-600 font-semibold focus:outline-none flex items-center gap-2 transition-colors whitespace-nowrap">
+                    <i class="fa-solid fa-layer-group"></i> Flashcard
+                </button>
+                <button onclick="switchTab('quiz')" id="tab-quiz"
+                    class="py-3 px-4 md:px-6 text-gray-500 hover:text-blue-600 font-semibold focus:outline-none flex items-center gap-2 transition-colors whitespace-nowrap">
+                    <i class="fa-solid fa-brain"></i> Ôn Tập Từ Vựng
+                </button>
+            </div>
+        </header>
+
+        <div class="flex-1 flex overflow-hidden">
+            <div class="flex-1 overflow-y-auto relative" id="mainScrollContainer">
+
+                <!-- VIEW: TEST (QUIZ) -->
+                <div id="content-test" class="p-4 md:p-8">
+                    <div class="max-w-6xl mx-auto">
+                        <form id="quizForm">
+                            <div id="questionsContainer" class="space-y-6"></div>
+                            <div class="mt-12 pt-8 border-t-2 border-gray-200 text-center pb-10">
+                                <button type="button" onclick="gradeTest('quizForm', 'questions')"
+                                    class="bg-blue-600 hover:bg-blue-800 text-white font-black py-4 px-16 rounded-full shadow-2xl transition transform hover:scale-105 text-xl tracking-wide">
+                                    <i class="fa-solid fa-check-double mr-2"></i> NỘP BÀI & CHẤM ĐIỂM
+                                </button>
+                            </div>
+                            <div id="resultArea-questions"
+                                class="hidden mt-10 p-8 md:p-12 rounded-3xl text-center border border-gray-100 bg-white shadow-2xl mb-10">
+                                <h3 class="text-3xl font-extrabold text-gray-800 mb-2">Kết Quả</h3>
+                                <div class="text-7xl font-black mb-6 scoreDisplay">0/0</div>
+                                <p class="text-xl text-gray-600 mb-10 font-medium leading-relaxed messageDisplay"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- VIEW: FLASHCARDS -->
+                <div id="content-flashcard" class="hidden p-4 md:p-8 bg-gray-50 h-full">
+                    <div class="max-w-3xl mx-auto h-full flex flex-col">
+                        <div class="text-center mb-6 shrink-0">
+                            <h2 class="text-2xl md:text-3xl font-extrabold text-gray-800 mb-2"><i
+                                    class="fa-solid fa-layer-group text-blue-500 mr-2"></i>Bộ Thẻ Từ Vựng Thông Minh</h2>
+                            <p class="text-gray-600 text-sm md:text-base">Mũi tên <kbd
+                                    class="bg-gray-200 px-2 py-1 rounded shadow-sm text-xs">Trái</kbd> / <kbd
+                                    class="bg-gray-200 px-2 py-1 rounded shadow-sm text-xs">Phải</kbd> để chuyển thẻ.</p>
+                        </div>
+                        <div class="flex-1 flex flex-col items-center justify-center min-h-[400px] pb-10">
+                            <div class="perspective-1000 w-full max-w-lg h-80 cursor-pointer group flip-card"
+                                id="flashcardElement" onclick="flipCard()">
+                                <div class="flip-card-inner relative w-full h-full transform-style-3d shadow-2xl rounded-[2rem] transition-transform duration-500 ease-out"
+                                    id="flashcardInner">
+                                    <div
+                                        class="backface-hidden absolute w-full h-full bg-white rounded-[2rem] flex flex-col items-center justify-center border border-gray-100 p-8 text-center shadow-lg">
+                                        <h3 class="text-4xl md:text-5xl font-black text-blue-700 mb-4 tracking-tight"
+                                            id="fc-word">Word</h3>
+                                        <p class="text-gray-500 text-lg font-medium bg-gray-100 px-4 py-2 rounded-full"
+                                            id="fc-pron">/pron/</p>
+                                    </div>
+                                    <div
+                                        class="backface-hidden rotate-y-180 absolute w-full h-full bg-gradient-to-br from-blue-600 to-indigo-800 text-white rounded-[2rem] flex flex-col items-center justify-center p-8 shadow-2xl text-center">
+                                        <span
+                                            class="bg-white/20 text-white text-sm font-bold px-4 py-1.5 rounded-full mb-4 uppercase tracking-wider shadow-sm"
+                                            id="fc-type">Type</span>
+                                        <p class="text-3xl md:text-4xl font-bold mb-6 drop-shadow-md" id="fc-meaning">
+                                            Meaning</p>
+                                        <p class="text-lg italic text-blue-50 font-light px-4 leading-relaxed"
+                                            id="fc-example">"Example sentence"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-6 mt-10 w-full max-w-md">
+                                <button onclick="prevCard()" id="btnPrev"
+                                    class="w-14 h-14 rounded-full bg-white text-gray-700 shadow-md hover:shadow-lg hover:text-blue-600 flex items-center justify-center text-xl disabled:opacity-30 border border-gray-100"><i
+                                        class="fa-solid fa-chevron-left"></i></button>
+                                <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-gray-600 text-lg border border-gray-100"
+                                    id="fc-counter">1 / 1</div>
+                                <button onclick="nextCard()" id="btnNext"
+                                    class="w-14 h-14 rounded-full bg-white text-gray-700 shadow-md hover:shadow-lg hover:text-blue-600 flex items-center justify-center text-xl disabled:opacity-30 border border-gray-100"><i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: QUIZ (VOCAB EXERCISES) -->
+                <div id="content-quiz" class="hidden p-4 md:p-8">
+                    <div class="max-w-6xl mx-auto">
+                        <form id="vocabQuizForm">
+                            <div id="exercisesContainer" class="space-y-6"></div>
+                            <div class="mt-12 pt-8 border-t-2 border-gray-200 text-center pb-10">
+                                <button type="button" onclick="gradeTest('vocabQuizForm', 'exercises')"
+                                    class="bg-teal-600 hover:bg-teal-800 text-white font-black py-4 px-16 rounded-full shadow-2xl transition transform hover:scale-105 text-xl tracking-wide">
+                                    <i class="fa-solid fa-check-double mr-2"></i> CHẤM ĐIỂM TỪ VỰNG
+                                </button>
+                            </div>
+                            <div id="resultArea-exercises"
+                                class="hidden mt-10 p-8 md:p-12 rounded-3xl text-center border border-gray-100 bg-white shadow-2xl mb-10">
+                                <h3 class="text-3xl font-extrabold text-gray-800 mb-2">Kết Quả Từ Vựng</h3>
+                                <div class="text-7xl font-black mb-6 scoreDisplay">0/0</div>
+                                <p class="text-xl text-gray-600 mb-10 font-medium leading-relaxed messageDisplay"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ASIDE: NOTES (Parallel) -->
+            <aside id="noteSidebar" class="bg-amber-50 border-l border-amber-200 flex flex-col overflow-hidden">
+                <div class="p-4 bg-amber-100 border-b border-amber-200 flex justify-between items-center shrink-0">
+                    <h3 class="font-black text-amber-800 uppercase tracking-wider text-xs flex items-center gap-2">
+                        <i class="fa-solid fa-book-bookmark"></i> Sổ Tay Ghi Chú
+                    </h3>
+                    <button onclick="toggleNotes()" class="text-amber-800 hover:text-red-600 transition-colors">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                </div>
+                <div class="flex-1 p-0 relative">
+                    <textarea id="notesArea" oninput="saveNotes()"
+                        class="w-full h-full p-6 bg-transparent border-none focus:ring-0 text-gray-800 font-medium text-sm resize-none notes-editor"
+                        placeholder="Ghi chú bài học, từ vựng mới tại đây..."></textarea>
+                </div>
+                <div class="p-3 bg-amber-100/50 border-t border-amber-200 text-[10px] text-amber-600 font-bold italic">
+                    <i class="fa-solid fa-cloud-arrow-up mr-1"></i> Tự động lưu vào trình duyệt của bạn.
+                </div>
+            </aside>
+        </div>
+
+        <div id="vocabTooltip"
+            class="fixed z-50 hidden bg-white rounded-xl shadow-2xl border border-gray-200 p-5 w-72 text-left pointer-events-auto transition-opacity duration-200 opacity-0 tooltip-arrow">
+            <div class="flex justify-between items-start mb-3">
+                <div>
+                    <h4 class="text-xl font-black text-blue-700 capitalize" id="tt-word">Word</h4>
+                    <p class="text-sm text-gray-500 font-medium mt-1" id="tt-pron">/pron/</p>
+                </div>
+                <button onclick="speakWord()"
+                    class="w-10 h-10 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center transition shadow-sm border border-blue-100"><i
+                        class="fa-solid fa-volume-high"></i></button>
+            </div>
+            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded mb-3"
+                id="tt-type">Type</span>
+            <p class="text-base text-gray-800 font-bold mb-3" id="tt-meaning">Meaning</p>
+            <p class="text-sm text-gray-600 italic border-l-4 border-blue-300 pl-3 leading-relaxed bg-blue-50/50 py-2"
+                id="tt-example">"Example"</p>
+        </div>
+
+        <!-- AI Lookup Modal -->
+        <div id="aiLookupModal"
+            class="fixed inset-0 bg-black/60 z-[100] hidden items-center justify-center p-4 backdrop-blur-sm">
+            <div
+                class="bg-white rounded-[2.5rem] w-full max-w-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
+                <div class="p-8 bg-gradient-to-br from-blue-700 to-indigo-800 text-white relative">
+                    <button onclick="closeLookup()"
+                        class="absolute top-6 right-6 text-white/70 hover:text-white transition-colors">
+                        <i class="fa-solid fa-circle-xmark text-2xl"></i>
+                    </button>
+                    <div class="flex items-center gap-4 mb-4">
+                        <div
+                            class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md">
+                            <i class="fa-solid fa-language text-3xl"></i>
+                        </div>
+                        <div>
+                            <h3 id="lookup-word" class="text-4xl font-black tracking-tight">Word</h3>
+                            <p id="lookup-ipa" class="text-blue-100 font-medium italic">/ipa/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 space-y-6">
+                    <div>
+                        <div
+                            class="text-[10px] font-black text-blue-500 uppercase tracking-widest mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-book-open"></i> Ý nghĩa & Loại từ
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span id="lookup-type"
+                                class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-xs font-black uppercase tracking-wider">Type</span>
+                            <p id="lookup-meaning" class="text-xl font-bold text-gray-800">Meaning</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="text-[10px] font-black text-emerald-500 uppercase tracking-widest mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-quote-left"></i> Ví dụ thực tế
+                        </div>
+                        <p id="lookup-example"
+                            class="text-gray-600 italic leading-relaxed bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                            "Example sentence"</p>
+                    </div>
+                    <div>
+                        <div
+                            class="text-[10px] font-black text-amber-500 uppercase tracking-widest mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-info"></i> Ngữ cảnh sử dụng
+                        </div>
+                        <p id="lookup-context" class="text-sm text-gray-500">Context info...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Lookup Trigger -->
+        <button id="lookupTrigger"
+            class="fixed z-[90] hidden bg-blue-600 text-white w-12 h-12 rounded-full shadow-2xl items-center justify-center hover:bg-blue-700 transition transform hover:scale-110 animate-bounce">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </main>
+
+    <script>
+        const database = {
+  "3": {
+    "questions": [
+      {
+        "id": 1,
+        "type": "mcq",
+        "text": "Choose the word A, B, C or D whose underlined part is pronounced differently from the others.",
+        "options": {
+          "A": "...",
+          "B": "...",
+          "C": "...",
+          "D": "..."
+        },
+        "answer": "N/A",
+        "explanation": "Câu hỏi yêu cầu tìm từ có phần gạch chân phát âm khác biệt. (Lưu ý: Văn bản gốc thiếu danh sách từ cụ thể)."
+      },
+      {
+        "id": 2,
+        "type": "mcq",
+        "text": "Choose the word A, B, C or D whose main stress is different from the others in the group.",
+        "options": {
+          "A": "...",
+          "B": "...",
+          "C": "...",
+          "D": "..."
+        },
+        "answer": "N/A",
+        "explanation": "Câu hỏi yêu cầu tìm từ có trọng âm chính khác với các từ còn lại. (Lưu ý: Văn bản gốc thiếu danh sách từ cụ thể)."
+      },
+      {
+        "id": 3,
+        "type": "mcq",
+        "text": "Hoa __________________ coins and stamps since she was six.",
+        "options": {
+          "A": "collected",
+          "B": "has collected",
+          "C": "collects",
+          "D": "is collecting"
+        },
+        "answer": "B",
+        "explanation": "Sử dụng thì Hiện tại hoàn thành vì có dấu hiệu 'since + mốc thời gian trong quá khứ' để diễn tả hành động bắt đầu trong quá khứ và kéo dài đến hiện tại."
+      },
+      {
+        "id": 4,
+        "type": "mcq",
+        "text": "His brother is a _________________ boy. He always tells a joke.",
+        "options": {
+          "A": "humorous",
+          "B": "humor",
+          "C": "humorously",
+          "D": "humored"
+        },
+        "answer": "A",
+        "explanation": "Cần một tính từ đứng trước danh từ 'boy' để miêu tả tính cách. 'Humorous' nghĩa là khôi hài, hài hước."
+      },
+      {
+        "id": 5,
+        "type": "mcq",
+        "text": "Do you mind if I __________________ your car to work?",
+        "options": {
+          "A": "use",
+          "B": "used",
+          "C": "using",
+          "D": "will use"
+        },
+        "answer": "A",
+        "explanation": "Cấu trúc 'Do you mind if + S + V (hiện tại đơn)?' dùng để xin phép làm việc gì đó một cách lịch sự."
+      },
+      {
+        "id": 6,
+        "type": "mcq",
+        "text": "They are ____________ that their son won the championship.",
+        "options": {
+          "A": "delight",
+          "B": "delighted",
+          "C": "delighting",
+          "D": "delightful"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'S + be + adj + that clause'. Ở đây dùng tính từ đuôi '-ed' (delighted) để diễn tả cảm xúc của con người (họ cảm thấy vui mừng)."
+      },
+      {
+        "id": 7,
+        "type": "mcq",
+        "text": "My sister regretting ___________ Mai’s glasses yesterday.",
+        "options": {
+          "A": "break",
+          "B": "broken",
+          "C": "breaking",
+          "D": "to break"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'Regret + V-ing' dùng để hối tiếc về một việc đã làm trong quá khứ (làm vỡ kính ngày hôm qua)."
+      },
+      {
+        "id": 8,
+        "type": "mcq",
+        "text": "Hoa dances more _______________ than her classmates.",
+        "options": {
+          "A": "beauty",
+          "B": "beautiful",
+          "C": "beautifully",
+          "D": "beautify"
+        },
+        "answer": "C",
+        "explanation": "Cần một trạng từ (beautifully) để bổ nghĩa cho động từ 'dances' trong cấu trúc so sánh hơn."
+      },
+      {
+        "id": 9,
+        "type": "mcq",
+        "text": "They will hold a meeting in the large room ____________ the morning of next Sunday.",
+        "options": {
+          "A": "in",
+          "B": "on",
+          "C": "at",
+          "D": "to"
+        },
+        "answer": "B",
+        "explanation": "Dùng giới từ 'on' trước một buổi của một ngày cụ thể (on the morning of next Sunday)."
+      },
+      {
+        "id": 10,
+        "type": "mcq",
+        "text": "Minh loves playing chess _____________ his sister enjoys skipping in their free time.",
+        "options": {
+          "A": "and",
+          "B": "but",
+          "C": "so",
+          "D": "or"
+        },
+        "answer": "B",
+        "explanation": "Dùng liên từ 'but' để nối hai vế có sự đối lập về sở thích giữa Minh và em gái."
+      },
+      {
+        "id": 11,
+        "type": "mcq",
+        "text": "One hundred dollars ______________ an big amount of money for her.",
+        "options": {
+          "A": "is",
+          "B": "are",
+          "C": "was",
+          "D": "were"
+        },
+        "answer": "A",
+        "explanation": "Số tiền (one hundred dollars) được coi là một đơn vị tổng thể nên động từ chia ở số ít."
+      },
+      {
+        "id": 12,
+        "type": "mcq",
+        "text": "Don’t overheat the victim _____________ blankets or coats.",
+        "options": {
+          "A": "with",
+          "B": "on",
+          "C": "by",
+          "D": "for"
+        },
+        "answer": "A",
+        "explanation": "Cấu trúc 'overheat someone with something': làm ai đó quá nóng bằng cái gì (chăn hoặc áo khoác)."
+      },
+      {
+        "id": 13,
+        "type": "mcq",
+        "text": "We are going to __________ a small plane to Ha Long Bay this weekend.",
+        "options": {
+          "A": "ride",
+          "B": "drive",
+          "C": "take",
+          "D": "fly"
+        },
+        "answer": "C",
+        "explanation": "Cụm từ 'take a plane': đi bằng máy bay."
+      },
+      {
+        "id": 14,
+        "type": "mcq",
+        "text": "They as well as Mai ___________________ in the field at this time last Sunday.",
+        "options": {
+          "A": "were working",
+          "B": "was working",
+          "C": "are working",
+          "D": "is working"
+        },
+        "answer": "A",
+        "explanation": "Với cấu trúc 'S1 as well as S2', động từ chia theo S1 (They - số nhiều). 'At this time last Sunday' là dấu hiệu thì Quá khứ tiếp diễn."
+      },
+      {
+        "id": 15,
+        "type": "mcq",
+        "text": "Thanks _______ Alexander Graham Bell’s invention, I can communicate with each other easily.",
+        "options": {
+          "A": "to",
+          "B": "for",
+          "C": "with",
+          "D": "about"
+        },
+        "answer": "A",
+        "explanation": "Cụm từ 'Thanks to someone/something': nhờ vào ai đó/cái gì đó."
+      },
+      {
+        "id": 16,
+        "type": "mcq",
+        "text": "We must _________ the environment from the pollution every day.",
+        "options": {
+          "A": "prevent",
+          "B": "save",
+          "C": "protect",
+          "D": "keep"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'protect something from...': bảo vệ cái gì khỏi cái gì (ô nhiễm)."
+      },
+      {
+        "id": 17,
+        "type": "mcq",
+        "text": "In our opinion, there are a lot of differences _________ two twins.",
+        "options": {
+          "A": "among",
+          "B": "between",
+          "C": "in",
+          "D": "of"
+        },
+        "answer": "B",
+        "explanation": "Dùng 'between' khi nói về sự khác biệt giữa hai đối tượng (hai đứa trẻ sinh đôi)."
+      },
+      {
+        "id": 18,
+        "type": "mcq",
+        "text": "If you _______________ your work, let’s play volleyball with them in the garden.",
+        "options": {
+          "A": "finish",
+          "B": "finished",
+          "C": "will finish",
+          "D": "have finished"
+        },
+        "answer": "D",
+        "explanation": "Sử dụng thì Hiện tại hoàn thành trong câu điều kiện loại 1 để nhấn mạnh việc hoàn thành xong hành động thì mới thực hiện vế sau."
+      },
+      {
+        "id": 19,
+        "type": "mcq",
+        "text": "Have a picnic with ______________ in the mountain tomorrow.",
+        "options": {
+          "A": "our",
+          "B": "us",
+          "C": "we",
+          "D": "ours"
+        },
+        "answer": "B",
+        "explanation": "Sau giới từ 'with' cần một đại từ đóng vai trò tân ngữ (us)."
+      },
+      {
+        "id": 20,
+        "type": "mcq",
+        "text": "Study is no _____________ restricted to just one location.",
+        "options": {
+          "A": "longer",
+          "B": "more",
+          "C": "any",
+          "D": "farther"
+        },
+        "answer": "A",
+        "explanation": "Cụm từ 'no longer': không còn nữa, diễn tả việc học không còn bị giới hạn ở một địa điểm duy nhất."
+      },
+      {
+        "id": 21,
+        "type": "mcq",
+        "text": "My son was hit _______________ a stick while he was working in the field.",
+        "options": {
+          "A": "by",
+          "B": "with",
+          "C": "in",
+          "D": "at"
+        },
+        "answer": "B",
+        "explanation": "Dùng 'with' để chỉ công cụ, phương tiện (một cái gậy) gây ra hành động trong câu bị động. 'By' thường dùng cho tác nhân gây ra hành động là người hoặc vật thể chủ động."
+      },
+      {
+        "id": 22,
+        "type": "mcq",
+        "text": "Nam and Manh have played badminton for two hours, but __________ of them are tired.",
+        "options": {
+          "A": "both",
+          "B": "all",
+          "C": "neither",
+          "D": "none"
+        },
+        "answer": "C",
+        "explanation": "Dùng 'neither' để chỉ cả hai đều không. Câu này có nghĩa là mặc dù chơi 2 tiếng nhưng cả hai đều không mệt. 'None' dùng cho 3 đối tượng trở lên."
+      },
+      {
+        "id": 23,
+        "type": "text",
+        "text": "Joanne wants to become a __________ in the future. (science)",
+        "options": null,
+        "answer": "scientist",
+        "explanation": "Sau mạo từ 'a' và động từ 'become' cần một danh từ chỉ người. 'Scientist' nghĩa là nhà khoa học."
+      },
+      {
+        "id": 24,
+        "type": "text",
+        "text": "Many rural areas in Viet Nam have been __________ in the last few years. (urban)",
+        "options": null,
+        "answer": "urbanized",
+        "explanation": "Dạng bị động của thì hiện tại hoàn thành (have been + V3/ed). 'Urbanized' nghĩa là được đô thị hóa."
+      },
+      {
+        "id": 25,
+        "type": "text",
+        "text": "The book was so ________ that we didn’t want to read it. (interest)",
+        "options": null,
+        "answer": "uninteresting",
+        "explanation": "Dựa vào vế sau 'không muốn đọc nó' nên cần một tính từ mang nghĩa tiêu cực. 'Uninteresting' nghĩa là không thú vị."
+      },
+      {
+        "id": 26,
+        "type": "text",
+        "text": "There are a lot of _______________ in the competition. (contest)",
+        "options": null,
+        "answer": "contestants",
+        "explanation": "Sau 'a lot of' cần một danh từ số nhiều. 'Contestants' nghĩa là những người dự thi."
+      },
+      {
+        "id": 27,
+        "type": "text",
+        "text": "Linda’s __________ made the party less exciting. (absent)",
+        "options": null,
+        "answer": "absence",
+        "explanation": "Sau sở hữu cách 'Linda's' cần một danh từ. 'Absence' nghĩa là sự vắng mặt."
+      },
+      {
+        "id": 28,
+        "type": "text",
+        "text": "He didn’t win the championship, so he felt very _____________ . (hope)",
+        "options": null,
+        "answer": "hopeless",
+        "explanation": "Dựa vào ngữ cảnh 'không thắng giải' nên cảm thấy thất vọng/không còn hy vọng. 'Hopeless' nghĩa là tuyệt vọng/vô vọng."
+      },
+      {
+        "id": 29,
+        "type": "text",
+        "text": "Because of his _________, they failed the exam. (lazy)",
+        "options": null,
+        "answer": "laziness",
+        "explanation": "Sau 'Because of' và tính từ sở hữu 'his' cần một danh từ. 'Laziness' nghĩa là sự lười biếng."
+      },
+      {
+        "id": 30,
+        "type": "text",
+        "text": "Vinamilk company has served customers a lot of _____________ recently. (produce)",
+        "options": null,
+        "answer": "products",
+        "explanation": "Sau 'a lot of' cần một danh từ. Vì công ty cung cấp nhiều thứ nên dùng danh từ số nhiều 'products' (sản phẩm)."
+      },
+      {
+        "id": 31,
+        "type": "text",
+        "text": "Tet holiday is one of the most important __________ for Vietnamese people. (celebrate)",
+        "options": null,
+        "answer": "celebrations",
+        "explanation": "Sau cụm 'one of the most important' cần một danh từ số nhiều. 'Celebrations' nghĩa là các dịp lễ kỷ niệm/chào mừng."
+      },
+      {
+        "id": 32,
+        "type": "text",
+        "text": "Laura loves all of Vietnamese dishes, _______________ Nem. (special)",
+        "options": null,
+        "answer": "especially",
+        "explanation": "Cần một trạng từ để nhấn mạnh một đối tượng cụ thể trong danh sách. 'Especially' nghĩa là đặc biệt là."
+      },
+      {
+        "id": 33,
+        "type": "text",
+        "text": "Find and correct a mistake: The boy was enough intelligent to solve that problem.",
+        "options": null,
+        "answer": "enough intelligent -> intelligent enough",
+        "explanation": "Cấu trúc với 'enough': Tính từ/Trạng từ + enough. Do đó 'intelligent' phải đứng trước 'enough'."
+      },
+      {
+        "id": 34,
+        "type": "text",
+        "text": "Find and correct a mistake: The girl helped me with the needlework yesterday is my classmate.",
+        "options": null,
+        "answer": "helped -> who helped / helping",
+        "explanation": "Câu đã có động từ chính là 'is'. Cần dùng mệnh đề quan hệ 'who helped' hoặc rút gọn mệnh đề quan hệ 'helping' để bổ nghĩa cho 'The girl'."
+      },
+      {
+        "id": 35,
+        "type": "text",
+        "text": "Find and correct a mistake: They asked their friends not play soccer in the road.",
+        "options": null,
+        "answer": "not play -> not to play",
+        "explanation": "Cấu trúc 'ask someone (not) to do something': yêu cầu ai (không) làm gì."
+      },
+      {
+        "id": 36,
+        "type": "text",
+        "text": "Find and correct a mistake: Hanh is the same weigh as my sister.",
+        "options": null,
+        "answer": "weigh -> weight",
+        "explanation": "Cấu trúc 'the same + danh từ + as'. 'Weigh' là động từ, danh từ của nó là 'weight'."
+      },
+      {
+        "id": 37,
+        "type": "text",
+        "text": "Find and correct a mistake: It is careless for you to leave your book on the train.",
+        "options": null,
+        "answer": "for -> of",
+        "explanation": "Cấu trúc 'It is + adj (chỉ tính chất con người) + of + someone + to-V'. 'Careless' là tính từ chỉ tính cách nên dùng 'of'."
+      },
+      {
+        "id": 38,
+        "type": "text",
+        "text": "Find and correct a mistake: My brother used to going to the movies with our father.",
+        "options": null,
+        "answer": "going -> go",
+        "explanation": "Cấu trúc 'used to + V-inf': diễn tả một thói quen hoặc hành động thường xuyên xảy ra trong quá khứ và đã chấm dứt."
+      },
+      {
+        "id": 39,
+        "type": "text",
+        "text": "Find and correct a mistake: Hoa asked me if I could have a picnic with her in the country or not.",
+        "options": null,
+        "answer": "if -> whether",
+        "explanation": "Khi có cụm 'or not' ở cuối câu gián tiếp, ta ưu tiên dùng 'whether' thay vì 'if' (Whether... or not)."
+      },
+      {
+        "id": 40,
+        "type": "text",
+        "text": "Find and correct a mistake: Most of monkeys both in the forest and in the zoo are interesting in bananas.",
+        "options": null,
+        "answer": "interesting -> interested",
+        "explanation": "Cấu trúc 'be interested in something' dùng để diễn tả cảm xúc, sở thích của chủ ngữ (con khỉ thích chuối)."
+      },
+      {
+        "id": 41,
+        "type": "text",
+        "text": "Find and correct a mistake: It takes Nam thirty minutes going to school on foot everyday.",
+        "options": null,
+        "answer": "going -> to go",
+        "explanation": "Cấu trúc tốn thời gian: It takes + someone + time + to-V."
+      },
+      {
+        "id": 42,
+        "type": "text",
+        "text": "Find and correct a mistake: Not only Ha but also her friends was present in my fifteenth birthday party.",
+        "options": null,
+        "answer": "was -> were",
+        "explanation": "Với cấu trúc 'Not only... but also...', động từ chia theo chủ ngữ gần nhất (her friends - số nhiều) nên dùng 'were'."
+      },
+      {
+        "id": 43,
+        "type": "mcq",
+        "text": "Air pollution is caused ________(1) ill health in human beings.",
+        "options": {
+          "A": "from",
+          "B": "on",
+          "C": "over",
+          "D": "of"
+        },
+        "answer": "D",
+        "explanation": "Cấu trúc 'The cause of something' (nguyên nhân của cái gì), tuy nhiên trong ngữ cảnh bị động này, đề bài có thể đang nhắm tới 'caused of' (dù 'of' ở đây hơi khiên cưỡng, thường là 'cause of ill health')."
+      },
+      {
+        "id": 44,
+        "type": "mcq",
+        "text": "In a lot of countries, there are ________(2) limiting the amount of smoke factories can produce...",
+        "options": {
+          "A": "laws",
+          "B": "ideas",
+          "C": "problems",
+          "D": "regulations"
+        },
+        "answer": "A",
+        "explanation": "'Laws' (luật lệ) là từ phù hợp nhất để nói về việc giới hạn lượng khói thải từ các nhà máy bằng quy định pháp luật."
+      },
+      {
+        "id": 45,
+        "type": "mcq",
+        "text": "...although there is not enough _______(3) on the effects of smoke on the atmosphere.",
+        "options": {
+          "A": "news",
+          "B": "article",
+          "C": "information",
+          "D": "newspaper"
+        },
+        "answer": "C",
+        "explanation": "'Information' (thông tin) là danh từ không đếm được, đi với 'enough' để chỉ việc chưa có đủ thông tin/dữ liệu về tác động của khói."
+      },
+      {
+        "id": 46,
+        "type": "mcq",
+        "text": "Doctors have ________(4) that air pollution causes ________ (5) diseases.",
+        "options": {
+          "A": "agreed",
+          "B": "pointed",
+          "C": "disagreed",
+          "D": "proved"
+        },
+        "answer": "D",
+        "explanation": "'Proved' (chứng minh) phù hợp để nói về việc các bác sĩ đã xác minh được ô nhiễm không khí gây ra bệnh tật."
+      },
+      {
+        "id": 47,
+        "type": "text",
+        "text": "The gases from the exhausts of cars _______(6) also increased air pollution in most cities.",
+        "options": null,
+        "answer": "have",
+        "explanation": "Chủ ngữ là 'The gases' (số nhiều) nên dùng trợ động từ 'have' để tạo thành thì hiện tại hoàn thành (have increased)."
+      },
+      {
+        "id": 48,
+        "type": "text",
+        "text": "The ________ (7) of petrol produces a poisonous gas, which is often collected in busy streets...",
+        "options": null,
+        "answer": "burning",
+        "explanation": "Việc đốt cháy xăng dầu (burning of petrol) tạo ra khí độc."
+      },
+      {
+        "id": 49,
+        "type": "text",
+        "text": "Children _______(8) in areas where there is a lot of lead in the atmosphere can not think...",
+        "options": null,
+        "answer": "living / growing up",
+        "explanation": "Sử dụng phân từ hiện tại (V-ing) để rút gọn mệnh đề quan hệ: 'Children who live...' -> 'Children living'."
+      },
+      {
+        "id": 50,
+        "type": "text",
+        "text": "...can not think as ________(9) as other children...",
+        "options": null,
+        "answer": "quickly / fast",
+        "explanation": "Cần một trạng từ trong cấu trúc so sánh bằng 'as... as' để bổ nghĩa cho động từ 'think'."
+      },
+      {
+        "id": 51,
+        "type": "text",
+        "text": "...and are clumsy when they _______(10) their hands.",
+        "options": null,
+        "answer": "use",
+        "explanation": "Vụng về khi họ 'sử dụng' (use) đôi tay của mình."
+      },
+      {
+        "id": 52,
+        "type": "mcq",
+        "text": "Doctors have proved that air pollution causes ________ (5) diseases.",
+        "options": {
+          "A": "lung",
+          "B": "heart",
+          "C": "liver",
+          "D": "stomach"
+        },
+        "answer": "A",
+        "explanation": "Ô nhiễm không khí (air pollution) thường gây ra các bệnh về phổi (lung diseases)."
+      },
+      {
+        "id": 53,
+        "type": "mcq",
+        "text": "The gases from the exhausts of cars _______(6) also increased air pollution in most cities.",
+        "options": {
+          "A": "had",
+          "B": "have",
+          "C": "has",
+          "D": "having"
+        },
+        "answer": "B",
+        "explanation": "Chủ ngữ là 'The gases' (số nhiều) nên dùng trợ động từ 'have' trong thì hiện tại hoàn thành."
+      },
+      {
+        "id": 54,
+        "type": "mcq",
+        "text": "Children living in areas where there is a lot of ________ (7) in the atmosphere...",
+        "options": {
+          "A": "water",
+          "B": "lead",
+          "C": "gas",
+          "D": "exhaust"
+        },
+        "answer": "B",
+        "explanation": "Trong ngữ cảnh ô nhiễm không khí ảnh hưởng đến trí tuệ trẻ em, 'lead' (chì) là chất độc phổ biến được đề cập."
+      },
+      {
+        "id": 55,
+        "type": "mcq",
+        "text": "Children _______(8) in areas where there is a lot of lead in the atmosphere...",
+        "options": {
+          "A": "lived",
+          "B": "live",
+          "C": "to live",
+          "D": "living"
+        },
+        "answer": "D",
+        "explanation": "Sử dụng hiện tại phân từ (V-ing) để rút gọn mệnh đề quan hệ chủ động (Children who are living...)."
+      },
+      {
+        "id": 56,
+        "type": "mcq",
+        "text": "...can not think as ________(9) as other children...",
+        "options": {
+          "A": "quick",
+          "B": "slowly",
+          "C": "quickly",
+          "D": "slow"
+        },
+        "answer": "C",
+        "explanation": "Cần một trạng từ (quickly) để bổ nghĩa cho động từ 'think' trong cấu trúc so sánh bằng 'as... as'."
+      },
+      {
+        "id": 57,
+        "type": "mcq",
+        "text": "...and are clumsy when they _______(10) their hands.",
+        "options": {
+          "A": "touch",
+          "B": "use",
+          "C": "handle",
+          "D": "collect"
+        },
+        "answer": "B",
+        "explanation": "Cụm từ 'use their hands' (sử dụng đôi tay) phù hợp nhất với ngữ cảnh nói về sự vụng về (clumsy)."
+      },
+      {
+        "id": 58,
+        "type": "text",
+        "text": "Christmas is always held ________(1) December the twenty fifth every year.",
+        "options": null,
+        "answer": "on",
+        "explanation": "Dùng giới từ 'on' trước ngày tháng cụ thể (December 25th)."
+      },
+      {
+        "id": 59,
+        "type": "text",
+        "text": "Every family in England decorates a Christmas tree and puts ________(2) in the middle of the living room.",
+        "options": null,
+        "answer": "it",
+        "explanation": "Đại từ 'it' dùng để thay thế cho danh từ 'a Christmas tree' đã nhắc tới phía trước."
+      },
+      {
+        "id": 60,
+        "type": "text",
+        "text": "And Santa Claus plays an important _________(3) in this festival.",
+        "options": null,
+        "answer": "role / part",
+        "explanation": "Cụm từ 'play an important role/part in': đóng một vai trò quan trọng trong cái gì đó."
+      },
+      {
+        "id": 61,
+        "type": "text",
+        "text": "In 1823, the patron saint of children, Saint Nicholas appeared in a poem ________(4) A Visit Saint Nicholas.",
+        "options": null,
+        "answer": "called / titled",
+        "explanation": "Sử dụng quá khứ phân từ để rút gọn mệnh đề quan hệ bị động: 'a poem which was called...' (một bài thơ được gọi là)."
+      },
+      {
+        "id": 62,
+        "type": "text",
+        "text": "The character in the poem _______(5) a fat jolly man...",
+        "options": null,
+        "answer": "was",
+        "explanation": "Chia động từ 'to be' ở thì quá khứ đơn (was) phù hợp với chủ ngữ số ít và ngữ cảnh kể lại."
+      },
+      {
+        "id": 63,
+        "type": "text",
+        "text": "...who wore a _______ (6) suit...",
+        "options": null,
+        "answer": "red",
+        "explanation": "Theo truyền thuyết về ông già Noel (Santa Claus), bộ đồ ông mặc luôn có màu đỏ (red suit)."
+      },
+      {
+        "id": 64,
+        "type": "text",
+        "text": "...and gave children ________ (7) on Christmas Eve.",
+        "options": null,
+        "answer": "presents / gifts",
+        "explanation": "Ông già Noel tặng 'quà' (presents hoặc gifts) cho trẻ em vào đêm Giáng sinh."
+      },
+      {
+        "id": 65,
+        "type": "text",
+        "text": "The poem, which was ________(8) by Clement Clarke Moore...",
+        "options": null,
+        "answer": "written / composed",
+        "explanation": "Sử dụng dạng bị động (was + V3/ed) để nói về việc bài thơ được sáng tác bởi ai đó."
+      },
+      {
+        "id": 66,
+        "type": "text",
+        "text": "...an American professor, became popular __________(9) the USA.",
+        "options": null,
+        "answer": "in / throughout",
+        "explanation": "Giới từ 'in' dùng trước tên quốc gia (the USA)."
+      },
+      {
+        "id": 67,
+        "type": "text",
+        "text": "Santa Claus is based _______(10) the description of Saint Nicholas in this poem.",
+        "options": null,
+        "answer": "on",
+        "explanation": "Cấu trúc 'be based on': dựa trên cái gì đó."
+      },
+      {
+        "id": 68,
+        "type": "text",
+        "text": "It is over two years since they left their homeland. (They haven’t …………………………)",
+        "options": null,
+        "answer": "They haven’t been back to their homeland for over two years. / They haven't visited their homeland for over two years.",
+        "explanation": "Chuyển đổi từ cấu trúc 'It is + thời gian + since + S + V(quá khứ)' sang thì hiện tại hoàn thành phủ định 'S + haven't + V3 + for + thời gian'."
+      },
+      {
+        "id": 69,
+        "type": "text",
+        "text": "“How many cars are there in front of your house, Mai?” I said (I asked …………………...)",
+        "options": null,
+        "answer": "I asked Mai how many cars there were in front of her house.",
+        "explanation": "Câu tường thuật với từ để hỏi (Wh-questions): S + asked (+O) + Wh-word + S + V (lùi thì). 'Are there' chuyển thành 'there were', 'your' chuyển thành 'her'."
+      },
+      {
+        "id": 70,
+        "type": "text",
+        "text": "No one introduced me to newcomers in the festival. (I ……………………………………..)",
+        "options": null,
+        "answer": "I wasn't introduced to newcomers in the festival.",
+        "explanation": "Chuyển từ câu chủ động sang bị động ở thì quá khứ đơn: S + was/were + V3. Vì chủ ngữ là 'No one' nên câu bị động phải ở dạng phủ định."
+      },
+      {
+        "id": 71,
+        "type": "text",
+        "text": "The food was too bad for the children to eat. (The food was so ……………………………)",
+        "options": null,
+        "answer": "The food was so bad that the children couldn't eat it.",
+        "explanation": "Chuyển từ cấu trúc 'too... for someone to do' sang 'so... that...'. Lưu ý trong cấu trúc 'so... that', ta phải thêm tân ngữ 'it' ở cuối mệnh đề kết quả."
+      },
+      {
+        "id": 72,
+        "type": "text",
+        "text": "It’s no use persuading her to join in that activity. (There is no ……………………………..)",
+        "options": null,
+        "answer": "There is no point in persuading her to join in that activity.",
+        "explanation": "Cấu trúc tương đương: 'It's no use + V-ing' = 'There is no point in + V-ing' (Không đáng/vô ích khi làm gì)."
+      },
+      {
+        "id": 73,
+        "type": "text",
+        "text": "I am on the fifth page of the essay I am typing. (So far ……………………………………)",
+        "options": null,
+        "answer": "So far I have typed five pages of the essay.",
+        "explanation": "'So far' (cho đến nay) là dấu hiệu của thì hiện tại hoàn thành. Ta chuyển hành động đang làm sang kết quả đã đạt được."
+      },
+      {
+        "id": 74,
+        "type": "text",
+        "text": "The dog keeps stealing my socks. (The dog is ……………………………………………...)",
+        "options": null,
+        "answer": "The dog is always stealing my socks.",
+        "explanation": "Dùng thì hiện tại tiếp diễn với 'always' (be always V-ing) để diễn tả sự phàn nàn về một thói quen gây khó chịu, tương đương với 'keep V-ing'."
+      },
+      {
+        "id": 75,
+        "type": "text",
+        "text": "Hoa found it easy to translate this poem into French. (Hoa had no ………………………..)",
+        "options": null,
+        "answer": "Hoa had no difficulty (in) translating this poem into French.",
+        "explanation": "Cấu trúc tương đương: 'find it easy to do' = 'have no difficulty/trouble (in) doing' (không gặp khó khăn khi làm gì)."
+      },
+      {
+        "id": 76,
+        "type": "text",
+        "text": "Collect all of dirty clothes by 8 o’clock tomorrow morning. (Let all ………………………)",
+        "options": null,
+        "answer": "Let all dirty clothes be collected by 8 o’clock tomorrow morning.",
+        "explanation": "Chuyển câu mệnh lệnh sang thể bị động với 'Let': Let + tân ngữ + be + V3."
+      },
+      {
+        "id": 77,
+        "type": "text",
+        "text": "Mary is the most graceful girl at school. (No girl …………………………………………..)",
+        "options": null,
+        "answer": "No girl at school is as graceful as Mary. / No girl at school is more graceful than Mary.",
+        "explanation": "Chuyển từ so sánh nhất (the most graceful) sang so sánh bằng ở dạng phủ định (no... as... as) hoặc so sánh hơn (no... more... than)."
+      },
+      {
+        "id": 78,
+        "type": "text",
+        "text": "Part VIII- Write a letter about 150 – 200 words to a pen friend about your neighborhood.",
+        "options": null,
+        "answer": "Học sinh tự viết thư dựa trên các gợi ý về nơi mình đang sống (neighborhood).",
+        "explanation": "Đây là dạng bài viết đoạn văn/thư (Writing). Yêu cầu học sinh sử dụng từ vựng về chủ đề nơi ở, miêu tả cơ sở vật chất, con người và cảm xúc đối với khu phố của mình."
+      },
+      {
+        "id": 79,
+        "type": "text",
+        "text": "Rewrite the sentence: It is over two years since they left their homeland. (They haven’t ...)",
+        "options": null,
+        "answer": "They haven’t come back their homeland for over two years.",
+        "explanation": "Chuyển đổi từ thì Quá khứ đơn (mốc thời gian kể từ khi rời đi) sang thì Hiện tại hoàn thành để diễn tả khoảng thời gian đã bao lâu chưa làm việc gì đó."
+      },
+      {
+        "id": 80,
+        "type": "text",
+        "text": "Rewrite the sentence: “How many cars are there in front of your house, Mai?” I said (I asked ...)",
+        "options": null,
+        "answer": "I asked Mai how many cars there were in front of her/his house.",
+        "explanation": "Câu tường thuật dạng câu hỏi Wh-. Ta chuyển từ 'are there' thành 'there were' (lùi thì) và thay đổi đại từ sở hữu 'your' thành 'her'."
+      },
+      {
+        "id": 81,
+        "type": "text",
+        "text": "Rewrite the sentence: No one introduced me to newcomers in the festival. (I ...)",
+        "options": null,
+        "answer": "I wasn’t introduced to newcomers in the festival.",
+        "explanation": "Chuyển câu từ chủ động sang bị động ở thì Quá khứ đơn. Vì chủ ngữ gốc là 'No one' nên câu bị động phải mang nghĩa phủ định."
+      },
+      {
+        "id": 82,
+        "type": "text",
+        "text": "Rewrite the sentence: The food was too bad for the children to eat. (The food was so ...)",
+        "options": null,
+        "answer": "The food was so bad that the children couldn’t eat it.",
+        "explanation": "Chuyển cấu trúc 'too... for somebody to do' sang 'so... that...'. Lưu ý trong cấu trúc 'so... that' phải có đầy đủ mệnh đề và tân ngữ 'it' ở cuối."
+      },
+      {
+        "id": 83,
+        "type": "text",
+        "text": "Rewrite the sentence: It’s no use persuading her to join in that activity. (There is no ...)",
+        "options": null,
+        "answer": "There is no point in persuading her to join in that activity.",
+        "explanation": "Cấu trúc tương đương: 'It's no use + V-ing' = 'There is no point in + V-ing', nghĩa là 'vô ích/không đáng làm gì đó'."
+      },
+      {
+        "id": 84,
+        "type": "text",
+        "text": "Rewrite the sentence: I am on the fifth page of the essay I am typing. (So far ...)",
+        "options": null,
+        "answer": "So far I have typed five pages of the essay.",
+        "explanation": "Sử dụng 'So far' làm dấu hiệu cho thì Hiện tại hoàn thành để diễn tả kết quả tính đến thời điểm hiện tại."
+      },
+      {
+        "id": 85,
+        "type": "text",
+        "text": "Rewrite the sentence: The dog keeps stealing my socks. (The dog is ...)",
+        "options": null,
+        "answer": "The dog is always stealing my socks.",
+        "explanation": "Sử dụng thì hiện tại tiếp diễn kết hợp với 'always' để diễn tả một thói quen lặp đi lặp lại gây khó chịu hoặc phiền hà, tương đương với cấu trúc 'keep + V-ing'."
+      },
+      {
+        "id": 86,
+        "type": "text",
+        "text": "Rewrite the sentence: Hoa found it easy to translate this poem into French. (Hoa had no ...)",
+        "options": null,
+        "answer": "Hoa had no difficulty in translating this poem into French.",
+        "explanation": "Cấu trúc 'have no difficulty (in) + V-ing' (không gặp khó khăn khi làm gì) tương đương với 'find it easy to + V-inf'."
+      },
+      {
+        "id": 87,
+        "type": "text",
+        "text": "Rewrite the sentence: Collect all of dirty clothes by 8 o’clock tomorrow morning. (Let all ...)",
+        "options": null,
+        "answer": "Let all of dirty clothes be collected by 8 o’clock tomorrow morning.",
+        "explanation": "Chuyển câu mệnh lệnh chủ động sang dạng bị động với cấu trúc 'Let + O + be + V3/ed'."
+      },
+      {
+        "id": 88,
+        "type": "text",
+        "text": "Rewrite the sentence: Mary is the most graceful girl at school. (No girl ...)",
+        "options": null,
+        "answer": "No girl at school is as graceful as Mary.",
+        "explanation": "Chuyển đổi từ so sánh nhất (the most graceful) sang dạng so sánh bằng phủ định (No girl ... is as ... as) để giữ nguyên ý nghĩa."
+      },
+      {
+        "id": 89,
+        "type": "text",
+        "text": "Part VIII- Write a letter about 150 – 200 words to a pen friend about your neighborhood.",
+        "options": null,
+        "answer": "Nội dung bài viết cần đảm bảo: Đúng chủ đề, từ vựng phong phú, ngữ pháp chính xác, mạch lạc và đủ độ dài yêu cầu.",
+        "explanation": "Đây là bài viết luận/thư (Writing). Thang điểm chấm dựa trên Nội dung (1.5), Từ vựng (0.5), Ngữ pháp (0.5), và Tính mạch lạc + Độ dài (0.5)."
+      }
+    ],
+    "vocab": [
+      {
+        "word": "Since + mốc thời gian",
+        "pron": "/sɪns/",
+        "type": "structure",
+        "meaning": "Kể từ khi (Dấu hiệu nhận biết quan trọng của thì Hiện tại hoàn thành)",
+        "example": "Hoa has collected coins and stamps since she was six."
+      },
+      {
+        "word": "Humorous",
+        "pron": "/ˈhjuːmərəs/",
+        "type": "adjective",
+        "meaning": "Hài hước, hóm hỉnh",
+        "example": "His brother is a humorous boy; he always tells a joke."
+      },
+      {
+        "word": "Do you mind if + S + V(present)?",
+        "pron": "/du ju maɪnd ɪf/",
+        "type": "structure",
+        "meaning": "Bạn có phiền nếu tôi làm gì đó không? (Cấu trúc xin phép lịch sự)",
+        "example": "Do you mind if I use your car to work?"
+      },
+      {
+        "word": "Delighted",
+        "pron": "/dɪˈlaɪtɪd/",
+        "type": "adjective",
+        "meaning": "Vui mừng, hạnh phúc (thường dùng để diễn tả cảm xúc của con người)",
+        "example": "They are delighted that their son won the championship."
+      },
+      {
+        "word": "Regret + V-ing",
+        "pron": "/rɪˈɡret/",
+        "type": "structure",
+        "meaning": "Hối tiếc vì đã làm việc gì đó trong quá khứ",
+        "example": "My sister regretted breaking Mai’s glasses yesterday."
+      },
+      {
+        "word": "Beautifully",
+        "pron": "/ˈbjuːtɪfli/",
+        "type": "adverb",
+        "meaning": "Một cách xinh đẹp, hay, giỏi (Trạng từ bổ nghĩa cho động từ thường)",
+        "example": "Hoa dances more beautifully than her classmates."
+      },
+      {
+        "word": "On + buổi của ngày cụ thể",
+        "pron": "/ɒn/",
+        "type": "preposition",
+        "meaning": "Vào (Giới từ chỉ thời gian dùng cho ngày hoặc một buổi của ngày cụ thể)",
+        "example": "The meeting is on the morning of next Sunday."
+      },
+      {
+        "word": "Championship",
+        "pron": "/ˈtʃæmpiənʃɪp/",
+        "type": "noun",
+        "meaning": "Chức vô địch, giải vô địch",
+        "example": "Their son won the championship in the final match."
+      },
+      {
+        "word": "As well as",
+        "pron": "/æz wel æz/",
+        "type": "conjunction",
+        "meaning": "Cũng như là (Khi làm chủ ngữ, động từ chia theo danh từ đứng trước)",
+        "example": "They as well as Mai were working in the field."
+      },
+      {
+        "word": "Protect ... from",
+        "pron": "/prəˈtekt frəm/",
+        "type": "verb phrase",
+        "meaning": "Bảo vệ ai đó/cái gì đó khỏi...",
+        "example": "We must protect the environment from pollution every day."
+      },
+      {
+        "word": "No longer",
+        "pron": "/nəʊ ˈlɒŋɡə(r)/",
+        "type": "phrase",
+        "meaning": "Không còn nữa",
+        "example": "Study is no longer restricted to just one location."
+      },
+      {
+        "word": "Thanks to",
+        "pron": "/θæŋks tu/",
+        "type": "prepositional phrase",
+        "meaning": "Nhờ vào, nhờ có",
+        "example": "Thanks to your help, I finished the project on time."
+      },
+      {
+        "word": "Between",
+        "pron": "/bɪˈtwiːn/",
+        "type": "preposition",
+        "meaning": "Giữa hai người/vật (Khác với 'among' dùng cho ba trở lên)",
+        "example": "There are a lot of differences between the two twins."
+      },
+      {
+        "word": "Restricted to",
+        "pron": "/rɪˈstrɪktɪd tu/",
+        "type": "adjective phrase",
+        "meaning": "Bị giới hạn trong/ở một phạm vi nào đó",
+        "example": "Access to the building is restricted to employees only."
+      },
+      {
+        "word": "Overheat",
+        "pron": "/ˌəʊvəˈhiːt/",
+        "type": "verb",
+        "meaning": "Làm cho quá nóng",
+        "example": "Don't overheat the victim with too many blankets."
+      },
+      {
+        "word": "Take a plane",
+        "pron": "/teɪk ə pleɪn/",
+        "type": "collocation",
+        "meaning": "Đi bằng máy bay",
+        "example": "We are going to take a small plane to Ha Long Bay."
+      },
+      {
+        "word": "Urbanize",
+        "pron": "/ˈɜːrbənaɪz/",
+        "type": "verb",
+        "meaning": "Đô thị hóa",
+        "example": "Many rural areas in Viet Nam have been urbanized in the last few years."
+      },
+      {
+        "word": "Contestant",
+        "pron": "/kənˈtestənt/",
+        "type": "noun",
+        "meaning": "Người dự thi, thí sinh",
+        "example": "There are a lot of contestants in the competition."
+      },
+      {
+        "word": "Absence",
+        "pron": "/ˈæbsəns/",
+        "type": "noun",
+        "meaning": "Sự vắng mặt",
+        "example": "Linda’s absence made the party less exciting."
+      },
+      {
+        "word": "Neither of + Plural Noun",
+        "pron": "/ˈnaɪðər əv/",
+        "type": "structure",
+        "meaning": "Cả hai đều không (Dùng cho 2 đối tượng)",
+        "example": "Nam and Manh played well, but neither of them are tired."
+      },
+      {
+        "word": "Hopeless",
+        "pron": "/ˈhəʊpləs/",
+        "type": "adjective",
+        "meaning": "Vô vọng, tuyệt vọng",
+        "example": "He didn’t win the championship, so he felt very hopeless."
+      },
+      {
+        "word": "Hit with something",
+        "pron": "/hɪt wɪð/",
+        "type": "structure",
+        "meaning": "Bị đánh/đập bằng một vật dụng nào đó (Chỉ công cụ)",
+        "example": "My son was hit with a stick while he was working."
+      },
+      {
+        "word": "Laziness",
+        "pron": "/ˈleɪzinəs/",
+        "type": "noun",
+        "meaning": "Sự lười biếng",
+        "example": "Because of his laziness, they failed the exam."
+      },
+      {
+        "word": "Uninteresting",
+        "pron": "/ʌnˈɪntrəstɪŋ/",
+        "type": "adjective",
+        "meaning": "Không thú vị, nhàm chán",
+        "example": "The book was so uninteresting that we didn’t want to read it."
+      },
+      {
+        "word": "The same + Noun + as",
+        "pron": "/ðə seɪm... æz/",
+        "type": "structure",
+        "meaning": "Giống cái gì/ai về mặt nào đó (Cấu trúc so sánh bằng với danh từ)",
+        "example": "Hanh is the same weight as my sister."
+      },
+      {
+        "word": "It is + Adj + of + O + to-V",
+        "pron": "/ɪt ɪz... əv/",
+        "type": "structure",
+        "meaning": "Ai đó thật là như thế nào khi làm gì (Dùng 'of' khi tính từ chỉ tính chất con người như: careless, kind, nice...)",
+        "example": "It is careless of you to leave your book on the train."
+      },
+      {
+        "word": "Adj + enough + to-V",
+        "pron": "/ɪˈnʌf/",
+        "type": "structure",
+        "meaning": "Đủ... để làm gì đó (Lưu ý tính từ luôn đứng trước 'enough')",
+        "example": "The boy was intelligent enough to solve that problem."
+      },
+      {
+        "word": "Especially",
+        "pron": "/ɪˈspeʃəli/",
+        "type": "adverb",
+        "meaning": "Đặc biệt là, nhất là (Dùng để nhấn mạnh)",
+        "example": "Laura loves all Vietnamese dishes, especially Nem."
+      },
+      {
+        "word": "Used to + V-inf",
+        "pron": "/juːst tu/",
+        "type": "structure",
+        "meaning": "Đã từng làm gì (Diễn tả thói quen trong quá khứ nay không còn nữa)",
+        "example": "My brother used to go to the movies with our father."
+      },
+      {
+        "word": "Celebration",
+        "pron": "/ˌselɪˈbreɪʃn/",
+        "type": "noun",
+        "meaning": "Sự ăn mừng, lễ kỷ niệm, dịp lễ",
+        "example": "Tet holiday is one of the most important celebrations for Vietnamese people."
+      },
+      {
+        "word": "Needlework",
+        "pron": "/ˈniːdlwɜːrk/",
+        "type": "noun",
+        "meaning": "Công việc may vá, thêu thùa",
+        "example": "The girl helped me with the needlework yesterday."
+      },
+      {
+        "word": "Product",
+        "pron": "/ˈprɒdʌkt/",
+        "type": "noun",
+        "meaning": "Sản phẩm",
+        "example": "Vinamilk company has served customers a lot of products recently."
+      },
+      {
+        "word": "It takes + O + time + to-V",
+        "pron": "/ɪt teɪks/",
+        "type": "structure",
+        "meaning": "Ai đó tốn bao nhiêu thời gian để làm việc gì",
+        "example": "It takes Nam thirty minutes to go to school on foot every day."
+      },
+      {
+        "word": "Not only ... but also ...",
+        "pron": "/nɒt ˈəʊnli... bʌt ˈɔːlsəʊ/",
+        "type": "structure",
+        "meaning": "Không những... mà còn... (Động từ chia theo chủ ngữ gần nhất)",
+        "example": "Not only Ha but also her friends were present at the party."
+      },
+      {
+        "word": "Be interested in",
+        "pron": "/bi ˈɪntrəstɪd ɪn/",
+        "type": "structure",
+        "meaning": "Quan tâm, thích thú về cái gì (Dùng '-ed' cho cảm xúc của chủ thể)",
+        "example": "Most monkeys are interested in bananas."
+      },
+      {
+        "word": "Air pollution",
+        "pron": "/er pəˈluːʃn/",
+        "type": "noun",
+        "meaning": "Ô nhiễm không khí",
+        "example": "Air pollution is caused by smoke from factories and car exhausts."
+      },
+      {
+        "word": "Exhaust",
+        "pron": "/ɪɡˈzɔːst/",
+        "type": "noun",
+        "meaning": "Khí thải (từ động cơ xe cộ, máy móc)",
+        "example": "The gases from the exhausts of cars have increased air pollution."
+      },
+      {
+        "word": "Poisonous",
+        "pron": "/ˈpɔɪzənəs/",
+        "type": "adjective",
+        "meaning": "Độc hại, có độc",
+        "example": "The burning of petrol produces a poisonous gas."
+      },
+      {
+        "word": "Clumsy",
+        "pron": "/ˈklʌmzi/",
+        "type": "adjective",
+        "meaning": "Vụng về, lóng ngóng",
+        "example": "Children in polluted areas may be clumsy when they use their hands."
+      },
+      {
+        "word": "Whether ... or not",
+        "pron": "/ˈweðə(r)... ɔː(r) nɒt/",
+        "type": "structure",
+        "meaning": "Liệu... có hay không (Thường dùng trong câu gián tiếp)",
+        "example": "Hoa asked me whether I could have a picnic with her or not."
+      },
+      {
+        "word": "Be based on",
+        "pron": "/bi beɪst ɒn/",
+        "type": "phrasal verb",
+        "meaning": "Dựa trên, dựa vào",
+        "example": "Santa Claus is based on the description of Saint Nicholas in this poem."
+      },
+      {
+        "word": "Play a role in",
+        "pron": "/pleɪ ə rəʊl ɪn/",
+        "type": "idiom",
+        "meaning": "Đóng một vai trò trong việc gì",
+        "example": "Santa Claus plays an important role in the Christmas festival."
+      },
+      {
+        "word": "Lead",
+        "pron": "/led/",
+        "type": "noun",
+        "meaning": "Chì (kim loại độc hại thường có trong khí thải hoặc sơn cũ)",
+        "example": "There is a lot of lead in the atmosphere in some industrial areas."
+      },
+      {
+        "word": "Patron saint",
+        "pron": "/ˌpeɪtrən ˈseɪnt/",
+        "type": "noun",
+        "meaning": "Thần hộ mệnh, vị thánh bảo hộ",
+        "example": "Saint Nicholas is known as the patron saint of children."
+      },
+      {
+        "word": "Atmosphere",
+        "pron": "/ˈætməsfɪər/",
+        "type": "noun",
+        "meaning": "Bầu không khí, khí quyển",
+        "example": "Factories release smoke directly into the atmosphere."
+      },
+      {
+        "word": "Jolly",
+        "pron": "/ˈdʒɒli/",
+        "type": "adjective",
+        "meaning": "Vui vẻ, hân hoan",
+        "example": "The character in the poem was a fat jolly man."
+      },
+      {
+        "word": "Lung disease",
+        "pron": "/lʌŋ dɪˈziːz/",
+        "type": "noun phrase",
+        "meaning": "Bệnh phổi",
+        "example": "Air pollution is a major cause of various lung diseases."
+      },
+      {
+        "word": "On + [Date]",
+        "pron": "/ɒn/",
+        "type": "preposition",
+        "meaning": "Dùng giới từ 'on' trước ngày cụ thể trong tháng",
+        "example": "Christmas is always held on December the twenty-fifth."
+      },
+      {
+        "word": "It's no use + V-ing",
+        "pron": "/ɪts nəʊ juːs/",
+        "type": "structure",
+        "meaning": "Vô ích khi làm việc gì đó",
+        "example": "It’s no use persuading her to join in that activity."
+      },
+      {
+        "word": "Have no difficulty (in) + V-ing",
+        "pron": "/hæv nəʊ ˈdɪfɪkəlti/",
+        "type": "structure",
+        "meaning": "Không gặp khó khăn khi làm gì (Tương đương: Find it easy to do)",
+        "example": "Hoa had no difficulty translating this poem into French."
+      },
+      {
+        "word": "Be always + V-ing",
+        "pron": "/bi ˈɔːlweɪz/",
+        "type": "structure",
+        "meaning": "Luôn luôn làm gì (Dùng để phàn nàn về một thói quen gây khó chịu)",
+        "example": "The dog is always stealing my socks."
+      },
+      {
+        "word": "So far",
+        "pron": "/səʊ fɑːr/",
+        "type": "adverb",
+        "meaning": "Cho đến nay (Dấu hiệu nhận biết thì Hiện tại hoàn thành)",
+        "example": "So far I have typed five pages of the essay."
+      },
+      {
+        "word": "Homeland",
+        "pron": "/ˈhəʊmlænd/",
+        "type": "noun",
+        "meaning": "Quê hương, tổ quốc",
+        "example": "It is over two years since they left their homeland."
+      },
+      {
+        "word": "Graceful",
+        "pron": "/ˈɡreɪsfl/",
+        "type": "adjective",
+        "meaning": "Duyên dáng, uyển chuyển",
+        "example": "Mary is the most graceful girl at school."
+      },
+      {
+        "word": "Persuade",
+        "pron": "/pəˈsweɪd/",
+        "type": "verb",
+        "meaning": "Thuyết phục",
+        "example": "It's no use persuading her to join the club."
+      },
+      {
+        "word": "So ... that ...",
+        "pron": "/səʊ... ðæt/",
+        "type": "structure",
+        "meaning": "Quá... đến nỗi mà...",
+        "example": "The food was so bad that the children couldn't eat it."
+      },
+      {
+        "word": "Neighborhood",
+        "pron": "/ˈneɪbəhʊd/",
+        "type": "noun",
+        "meaning": "Khu phố, khu vực lân cận",
+        "example": "Write a letter to a pen friend about your neighborhood."
+      },
+      {
+        "word": "Pen friend",
+        "pron": "/ˈpen frend/",
+        "type": "noun",
+        "meaning": "Bạn qua thư (bạn bốn phương)",
+        "example": "I have been exchanging letters with my pen friend for three years."
+      },
+      {
+        "word": "Participation",
+        "pron": "/pɑːˌtɪsɪˈpeɪʃn/",
+        "type": "noun",
+        "meaning": "Sự tham gia",
+        "example": "We look forward to your participation in our neighborhood clean-up day."
+      },
+      {
+        "word": "Urbanized",
+        "pron": "/ˈɜːrbənaɪzd/",
+        "type": "adjective",
+        "meaning": "Đô thị hóa",
+        "example": "The area has become highly urbanized over the last decade."
+      },
+      {
+        "word": "Absence",
+        "pron": "/ˈæbsəns/",
+        "type": "noun",
+        "meaning": "Sự vắng mặt",
+        "example": "His absence from the meeting was noticed by everyone."
+      },
+      {
+        "word": "Hopeless",
+        "pron": "/ˈhəʊpləs/",
+        "type": "adjective",
+        "meaning": "Tuyệt vọng, không có hy vọng",
+        "example": "The situation seemed hopeless, but they didn't give up."
+      },
+      {
+        "word": "Laziness",
+        "pron": "/ˈleɪzinəs/",
+        "type": "noun",
+        "meaning": "Sự lười biếng",
+        "example": "Success is rarely achieved through laziness."
+      },
+      {
+        "word": "Especially",
+        "pron": "/ɪˈspeʃəli/",
+        "type": "adverb",
+        "meaning": "Đặc biệt là, nhất là",
+        "example": "I love living here, especially during the summer festivals."
+      },
+      {
+        "word": "Come back to",
+        "pron": "/kʌm bæk tuː/",
+        "type": "phrasal verb",
+        "meaning": "Trở về, quay trở lại (một địa điểm)",
+        "example": "They haven’t come back to their homeland for over two years."
+      },
+      {
+        "word": "So ... that ...",
+        "pron": "/səʊ... ðæt/",
+        "type": "structure",
+        "meaning": "Quá... đến nỗi mà... (Dùng để chỉ kết quả)",
+        "example": "The food was so bad that the children couldn’t eat it."
+      },
+      {
+        "word": "There is no point in + V-ing",
+        "pron": "/ðeə(r) ɪz nəʊ pɔɪnt ɪn/",
+        "type": "structure",
+        "meaning": "Vô ích/Không có ý nghĩa gì khi làm việc gì đó",
+        "example": "There is no point in persuading her to join in that activity."
+      },
+      {
+        "word": "So far",
+        "pron": "/səʊ fɑː(r)/",
+        "type": "adverb",
+        "meaning": "Cho đến nay (Dấu hiệu của thì Hiện tại hoàn thành)",
+        "example": "So far I have typed five pages of the essay."
+      },
+      {
+        "word": "Introduce to",
+        "pron": "/ˌɪntrəˈdjuːs tuː/",
+        "type": "verb",
+        "meaning": "Giới thiệu ai đó với một người khác",
+        "example": "I wasn’t introduced to newcomers in the festival."
+      },
+      {
+        "word": "Newcomer",
+        "pron": "/ˈnjuːkʌmə(r)/",
+        "type": "noun",
+        "meaning": "Người mới đến",
+        "example": "The community welcomed the newcomers with a big party."
+      },
+      {
+        "word": "Homeland",
+        "pron": "/ˈhəʊmlænd/",
+        "type": "noun",
+        "meaning": "Quê hương, xứ sở",
+        "example": "It is over two years since they left their homeland."
+      },
+      {
+        "word": "Persuade",
+        "pron": "/pəˈsweɪd/",
+        "type": "verb",
+        "meaning": "Thuyết phục",
+        "example": "He managed to persuade his parents to let him go on the trip."
+      },
+      {
+        "word": "Be always + V-ing",
+        "pron": "/bi ˈɔːlweɪz/",
+        "type": "structure",
+        "meaning": "Luôn luôn làm gì (Dùng để phàn nàn về một thói quen gây khó chịu)",
+        "example": "The dog is always stealing my socks."
+      },
+      {
+        "word": "Have no difficulty (in) + V-ing",
+        "pron": "/hæv nəʊ ˈdɪfɪkəlti/",
+        "type": "structure",
+        "meaning": "Không gặp khó khăn khi làm gì",
+        "example": "Hoa had no difficulty in translating this poem into French."
+      },
+      {
+        "word": "Let + O + be + V3/ed",
+        "pron": "/let/",
+        "type": "structure",
+        "meaning": "Cấu trúc bị động của câu mệnh lệnh",
+        "example": "Let all of dirty clothes be collected by 8 o’clock."
+      },
+      {
+        "word": "Graceful",
+        "pron": "/ˈɡreɪsfl/",
+        "type": "adjective",
+        "meaning": "Duyên dáng, trang nhã",
+        "example": "Mary is the most graceful girl at school."
+      },
+      {
+        "word": "Coherence and Cohesion",
+        "pron": "/kəʊˈhɪərəns ənd kəʊˈhiːʒn/",
+        "type": "noun phrase",
+        "meaning": "Tính mạch lạc và sự liên kết (trong văn viết)",
+        "example": "Coherence and cohesion are important criteria for a good essay."
+      },
+      {
+        "word": "Translate into",
+        "pron": "/trænzˈleɪt ˈɪntə/",
+        "type": "verb",
+        "meaning": "Dịch sang (một ngôn ngữ khác)",
+        "example": "She translated the document into five different languages."
+      },
+      {
+        "word": "As + adj + as",
+        "pron": "/æz... æz/",
+        "type": "structure",
+        "meaning": "Cấu trúc so sánh bằng",
+        "example": "No girl at school is as graceful as Mary."
+      },
+      {
+        "word": "Criteria",
+        "pron": "/kraɪˈtɪəriə/",
+        "type": "noun (plural)",
+        "meaning": "Các tiêu chí (để đánh giá, chấm điểm)",
+        "example": "The scoring criteria include vocabulary and grammar."
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1,
+        "type": "mcq",
+        "text": "My father has __________ stamps for over twenty years.",
+        "options": {
+          "A": "collect",
+          "B": "collected",
+          "C": "collecting",
+          "D": "collects"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc thì hiện tại hoàn thành: S + have/has + V3/ed. 'Collected' là dạng quá khứ phân từ của 'collect'."
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "text": "Everyone likes him because he is a __________ person. (HUMOR)",
+        "options": null,
+        "answer": "humorous",
+        "explanation": "Cần một tính từ đứng trước danh từ 'person'. 'Humorous' là tính từ của danh từ 'humor'."
+      },
+      {
+        "id": 3,
+        "type": "mcq",
+        "text": "Do you mind __________ the window? It's getting cold.",
+        "options": {
+          "A": "close",
+          "B": "to close",
+          "C": "closing",
+          "D": "closed"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'Do you mind + V-ing?' dùng để yêu cầu ai đó làm gì một cách lịch sự."
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "text": "They were __________ to hear that they had passed the final exam. (DELIGHT)",
+        "options": null,
+        "answer": "delighted",
+        "explanation": "Sử dụng tính từ đuôi '-ed' (delighted) để diễn tả cảm xúc của chủ ngữ chỉ người."
+      },
+      {
+        "id": 5,
+        "type": "mcq",
+        "text": "I really regret __________ him my secret. Now everyone knows it.",
+        "options": {
+          "A": "tell",
+          "B": "to tell",
+          "C": "telling",
+          "D": "told"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'Regret + V-ing' dùng để diễn tả sự hối tiếc về một việc đã làm trong quá khứ."
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "text": "She sang so __________ that the whole audience stood up to applaud. (BEAUTIFUL)",
+        "options": null,
+        "answer": "beautifully",
+        "explanation": "Cần một trạng từ 'beautifully' để bổ nghĩa cho động từ 'sang' (quá khứ của sing)."
+      },
+      {
+        "id": 7,
+        "type": "mcq",
+        "text": "The final match of the __________ will take place this Sunday.",
+        "options": {
+          "A": "champion",
+          "B": "championship",
+          "C": "championing",
+          "D": "championships"
+        },
+        "answer": "B",
+        "explanation": "Danh từ 'championship' nghĩa là giải vô địch/chức vô địch, phù hợp với ngữ cảnh trận đấu cuối cùng."
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "text": "They have lived in this city __________ 2010.",
+        "options": null,
+        "answer": "since",
+        "explanation": "Dùng 'since' trước một mốc thời gian cụ thể trong thì hiện tại hoàn thành."
+      },
+      {
+        "id": 9,
+        "type": "mcq",
+        "text": "Would you mind if I __________ here? I'm waiting for a friend.",
+        "options": {
+          "A": "sit",
+          "B": "sat",
+          "C": "sitting",
+          "D": "to sit"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'Would you mind if + S + V(past)?' dùng để xin phép (lịch sự hơn Do you mind if)."
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "text": "The party will start __________ 7 o'clock __________ the evening.",
+        "options": null,
+        "answer": "at / in",
+        "explanation": "Dùng giới từ 'at' cho giờ cụ thể và 'in' cho các buổi trong ngày (in the morning/afternoon/evening)."
+      },
+      {
+        "id": 11,
+        "type": "mcq",
+        "text": "He is very __________. He always makes everyone laugh with his stories.",
+        "options": {
+          "A": "humor",
+          "B": "humorous",
+          "C": "humorously",
+          "D": "humorless"
+        },
+        "answer": "B",
+        "explanation": "Tính từ 'humorous' miêu tả đặc điểm tính cách của một người hay làm người khác cười."
+      },
+      {
+        "id": 12,
+        "type": "mcq",
+        "text": "The manager as well as his assistants ___________ attending the conference now.",
+        "options": {
+          "A": "is",
+          "B": "are",
+          "C": "was",
+          "D": "were"
+        },
+        "answer": "A",
+        "explanation": "Với cấu trúc 'S1 as well as S2', động từ chia theo chủ ngữ thứ nhất (The manager - số ít). Trạng từ 'now' yêu cầu thì hiện tại."
+      },
+      {
+        "id": 13,
+        "type": "text",
+        "text": "Wearing a hat can ___________ your skin from the sun. (PROTECTION)",
+        "options": null,
+        "answer": "protect",
+        "explanation": "Sau động từ khuyết thiếu 'can' cần một động từ nguyên mẫu. 'Protect' là động từ của danh từ 'protection'."
+      },
+      {
+        "id": 14,
+        "type": "mcq",
+        "text": "I can’t see any ___________ between these two pictures.",
+        "options": {
+          "A": "different",
+          "B": "differ",
+          "C": "differently",
+          "D": "differences"
+        },
+        "answer": "D",
+        "explanation": "Sau 'any' cần một danh từ. Vì so sánh giữa hai bức tranh nên dùng danh từ số nhiều 'differences' (những điểm khác biệt)."
+      },
+      {
+        "id": 15,
+        "type": "text",
+        "text": "___________ to the internet, we can learn anything anywhere. (THANK)",
+        "options": null,
+        "answer": "Thanks",
+        "explanation": "Cụm từ cố định 'Thanks to something' nghĩa là 'Nhờ vào cái gì đó'."
+      },
+      {
+        "id": 16,
+        "type": "mcq",
+        "text": "Fifty kilometers ___________ a long distance for him to walk every day.",
+        "options": {
+          "A": "are",
+          "B": "is",
+          "C": "were",
+          "D": "be"
+        },
+        "answer": "B",
+        "explanation": "Các đơn vị đo lường (khoảng cách, thời gian, tiền bạc) khi làm chủ ngữ được tính là một đơn vị duy nhất, động từ chia số ít."
+      },
+      {
+        "id": 17,
+        "type": "text",
+        "text": "He is ___________ (no) working here because he retired last month.",
+        "options": null,
+        "answer": "no longer",
+        "explanation": "Cụm từ 'no longer' có nghĩa là không còn nữa, dùng để diễn tả một trạng thái đã chấm dứt."
+      },
+      {
+        "id": 18,
+        "type": "mcq",
+        "text": "You should not ___________ the engine, or it will break down.",
+        "options": {
+          "A": "overheat",
+          "B": "overheated",
+          "C": "overheating",
+          "D": "overheats"
+        },
+        "answer": "A",
+        "explanation": "Sau 'should not' cộng động từ nguyên mẫu không 'to'. 'Overheat' nghĩa là làm quá nóng."
+      },
+      {
+        "id": 19,
+        "type": "text",
+        "text": "In this library, the use of mobile phones is ___________ (RESTRICT).",
+        "options": null,
+        "answer": "restricted",
+        "explanation": "Cần một quá khứ phân từ đóng vai trò tính từ trong cấu trúc bị động: be + restricted (bị giới hạn/hạn chế)."
+      },
+      {
+        "id": 20,
+        "type": "mcq",
+        "text": "I’m going to ___________ a bus to the city center this afternoon.",
+        "options": {
+          "A": "drive",
+          "B": "ride",
+          "C": "take",
+          "D": "go"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'take a bus/train/plane' dùng để chỉ việc đi lại bằng phương tiện giao thông công cộng."
+      },
+      {
+        "id": 21,
+        "type": "text",
+        "text": "If she ___________ (finish) her homework, she can go out with us.",
+        "options": null,
+        "answer": "finishes",
+        "explanation": "Câu điều kiện loại 1, vế If chia ở thì hiện tại đơn. Chủ ngữ 'she' nên động từ thêm 'es'."
+      },
+      {
+        "id": 22,
+        "type": "mcq",
+        "text": "We need to separate the waste ___________ different bins.",
+        "options": {
+          "A": "between",
+          "B": "among",
+          "C": "into",
+          "D": "with"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'separate something into...' nghĩa là chia cái gì đó ra thành các phần/loại khác nhau."
+      },
+      {
+        "id": 23,
+        "type": "text",
+        "text": "Could you please come with ___________? We need your help. (WE)",
+        "options": null,
+        "answer": "us",
+        "explanation": "Sau giới từ 'with' cần một đại từ tân ngữ. Tân ngữ của 'we' là 'us'."
+      },
+      {
+        "id": 24,
+        "type": "text",
+        "text": "The government is trying to __________ the countryside to improve living standards. (URBAN)",
+        "options": null,
+        "answer": "urbanize",
+        "explanation": "Sau 'to' trong cấu trúc 'trying to' cần một động từ nguyên mẫu. 'Urbanize' nghĩa là đô thị hóa."
+      },
+      {
+        "id": 25,
+        "type": "mcq",
+        "text": "The window was broken __________ a stone by some naughty boys.",
+        "options": {
+          "A": "by",
+          "B": "with",
+          "C": "from",
+          "D": "of"
+        },
+        "answer": "B",
+        "explanation": "Sử dụng 'with' để chỉ công cụ/vật dụng (a stone) gây ra hành động trong câu bị động."
+      },
+      {
+        "id": 26,
+        "type": "text",
+        "text": "She is a famous __________ who has won many noble prizes. (SCIENCE)",
+        "options": null,
+        "answer": "scientist",
+        "explanation": "Cần một danh từ chỉ người sau tính từ 'famous' và mạo từ 'a'. 'Scientist' nghĩa là nhà khoa học."
+      },
+      {
+        "id": 27,
+        "type": "mcq",
+        "text": "I have two sisters, but __________ of them like playing sports.",
+        "options": {
+          "A": "all",
+          "B": "both",
+          "C": "neither",
+          "D": "none"
+        },
+        "answer": "C",
+        "explanation": "'Neither' dùng cho 2 đối tượng để chỉ ý phủ định (cả hai đều không)."
+      },
+      {
+        "id": 28,
+        "type": "text",
+        "text": "The movie was so __________ that I fell asleep halfway through. (INTEREST)",
+        "options": null,
+        "answer": "uninteresting",
+        "explanation": "Ngữ cảnh 'buồn ngủ' cho thấy đây là một bộ phim không thú vị/nhàm chán."
+      },
+      {
+        "id": 29,
+        "type": "mcq",
+        "text": "The __________ had to answer a series of difficult questions from the judges.",
+        "options": {
+          "A": "contest",
+          "B": "contestants",
+          "C": "contesting",
+          "D": "context"
+        },
+        "answer": "B",
+        "explanation": "Cần danh từ chỉ người (thí sinh). 'Contestants' là danh từ phù hợp nhất trong cuộc thi."
+      },
+      {
+        "id": 30,
+        "type": "text",
+        "text": "He failed the project due to his extreme __________. (LAZY)",
+        "options": null,
+        "answer": "laziness",
+        "explanation": "Sau tính từ 'extreme' cần một danh từ. 'Laziness' nghĩa là sự lười biếng."
+      },
+      {
+        "id": 31,
+        "type": "mcq",
+        "text": "After losing the match, the players looked __________.",
+        "options": {
+          "A": "hope",
+          "B": "hopeful",
+          "C": "hopeless",
+          "D": "hopefully"
+        },
+        "answer": "C",
+        "explanation": "Sau động từ chỉ cảm giác 'look' cần một tính từ. 'Hopeless' (tuyệt vọng) phù hợp với việc thua trận."
+      },
+      {
+        "id": 32,
+        "type": "text",
+        "text": "His repeated __________ from school worried his parents. (ABSENT)",
+        "options": null,
+        "answer": "absence",
+        "explanation": "Cần một danh từ đứng sau tính từ 'repeated' để làm chủ ngữ. 'Absence' là sự vắng mặt."
+      },
+      {
+        "id": 33,
+        "type": "mcq",
+        "text": "The doctor says that my health is __________ due to bad habits.",
+        "options": {
+          "A": "science",
+          "B": "unscientific",
+          "C": "scientifically",
+          "D": "scientific"
+        },
+        "answer": "B",
+        "explanation": "Cần tính từ miêu tả tình trạng sức khỏe không khoa học/phản khoa học (unscientific)."
+      },
+      {
+        "id": 34,
+        "type": "text",
+        "text": "The children were very __________ in the new cartoon. (INTEREST)",
+        "options": null,
+        "answer": "interested",
+        "explanation": "Cấu trúc 'be interested in': cảm thấy thú vị/quan tâm đến cái gì (dùng cho người)."
+      },
+      {
+        "id": 35,
+        "type": "mcq",
+        "text": "Because of the __________ process, the air in this city is getting polluted.",
+        "options": {
+          "A": "urban",
+          "B": "urbanize",
+          "C": "urbanization",
+          "D": "urbanized"
+        },
+        "answer": "C",
+        "explanation": "Cụm danh từ 'urbanization process' nghĩa là quá trình đô thị hóa."
+      },
+      {
+        "id": 36,
+        "type": "mcq",
+        "text": "She isn't ___________ to reach the top shelf.",
+        "options": {
+          "A": "enough tall",
+          "B": "tall enough",
+          "C": "too tall",
+          "D": "tallly enough"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc: Tính từ + enough. 'Tall' là tính từ nên phải đứng trước 'enough'."
+      },
+      {
+        "id": 37,
+        "type": "text",
+        "text": "The company is famous for its high-quality ___________. (PRODUCE)",
+        "options": null,
+        "answer": "products",
+        "explanation": "Sau tính từ 'high-quality' cần một danh từ. 'Products' (sản phẩm) phù hợp với ngữ cảnh công ty sản xuất."
+      },
+      {
+        "id": 38,
+        "type": "mcq",
+        "text": "It was very kind ___________ him to help the old lady cross the road.",
+        "options": {
+          "A": "for",
+          "B": "to",
+          "C": "with",
+          "D": "of"
+        },
+        "answer": "D",
+        "explanation": "Cấu trúc: It is + Adj (chỉ tính chất con người) + of + O + to-V."
+      },
+      {
+        "id": 39,
+        "type": "text",
+        "text": "I like all kinds of sports, ___________ swimming in the ocean. (SPECIAL)",
+        "options": null,
+        "answer": "especially",
+        "explanation": "Cần trạng từ 'especially' để nhấn mạnh một sở thích cụ thể trong nhóm các môn thể thao."
+      },
+      {
+        "id": 40,
+        "type": "mcq",
+        "text": "My father ___________ smoking ten years ago, but he stopped last year.",
+        "options": {
+          "A": "uses to",
+          "B": "used to",
+          "C": "is used to",
+          "D": "gets used to"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'used to + V-inf' diễn tả một thói quen hoặc hành động thường xuyên trong quá khứ."
+      },
+      {
+        "id": 41,
+        "type": "text",
+        "text": "Christmas is one of the biggest ___________ in western countries. (CELEBRATE)",
+        "options": null,
+        "answer": "celebrations",
+        "explanation": "Sau 'one of the + Adj' cần một danh từ số nhiều. 'Celebrations' là các lễ kỷ niệm/dịp lễ."
+      },
+      {
+        "id": 42,
+        "type": "mcq",
+        "text": "This blue dress is ___________ price as the red one.",
+        "options": {
+          "A": "the same",
+          "B": "same",
+          "C": "as same",
+          "D": "similar"
+        },
+        "answer": "A",
+        "explanation": "Cấu trúc so sánh bằng với danh từ: the same + Noun + as."
+      },
+      {
+        "id": 43,
+        "type": "text",
+        "text": "The students were asked ___________ (not/make) noise in the library.",
+        "options": null,
+        "answer": "not to make",
+        "explanation": "Cấu trúc: ask someone (not) to do something (yêu cầu ai làm/không làm gì)."
+      },
+      {
+        "id": 44,
+        "type": "mcq",
+        "text": "My sister is very good at ___________ like sewing and embroidery.",
+        "options": {
+          "A": "needle",
+          "B": "needlework",
+          "C": "needless",
+          "D": "needing"
+        },
+        "answer": "B",
+        "explanation": "'Needlework' (công việc may vá) phù hợp với các ví dụ về may (sewing) và thêu (embroidery)."
+      },
+      {
+        "id": 45,
+        "type": "text",
+        "text": "What is the ___________ of that heavy suitcase? (WEIGH)",
+        "options": null,
+        "answer": "weight",
+        "explanation": "Sau mạo từ 'the' cần một danh từ. 'Weight' là danh từ của động từ 'weigh' (cân nặng)."
+      },
+      {
+        "id": 46,
+        "type": "mcq",
+        "text": "It was ___________ of me to forget my umbrella on a rainy day.",
+        "options": {
+          "A": "care",
+          "B": "careful",
+          "C": "careless",
+          "D": "carefully"
+        },
+        "answer": "C",
+        "explanation": "Tính từ 'careless' (bất cẩn) phù hợp với việc quên ô vào ngày mưa. Cấu trúc: It was + Adj + of someone + to-V."
+      },
+      {
+        "id": 47,
+        "type": "text",
+        "text": "The man ___________ (stand) next to the door is my uncle.",
+        "options": null,
+        "answer": "standing",
+        "explanation": "Dùng rút gọn mệnh đề quan hệ dạng chủ động (V-ing) để bổ nghĩa cho danh từ 'The man'."
+      },
+      {
+        "id": 48,
+        "type": "mcq",
+        "text": "It takes me two hours ___________ my homework every evening.",
+        "options": {
+          "A": "finish",
+          "B": "finishing",
+          "C": "to finish",
+          "D": "finished"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc: It takes + someone + time + to-V (Ai đó tốn bao nhiêu thời gian để làm gì)."
+      },
+      {
+        "id": 49,
+        "type": "text",
+        "text": "Are you ___________ in joining our environment club? (INTEREST)",
+        "options": null,
+        "answer": "interested",
+        "explanation": "Cấu trúc 'be interested in' dùng để diễn tả sự quan tâm, thích thú của con người về một vấn đề nào đó."
+      },
+      {
+        "id": 50,
+        "type": "mcq",
+        "text": "Not only the students but also the teacher ___________ happy with the results.",
+        "options": {
+          "A": "is",
+          "B": "are",
+          "C": "be",
+          "D": "were"
+        },
+        "answer": "A",
+        "explanation": "Với cấu trúc 'Not only... but also...', động từ chia theo chủ ngữ gần nhất. 'The teacher' là số ít nên dùng 'is'."
+      },
+      {
+        "id": 51,
+        "type": "text",
+        "text": "Many people are worried about the ___________ of the atmosphere. (POLLUTE)",
+        "options": null,
+        "answer": "pollution",
+        "explanation": "Sau mạo từ 'the' và trước giới từ 'of' cần một danh từ. 'Pollution' nghĩa là sự ô nhiễm."
+      },
+      {
+        "id": 52,
+        "type": "mcq",
+        "text": "The smoke from those factories is extremely __________.",
+        "options": {
+          "A": "poison",
+          "B": "poisonous",
+          "C": "poisoning",
+          "D": "poisoned"
+        },
+        "answer": "B",
+        "explanation": "Sau trạng từ 'extremely' cần một tính từ để miêu tả đặc điểm của khói bụi. 'Poisonous' nghĩa là có độc."
+      },
+      {
+        "id": 53,
+        "type": "text",
+        "text": "I don't know ___________ she will come to the party or not.",
+        "options": null,
+        "answer": "whether",
+        "explanation": "Dùng 'whether' khi có cụm 'or not' ở phía sau để diễn tả sự lựa chọn có hoặc không."
+      },
+      {
+        "id": 54,
+        "type": "mcq",
+        "text": "The car ___________ system needs to be checked regularly to reduce smoke.",
+        "options": {
+          "A": "exhaust",
+          "B": "exhaustion",
+          "C": "exhausting",
+          "D": "exhausted"
+        },
+        "answer": "A",
+        "explanation": "Cụm danh từ 'exhaust system' nghĩa là hệ thống khí thải của xe cộ."
+      },
+      {
+        "id": 55,
+        "type": "text",
+        "text": "He is very ___________ with his hands; he often breaks things. (CLUMSY)",
+        "options": null,
+        "answer": "clumsy",
+        "explanation": "Cần một tính từ sau 'is' và 'very' để miêu tả đặc điểm của người. 'Clumsy' nghĩa là vụng về."
+      },
+      {
+        "id": 56,
+        "type": "mcq",
+        "text": "The government has passed new ___________ to limit plastic waste.",
+        "options": {
+          "A": "laws",
+          "B": "lawyers",
+          "C": "lawful",
+          "D": "lawfully"
+        },
+        "answer": "A",
+        "explanation": "Cụm từ 'pass laws' có nghĩa là thông qua các bộ luật."
+      },
+      {
+        "id": 57,
+        "type": "text",
+        "text": "Could you give me some ___________ about the air quality in this city? (INFORM)",
+        "options": null,
+        "answer": "information",
+        "explanation": "Sau 'some' và trước giới từ 'about' cần một danh từ. 'Information' là danh từ không đếm được."
+      },
+      {
+        "id": 58,
+        "type": "mcq",
+        "text": "She can't run as ___________ as her brother.",
+        "options": {
+          "A": "quick",
+          "B": "quickly",
+          "C": "quicker",
+          "D": "quickest"
+        },
+        "answer": "B",
+        "explanation": "Trong cấu trúc so sánh bằng 'as... as' với động từ thường 'run', ta phải sử dụng trạng từ 'quickly'."
+      },
+      {
+        "id": 59,
+        "type": "text",
+        "text": "Scientists have ___________ that human activities affect the climate. (PROVE)",
+        "options": null,
+        "answer": "proved",
+        "explanation": "Thì hiện tại hoàn thành: have + V3/ed. 'Proved' nghĩa là đã chứng minh được."
+      },
+      {
+        "id": 60,
+        "type": "mcq",
+        "text": "Smoking is one of the main causes of ___________ cancer.",
+        "options": {
+          "A": "lung",
+          "B": "heart",
+          "C": "liver",
+          "D": "stomach"
+        },
+        "answer": "A",
+        "explanation": "Hút thuốc lá là nguyên nhân chính gây ung thư phổi (lung cancer)."
+      },
+      {
+        "id": 61,
+        "type": "text",
+        "text": "The movie is ___________ on a true story that happened in 1990. (BASE)",
+        "options": null,
+        "answer": "based",
+        "explanation": "Cấu trúc 'be based on' có nghĩa là dựa trên/dựa vào cái gì đó."
+      },
+      {
+        "id": 62,
+        "type": "mcq",
+        "text": "The teacher ___________ an important role in motivating the students.",
+        "options": {
+          "A": "makes",
+          "B": "gets",
+          "C": "plays",
+          "D": "does"
+        },
+        "answer": "C",
+        "explanation": "Cụm từ cố định 'play a/an ... role in' nghĩa là đóng một vai trò trong việc gì đó."
+      },
+      {
+        "id": 63,
+        "type": "text",
+        "text": "Every year, people ___________ their houses with colorful lights. (DECORATION)",
+        "options": null,
+        "answer": "decorate",
+        "explanation": "Sau chủ ngữ 'people' cần một động từ nguyên mẫu. 'Decorate' là động từ của danh từ 'decoration' (trang trí)."
+      },
+      {
+        "id": 64,
+        "type": "mcq",
+        "text": "We should meet ___________ Monday morning to discuss the project.",
+        "options": {
+          "A": "in",
+          "B": "on",
+          "C": "at",
+          "D": "for"
+        },
+        "answer": "B",
+        "explanation": "Dùng giới từ 'on' cho các thứ trong tuần hoặc ngày cụ thể."
+      },
+      {
+        "id": 65,
+        "type": "text",
+        "text": "She is a ___________ woman who always makes everyone laugh. (JOLLY)",
+        "options": null,
+        "answer": "jolly",
+        "explanation": "Cần một tính từ trước danh từ 'woman' để miêu tả tính cách vui vẻ, hân hoan."
+      },
+      {
+        "id": 66,
+        "type": "mcq",
+        "text": "The level of ___________ in the city's air has decreased significantly.",
+        "options": {
+          "A": "water",
+          "B": "lead",
+          "C": "oxygen",
+          "D": "flower"
+        },
+        "answer": "B",
+        "explanation": "'Lead' (chì) là một chất gây ô nhiễm không khí phổ biến, phù hợp nhất trong các phương án lựa chọn."
+      },
+      {
+        "id": 67,
+        "type": "text",
+        "text": "The children ___________ (play) in the park are very happy.",
+        "options": null,
+        "answer": "playing",
+        "explanation": "Sử dụng hiện tại phân từ (V-ing) để rút gọn mệnh đề quan hệ chủ động (The children who are playing...)."
+      },
+      {
+        "id": 68,
+        "type": "mcq",
+        "text": "You need to ___________ the situation carefully before making a decision.",
+        "options": {
+          "A": "handle",
+          "B": "touch",
+          "C": "clumsy",
+          "D": "collect"
+        },
+        "answer": "A",
+        "explanation": "'Handle the situation' có nghĩa là xử lý hoặc giải quyết tình huống."
+      },
+      {
+        "id": 69,
+        "type": "text",
+        "text": "Can you solve this math problem as ___________ as possible? (QUICK)",
+        "options": null,
+        "answer": "quickly",
+        "explanation": "Cần một trạng từ (quickly) để bổ nghĩa cho động từ 'solve' trong cấu trúc so sánh bằng."
+      },
+      {
+        "id": 70,
+        "type": "mcq",
+        "text": "Many people go to church on Christmas ___________.",
+        "options": {
+          "A": "Morning",
+          "B": "Noon",
+          "C": "Eve",
+          "D": "Afternoon"
+        },
+        "answer": "C",
+        "explanation": "'Christmas Eve' (Đêm Giáng sinh) là thời điểm quan trọng nhất của lễ hội này."
+      },
+      {
+        "id": 71,
+        "type": "text",
+        "text": "The ___________ of the local park was a great success. (CELEBRATE)",
+        "options": null,
+        "answer": "celebration",
+        "explanation": "Sau mạo từ 'the' cần một danh từ làm chủ ngữ. 'Celebration' nghĩa là sự tổ chức lễ kỷ niệm/ăn mừng."
+      },
+      {
+        "id": 72,
+        "type": "mcq",
+        "text": "My roommate is ___________ leaving the lights on when he goes out. It's so annoying!",
+        "options": {
+          "A": "never",
+          "B": "always",
+          "C": "seldom",
+          "D": "rarely"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'be always + V-ing' dùng để phàn nàn về một hành động lặp đi lặp lại gây khó chịu."
+      },
+      {
+        "id": 73,
+        "type": "text",
+        "text": "It is no ___________ trying to fix that old car; it's completely broken. (USE)",
+        "options": null,
+        "answer": "use",
+        "explanation": "Cấu trúc 'It is no use + V-ing' có nghĩa là vô ích khi làm việc gì đó."
+      },
+      {
+        "id": 74,
+        "type": "mcq",
+        "text": "She had no ___________ in finding the secret path through the forest.",
+        "options": {
+          "A": "difficult",
+          "B": "difficulty",
+          "C": "difficulties",
+          "D": "difficultly"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'have no difficulty (in) + V-ing'. 'Difficulty' ở đây là danh từ không đếm được chỉ sự khó khăn."
+      },
+      {
+        "id": 75,
+        "type": "text",
+        "text": "She dances so ___________ that everyone in the audience was amazed. (GRACE)",
+        "options": null,
+        "answer": "gracefully",
+        "explanation": "Cần một trạng từ để bổ nghĩa cho động từ 'dances'. 'Gracefully' nghĩa là một cách duyên dáng."
+      },
+      {
+        "id": 76,
+        "type": "mcq",
+        "text": "I finally ___________ him to go to the doctor after hours of talking.",
+        "options": {
+          "A": "persuaded",
+          "B": "persuading",
+          "C": "persuasion",
+          "D": "persuasive"
+        },
+        "answer": "A",
+        "explanation": "Dùng động từ 'persuaded' ở thì quá khứ để chỉ việc đã thuyết phục thành công ai đó làm gì."
+      },
+      {
+        "id": 77,
+        "type": "text",
+        "text": "___________ I have finished three chapters of my new book. (SO FAR)",
+        "options": null,
+        "answer": "So far",
+        "explanation": "'So far' (cho đến nay) thường đứng đầu câu hoặc cuối câu, đi với thì hiện tại hoàn thành."
+      },
+      {
+        "id": 78,
+        "type": "mcq",
+        "text": "The test was ___________ difficult ___________ almost everyone failed it.",
+        "options": {
+          "A": "too/to",
+          "B": "so/that",
+          "C": "such/that",
+          "D": "very/that"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'so + adj + that' dùng để chỉ kết quả: quá... đến nỗi mà..."
+      },
+      {
+        "id": 79,
+        "type": "text",
+        "text": "They were very happy to return to their ___________ after years of living abroad. (HOME)",
+        "options": null,
+        "answer": "homeland",
+        "explanation": "'Homeland' có nghĩa là quê hương/tổ quốc, phù hợp với ngữ cảnh trở về sau khi sống ở nước ngoài."
+      },
+      {
+        "id": 80,
+        "type": "mcq",
+        "text": "There is no ___________ in complaining about the weather.",
+        "options": {
+          "A": "use",
+          "B": "point",
+          "C": "worth",
+          "D": "good"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'There is no point in + V-ing' tương đương với 'It's no use + V-ing'."
+      },
+      {
+        "id": 81,
+        "type": "text",
+        "text": "The poem was ___________ into five different languages. (TRANSLATE)",
+        "options": null,
+        "answer": "translated",
+        "explanation": "Dạng bị động 'be + V3/ed'. 'Translated' nghĩa là được biên dịch."
+      },
+      {
+        "id": 82,
+        "type": "mcq",
+        "text": "Stop ___________ my pens! Buy your own!",
+        "options": {
+          "A": "steal",
+          "B": "stealing",
+          "C": "to steal",
+          "D": "stolen"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'stop + V-ing' nghĩa là dừng hẳn việc đang làm lại."
+      },
+      {
+        "id": 83,
+        "type": "text",
+        "text": "We found it ___________ to complete the mission within two days. (EASILY)",
+        "options": null,
+        "answer": "easy",
+        "explanation": "Cấu trúc 'find it + adj + to-V'. Sau 'find it' cần một tính từ (easy)."
+      },
+      {
+        "id": 84,
+        "type": "text",
+        "text": "The local government is trying to improve the ___________ area. (URBAN)",
+        "options": null,
+        "answer": "urbanized",
+        "explanation": "Cần một tính từ để bổ nghĩa cho danh từ 'area'. 'Urbanized' nghĩa là đã được đô thị hóa."
+      },
+      {
+        "id": 85,
+        "type": "mcq",
+        "text": "There are many friendly people living in my ___________.",
+        "options": {
+          "A": "neighbor",
+          "B": "neighborhood",
+          "C": "neighborly",
+          "D": "neighborhoods"
+        },
+        "answer": "B",
+        "explanation": "'Neighborhood' nghĩa là khu phố/khu dân cư nơi mình sinh sống."
+      },
+      {
+        "id": 86,
+        "type": "text",
+        "text": "The ___________ of the teacher was due to a sudden illness. (ABSENT)",
+        "options": null,
+        "answer": "absence",
+        "explanation": "Sau mạo từ 'The' và trước giới từ 'of' cần một danh từ. 'Absence' là sự vắng mặt."
+      },
+      {
+        "id": 87,
+        "type": "mcq",
+        "text": "The ___________ in the talent show were all very talented.",
+        "options": {
+          "A": "contest",
+          "B": "contesting",
+          "C": "contestants",
+          "D": "contested"
+        },
+        "answer": "C",
+        "explanation": "'Contestants' là danh từ chỉ những người dự thi, phù hợp với ngữ cảnh chương trình tài năng."
+      },
+      {
+        "id": 88,
+        "type": "text",
+        "text": "Her ___________ resulted in failing the exam. (LAZY)",
+        "options": null,
+        "answer": "laziness",
+        "explanation": "Cần một danh từ làm chủ ngữ cho câu. 'Laziness' là sự lười biếng."
+      },
+      {
+        "id": 89,
+        "type": "mcq",
+        "text": "She felt ___________ about her chances of winning the lottery.",
+        "options": {
+          "A": "hope",
+          "B": "hopeless",
+          "C": "hopeful",
+          "D": "hopefully"
+        },
+        "answer": "B",
+        "explanation": "Dựa vào đáp án mẫu 'hopeless', từ này miêu tả cảm giác không có hy vọng/tuyệt vọng."
+      },
+      {
+        "id": 90,
+        "type": "text",
+        "text": "Community ___________ is very important for the success of this project. (PARTICIPATE)",
+        "options": null,
+        "answer": "participation",
+        "explanation": "Cần một danh từ đóng vai trò chủ ngữ phụ. 'Participation' nghĩa là sự tham gia."
+      },
+      {
+        "id": 91,
+        "type": "mcq",
+        "text": "Marie Curie was a world-famous ___________.",
+        "options": {
+          "A": "science",
+          "B": "scientific",
+          "C": "scientist",
+          "D": "scientifically"
+        },
+        "answer": "C",
+        "explanation": "Cần một danh từ chỉ người (nhà khoa học) sau tính từ 'famous'."
+      },
+      {
+        "id": 92,
+        "type": "text",
+        "text": "I found the movie quite ___________; I almost fell asleep. (INTEREST)",
+        "options": null,
+        "answer": "uninteresting",
+        "explanation": "Dựa vào đáp án mẫu 'uninteresting', tính từ này miêu tả tính chất gây nhàm chán của bộ phim."
+      },
+      {
+        "id": 93,
+        "type": "mcq",
+        "text": "I often write emails to my ___________ in the UK.",
+        "options": {
+          "A": "pen friend",
+          "B": "pen holder",
+          "C": "pen name",
+          "D": "pencil"
+        },
+        "answer": "A",
+        "explanation": "'Pen friend' (hoặc pen pal) là người bạn quen nhau qua việc trao đổi thư từ."
+      },
+      {
+        "id": 94,
+        "type": "text",
+        "text": "Our company exports many agricultural ___________ to Europe. (PRODUCE)",
+        "options": null,
+        "answer": "products",
+        "explanation": "Cần danh từ số nhiều 'products' để chỉ các sản phẩm nông nghiệp."
+      },
+      {
+        "id": 95,
+        "type": "mcq",
+        "text": "We should protect our environment, ___________ the water sources.",
+        "options": {
+          "A": "special",
+          "B": "specialist",
+          "C": "especially",
+          "D": "specialize"
+        },
+        "answer": "C",
+        "explanation": "Dùng trạng từ 'especially' để nhấn mạnh một đối tượng cụ thể (đặc biệt là nguồn nước)."
+      },
+      {
+        "id": 96,
+        "type": "mcq",
+        "text": "It has been ten years since I last ___________ to my homeland.",
+        "options": {
+          "A": "come back",
+          "B": "came back",
+          "C": "have come back",
+          "D": "coming back"
+        },
+        "answer": "B",
+        "explanation": "Trong cấu trúc 'It is + time + since + S + V', động từ sau 'since' chia ở thì quá khứ đơn."
+      },
+      {
+        "id": 97,
+        "type": "text",
+        "text": "The teacher ___________ the new student to the rest of the class. (INTRODUCE)",
+        "options": null,
+        "answer": "introduced",
+        "explanation": "Cần một động từ ở thì quá khứ đơn để hoàn thành câu kể. 'Introduce somebody to someone' là giới thiệu ai đó với ai."
+      },
+      {
+        "id": 98,
+        "type": "mcq",
+        "text": "There is no ___________ in waiting for him; he won't come.",
+        "options": {
+          "A": "use",
+          "B": "matter",
+          "C": "point",
+          "D": "reason"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'There is no point in + V-ing' nghĩa là không có ích gì/không có ý nghĩa gì khi làm việc gì đó."
+      },
+      {
+        "id": 99,
+        "type": "text",
+        "text": "The film was ___________ boring ___________ I left the cinema early.",
+        "options": null,
+        "answer": "so / that",
+        "explanation": "Cấu trúc 'so + adj + that' dùng để diễn tả kết quả: quá... đến nỗi mà..."
+      },
+      {
+        "id": 100,
+        "type": "mcq",
+        "text": "We have collected a lot of useful data ___________.",
+        "options": {
+          "A": "so far",
+          "B": "ago",
+          "C": "yesterday",
+          "D": "last week"
+        },
+        "answer": "A",
+        "explanation": "'So far' (cho đến nay) là trạng từ chỉ thời gian thường dùng với thì hiện tại hoàn thành."
+      },
+      {
+        "id": 101,
+        "type": "text",
+        "text": "He is very ___________; he can make anyone change their mind. (PERSUADE)",
+        "options": null,
+        "answer": "persuasive",
+        "explanation": "Cần một tính từ sau 'is' và 'very'. 'Persuasive' nghĩa là có sức thuyết phục."
+      },
+      {
+        "id": 102,
+        "type": "mcq",
+        "text": "The village welcomed the ___________ with open arms.",
+        "options": {
+          "A": "newly",
+          "B": "newcomers",
+          "C": "newness",
+          "D": "newlyweds"
+        },
+        "answer": "B",
+        "explanation": "'Newcomers' (những người mới đến) là danh từ phù hợp nhất trong ngữ cảnh này."
+      },
+      {
+        "id": 103,
+        "type": "text",
+        "text": "It's no ___________ crying over spilt milk. (USE)",
+        "options": null,
+        "answer": "use",
+        "explanation": "Cấu trúc 'It's no use + V-ing' nghĩa là vô ích khi làm gì đó."
+      },
+      {
+        "id": 104,
+        "type": "mcq",
+        "text": "This poem is difficult to ___________ into English.",
+        "options": {
+          "A": "translation",
+          "B": "translate",
+          "C": "translated",
+          "D": "translator"
+        },
+        "answer": "B",
+        "explanation": "Sau cấu trúc 'adj + to' cần một động từ nguyên mẫu (V-inf). 'Translate' nghĩa là dịch."
+      },
+      {
+        "id": 105,
+        "type": "text",
+        "text": "I was ___________ (introduce) to her at the party last night.",
+        "options": null,
+        "answer": "introduced",
+        "explanation": "Câu bị động ở thì quá khứ đơn: was/were + V3/ed."
+      },
+      {
+        "id": 106,
+        "type": "mcq",
+        "text": "I ___________ my keys, so I can't get into the house.",
+        "options": {
+          "A": "lose",
+          "B": "lost",
+          "C": "have lost",
+          "D": "am losing"
+        },
+        "answer": "C",
+        "explanation": "Dùng thì hiện tại hoàn thành để diễn tả một hành động xảy ra trong quá khứ nhưng kết quả vẫn còn lưu lại ở hiện tại."
+      },
+      {
+        "id": 107,
+        "type": "text",
+        "text": "She was ___________ (persuade) to join the local sports club by her friends.",
+        "options": null,
+        "answer": "persuaded",
+        "explanation": "Câu bị động: được thuyết phục bởi ai đó (was + V3/ed)."
+      },
+      {
+        "id": 108,
+        "type": "mcq",
+        "text": "My brother is ___________ taking my laptop without asking. It's so annoying!",
+        "options": {
+          "A": "never",
+          "B": "always",
+          "C": "sometimes",
+          "D": "seldom"
+        },
+        "answer": "B",
+        "explanation": "Cấu trúc 'be always + V-ing' dùng để diễn tả sự phàn nàn về một hành động lặp đi lặp lại."
+      },
+      {
+        "id": 109,
+        "type": "text",
+        "text": "He had no ___________ in solving the complex math problem. (DIFFICULT)",
+        "options": null,
+        "answer": "difficulty",
+        "explanation": "Cấu trúc 'have no difficulty (in) + V-ing'. 'Difficulty' là danh từ của 'difficult'."
+      },
+      {
+        "id": 110,
+        "type": "mcq",
+        "text": "___________ the window be opened to let some fresh air in.",
+        "options": {
+          "A": "Make",
+          "B": "Do",
+          "C": "Let",
+          "D": "Get"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc bị động của câu mệnh lệnh: Let + O + be + V3/ed."
+      },
+      {
+        "id": 111,
+        "type": "text",
+        "text": "She moves so ___________ that everyone stops to watch her dance. (GRACE)",
+        "options": null,
+        "answer": "gracefully",
+        "explanation": "Cần một trạng từ (gracefully) để bổ nghĩa cho động từ 'moves'."
+      },
+      {
+        "id": 112,
+        "type": "mcq",
+        "text": "Your essay is good, but you need to improve its ___________.",
+        "options": {
+          "A": "coherent",
+          "B": "coherence",
+          "C": "coherently",
+          "D": "coheres"
+        },
+        "answer": "B",
+        "explanation": "Sau tính từ sở hữu 'its' cần một danh từ. 'Coherence' nghĩa là tính mạch lạc."
+      },
+      {
+        "id": 113,
+        "type": "text",
+        "text": "No one in the class is ___________ tall ___________ Nam.",
+        "options": null,
+        "answer": "as / as",
+        "explanation": "Sử dụng cấu trúc so sánh bằng 'as + adj + as' trong câu phủ định để thay thế cho so sánh nhất."
+      },
+      {
+        "id": 114,
+        "type": "mcq",
+        "text": "This novel has been ___________ into more than 30 languages.",
+        "options": {
+          "A": "translation",
+          "B": "translated",
+          "C": "translator",
+          "D": "translating"
+        },
+        "answer": "B",
+        "explanation": "Câu bị động ở thì hiện tại hoàn thành: have/has been + V3/ed."
+      },
+      {
+        "id": 115,
+        "type": "text",
+        "text": "The linking words help to create ___________ between the paragraphs. (COHESION)",
+        "options": null,
+        "answer": "cohesion",
+        "explanation": "Sau động từ 'create' cần một danh từ. 'Cohesion' nghĩa là sự liên kết."
+      },
+      {
+        "id": 116,
+        "type": "mcq",
+        "text": "Don't ___________ my ideas for your own project!",
+        "options": {
+          "A": "steal",
+          "B": "stolen",
+          "C": "stealing",
+          "D": "stole"
+        },
+        "answer": "A",
+        "explanation": "Sau 'Don't' là động từ nguyên mẫu trong câu mệnh lệnh phủ định."
+      },
+      {
+        "id": 117,
+        "type": "text",
+        "text": "To get a high score, you must follow the ___________ strictly. (CRITERION)",
+        "options": null,
+        "answer": "criteria",
+        "explanation": "Cần dạng số nhiều của 'criterion' là 'criteria' (các tiêu chí)."
+      },
+      {
+        "id": 118,
+        "type": "mcq",
+        "text": "I find it ___________ to learn English vocabulary through flashcards.",
+        "options": {
+          "A": "easily",
+          "B": "easiness",
+          "C": "easy",
+          "D": "ease"
+        },
+        "answer": "C",
+        "explanation": "Cấu trúc 'find it + adj + to-V' (thấy cái gì đó như thế nào để làm gì)."
+      },
+      {
+        "id": 119,
+        "type": "text",
+        "text": "Please ___________ (collect) all the papers before you leave.",
+        "options": null,
+        "answer": "collect",
+        "explanation": "Câu mệnh lệnh bắt đầu bằng 'Please' đi kèm với động từ nguyên mẫu."
+      }
+    ]
+  }
+};
+        const currentTestId = "3";
+        const testData = database[currentTestId];
+        let currentVocabIndex = 0;
+        let vocabList = testData.vocab || [];
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            sidebar.classList.toggle('-translate-x-full');
+            overlay.classList.toggle('hidden');
+        }
+
+        function toggleNotes() {
+            const sidebar = document.getElementById('noteSidebar');
+            const btn = document.getElementById('btn-notes');
+            sidebar.classList.toggle('open');
+            
+            const isOpen = sidebar.classList.contains('open');
+            localStorage.setItem('notes_sidebar_open', isOpen);
+
+            if (isOpen) {
+                btn.classList.add('bg-amber-500', 'text-white', 'border-amber-600');
+                btn.classList.remove('bg-amber-50', 'text-amber-700', 'border-amber-200');
+            } else {
+                btn.classList.remove('bg-amber-500', 'text-white', 'border-amber-600');
+                btn.classList.add('bg-amber-50', 'text-amber-700', 'border-amber-200');
+            }
+        }
+
+        function saveNotes() {
+            const notes = document.getElementById('notesArea').value;
+            localStorage.setItem(`notes_test_${currentTestId}`, notes);
+        }
+
+        function loadNotes() {
+            const notes = localStorage.getItem(`notes_test_${currentTestId}`);
+            if (notes) document.getElementById('notesArea').value = notes;
+            
+            // Restore sidebar state
+            const sidebarOpen = localStorage.getItem('notes_sidebar_open') === 'true';
+            if (sidebarOpen) {
+                document.getElementById('noteSidebar').classList.add('open');
+                const btn = document.getElementById('btn-notes');
+                btn.classList.add('bg-amber-500', 'text-white', 'border-amber-600');
+                btn.classList.remove('bg-amber-50', 'text-amber-700', 'border-amber-200');
+            }
+        }
+
+        function switchTab(tab) {
+            // Hide all
+            document.getElementById('content-test').classList.add('hidden');
+            document.getElementById('content-flashcard').classList.add('hidden');
+            document.getElementById('content-quiz').classList.add('hidden');
+            
+            // Deactivate all tabs
+            document.querySelectorAll('[id^="tab-"]').forEach(el => {
+                el.classList.remove('text-blue-700', 'border-b-2', 'border-blue-600', 'bg-white');
+                el.classList.add('text-gray-500');
+            });
+
+            // Show active
+            document.getElementById(`content-${tab}`).classList.remove('hidden');
+            const activeTab = document.getElementById(`tab-${tab}`);
+            activeTab.classList.remove('text-gray-500');
+            activeTab.classList.add('text-blue-700', 'border-b-2', 'border-blue-600', 'bg-white');
+            
+            if (tab === 'flashcard') updateFlashcardView();
+            document.getElementById('mainScrollContainer').scrollTop = 0;
+        }
+
+        function initTestList() {
+            const list = document.getElementById('testList');
+            for (let i = 1; i <= 30; i++) {
+                const isActive = i == currentTestId;
+                const link = document.createElement('a');
+                link.href = `de_${i}.html`;
+                link.className = `flex items-center gap-3 p-3 rounded-xl mb-2 transition-all duration-200 border ${isActive ? 'bg-blue-50 border-blue-200 text-blue-700 font-bold shadow-sm' : 'bg-white border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-gray-200'}`;
+                link.innerHTML = `
+                    <div class="w-8 h-8 rounded-lg ${isActive ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-400'} flex items-center justify-center text-xs font-black">${i}</div>
+                    <span class="text-sm">Đề Thi Số ${i}</span>
+                    ${isActive ? '<i class="fa-solid fa-chevron-right ml-auto text-blue-400"></i>' : ''}
+                `;
+                list.appendChild(link);
+            }
+        }
+
+        /* DIAGNOSTIC: VERSION 2.1 - DEFENSIVE MCQ */
+        function renderQuestions(containerId, data) {
+            const container = document.getElementById(containerId);
+            if (!data || data.length === 0) {
+                container.innerHTML = '<div class="p-10 text-center text-gray-400 italic bg-gray-50 rounded-3xl border-2 border-dashed border-gray-200">Không có dữ liệu bài tập cho phần này.</div>';
+                return;
+            }
+
+            container.innerHTML = data.map((q, idx) => {
+                const qTypeIcon = q.type === 'mcq' ? 'fa-list-ul' : 'fa-keyboard';
+                const qTypeText = q.type === 'mcq' ? 'Trắc nghiệm' : 'Điền từ';
+                
+                return `
+                <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition hover:shadow-md group">
+                    <div class="p-6 md:p-8">
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="shrink-0 w-10 h-10 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black text-lg shadow-lg group-hover:scale-110 transition-transform">${idx + 1}</div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <span class="px-2.5 py-0.5 bg-blue-50 text-blue-600 rounded-md text-[10px] font-black uppercase tracking-wider flex items-center gap-1.5 border border-blue-100">
+                                        <i class="fa-solid ${qTypeIcon}"></i> ${qTypeText}
+                                    </span>
+                                    ${q.tag ? `<span class="px-2.5 py-0.5 bg-gray-100 text-gray-600 rounded-md text-[10px] font-bold uppercase tracking-tight">${q.tag}</span>` : ''}
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-gray-800 leading-relaxed">${q.text}</h3>
+                            </div>
+                        </div>
+
+                        <div class="ml-14 space-y-3">
+                            ${q.type === 'mcq' ? 
+                                Object.entries(q.options || {}).map(([key, val]) => `
+                                    <label class="flex items-center gap-4 p-4 rounded-2xl border-2 border-gray-50 hover:border-blue-200 hover:bg-blue-50/50 cursor-pointer transition group/opt">
+                                        <input type="radio" name="${containerId}-q${q.id}" value="${key}" class="w-5 h-5 text-blue-600 border-gray-300 focus:ring-blue-500">
+                                        <span class="flex-1 text-gray-700 font-medium group-hover/opt:text-blue-900 transition-colors">
+                                            <b class="mr-2 text-blue-400 group-hover/opt:text-blue-600">${key.toUpperCase()}.</b> ${val}
+                                        </span>
+                                    </label>
+                                `).join('')
+                            : 
+                                `<div class="relative group/input max-w-md">
+                                    <input type="text" id="${containerId}-q${q.id}" 
+                                        class="w-full pl-6 pr-12 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:border-blue-500 focus:bg-white focus:ring-0 transition-all text-gray-800 font-bold placeholder:text-gray-300"
+                                        placeholder="Nhập câu trả lời của bạn...">
+                                    <i class="fa-solid fa-pen-field absolute right-5 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within/input:text-blue-500 transition-colors"></i>
+                                </div>`
+                            }
+                        </div>
+
+                        <div class="mt-6 flex items-center gap-4 ml-14">
+                            <button type="button" onclick="toggleSimilar('${containerId}-q${q.id}', '${q.id}', '${containerId}')" 
+                                class="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-2 bg-indigo-50 px-4 py-2 rounded-xl transition-colors border border-indigo-100">
+                                <i class="fa-solid fa-sparkles"></i> Xem bài tương tự
+                            </button>
+                        </div>
+
+                        <div id="similar-${containerId}-q${q.id}" class="hidden ml-14 animate-in fade-in slide-in-from-top-4 duration-300"></div>
+                        <div id="feedback-${containerId}-q${q.id}" class="hidden"></div>
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        function initApp() {
+            try {
+                console.log("Initializing App for Test:", currentTestId);
+                initTestList();
+                loadNotes();
+                
+                if (testData) {
+                    document.getElementById('qCountDisplay').textContent = (testData.questions || []).length;
+                    renderQuestions('questionsContainer', testData.questions);
+                    renderQuestions('exercisesContainer', testData.exercises);
+                }
+                
+                initVocabLookup();
+            } catch (e) {
+                console.error("Initialization error:", e);
+            }
+        }
+
+
+
+        async function askAiSimilar(containerId, questionId) {
+            const area = document.getElementById(`similar-area-${containerId}-${questionId}`);
+            area.innerHTML = '<div class="mt-4 p-4 bg-gray-50 rounded-xl animate-pulse text-sm text-gray-500 flex items-center gap-3"><i class="fa-solid fa-robot"></i> AI đang tạo bài tập tương tự...</div>';
+            area.classList.remove('hidden');
+
+            try {
+                const response = await fetch('http://localhost:5679/ai_exercise', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        testId: currentTestId,
+                        questionId: questionId,
+                        container: containerId
+                    })
+                });
+                const result = await response.json();
+                if (result.success) {
+                    area.innerHTML = `
+                        <div class="mt-4 p-6 bg-indigo-50/50 rounded-2xl border border-indigo-100">
+                            <div class="flex items-center gap-2 mb-4 text-indigo-600 font-black text-[10px] uppercase tracking-widest"><i class="fa-solid fa-sparkles"></i> Bài Tập AI Gợi Ý</div>
+                            <div class="space-y-4">
+                                ${result.data.map((sq, i) => `
+                                    <div class="bg-white p-5 rounded-xl shadow-sm border border-indigo-100/50">
+                                        <p class="font-bold text-gray-800 mb-3 text-sm">${sq.text}</p>
+                                        <div class="grid grid-cols-1 gap-2">
+                                            ${Object.entries(sq.options || {}).map(([k, v]) => `<div class="text-xs text-gray-600 flex items-center gap-2"><span class="w-5 h-5 bg-gray-100 rounded flex items-center justify-center font-bold text-[10px] uppercase">${k}</span> ${v}</div>`).join('')}
+                                        </div>
+                                        <div class="mt-3 pt-3 border-t border-indigo-50 text-[10px] font-bold text-emerald-600 uppercase tracking-tight"><i class="fa-solid fa-circle-check"></i> Đáp án: ${sq.answer}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+            } catch (e) {
+                area.innerHTML = '<div class="mt-4 p-4 bg-rose-50 text-rose-600 rounded-xl text-xs font-bold"><i class="fa-solid fa-circle-exclamation"></i> Không thể kết nối server AI.</div>';
+            }
+        }
+
+        function gradeTest(formId, dataKey) {
+            const questions = testData[dataKey];
+            let score = 0;
+            const containerId = (formId === 'quizForm') ? 'questionsContainer' : 'exercisesContainer';
+
+            questions.forEach(q => {
+                const feedbackDiv = document.getElementById(`feedback-${containerId}-q${q.id}`);
+                feedbackDiv.classList.remove('hidden');
+                let isCorrect = false;
+                let userAns = '';
+
+                if (q.type === 'mcq') {
+                    const selected = document.querySelector(`input[name="${containerId}-q${q.id}"]:checked`);
+                    userAns = selected ? selected.value : '';
+                    isCorrect = (userAns.toLowerCase() === (q.answer || "").toLowerCase());
+                } else {
+                    const input = document.getElementById(`${containerId}-q${q.id}`);
+                    userAns = (input.value || '').trim().toLowerCase();
+                    const validAnswers = Array.isArray(q.answer) ? q.answer.map(a => a.toLowerCase()) : [(q.answer || "").toLowerCase()];
+                    isCorrect = validAnswers.some(ans => userAns.includes(ans) || ans.includes(userAns));
+                }
+
+                if (isCorrect) {
+                    score++;
+                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-emerald-50 text-emerald-800 border-l-4 border-emerald-500 animate-in slide-in-from-left duration-300 shadow-sm ml-14";
+                    feedbackDiv.innerHTML = `<div class="flex items-center gap-3 font-black text-xs uppercase tracking-widest mb-1 text-emerald-600"><i class="fa-solid fa-circle-check"></i> Chính xác</div> <p class="text-sm leading-relaxed">${q.explanation || ''}</p>`;
+                } else {
+                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-rose-50 text-rose-800 border-l-4 border-rose-500 animate-in slide-in-from-left duration-300 shadow-sm ml-14";
+                    feedbackDiv.innerHTML = `<div class="flex items-center gap-3 font-black text-xs uppercase tracking-widest mb-1 text-rose-600"><i class="fa-solid fa-circle-xmark"></i> Chưa đúng</div> <p class="text-sm font-bold mb-2">Đáp án: ${Array.isArray(q.answer) ? q.answer[0] : q.answer}</p><p class="text-xs opacity-80 leading-relaxed">${q.explanation || ''}</p>`;
+                }
+            });
+
+            const resultArea = document.getElementById(`resultArea-${dataKey}`);
+            resultArea.classList.remove('hidden');
+            resultArea.querySelector('.scoreDisplay').textContent = `${score}/${questions.length}`;
+            resultArea.scrollIntoView({ behavior: 'smooth' });
+
+            // Auto-Tracking for Portal
+            try {
+                const examId = (typeof currentTestId !== 'undefined') ? currentTestId : window.location.pathname.split('/').pop().replace('.html', '').replace('de_', '');
+                const finalScoreNum = (score / questions.length) * 10;
+                const existingResults = JSON.parse(localStorage.getItem('nam_khanh_results') || '{}');
+                existingResults[examId] = Math.round(finalScoreNum * 10) / 10;
+                localStorage.setItem('nam_khanh_results', JSON.stringify(existingResults));
+                console.log("Portal Tracking: Saved score", existingResults[examId], "for Exam", examId);
+            } catch(e) { console.error("Tracking Error:", e); }
+
+        }
+
+        function initVocabLookup() {
+            const trigger = document.getElementById('lookupTrigger');
+            
+            document.addEventListener('mouseup', (e) => {
+                const selection = window.getSelection().toString().trim();
+                if (selection && selection.length > 1 && selection.length < 50) {
+                    const range = window.getSelection().getRangeAt(0);
+                    const rect = range.getBoundingClientRect();
+                    
+                    trigger.style.left = `${rect.left + (rect.width/2) - 24}px`;
+                    trigger.style.top = `${rect.top + window.scrollY - 60}px`;
+                    trigger.classList.remove('hidden');
+                    trigger.classList.add('flex');
+                    
+                    trigger.onclick = () => {
+                        trigger.classList.add('hidden');
+                        performAiLookup(selection);
+                    };
+                } else {
+                    if (!trigger.contains(e.target)) trigger.classList.add('hidden');
+                }
+            });
+        }
+
+        async function performAiLookup(word) {
+            const modal = document.getElementById('aiLookupModal');
+            document.getElementById('lookup-word').textContent = word;
+            document.getElementById('lookup-ipa').textContent = 'Đang tìm kiếm...';
+            document.getElementById('lookup-meaning').textContent = '...';
+            document.getElementById('lookup-example').textContent = '...';
+            document.getElementById('lookup-context').textContent = '...';
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+
+            try {
+                const response = await fetch('http://localhost:5679/lookup', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ word: word, testId: currentTestId })
+                });
+                const result = await response.json();
+                if (result.success) {
+                    document.getElementById('lookup-ipa').textContent = result.data.pron || '/.../';
+                    document.getElementById('lookup-type').textContent = result.data.type || 'N/A';
+                    document.getElementById('lookup-meaning').textContent = result.data.meaning || 'Không tìm thấy nghĩa';
+                    document.getElementById('lookup-example').textContent = result.data.example || '';
+                    document.getElementById('lookup-context').textContent = result.data.context || 'Thông tin thêm đang được cập nhật.';
+                }
+            } catch (e) {
+                document.getElementById('lookup-meaning').textContent = "Lỗi kết nối server AI.";
+            }
+        }
+
+        function closeLookup() {
+            document.getElementById('aiLookupModal').classList.add('hidden');
+            document.getElementById('aiLookupModal').classList.remove('flex');
+        }
+
+        function updateFlashcardView() {
+            if (!vocabList || vocabList.length === 0) return;
+            const v = vocabList[currentVocabIndex];
+            document.getElementById('fc-word').textContent = v.word;
+            document.getElementById('fc-pron').textContent = v.pron;
+            document.getElementById('fc-type').textContent = v.type;
+            document.getElementById('fc-meaning').textContent = v.meaning;
+            document.getElementById('fc-example').textContent = `"${v.example}"`;
+            document.getElementById('fc-counter').textContent = `${currentVocabIndex + 1} / ${vocabList.length}`;
+            document.getElementById('flashcardElement').classList.remove('flipped');
+        }
+
+        function flipCard() { document.getElementById('flashcardElement').classList.toggle('flipped'); }
+        function nextCard() { if (currentVocabIndex < vocabList.length - 1) { currentVocabIndex++; updateFlashcardView(); } }
+        function prevCard() { if (currentVocabIndex > 0) { currentVocabIndex--; updateFlashcardView(); } }
+
+        function speakWord(word = null) {
+            const textToSpeak = word || document.getElementById('fc-word').textContent;
+            const utterance = new SpeechSynthesisUtterance(textToSpeak);
+            utterance.lang = 'en-US';
+            window.speechSynthesis.speak(utterance);
+        }
+
+        window.onload = initApp;
+    </script>
+</body>
+
+</html>

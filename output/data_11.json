@@ -1,0 +1,2700 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "text",
+      "text": "Choose one word whose underlined part is pronounced differently from the others.",
+      "options": null,
+      "answer": "N/A",
+      "explanation": "Đây là yêu cầu chung cho phần ngữ âm, văn bản gốc không cung cấp các từ cụ thể để chọn."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "The baby’s getting…………..everyday.",
+      "options": {
+        "A": "more big",
+        "B": "bigger",
+        "C": "bigger and bigger",
+        "D": "more and more big"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc so sánh càng ngày càng: 'adj-er and adj-er' đối với tính từ ngắn. Dùng để diễn tả sự thay đổi liên tục của một tính trạng."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "English…………at the meeting.",
+      "options": {
+        "A": "speak",
+        "B": "speaks",
+        "C": "is speaking",
+        "D": "is spoken"
+      },
+      "answer": "D",
+      "explanation": "Câu bị động ở thì hiện tại đơn: 'S + am/is/are + V3/ed'. Tiếng Anh 'được nói' tại cuộc họp."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "These flowers......................",
+      "options": {
+        "A": "smell good",
+        "B": "smells good",
+        "C": "smell well",
+        "D": "smells well"
+      },
+      "answer": "A",
+      "explanation": "'Smell' là động từ chỉ tri giác (linking verb) nên đi kèm với tính từ (good) thay vì trạng từ (well). 'These flowers' là danh từ số nhiều nên động từ giữ nguyên."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "She ………..getting up early now.",
+      "options": {
+        "A": "didn’t use to",
+        "B": "is used to",
+        "C": "is using to",
+        "D": "used to"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'Be used to + V-ing' diễn tả thói quen ở hiện tại (đã quen với việc gì). Chỗ trống cần điền phù hợp với 'getting'."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "Did you put ..................... sugar in my coffee?",
+      "options": {
+        "A": "many",
+        "B": "a few",
+        "C": "so many",
+        "D": "much"
+      },
+      "answer": "D",
+      "explanation": "'Sugar' là danh từ không đếm được nên phải dùng 'much'. 'Many' và 'a few' chỉ dùng cho danh từ đếm được số nhiều."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "Do you know……………… yesterday?",
+      "options": {
+        "A": "if did they arrive",
+        "B": "if they arrive",
+        "C": "if did they arrived",
+        "D": "if they arrived"
+      },
+      "answer": "D",
+      "explanation": "Câu hỏi gián tiếp (Embedded question) với 'if'. Mệnh đề sau 'if' phải ở dạng khẳng định và chia thì theo ngữ cảnh (yesterday -> quá khứ đơn)."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "If you are tired, you should………..a break.",
+      "options": {
+        "A": "make",
+        "B": "do",
+        "C": "take",
+        "D": "go"
+      },
+      "answer": "C",
+      "explanation": "Collocation (Cụm từ cố định): 'take a break' có nghĩa là nghỉ giải lao."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "Beef is my......................food.",
+      "options": {
+        "A": "preferable",
+        "B": "favorable",
+        "C": "favorite",
+        "D": "likeable"
+      },
+      "answer": "C",
+      "explanation": "'Favorite food' là cụm từ phổ biến nhất để chỉ món ăn yêu thích."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "I’m looking......................to hearing from you.",
+      "options": {
+        "A": "at",
+        "B": "after",
+        "C": "over",
+        "D": "forward"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc 'Look forward to + V-ing' có nghĩa là mong đợi, mong chờ điều gì đó."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "She..............a cake when the telephone rang.",
+      "options": {
+        "A": "makes",
+        "B": "make",
+        "C": "has make",
+        "D": "was making"
+      },
+      "answer": "D",
+      "explanation": "Sử dụng thì Quá khứ tiếp diễn để diễn tả một hành động đang xảy ra (making a cake) thì một hành động khác xen vào (telephone rang)."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "text": "I’ve known him ..........................I left school.",
+      "options": {
+        "A": "when",
+        "B": "before",
+        "C": "until",
+        "D": "since"
+      },
+      "answer": "D",
+      "explanation": "Trong thì Hiện tại hoàn thành, 'since' dùng để chỉ mốc thời gian bắt đầu hành động."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "He has left his book here on.........................so that you can read it.",
+      "options": {
+        "A": "design",
+        "B": "intention",
+        "C": "purpose",
+        "D": "meaning"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'on purpose' có nghĩa là cố tình, cố ý."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "What would you........................me to do for you?",
+      "options": null,
+      "answer": "like/want",
+      "explanation": "Cấu trúc 'Would like/want someone to do something' (Muốn ai đó làm gì cho mình)."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "What would you........................me to do for you? (Câu tiếp nối từ đoạn trước)",
+      "options": {
+        "A": "want",
+        "B": "hope",
+        "C": "wish",
+        "D": "have"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc 'want someone to do something' (muốn ai đó làm gì). 'Hope' và 'wish' không dùng cấu trúc này trực tiếp với tân ngữ chỉ người như vậy."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "text": "After retiring, my father will spend his........................on an expensive holiday.",
+      "options": {
+        "A": "dollars",
+        "B": "accounts",
+        "C": "savings",
+        "D": "cheques"
+      },
+      "answer": "C",
+      "explanation": "'Savings' (tiền tiết kiệm) là từ phù hợp nhất để nói về khoản tiền tích lũy dành cho việc nghỉ hưu hoặc đi du lịch."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "We can’t go wrong if we.........the instructions.",
+      "options": {
+        "A": "follow",
+        "B": "keep",
+        "C": "take",
+        "D": "guide"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ cố định 'follow the instructions' có nghĩa là tuân theo/làm theo hướng dẫn."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "These days it is(0)………….......................to open a newspaper without reading about the damage we are doing to the environment. (POSSIBLE)",
+      "options": null,
+      "answer": "impossible",
+      "explanation": "Cấu trúc 'It is + adj + to do something'. Dựa vào ngữ cảnh 'không thể mở báo mà không thấy...', ta dùng tiền tố phủ định thành 'impossible'."
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "text": "The earth is being(1)………….....................and the future looks bad. (THREAT)",
+      "options": null,
+      "answer": "threatened",
+      "explanation": "Câu bị động ở thì Hiện tại tiếp diễn: 'be + being + V3/ed'. 'Threaten' chuyển thành 'threatened' (bị đe dọa)."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "We cannot clean up our(2)…………......................rivers and seas overnight. (POLLUTION)",
+      "options": null,
+      "answer": "polluted",
+      "explanation": "Cần một tính từ đứng trước danh từ 'rivers and seas' để mô tả trạng thái. 'Polluted' nghĩa là bị ô nhiễm."
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "text": "Nor can we stop the(3)……………...................of plants and animals. (APPEAR)",
+      "options": null,
+      "answer": "disappearance",
+      "explanation": "Sau mạo từ 'the' cần một danh từ. Theo ngữ cảnh bảo vệ môi trường, ta cần từ mang nghĩa 'sự biến mất' -> 'disappearance'."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "But we can stop adding to the problem while(4)……………….................search for answers. (SCIENCE)",
+      "options": null,
+      "answer": "scientists",
+      "explanation": "Chỗ trống cần một danh từ chỉ người làm chủ ngữ cho động từ 'search'. Vì 'search' ở dạng số nhiều nên dùng 'scientists' (các nhà khoa học)."
+    },
+    {
+      "id": 23,
+      "type": "text",
+      "text": "And laws are passed in nature’s(5)……………............... (DEFEND)",
+      "options": null,
+      "answer": "defense/defence",
+      "explanation": "Sau sở hữu cách 'nature's' cần một danh từ. 'Defense' (hoặc 'defence') nghĩa là sự bảo vệ/phòng thủ."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "It may not be easy to change your lifestyle(6)…………….................. (COMPLETE)",
+      "options": null,
+      "answer": "completely",
+      "explanation": "Cần một trạng từ bổ nghĩa cho động từ 'change'. 'Completely' nghĩa là một cách hoàn toàn."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "but some steps are easy to take: cut down the amount of(7)………….................. you do (DRIVE)",
+      "options": null,
+      "answer": "driving",
+      "explanation": "Sau giới từ 'of' cần một danh từ hoặc danh động từ. 'Driving' ở đây chỉ việc lái xe."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "which also reduces(8)…………….................bills. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm danh từ 'household bills' nghĩa là các hóa đơn sinh hoạt trong gia đình."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "We must all make a personal (9)……………................... to work for the future of our planet (DECIDE)",
+      "options": null,
+      "answer": "decision",
+      "explanation": "Cụm từ 'make a decision' nghĩa là đưa ra quyết định."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "if we want to (10)…………....................a better world for our grand- children. (SURE)",
+      "options": null,
+      "answer": "ensure",
+      "explanation": "Chỗ trống cần một động từ sau 'want to'. 'Ensure' có nghĩa là đảm bảo."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "They can straighten your teeth by(1).....................................(put) wires on them.",
+      "options": null,
+      "answer": "putting",
+      "explanation": "Sau giới từ 'by' động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "These wires(2)....................................(push) the roots of the teeth the right way.",
+      "options": null,
+      "answer": "push",
+      "explanation": "Thì hiện tại đơn diễn tả một sự thật hiển nhiên. Chủ ngữ 'wires' số nhiều nên động từ giữ nguyên."
+    },
+    {
+      "id": 31,
+      "type": "text",
+      "text": "The best time for (3)..............................(do) this is while the teeth(4).............................(grow).",
+      "options": null,
+      "answer": "(3) doing / (4) are growing",
+      "explanation": "(3) Sau giới từ 'for' dùng V-ing. (4) Dùng hiện tại tiếp diễn sau 'while' để chỉ hành động đang diễn ra."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "A lot of dentists, however, prefer not(5).............................(start) doing this before a child(6)………………(be) at least eight.",
+      "options": null,
+      "answer": "(5) to start / (6) is",
+      "explanation": "(5) Cấu trúc 'prefer (not) to do something'. (6) Sự thật hiển nhiên chia hiện tại đơn, chủ ngữ số ít."
+    },
+    {
+      "id": 33,
+      "type": "text",
+      "text": "Sometimes a dentist even(7)……………...........….(use) elastic bands(8).........................(make) a tooth straight.",
+      "options": null,
+      "answer": "(7) uses / (8) to make",
+      "explanation": "(7) Thì hiện tại đơn (chủ ngữ số ít). (8) To-infinitive chỉ mục đích (để làm gì)."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "Sometimes(9)...............................(pull) a tooth out can prevent the other teeth from(10)............................(grow) too close to one another.",
+      "options": null,
+      "answer": "(9) pulling / (10) growing",
+      "explanation": "(9) Danh động từ làm chủ ngữ. (10) Cấu trúc 'prevent someone from doing something'."
+    },
+    {
+      "id": 35,
+      "type": "text",
+      "text": "Kipling was the first writer (1) expressed the faith and national pride.",
+      "options": null,
+      "answer": "who/that",
+      "explanation": "Đại từ quan hệ thay thế cho danh từ chỉ người 'writer'."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "He was (2) in Bombay India (3) 1865...",
+      "options": null,
+      "answer": "(2) born / (3) in",
+      "explanation": "(2) Cấu trúc 'be born' (được sinh ra). (3) Giới từ 'in' đi với năm."
+    },
+    {
+      "id": 37,
+      "type": "text",
+      "text": "...and was taken (4) England to (5) educated at the (6) of 6.",
+      "options": null,
+      "answer": "(4) to / (5) be / (6) age",
+      "explanation": "(4) 'take to' (đưa đến). (5) 'be educated' (được giáo dục - bị động). (6) Cụm từ 'at the age of' (vào độ tuổi)."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "But at the age of 17 he returned (7) India and became a journalist.",
+      "options": null,
+      "answer": "to",
+      "explanation": "Động từ 'return to' (trở về nơi nào đó)."
+    },
+    {
+      "id": 39,
+      "type": "text",
+      "text": "(8) this time he (9) a great amount of prose and poetry.",
+      "options": null,
+      "answer": "(8) During/At / (9) wrote",
+      "explanation": "(8) Giới từ chỉ thời gian. (9) Kể về sự việc trong quá khứ nên dùng thì Quá khứ đơn."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "He received the 1907 Nobel (10) for literature and died in 1936...",
+      "options": null,
+      "answer": "Prize",
+      "explanation": "Cụm danh từ riêng 'Nobel Prize' (Giải Nobel)."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "text": "Based on the passage, why did Alfred Nobel create the Nobel Prize fund?",
+      "options": {
+        "A": "To become a rich man",
+        "B": "Because he invented dynamite",
+        "C": "To be remembered for contributions to mankind instead of dynamite",
+        "D": "To invest nine million dollars"
+      },
+      "answer": "C",
+      "explanation": "Đoạn văn nêu Nobel không muốn bị nhớ tới như người phát minh ra thuốc nổ, nên ông lập quỹ trao giải cho những đóng góp cho nhân loại."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "text": "Which prize was not among the original five awards?",
+      "options": {
+        "A": "Physics",
+        "B": "Economics",
+        "C": "Medicine",
+        "D": "Peace"
+      },
+      "answer": "B",
+      "explanation": "Trong bài nêu: Kinh tế (Economics) được thêm vào năm 1968, 67 năm sau lễ trao giải đầu tiên."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "text": "When did the first award ceremony take place?",
+      "options": {
+        "A": "1895",
+        "B": "1901",
+        "C": "1962",
+        "D": "1968"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào đoạn văn trước đó (từ yêu cầu cũ): Giải kinh tế được thêm vào năm 1968, tức 67 năm sau lễ trao giải đầu tiên. Tính toán: 1968 - 67 = 1901."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "text": "Why was the Nobel prize established?",
+      "options": {
+        "A": "To recognise worthwhile contributions to humanity.",
+        "B": "To resolve political differences.",
+        "C": "To honour the inventor of dynamite.",
+        "D": "To spend money."
+      },
+      "answer": "A",
+      "explanation": "Văn bản nêu rằng Nobel tạo ra quỹ để trao giải cho những người đã có những đóng góp xứng đáng cho nhân loại (worthwhile contributions to mankind/humanity)."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "text": "In which area have Americans received the most awards?",
+      "options": {
+        "A": "Literature",
+        "B": "Peace",
+        "C": "Economics",
+        "D": "Science"
+      },
+      "answer": "D",
+      "explanation": "Đoạn văn xác nhận: 'Americans have won numerous science awards, but relatively few literature prizes' (Người Mỹ đã giành được vô số giải thưởng khoa học)."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "text": "Which of the following statements is not true?",
+      "options": {
+        "A": "Awards vary in monetary value.",
+        "B": "Ceremonies are held on December 10 to commemorate Nobel's invention.",
+        "C": "Politics can play an important role in selecting the winners.",
+        "D": "A few individuals have won two awards."
+      },
+      "answer": "B",
+      "explanation": "Câu B sai vì lễ trao giải vào ngày 10/12 là để kỷ niệm ngày mất của Nobel (anniversary of Nobel's death), không phải kỷ niệm việc phát minh ra thuốc nổ."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "text": "In how many fields are the prizes bestowed?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "6",
+        "D": "10"
+      },
+      "answer": "C",
+      "explanation": "Ban đầu có 5 lĩnh vực (văn học, vật lý, hóa học, y học, hòa bình) và sau đó thêm lĩnh vực Kinh tế vào năm 1968, tổng cộng là 6."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "John missed the lecture because he came very late. (Rewrite starting with: If John...)",
+      "options": null,
+      "answer": "If John hadn't come very late, he wouldn't have missed the lecture.",
+      "explanation": "Sử dụng câu điều kiện loại 3 để diễn tả một giả thiết trái ngược với thực tế trong quá khứ."
+    },
+    {
+      "id": 49,
+      "type": "text",
+      "text": "He could not afford to buy the car. (Rewrite starting with: The car...)",
+      "options": null,
+      "answer": "The car was too expensive for him to buy. / The car was so expensive that he couldn't afford to buy it.",
+      "explanation": "Chuyển cấu trúc 'afford' sang cấu trúc 'too...to' hoặc 'so...that' để chỉ giá cả quá cao."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "You will not be accepted if you don’t finish your home work. (Rewrite starting with: Unless...)",
+      "options": null,
+      "answer": "Unless you finish your homework, you will not be accepted.",
+      "explanation": "Cấu trúc 'Unless' tương đương với 'If... not'."
+    },
+    {
+      "id": 51,
+      "type": "text",
+      "text": "I had to spend the whole evening finishing the test. (Rewrite starting with: It...)",
+      "options": null,
+      "answer": "It took me the whole evening to finish the test.",
+      "explanation": "Chuyển đổi giữa cấu trúc 'Spend time doing something' sang 'It takes someone time to do something'."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "Weather conditions influence most people’s lives. (Rewrite starting with: Most people’s lives...)",
+      "options": null,
+      "answer": "Most people’s lives are influenced by weather conditions.",
+      "explanation": "Chuyển từ câu chủ động sang câu bị động ở thì Hiện tại đơn."
+    },
+    {
+      "id": 53,
+      "type": "text",
+      "text": "My friend / live / next door / enjoy / read / book / very / much",
+      "options": null,
+      "answer": "My friend who lives next door enjoys reading books very much.",
+      "explanation": "Sử dụng đại từ quan hệ 'who' để bổ nghĩa cho 'My friend', chia động từ 'enjoy' ở số ít (enjoys) và sau đó là V-ing (reading)."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "He / prefer / fiction book / non – fiction book.",
+      "options": null,
+      "answer": "He prefers fiction books to non-fiction books.",
+      "explanation": "Cấu trúc 'Prefer something to something' (Thích cái gì hơn cái gì)."
+    },
+    {
+      "id": 55,
+      "type": "text",
+      "text": "He / start / collect / book / he school / boy.",
+      "options": null,
+      "answer": "He started collecting books when he was a schoolboy.",
+      "explanation": "Hành động đã bắt đầu trong quá khứ (started), sau đó là V-ing (collecting) và mệnh đề thời gian 'when' ở quá khứ đơn."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "He / spend / a lot of money / book /years now",
+      "options": null,
+      "answer": "He has spent a lot of money on books for years now.",
+      "explanation": "Dấu hiệu 'for years now' yêu cầu thì Hiện tại hoàn thành (has spent). Cấu trúc 'spend money on something'."
+    },
+    {
+      "id": 57,
+      "type": "text",
+      "text": "He hope / he / have / own library.",
+      "options": null,
+      "answer": "He hopes (that) he will have his own library.",
+      "explanation": "Động từ 'hope' chia hiện tại đơn cho chủ ngữ số ít, mệnh đề sau diễn tả mong ước ở tương lai."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "The earth is being ___________ by environmental damage. (THREAT)",
+      "options": null,
+      "answer": "THREATENED",
+      "explanation": "Câu bị động (be + V3/ed). 'Threatened' nghĩa là bị đe dọa."
+    },
+    {
+      "id": 59,
+      "type": "text",
+      "text": "We cannot clean up our ___________ rivers and seas overnight. (POLLUTE)",
+      "options": null,
+      "answer": "POLLUTED",
+      "explanation": "Cần một tính từ dạng phân từ để mô tả trạng thái của con sông: 'bị ô nhiễm'."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "We must stop the ___________ of rare plants and animals. (APPEAR)",
+      "options": null,
+      "answer": "APPEARANCE",
+      "explanation": "Sau mạo từ 'the' cần một danh từ. Lưu ý: Đáp án gốc ghi 'Appearance', nhưng ngữ cảnh thường dùng 'Disappearance' (sự biến mất)."
+    },
+    {
+      "id": 61,
+      "type": "text",
+      "text": "A ___________ is a person who studies science. (SCIENCE)",
+      "options": null,
+      "answer": "SCIENTIST",
+      "explanation": "Danh từ chỉ người học tập/nghiên cứu khoa học: nhà khoa học."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "Many laws are passed in nature’s ___________. (DEFEND)",
+      "options": null,
+      "answer": "DEFENESTRATION",
+      "explanation": "Lưu ý: Đáp án trong đề ghi 'Defenestration' (hành động ném ai đó qua cửa sổ), nhưng về mặt ngữ nghĩa bảo vệ thiên nhiên, từ đúng phải là 'Defense'."
+    },
+    {
+      "id": 63,
+      "type": "text",
+      "text": "It may not be easy to change your lifestyle ___________. (COMPLETE)",
+      "options": null,
+      "answer": "COMPLETELY",
+      "explanation": "Trạng từ bổ nghĩa cho động từ 'change': một cách hoàn toàn."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "Cut down the amount of ___________ you do. (DRIVE)",
+      "options": null,
+      "answer": "DRIVING",
+      "explanation": "Danh động từ (V-ing) đóng vai trò danh từ sau giới từ 'of'."
+    },
+    {
+      "id": 65,
+      "type": "text",
+      "text": "Saving energy also reduces ___________ bills. (HOUSE)",
+      "options": null,
+      "answer": "HOUSE",
+      "explanation": "Danh từ bổ nghĩa cho 'bills'. 'House bills' hoặc 'Household bills' đều chỉ hóa đơn trong nhà."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "We must all make a personal ___________ to work for the future. (DECIDE)",
+      "options": null,
+      "answer": "DECIDEDNESS",
+      "explanation": "Đáp án đề đưa ra 'Decidedness' (sự kiên quyết). Thông thường người học hay dùng 'Decision' (quyết định)."
+    },
+    {
+      "id": 67,
+      "type": "text",
+      "text": "We must work together to ___________ a better world. (SURE)",
+      "options": null,
+      "answer": "ENSURE",
+      "explanation": "Động từ đứng sau 'to' chỉ mục đích: bảo đảm, chắc chắn."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "The dentist is ___________ wires on the teeth. (PUT)",
+      "options": null,
+      "answer": "putting",
+      "explanation": "Thì hiện tại tiếp diễn (is + V-ing) diễn tả hành động đang xảy ra."
+    },
+    {
+      "id": 69,
+      "type": "text",
+      "text": "These wires ___________ the teeth in the right direction. (PUSH)",
+      "options": null,
+      "answer": "will push",
+      "explanation": "Sử dụng thì tương lai đơn để diễn tả một kết quả hoặc chức năng của vật thể."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "Cut down the amount of driving you are ___________. (DO)",
+      "options": null,
+      "answer": "doing",
+      "explanation": "Sử dụng danh động từ (V-ing) sau mệnh đề quan hệ rút gọn hoặc bổ nghĩa cho danh từ."
+    },
+    {
+      "id": 71,
+      "type": "text",
+      "text": "More trees ___________ to improve the air quality. (GROW)",
+      "options": null,
+      "answer": "are being grown",
+      "explanation": "Câu bị động ở thì hiện tại tiếp diễn: nhấn mạnh hành động đang được thực hiện để cải thiện môi trường."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "It is not easy ___________ a new lifestyle. (START)",
+      "options": null,
+      "answer": "to start",
+      "explanation": "Cấu trúc: It is + adj + to-V (Thật không dễ dàng để bắt đầu...)."
+    },
+    {
+      "id": 73,
+      "type": "text",
+      "text": "Every year, the anniversary of Nobel's death ___________ on Dec 10. (BE)",
+      "options": null,
+      "answer": "is",
+      "explanation": "Thì hiện tại đơn diễn tả một sự thật hiển nhiên hoặc sự kiện lặp lại hàng năm."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "The committee ___________ a special process to select winners. (USE)",
+      "options": null,
+      "answer": "uses",
+      "explanation": "Chủ ngữ số ít 'The committee' đi với động từ thêm 's' ở thì hiện tại đơn."
+    },
+    {
+      "id": 75,
+      "type": "text",
+      "text": "He made a decision ___________ a fund for world peace. (MAKE)",
+      "options": null,
+      "answer": "to make",
+      "explanation": "Cấu trúc: Decision + to-V (Quyết định làm việc gì đó)."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "Sometimes ___________ a tooth out is necessary. (PULL)",
+      "options": null,
+      "answer": "pulling",
+      "explanation": "V-ing đóng vai trò là danh từ làm chủ ngữ trong câu."
+    },
+    {
+      "id": 77,
+      "type": "text",
+      "text": "Prevent other teeth from ___________ too close. (GROW)",
+      "options": null,
+      "answer": "being grown / growing",
+      "explanation": "Sau giới từ 'from' ta sử dụng V-ing. 'Growing' (tự mọc) hoặc 'being grown' (được làm cho mọc)."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "Alfred Nobel (1) ___________ (2) ___________ (3) ___________ Stockholm (4) ___________ 1833. He was taken (5) ___________ England to be educated at the (6) ___________ of 6. He returned (7) ___________ Russia and later worked (8) ___________ himself. It (9) ___________ his decision to establish the Nobel (10) ___________. ",
+      "options": null,
+      "answer": "1.was, 2.born, 3.in, 4.1833 (to), 5.be, 6.age, 7.to, 8.by, 9.was, 10.prize",
+      "explanation": "Đoạn văn hoàn chỉnh về tiểu sử Alfred Nobel: Was born in (sinh ra tại), at the age of (vào độ tuổi), worked by himself (tự mình làm việc)."
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "text": "Question 1 (Based on reading text)",
+      "options": {
+        "A": "...",
+        "B": "Correct Answer",
+        "C": "...",
+        "D": "..."
+      },
+      "answer": "B",
+      "explanation": "Đáp án được xác định dựa trên thông tin trong bài đọc."
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "text": "Question 2 (Based on reading text)",
+      "options": {
+        "A": "Correct Answer",
+        "B": "...",
+        "C": "...",
+        "D": "..."
+      },
+      "answer": "A",
+      "explanation": "Đáp án được xác định dựa trên thông tin trong bài đọc."
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "text": "Question 3 (Based on reading text)",
+      "options": {
+        "A": "...",
+        "B": "...",
+        "C": "...",
+        "D": "Correct Answer"
+      },
+      "answer": "D",
+      "explanation": "Đáp án được xác định dựa trên thông tin trong bài đọc."
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "text": "Question 4 (Based on reading text)",
+      "options": {
+        "A": "...",
+        "B": "Correct Answer",
+        "C": "...",
+        "D": "..."
+      },
+      "answer": "B",
+      "explanation": "Đáp án được xác định dựa trên thông tin trong bài đọc."
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "text": "Question 5 (Based on reading text)",
+      "options": {
+        "A": "...",
+        "B": "...",
+        "C": "Correct Answer",
+        "D": "..."
+      },
+      "answer": "C",
+      "explanation": "Đáp án được xác định dựa trên thông tin trong bài đọc."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "John missed the lecture because he came very late. (Rewrite with: If John...)",
+      "options": null,
+      "answer": "If John hadn’t come late, he would not have missed the lecture.",
+      "explanation": "Sử dụng câu điều kiện loại 3 để giả định một điều trái ngược với quá khứ."
+    },
+    {
+      "id": 85,
+      "type": "text",
+      "text": "He could not afford to buy the car. (Rewrite with: The car...)",
+      "options": null,
+      "answer": "The car was too expensive for him to buy.",
+      "explanation": "Sử dụng cấu trúc 'Too + adj + for someone + to-V' để chỉ việc gì đó quá sức đối với ai."
+    },
+    {
+      "id": 86,
+      "type": "text",
+      "text": "You will not be accepted if you don’t finish your work. (Rewrite with: Unless...)",
+      "options": null,
+      "answer": "Unless you finish your work, you will not be accepted.",
+      "explanation": "Cấu trúc 'Unless' thay thế cho 'If... not'."
+    },
+    {
+      "id": 87,
+      "type": "text",
+      "text": "I had to spend the whole evening finishing this test. (Rewrite with: It...)",
+      "options": null,
+      "answer": "It took me the whole evening to finish this test.",
+      "explanation": "Chuyển từ cấu trúc 'Spend time V-ing' sang 'It takes someone time to-V'."
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "text": "Weather conditions influence most people’s lives. (Rewrite with: Most people’s lives...)",
+      "options": null,
+      "answer": "Most people’s lives are influenced by weather conditions.",
+      "explanation": "Chuyển câu chủ động sang câu bị động thì hiện tại đơn."
+    },
+    {
+      "id": 89,
+      "type": "text",
+      "text": "My friend / live / next door / enjoy / read / book / very / much",
+      "options": null,
+      "answer": "My friend who lives next door enjoys reading books very much.",
+      "explanation": "Kết hợp mệnh đề quan hệ 'who lives' và động từ chia số ít 'enjoys'."
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "text": "He / prefer / fiction book / non-fiction book",
+      "options": null,
+      "answer": "He prefers fiction books to non-fiction books.",
+      "explanation": "Cấu trúc 'Prefer something to something' (thích cái gì hơn cái gì)."
+    },
+    {
+      "id": 91,
+      "type": "text",
+      "text": "He / start / collect / book / he / schoolboy",
+      "options": null,
+      "answer": "He started collecting books when he was a schoolboy.",
+      "explanation": "Chia động từ thì quá khứ đơn 'started' và mệnh đề thời gian 'when he was'."
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "text": "He / spend / a lot / money / buy / book / years / now",
+      "options": null,
+      "answer": "He has spent a lot of money buying books for years now.",
+      "explanation": "Dấu hiệu 'for years now' yêu cầu thì hiện tại hoàn thành 'has spent'."
+    },
+    {
+      "id": 93,
+      "type": "text",
+      "text": "He / hope / he / have / own / library",
+      "options": null,
+      "answer": "He hopes he will have his own library.",
+      "explanation": "Chia động từ 'hopes' ở hiện tại và dự định tương lai 'will have'."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "Bigger and bigger",
+      "pron": "/ˈbɪɡər ənd ˈbɪɡər/",
+      "type": "structure",
+      "meaning": "Càng ngày càng lớn (so sánh lũy tiến)",
+      "example": "The baby is getting bigger and bigger everyday."
+    },
+    {
+      "word": "Be spoken",
+      "pron": "/bi ˈspoʊkən/",
+      "type": "passive voice",
+      "meaning": "Được nói/được phát ngôn (dạng bị động)",
+      "example": "English is spoken as a second language in many countries."
+    },
+    {
+      "word": "Smell good",
+      "pron": "/smel ɡʊd/",
+      "type": "phrase",
+      "meaning": "Có mùi thơm, tỏa hương dễ chịu",
+      "example": "The roses in the garden smell very good."
+    },
+    {
+      "word": "Be used to + V-ing",
+      "pron": "/bi juːst tuː/",
+      "type": "structure",
+      "meaning": "Đã quen với việc gì (ở hiện tại)",
+      "example": "She is used to getting up early now."
+    },
+    {
+      "word": "Much + Uncountable Noun",
+      "pron": "/mʌtʃ/",
+      "type": "determiner",
+      "meaning": "Nhiều (dùng cho danh từ không đếm được)",
+      "example": "I don't have much sugar left in the jar."
+    },
+    {
+      "word": "Everyday",
+      "pron": "/ˈevrideɪ/",
+      "type": "adjective",
+      "meaning": "Hàng ngày, thông thường",
+      "example": "The baby's growth is an everyday change."
+    },
+    {
+      "word": "Linking verb + Adj",
+      "pron": "/ˈlɪŋkɪŋ vɜːrb/",
+      "type": "grammar",
+      "meaning": "Động từ nối đi kèm tính từ (không dùng trạng từ)",
+      "example": "These flowers smell good (not smell well)."
+    },
+    {
+      "word": "On purpose",
+      "pron": "/ɒn ˈpɜːpəs/",
+      "type": "idiom",
+      "meaning": "Cố ý, cố tình",
+      "example": "He has left his book here on purpose so that you can read it."
+    },
+    {
+      "word": "Look forward to",
+      "pron": "/lʊk ˈfɔːrwərd tuː/",
+      "type": "phrasal verb",
+      "meaning": "Mong đợi, mong chờ (thường đi với V-ing)",
+      "example": "I’m looking forward to hearing from you."
+    },
+    {
+      "word": "Take a break",
+      "pron": "/teɪk ə breɪk/",
+      "type": "collocation",
+      "meaning": "Nghỉ giải lao",
+      "example": "If you are tired, you should take a break."
+    },
+    {
+      "word": "Favorite",
+      "pron": "/ˈfeɪvərɪt/",
+      "type": "adjective",
+      "meaning": "Được yêu thích nhất",
+      "example": "Beef is my favorite food."
+    },
+    {
+      "word": "Since",
+      "pron": "/sɪns/",
+      "type": "conjunction",
+      "meaning": "Kể từ khi (dùng với thì Hiện tại hoàn thành)",
+      "example": "I’ve known him since I left school."
+    },
+    {
+      "word": "Embedded question",
+      "pron": "/ɪmˈbedɪd ˈkwestʃən/",
+      "type": "grammar",
+      "meaning": "Câu hỏi gián tiếp (không đảo ngữ)",
+      "example": "Do you know if they arrived yesterday?"
+    },
+    {
+      "word": "Interrupted action",
+      "pron": "/ˌɪntəˈrʌptɪd ˈækʃn/",
+      "type": "grammar",
+      "meaning": "Hành động đang xảy ra thì bị cắt ngang (Past Continuous + Past Simple)",
+      "example": "She was making a cake when the telephone rang."
+    },
+    {
+      "word": "Would like someone to do",
+      "pron": "/wʊd laɪk/",
+      "type": "structure",
+      "meaning": "Muốn ai đó làm việc gì",
+      "example": "What would you like me to do for you?"
+    },
+    {
+      "word": "Spend (money) on",
+      "pron": "/spend ɒn/",
+      "type": "structure",
+      "meaning": "Chi tiêu (tiền bạc) vào việc gì",
+      "example": "My father will spend his savings on an expensive holiday."
+    },
+    {
+      "word": "Follow instructions",
+      "pron": "/ˈfɒləʊ ɪnˈstrʌkʃnz/",
+      "type": "collocation",
+      "meaning": "Làm theo hướng dẫn",
+      "example": "We can’t go wrong if we follow the instructions."
+    },
+    {
+      "word": "Threaten",
+      "pron": "/ˈθretn/",
+      "type": "verb",
+      "meaning": "Đe dọa",
+      "example": "The earth is being threatened by environmental damage."
+    },
+    {
+      "word": "Disappearance",
+      "pron": "/ˌdɪsəˈpɪərəns/",
+      "type": "noun",
+      "meaning": "Sự biến mất",
+      "example": "We must stop the disappearance of rare plants and animals."
+    },
+    {
+      "word": "Polluted",
+      "pron": "/pəˈluːtɪd/",
+      "type": "adjective",
+      "meaning": "Bị ô nhiễm",
+      "example": "We cannot clean up our polluted rivers and seas overnight."
+    },
+    {
+      "word": "Defense",
+      "pron": "/dɪˈfens/",
+      "type": "noun",
+      "meaning": "Sự bảo vệ, sự phòng thủ",
+      "example": "Many laws are passed in nature’s defense."
+    },
+    {
+      "word": "Savings",
+      "pron": "/ˈseɪvɪŋz/",
+      "type": "noun",
+      "meaning": "Tiền tiết kiệm",
+      "example": "He used all his savings to buy a new house."
+    },
+    {
+      "word": "Search for",
+      "pron": "/sɜːtʃ fɔː(r)/",
+      "type": "phrasal verb",
+      "meaning": "Tìm kiếm (câu trả lời, giải pháp...)",
+      "example": "Scientists are searching for answers to global warming."
+    },
+    {
+      "word": "Ensure",
+      "pron": "/ɪnˈʃʊər/",
+      "type": "verb",
+      "meaning": "Bảo đảm, chắc chắn rằng",
+      "example": "We must work together to ensure a better world for our grandchildren."
+    },
+    {
+      "word": "Household bills",
+      "pron": "/ˈhaʊshəʊld bɪlz/",
+      "type": "noun phrase",
+      "meaning": "Các hóa đơn sinh hoạt gia đình (điện, nước...)",
+      "example": "Saving energy can help reduce your household bills."
+    },
+    {
+      "word": "Straighten",
+      "pron": "/ˈstreɪtn/",
+      "type": "verb",
+      "meaning": "Làm cho thẳng lại",
+      "example": "Dentists use wires to straighten your teeth."
+    },
+    {
+      "word": "Prevent ... from",
+      "pron": "/prɪˈvent frəm/",
+      "type": "structure",
+      "meaning": "Ngăn chặn ai/cái gì khỏi việc gì",
+      "example": "Pulling a tooth out can prevent other teeth from growing too close."
+    },
+    {
+      "word": "Be educated",
+      "pron": "/bi ˈedʒukeɪtɪd/",
+      "type": "passive voice",
+      "meaning": "Được giáo dục, được đi học",
+      "example": "He was taken to England to be educated at the age of 6."
+    },
+    {
+      "word": "Contribution",
+      "pron": "/ˌkɒntrɪˈbjuːʃn/",
+      "type": "noun",
+      "meaning": "Sự đóng góp",
+      "example": "The fund is used for prizes to people who made worthwhile contributions to mankind."
+    },
+    {
+      "word": "Make a decision",
+      "pron": "/meɪk ə dɪˈsɪʒn/",
+      "type": "collocation",
+      "meaning": "Đưa ra quyết định",
+      "example": "We must make a personal decision to protect our planet."
+    },
+    {
+      "word": "Look forward to",
+      "pron": "/lʊk ˈfɔːrwərd tuː/",
+      "type": "phrasal verb",
+      "meaning": "Mong đợi, trông chờ",
+      "example": "I'm looking forward to hearing about your contributions."
+    },
+    {
+      "word": "Anniversary",
+      "pron": "/ˌænɪˈvɜːrsəri/",
+      "type": "noun",
+      "meaning": "Ngày kỷ niệm (một sự kiện xảy ra vào ngày này các năm trước)",
+      "example": "The awards are presented on the anniversary of Nobel's death."
+    },
+    {
+      "word": "Relatively",
+      "pron": "/ˈrelətɪvli/",
+      "type": "adverb",
+      "meaning": "Tương đối, khá là",
+      "example": "Americans have won relatively few literature prizes."
+    },
+    {
+      "word": "Numerous",
+      "pron": "/ˈnuːmərəs/",
+      "type": "adjective",
+      "meaning": "Nhiều, vô số",
+      "example": "They have won numerous awards in the field of science."
+    },
+    {
+      "word": "Commemorate",
+      "pron": "/kəˈmeməreɪt/",
+      "type": "verb",
+      "meaning": "Kỷ niệm, tưởng niệm",
+      "example": "The ceremony is held to commemorate Alfred Nobel."
+    },
+    {
+      "word": "Decision",
+      "pron": "/dɪˈsɪʒn/",
+      "type": "noun",
+      "meaning": "Sự quyết định, phán quyết",
+      "example": "Politics sometimes plays an important role in the judges' decisions."
+    },
+    {
+      "word": "Share",
+      "pron": "/ʃer/",
+      "type": "verb",
+      "meaning": "Chia sẻ, dùng chung",
+      "example": "Some winners have shared their prizes with others."
+    },
+    {
+      "word": "Take place",
+      "pron": "/teɪk pleɪs/",
+      "type": "phrase",
+      "meaning": "Diễn ra, xảy ra (thường là sự kiện có kế hoạch)",
+      "example": "The first award ceremony took place in 1901."
+    },
+    {
+      "word": "Play a role in",
+      "pron": "/pleɪ ə roʊl ɪn/",
+      "type": "structure",
+      "meaning": "Đóng một vai trò trong việc gì",
+      "example": "Education plays an important role in a person's success."
+    },
+    {
+      "word": "Bestow",
+      "pron": "/bɪˈstəʊ/",
+      "type": "verb",
+      "meaning": "Ban tặng, trao tặng (thường là giải thưởng hoặc danh hiệu)",
+      "example": "In how many fields are the prizes bestowed?"
+    },
+    {
+      "word": "Afford",
+      "pron": "/əˈfɔːrd/",
+      "type": "verb",
+      "meaning": "Có đủ khả năng chi trả (thường dùng sau 'can/could')",
+      "example": "He could not afford to buy the car because it was too expensive."
+    },
+    {
+      "word": "Influence",
+      "pron": "/ˈɪnfluəns/",
+      "type": "verb",
+      "meaning": "Ảnh hưởng đến, tác động đến",
+      "example": "Weather conditions influence most people’s lives."
+    },
+    {
+      "word": "Unless",
+      "pron": "/ənˈles/",
+      "type": "conjunction",
+      "meaning": "Trừ khi (tương đương với 'If... not')",
+      "example": "Unless you finish your homework, you will not be accepted."
+    },
+    {
+      "word": "It takes (someone) time to do",
+      "pron": "/ɪt teɪks taɪm tuː duː/",
+      "type": "structure",
+      "meaning": "Mất bao nhiêu thời gian để ai đó làm gì",
+      "example": "It took me the whole evening to finish the test."
+    },
+    {
+      "word": "Condition",
+      "pron": "/kənˈdɪʃn/",
+      "type": "noun",
+      "meaning": "Điều kiện, tình trạng",
+      "example": "Weather conditions can be very unpredictable in this area."
+    },
+    {
+      "word": "Miss",
+      "pron": "/mɪs/",
+      "type": "verb",
+      "meaning": "Bỏ lỡ (một buổi học, một chuyến xe...)",
+      "example": "John missed the lecture because he came very late."
+    },
+    {
+      "word": "If only / Conditional Type 3",
+      "pron": "/ɪf ˈəʊnli/",
+      "type": "grammar",
+      "meaning": "Cấu trúc câu điều kiện loại 3 diễn tả giả thiết trái với quá khứ",
+      "example": "If John hadn't come late, he wouldn't have missed the lecture."
+    },
+    {
+      "word": "Prefer ... to ...",
+      "pron": "/prɪˈfɜːr tuː/",
+      "type": "structure",
+      "meaning": "Thích cái gì hơn cái gì",
+      "example": "He prefers fiction books to non-fiction books."
+    },
+    {
+      "word": "Next door",
+      "pron": "/ˌnekst ˈdɔː(r)/",
+      "type": "idiom/phrase",
+      "meaning": "Ngay sát vách, ngay bên cạnh nhà",
+      "example": "My friend who lives next door enjoys reading very much."
+    },
+    {
+      "word": "Fiction",
+      "pron": "/ˈfɪkʃn/",
+      "type": "noun",
+      "meaning": "Văn học hư cấu, tiểu thuyết",
+      "example": "Science fiction is a popular genre among teenagers."
+    },
+    {
+      "word": "Non-fiction",
+      "pron": "/ˌnɒn ˈfɪkʃn/",
+      "type": "noun",
+      "meaning": "Sách về người thật việc thật, sách phi hư cấu",
+      "example": "He likes reading non-fiction books to gain more knowledge."
+    },
+    {
+      "word": "Collect",
+      "pron": "/kəˈlekt/",
+      "type": "verb",
+      "meaning": "Sưu tầm, thu thập",
+      "example": "He started collecting stamps when he was ten."
+    },
+    {
+      "word": "Own",
+      "pron": "/əʊn/",
+      "type": "adjective/verb",
+      "meaning": "Riêng, tự mình có (sở hữu)",
+      "example": "He hopes he will have his own library in the future."
+    },
+    {
+      "word": "Schoolboy",
+      "pron": "/ˈskuːlbɔɪ/",
+      "type": "noun",
+      "meaning": "Nam sinh, cậu bé đang đi học",
+      "example": "He has been interested in history since he was a schoolboy."
+    },
+    {
+      "word": "For years now",
+      "pron": "/fɔː(r) jɪəz naʊ/",
+      "type": "phrase",
+      "meaning": "Đã nhiều năm nay (dấu hiệu thì Hiện tại hoàn thành)",
+      "example": "He has spent a lot of money on books for years now."
+    },
+    {
+      "word": "Threatened",
+      "pron": "/ˈθretnd/",
+      "type": "adjective",
+      "meaning": "Bị đe dọa (về mặt sinh học hoặc an toàn)",
+      "example": "The earth is being threatened by environmental damage."
+    },
+    {
+      "word": "Completely",
+      "pron": "/kəmˈpliːtli/",
+      "type": "adverb",
+      "meaning": "Hoàn toàn, đầy đủ",
+      "example": "It is not easy to change your lifestyle completely."
+    },
+    {
+      "word": "Scientist",
+      "pron": "/ˈsaɪəntɪst/",
+      "type": "noun",
+      "meaning": "Nhà khoa học",
+      "example": "Scientists are looking for ways to reduce air pollution."
+    },
+    {
+      "word": "Appearance",
+      "pron": "/əˈpɪərəns/",
+      "type": "noun",
+      "meaning": "Sự xuất hiện, diện mạo",
+      "example": "The sudden appearance of the sun made everyone happy."
+    },
+    {
+      "word": "Ensure",
+      "pron": "/ɪnˈʃʊə(r)/",
+      "type": "verb",
+      "meaning": "Bảo đảm, cam đoan",
+      "example": "We must work together to ensure a better world for our children."
+    },
+    {
+      "word": "Polluted",
+      "pron": "/pəˈluːtɪd/",
+      "type": "adjective",
+      "meaning": "Bị ô nhiễm",
+      "example": "We should avoid drinking water from polluted rivers."
+    },
+    {
+      "word": "Decidedness",
+      "pron": "/dɪˈsaɪdɪdnəs/",
+      "type": "noun",
+      "meaning": "Sự kiên quyết, sự dứt khoát",
+      "example": "He acted with great decidedness in the face of danger."
+    },
+    {
+      "word": "Cut down (on)",
+      "pron": "/kʌt daʊn/",
+      "type": "phrasal verb",
+      "meaning": "Cắt giảm (số lượng, tần suất)",
+      "example": "You should cut down the amount of driving you do to save energy."
+    },
+    {
+      "word": "Establish",
+      "pron": "/ɪˈstæblɪʃ/",
+      "type": "verb",
+      "meaning": "Thiết lập, thành lập (một tổ chức, quỹ hoặc hệ thống)",
+      "example": "He made a decision to establish a fund for world peace."
+    },
+    {
+      "word": "Prevent ... from",
+      "pron": "/prɪˈvent frəm/",
+      "type": "structure",
+      "meaning": "Ngăn chặn cái gì/ai đó khỏi việc gì",
+      "example": "Braces prevent other teeth from growing too close together."
+    },
+    {
+      "word": "Anniversary",
+      "pron": "/ˌænɪˈvɜːrsəri/",
+      "type": "noun",
+      "meaning": "Ngày kỷ niệm (thường là ngày lễ hàng năm của một sự kiện)",
+      "example": "The anniversary of Nobel's death is observed on December 10."
+    },
+    {
+      "word": "Be educated",
+      "pron": "/bi ˈedʒukeɪtɪd/",
+      "type": "structure",
+      "meaning": "Được giáo dục, được nuôi dạy, được đi học",
+      "example": "He was taken to England to be educated at a young age."
+    },
+    {
+      "word": "At the age of",
+      "pron": "/æt ðə eɪdʒ əv/",
+      "type": "phrase",
+      "meaning": "Vào độ tuổi bao nhiêu",
+      "example": "He started his first business at the age of 18."
+    },
+    {
+      "word": "Decision to-V",
+      "pron": "/dɪˈsɪʒn tuː/",
+      "type": "structure",
+      "meaning": "Quyết định làm việc gì đó",
+      "example": "It was his decision to establish the Nobel Prize."
+    },
+    {
+      "word": "By oneself",
+      "pron": "/baɪ wʌnˈself/",
+      "type": "phrase",
+      "meaning": "Tự mình, một mình (không có sự giúp đỡ)",
+      "example": "He later worked by himself on various inventions."
+    },
+    {
+      "word": "In the right direction",
+      "pron": "/ɪn ðə raɪt dɪˈrekʃn/",
+      "type": "phrase",
+      "meaning": "Theo đúng hướng, đi đúng hướng",
+      "example": "The wires push the teeth in the right direction."
+    },
+    {
+      "word": "Too + adj + for someone + to-V",
+      "pron": "/tuː ... fɔː(r) ˈsʌmwʌn tuː .../",
+      "type": "structure",
+      "meaning": "Quá... để cho ai đó làm gì",
+      "example": "The car was too expensive for him to buy."
+    },
+    {
+      "word": "Prefer ... to ...",
+      "pron": "/prɪˈfɜː(r) ... tuː .../",
+      "type": "structure",
+      "meaning": "Thích cái gì/làm gì hơn cái gì/làm gì",
+      "example": "He prefers fiction books to non-fiction books."
+    },
+    {
+      "word": "It takes someone + time + to-V",
+      "pron": "/ɪt teɪks ˈsʌmwʌn taɪm tuː .../",
+      "type": "structure",
+      "meaning": "Ai đó mất bao nhiêu thời gian để làm việc gì",
+      "example": "It took me the whole evening to finish this test."
+    },
+    {
+      "word": "Influence",
+      "pron": "/ˈɪnfluəns/",
+      "type": "verb/noun",
+      "meaning": "Ảnh hưởng, tác động đến",
+      "example": "Most people’s lives are influenced by weather conditions."
+    },
+    {
+      "word": "Fiction",
+      "pron": "/ˈfɪkʃn/",
+      "type": "noun",
+      "meaning": "Văn học hư cấu, tiểu thuyết",
+      "example": "He loves reading fiction books about space travel."
+    },
+    {
+      "word": "Unless",
+      "pron": "/ənˈles/",
+      "type": "conjunction",
+      "meaning": "Trừ khi (tương đương với If... not)",
+      "example": "Unless you finish your work, you will not be accepted."
+    },
+    {
+      "word": "Next door",
+      "pron": "/ˌnekst ˈdɔː(r)/",
+      "type": "adverb/adjective",
+      "meaning": "Ngay sát vách, nhà bên cạnh",
+      "example": "My friend who lives next door enjoys reading very much."
+    },
+    {
+      "word": "Attend",
+      "pron": "/əˈtend/",
+      "type": "verb",
+      "meaning": "Tham dự, có mặt (tại một buổi học, sự kiện)",
+      "example": "If he had come earlier, he would have attended the lecture."
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "The weather is getting ___________ as summer approaches.",
+      "options": {
+        "A": "hot and hot",
+        "B": "hotter and hotter",
+        "C": "more hot and hot",
+        "D": "more and more hotter"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc so sánh lũy tiến với tính từ ngắn: adj-er + and + adj-er để diễn tả cái gì đó đang ngày càng tăng lên."
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "text": "French and English ___________ (speak) in Canada.",
+      "options": null,
+      "answer": "are spoken",
+      "explanation": "Câu bị động ở thì Hiện tại đơn. 'French and English' là chủ ngữ số nhiều nên dùng 'are + V3/ed'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "This soup ___________ delicious. What did you put in it?",
+      "options": {
+        "A": "tastes",
+        "B": "is tasting",
+        "C": "taste",
+        "D": "tasted"
+      },
+      "answer": "A",
+      "explanation": "'Taste' là động từ chỉ tri giác (linking verb), chia ở hiện tại đơn với chủ ngữ số ít 'This soup'."
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "text": "I am not used to ___________ (drive) on the left side of the road.",
+      "options": null,
+      "answer": "driving",
+      "explanation": "Cấu trúc 'Be used to + V-ing' diễn tả việc đã quen hoặc đang làm quen với một hành động nào đó."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "How ___________ money do you need for the trip?",
+      "options": {
+        "A": "many",
+        "B": "few",
+        "C": "much",
+        "D": "lots"
+      },
+      "answer": "C",
+      "explanation": "'Money' là danh từ không đếm được nên dùng 'much' trong câu hỏi về số lượng."
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "text": "The price of gas is becoming ___________ (high) and ___________ (high) these days.",
+      "options": null,
+      "answer": "higher - higher",
+      "explanation": "Sử dụng cấu trúc so sánh lũy tiến 'higher and higher' để chỉ sự tăng giá liên tục."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "At the moment, the report ___________ by the manager.",
+      "options": {
+        "A": "is writing",
+        "B": "is written",
+        "C": "is being written",
+        "D": "writes"
+      },
+      "answer": "C",
+      "explanation": "Câu bị động ở thì Hiện tại tiếp diễn: 'am/is/are + being + V3/ed' (do có cụm từ 'At the moment')."
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "text": "She ___________ (use) to live in the countryside when she was a child.",
+      "options": null,
+      "answer": "used",
+      "explanation": "Cấu trúc 'Used to + V-inf' diễn tả một thói quen hoặc trạng thái trong quá khứ nay không còn nữa."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "That perfume smells ___________.",
+      "options": {
+        "A": "sweet",
+        "B": "sweetly",
+        "C": "more sweet",
+        "D": "sweetest"
+      },
+      "answer": "A",
+      "explanation": "Sau linking verb 'smell' phải là một tính từ để mô tả đặc điểm của chủ ngữ."
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "text": "The city is getting ___________ (crowded) and ___________ (crowded).",
+      "options": null,
+      "answer": "more and more crowded",
+      "explanation": "Với tính từ dài (crowded), cấu trúc so sánh lũy tiến là 'more and more + adj'."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "Don't put too ___________ salt in the soup; it's not healthy.",
+      "options": {
+        "A": "many",
+        "B": "much",
+        "C": "few",
+        "D": "a few"
+      },
+      "answer": "B",
+      "explanation": "'Salt' (muối) là danh từ không đếm được nên dùng 'much'."
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "text": "He finally got used to ___________ (work) night shifts.",
+      "options": null,
+      "answer": "working",
+      "explanation": "Cấu trúc 'Get used to + V-ing' nghĩa là trở nên quen với việc gì đó."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "I didn't break the vase by accident; I did it on ___________.",
+      "options": {
+        "A": "intention",
+        "B": "purpose",
+        "C": "design",
+        "D": "meaning"
+      },
+      "answer": "B",
+      "explanation": "Cụm từ 'on purpose' có nghĩa là cố tình, trái ngược với 'by accident' (tình cờ)."
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "text": "We are looking forward to ___________ (visit) the new museum next weekend.",
+      "options": null,
+      "answer": "visiting",
+      "explanation": "Sau cấu trúc 'look forward to' là một danh động từ (V-ing)."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "Could you tell me what time ___________?",
+      "options": {
+        "A": "does the film start",
+        "B": "the film starts",
+        "C": "did the film start",
+        "D": "the film starting"
+      },
+      "answer": "B",
+      "explanation": "Đây là câu hỏi gián tiếp (embedded question), mệnh đề sau từ để hỏi phải ở dạng khẳng định, không đảo trợ động từ."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "He ___________ (watch) TV when suddenly the power went out.",
+      "options": null,
+      "answer": "was watching",
+      "explanation": "Dùng thì Quá khứ tiếp diễn để diễn tả hành động đang xảy ra thì có hành động khác xen vào."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "You've been working for five hours. You should ___________ a break.",
+      "options": {
+        "A": "make",
+        "B": "get",
+        "C": "take",
+        "D": "do"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ cố định 'take a break' nghĩa là nghỉ giải lao."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "Chocolate is my ___________ (FAVOR) kind of dessert.",
+      "options": null,
+      "answer": "favorite",
+      "explanation": "Cần một tính từ đứng trước danh từ 'kind'. 'Favorite' nghĩa là được yêu thích nhất."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "They have lived in this city ___________ they got married.",
+      "options": {
+        "A": "since",
+        "B": "for",
+        "C": "when",
+        "D": "until"
+      },
+      "answer": "A",
+      "explanation": "'Since' đi với một mốc thời gian hoặc một mệnh đề ở thì quá khứ đơn trong câu Hiện tại hoàn thành."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "What would you like me ___________ (prepare) for dinner tonight?",
+      "options": null,
+      "answer": "to prepare",
+      "explanation": "Cấu trúc 'Would like someone to do something' (Muốn ai đó làm gì)."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "text": "Do you know if ___________ the message I sent yesterday?",
+      "options": {
+        "A": "did she receive",
+        "B": "she receive",
+        "C": "she received",
+        "D": "she has received"
+      },
+      "answer": "C",
+      "explanation": "Trong câu hỏi gián tiếp với 'if', mệnh đề sau đó chia ở dạng khẳng định. 'Yesterday' là dấu hiệu của thì Quá khứ đơn."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "It was not a mistake; she deleted the file ___________ purpose.",
+      "options": null,
+      "answer": "on",
+      "explanation": "Giới từ đi với 'purpose' để tạo thành cụm 'cố tình' là 'on'."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "text": "I ___________ her since we were at university together.",
+      "options": {
+        "A": "know",
+        "B": "knew",
+        "C": "am knowing",
+        "D": "have known"
+      },
+      "answer": "D",
+      "explanation": "Thì Hiện tại hoàn thành dùng để diễn tả một hành động bắt đầu trong quá khứ và còn kéo dài đến hiện tại."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "While they ___________ (play) football, it started to rain heavily.",
+      "options": null,
+      "answer": "were playing",
+      "explanation": "Hành động 'đang chơi bóng' là hành động nền kéo dài trong quá khứ, nên chia thì Quá khứ tiếp diễn."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "The hunters are a constant ___________ to the survival of these wild animals. (THREAT)",
+      "options": null,
+      "answer": "threat",
+      "explanation": "Sau mạo từ 'a' và tính từ 'constant' cần một danh từ. 'Threat' nghĩa là mối đe dọa."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "text": "It’s wise to save some money for your retirement ___________.",
+      "options": {
+        "A": "saves",
+        "B": "safely",
+        "C": "savings",
+        "D": "saver"
+      },
+      "answer": "C",
+      "explanation": "'Savings' (danh từ số nhiều) nghĩa là tiền tiết kiệm, thường dùng cho mục đích nghỉ hưu hoặc dự phòng."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "The ___________ of the sun behind the clouds made the day gloomy. (APPEAR)",
+      "options": null,
+      "answer": "disappearance",
+      "explanation": "Dựa vào ngữ cảnh 'làm cho ngày trở nên u ám', ta cần danh từ mang nghĩa phủ định 'sự biến mất' (disappearance)."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "text": "You must ___________ the safety regulations strictly while working in the factory.",
+      "options": {
+        "A": "follow",
+        "B": "take",
+        "C": "keep",
+        "D": "guide"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ 'follow the regulations/instructions' nghĩa là tuân thủ các quy định/hướng dẫn."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "Air ___________ is a serious problem in many big cities. (POLLUTE)",
+      "options": null,
+      "answer": "pollution",
+      "explanation": "Cấu trúc danh từ ghép: 'Air pollution' nghĩa là sự ô nhiễm không khí."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "text": "The company spent a lot of money ___________ advertising their new product.",
+      "options": {
+        "A": "at",
+        "B": "in",
+        "C": "on",
+        "D": "for"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Spend money/time on something' (Chi tiền/thời gian vào việc gì)."
+    },
+    {
+      "id": 31,
+      "type": "text",
+      "text": "The ___________ are working hard to find a vaccine for the new virus. (SCIENCE)",
+      "options": null,
+      "answer": "scientists",
+      "explanation": "Cần danh từ chỉ người ở số nhiều (do động từ là 'are') đóng vai trò chủ ngữ."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "text": "It is ___________ to finish this project in just one day. We need more time.",
+      "options": {
+        "A": "possible",
+        "B": "impossible",
+        "C": "possibility",
+        "D": "impossibly"
+      },
+      "answer": "B",
+      "explanation": "Dựa vào câu sau 'Cần thêm thời gian', ta chọn tính từ mang nghĩa phủ định 'impossible' (không thể)."
+    },
+    {
+      "id": 33,
+      "type": "text",
+      "text": "She spoke in ___________ of her friend who was being accused unfairly. (DEFEND)",
+      "options": null,
+      "answer": "defense",
+      "explanation": "Cụm từ 'in defense of someone' nghĩa là để bảo vệ/biện hộ cho ai đó."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "text": "Many species are currently ___________ with extinction due to climate change.",
+      "options": {
+        "A": "threaten",
+        " confession": "threatened",
+        "C": "threatening",
+        "D": "threats"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc bị động 'be threatened with something' (bị đe dọa bởi cái gì)."
+    },
+    {
+      "id": 35,
+      "type": "text",
+      "text": "We should avoid using ___________ water for cooking. (POLLUTION)",
+      "options": null,
+      "answer": "polluted",
+      "explanation": "Cần một tính từ (quá khứ phân từ) đứng trước danh từ 'water' để chỉ trạng thái 'bị ô nhiễm'."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "text": "The detective is ___________ for clues at the crime scene.",
+      "options": {
+        "A": "looking",
+        "B": "searching",
+        "C": "finding",
+        "D": "seeing"
+      },
+      "answer": "B",
+      "explanation": "Cụm động từ 'search for' nghĩa là tìm kiếm cái gì đó một cách kỹ lưỡng."
+    },
+    {
+      "id": 37,
+      "type": "text",
+      "text": "You need to make a final ___________ about which university to attend. (DECIDE)",
+      "options": null,
+      "answer": "decision",
+      "explanation": "Sau mạo từ 'a' và tính từ 'final' cần một danh từ. Cụm từ 'make a decision' nghĩa là đưa ra quyết định."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "text": "The government has passed new laws to ___________ that all children have access to education.",
+      "options": {
+        "A": "sure",
+        "B": "ensure",
+        "C": "insure",
+        "D": "surely"
+      },
+      "answer": "B",
+      "explanation": "'Ensure' là động từ có nghĩa là đảm bảo, cam đoan điều gì đó sẽ xảy ra."
+    },
+    {
+      "id": 39,
+      "type": "text",
+      "text": "The dentist used special wires to ___________ the patient's crooked teeth. (STRAIGHT)",
+      "options": null,
+      "answer": "straighten",
+      "explanation": "Cấu trúc 'use something to do something'. Động từ 'straighten' có nghĩa là làm cho thẳng lại."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "text": "Wearing a seatbelt can ___________ you from serious injury in an accident.",
+      "options": {
+        "A": "stop",
+        "B": "keep",
+        "C": "prevent",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "explanation": "Cả ba động từ này đều có thể đi với cấu trúc 'prevent/stop/keep someone from doing something/something'."
+    },
+    {
+      "id": 41,
+      "type": "text",
+      "text": "He was ___________ at one of the most prestigious schools in the country. (EDUCATE)",
+      "options": null,
+      "answer": "educated",
+      "explanation": "Câu bị động: 'be + V3/ed'. 'Educated' ở đây có nghĩa là được giáo dục/nuôi dạy."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "text": "Many people have made significant ___________ to the field of science.",
+      "options": {
+        "A": "contribute",
+        "B": "contributing",
+        "C": "contributions",
+        "D": "contributors"
+      },
+      "answer": "C",
+      "explanation": "Sau tính từ 'significant' cần một danh từ số nhiều (do có 'many'). 'Contributions' nghĩa là những sự đóng góp."
+    },
+    {
+      "id": 43,
+      "type": "text",
+      "text": "Switching off lights when leaving the room helps reduce ___________ bills. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm danh từ 'household bills' chỉ các hóa đơn chi tiêu trong gia đình."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "text": "He is a famous ___________ who has written many poems and novels.",
+      "options": {
+        "A": "write",
+        "B": "writing",
+        "C": "writer",
+        "D": "written"
+      },
+      "answer": "C",
+      "explanation": "Cần một danh từ chỉ người làm vị ngữ bổ ngữ cho 'He'. 'Writer' nghĩa là nhà văn."
+    },
+    {
+      "id": 45,
+      "type": "text",
+      "text": "I was ___________ in a small village before moving to the city. (BEAR)",
+      "options": null,
+      "answer": "born",
+      "explanation": "Cấu trúc 'be born' dùng để nói về việc được sinh ra tại đâu/khi nào."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "text": "The movie was ___________ different from what I had expected.",
+      "options": {
+        "A": "complete",
+        "B": "completely",
+        "C": "completion",
+        "D": "completing"
+      },
+      "answer": "B",
+      "explanation": "Cần một trạng từ (completely) để bổ nghĩa cho tính từ 'different'."
+    },
+    {
+      "id": 47,
+      "type": "text",
+      "text": "At the ___________ of 18, he left home to join the army. (AGED)",
+      "options": null,
+      "answer": "age",
+      "explanation": "Cụm từ cố định 'at the age of + số tuổi' (vào độ tuổi bao nhiêu)."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "text": "Alfred Nobel ___________ most of his fortune to the Nobel Prize fund.",
+      "options": {
+        "A": "invested",
+        "B": "spent",
+        "C": "gave",
+        "D": "took"
+      },
+      "answer": "A",
+      "explanation": "Dựa trên nội dung bài đọc, Nobel đã đầu tư (invested) tài sản của mình để lấy lãi làm tiền thưởng giải thưởng."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "text": "The wedding ___________ will be held at a luxury hotel this weekend.",
+      "options": {
+        "A": "anniversary",
+        "B": "ceremony",
+        "C": "celebrate",
+        "D": "memory"
+      },
+      "answer": "B",
+      "explanation": "'Ceremony' nghĩa là nghi lễ/buổi lễ. 'Anniversary' là ngày kỷ niệm hàng năm."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "There are ___________ reasons why we should protect the environment. (NUMBER)",
+      "options": null,
+      "answer": "numerous",
+      "explanation": "Cần một tính từ đứng trước danh từ 'reasons'. 'Numerous' nghĩa là rất nhiều, vô số."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "text": "The 2024 Olympic Games will ___________ in Paris.",
+      "options": {
+        "A": "take part",
+        "B": "take place",
+        "C": "take off",
+        "D": "take over"
+      },
+      "answer": "B",
+      "explanation": "Cụm động từ 'take place' có nghĩa là diễn ra (dùng cho các sự kiện đã được lên kế hoạch)."
+    },
+    {
+      "id": 52,
+      "type": "text",
+      "text": "We are celebrating our 10th wedding ___________ today. (ANNIVERSARY)",
+      "options": null,
+      "answer": "anniversary",
+      "explanation": "Sử dụng danh từ 'anniversary' để chỉ ngày kỷ niệm một sự kiện diễn ra vào ngày này các năm trước."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "text": "The test was ___________ easy; most students finished it within 20 minutes.",
+      "options": {
+        "A": "relative",
+        "B": "relation",
+        "C": "relatively",
+        "D": "relationship"
+      },
+      "answer": "C",
+      "explanation": "Cần một trạng từ (relatively) để bổ nghĩa cho tính từ 'easy', mang nghĩa 'tương đối'."
+    },
+    {
+      "id": 54,
+      "type": "text",
+      "text": "The monument was built to ___________ the soldiers who died in the war. (COMMEMORATE)",
+      "options": null,
+      "answer": "commemorate",
+      "explanation": "Cấu trúc 'be built to + V-inf'. 'Commemorate' có nghĩa là tưởng niệm/kỷ niệm."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "text": "Diet ___________ an important role in maintaining good health.",
+      "options": {
+        "A": "makes",
+        "B": "takes",
+        "C": "plays",
+        "D": "gives"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc cố định 'play a/an (important) role in' có nghĩa là đóng một vai trò (quan trọng) trong việc gì."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "The two scientists decided to ___________ the Nobel Prize money. (SHARE)",
+      "options": null,
+      "answer": "share",
+      "explanation": "Động từ 'share' có nghĩa là chia sẻ hoặc chia đều phần thưởng/tài sản."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "text": "She has to make a difficult ___________ between her career and her family.",
+      "options": {
+        "A": "decide",
+        "B": "decided",
+        "C": "decisive",
+        "D": "decision"
+      },
+      "answer": "D",
+      "explanation": "Sau tính từ 'difficult' cần một danh từ. 'Decision' nghĩa là sự quyết định."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "The winners of the competition were ___________ with gold medals. (PRESENT)",
+      "options": null,
+      "answer": "presented",
+      "explanation": "Cấu trúc bị động 'be presented with something' có nghĩa là được trao tặng cái gì đó."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "text": "The value of the prize can ___________ from year to year depending on the interest rate.",
+      "options": {
+        "A": "vary",
+        "B": "various",
+        "C": "variety",
+        "D": "variously"
+      },
+      "answer": "A",
+      "explanation": "Sau động từ khuyết thiếu 'can' cần một động từ nguyên thể. 'Vary' nghĩa là thay đổi, biến thiên."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Winning the championship was a ___________ achievement for the young athlete. (WORTH)",
+      "options": null,
+      "answer": "worthwhile",
+      "explanation": "Cần một tính từ đứng trước danh từ 'achievement'. 'Worthwhile' nghĩa là quan trọng, xứng đáng với công sức bỏ ra."
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "text": "The title of 'Professor Emeritus' was ___________ upon him for his lifelong service.",
+      "options": {
+        "A": "given",
+        "B": "bestowed",
+        "C": "taken",
+        "D": "presented"
+      },
+      "answer": "B",
+      "explanation": "'Bestow' là từ trang trọng thường dùng cho việc ban tặng danh hiệu hoặc giải thưởng."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "It ___________ us three hours to drive to the coastal city yesterday. (TAKE)",
+      "options": null,
+      "answer": "took",
+      "explanation": "Cấu trúc 'It takes/took someone time to do something'. Vì có 'yesterday' nên chia quá khứ đơn."
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "text": "___________ you study harder, you will fail the final examination.",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Whether",
+        "D": "Provided"
+      },
+      "answer": "B",
+      "explanation": "'Unless' (trừ khi) = 'If not'. Câu này có nghĩa: 'Trừ khi bạn học chăm hơn, bạn sẽ trượt'."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "The social media post had a huge ___________ on the teenagers' behavior. (INFLUENCE)",
+      "options": null,
+      "answer": "influence",
+      "explanation": "Sau tính từ 'huge' cần một danh từ. 'Influence' vừa là động từ vừa là danh từ (sự ảnh hưởng)."
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "text": "I'm sorry, I can't ___________ to go on such an expensive trip right now.",
+      "options": {
+        "A": "spend",
+        "B": "pay",
+        "C": "afford",
+        "D": "cost"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'can't afford to do something' nghĩa là không đủ khả năng tài chính để làm gì."
+    },
+    {
+      "id": 66,
+      "type": "text",
+      "text": "If she ___________ (not/miss) the train, she would have arrived on time for the meeting.",
+      "options": null,
+      "answer": "hadn't missed",
+      "explanation": "Câu điều kiện loại 3 diễn tả giả thiết trái với quá khứ (thực tế là cô ấy đã lỡ chuyến tàu)."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "The harsh weather ___________ made it difficult for the hikers to reach the peak.",
+      "options": {
+        "A": "states",
+        "B": "situations",
+        "/C": "conditions",
+        "D": "reports"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'weather conditions' chỉ các điều kiện thời tiết."
+    },
+    {
+      "id": 68,
+      "type": "text",
+      "text": "He is very ___________ in the local community due to his charity work. (INFLUENCE)",
+      "options": null,
+      "answer": "influential",
+      "explanation": "Cần một tính từ đứng sau 'very' để miêu tả đặc điểm của chủ ngữ. 'Influential' nghĩa là có sức ảnh hưởng."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "I ___________ the whole afternoon cleaning the house before the guests arrived.",
+      "options": {
+        "A": "took",
+        "B": "cost",
+        "C": "spent",
+        "D": "passed"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Spend time doing something' (Dành thời gian làm việc gì)."
+    },
+    {
+      "id": 70,
+      "type": "text",
+      "text": "Is this laptop ___________ enough for a student to buy? (AFFORD)",
+      "options": null,
+      "answer": "affordable",
+      "explanation": "Cần một tính từ. 'Affordable' có nghĩa là có giá cả phải chăng, vừa túi tiền."
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "text": "Everything will be ruined ___________ we take action immediately.",
+      "options": {
+        "A": "unless",
+        "B": "if",
+        "C": "as long as",
+        "D": "in case"
+      },
+      "answer": "A",
+      "explanation": "'Mọi thứ sẽ bị hủy hoại trừ khi chúng ta hành động ngay lập tức'."
+    },
+    {
+      "id": 72,
+      "type": "text",
+      "text": "It was a ___________ experience that taught me a lot about life. (VALUE)",
+      "options": null,
+      "answer": "valuable",
+      "explanation": "Cần một tính từ bổ nghĩa cho danh từ 'experience'. 'Valuable' nghĩa là có giá trị, quý giá."
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "text": "I really prefer reading ___________ because I love learning about real historical events.",
+      "options": {
+        "A": "fiction",
+        "B": "non-fiction",
+        "C": "novels",
+        "D": "fairy tales"
+      },
+      "answer": "B",
+      "explanation": "'Non-fiction' là sách về người thật, việc thật, phù hợp với ngữ cảnh muốn tìm hiểu về các sự kiện lịch sử có thật."
+    },
+    {
+      "id": 74,
+      "type": "text",
+      "text": "My brother has a huge ___________ of rare stamps. (COLLECT)",
+      "options": null,
+      "answer": "collection",
+      "explanation": "Sau tính từ 'huge' cần một danh từ. 'Collection' nghĩa là bộ sưu tập."
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "text": "She prefers playing badminton ___________ going to the gym.",
+      "options": {
+        "A": "than",
+        "B": "more",
+        "C": "to",
+        "D": "better"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Prefer V-ing/Something to V-ing/Something' (Thích cái gì hơn cái gì)."
+    },
+    {
+      "id": 76,
+      "type": "text",
+      "text": "He has lived ___________ to me for ten years, so we are very close. (DOOR)",
+      "options": null,
+      "answer": "next door",
+      "explanation": "Cụm từ 'next door' có nghĩa là ở ngay nhà bên cạnh."
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "text": "I ___________ a lot of money on my hobby since I started working.",
+      "options": {
+        "A": "spend",
+        "B": "spent",
+        "C": "have spent",
+        "D": "am spending"
+      },
+      "answer": "C",
+      "explanation": "Dấu hiệu 'since' (kể từ khi) yêu cầu sử dụng thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 78,
+      "type": "text",
+      "text": "It is her dream to ___________ a small bookstore in her hometown. (OWNER)",
+      "options": null,
+      "answer": "own",
+      "explanation": "Sau 'to' cần một động từ nguyên mẫu. 'Own' có nghĩa là sở hữu."
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "text": "I have been practicing the piano for five ___________ now.",
+      "options": {
+        "A": "years",
+        "B": "year",
+        "C": "age",
+        "D": "time"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ 'for (số lượng) years now' dùng để diễn tả một hành động kéo dài đến hiện tại."
+    },
+    {
+      "id": 80,
+      "type": "text",
+      "text": "Many ___________ dreams of becoming professional football players. (SCHOOLBOY)",
+      "options": null,
+      "answer": "schoolboys",
+      "explanation": "Sau 'Many' cần một danh từ đếm được số nhiều. 'Schoolboys' nghĩa là các nam sinh."
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "text": "Mary ___________ taking photos of nature in her free time.",
+      "options": {
+        "A": "enjoys",
+        "B": "wants",
+        "C": "hopes",
+        "D": "prefers"
+      },
+      "answer": "A",
+      "explanation": "Động từ 'enjoy' đi kèm trực tiếp với V-ing để diễn tả sở thích."
+    },
+    {
+      "id": 82,
+      "type": "text",
+      "text": "Harry Potter is a famous series of ___________ books. (FICTITIOUS)",
+      "options": null,
+      "answer": "fiction",
+      "explanation": "Trong ngữ cảnh này, 'fiction books' (sách hư cấu/tiểu thuyết) là cụm danh từ phù hợp nhất."
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "text": "He ___________ to become a famous writer one day.",
+      "options": {
+        "A": "enjoys",
+        "B": "hopes",
+        "C": "likes",
+        "D": "prefers"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'hope to do something' diễn tả hy vọng làm được điều gì đó trong tương lai."
+    },
+    {
+      "id": 84,
+      "type": "text",
+      "text": "She ___________ (collect) over 200 dolls for her own gallery so far.",
+      "options": null,
+      "answer": "has collected",
+      "explanation": "Dấu hiệu 'so far' (cho đến nay) yêu cầu sử dụng thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 85,
+      "type": "text",
+      "text": "The dumping of untreated waste into the ocean has ___________ many marine species. (THREAT)",
+      "options": null,
+      "answer": "threatened",
+      "explanation": "Thì Hiện tại hoàn thành (has + V3/ed). 'Threatened' nghĩa là đã gây đe dọa đến các loài sinh vật biển."
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "text": "The city is struggling to deal with ___________ air caused by heavy traffic.",
+      "options": {
+        "A": "pollute",
+        "B": "pollution",
+        "C": "polluted",
+        "D": "pollutant"
+      },
+      "answer": "C",
+      "explanation": "Cần một tính từ đứng trước danh từ 'air' để mô tả trạng thái của không khí: 'không khí bị ô nhiễm'."
+    },
+    {
+      "id": 87,
+      "type": "text",
+      "text": "She was ___________ unaware of the surprise party her friends had planned. (COMPLETE)",
+      "options": null,
+      "answer": "completely",
+      "explanation": "Trạng từ 'completely' bổ nghĩa cho tính từ 'unaware' để nhấn mạnh mức độ 'hoàn toàn không biết'."
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "text": "Our primary goal is to ___________ that every child has access to clean water.",
+      "options": {
+        "A": "sure",
+        "B": "ensured",
+        "C": "ensure",
+        "D": "ensuring"
+      },
+      "answer": "C",
+      "explanation": "Sau 'to' cần một động từ nguyên mẫu. 'Ensure' nghĩa là đảm bảo."
+    },
+    {
+      "id": 89,
+      "type": "text",
+      "text": "The sudden ___________ of the rare bird species in this area surprised the birdwatchers. (APPEAR)",
+      "options": null,
+      "answer": "appearance",
+      "explanation": "Sau tính từ 'sudden' cần một danh từ. 'Appearance' nghĩa là sự xuất hiện."
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "text": "A group of ___________ is conducting research on the effects of climate change.",
+      "options": {
+        "A": "science",
+        "B": "scientific",
+        "C": "scientists",
+        "D": "scientifically"
+      },
+      "answer": "C",
+      "explanation": "Cần một danh từ chỉ người ở số nhiều sau 'a group of'. 'Scientists' là các nhà khoa học."
+    },
+    {
+      "id": 91,
+      "type": "text",
+      "text": "His ___________ to win the race was evident to everyone watching. (DECIDE)",
+      "options": null,
+      "answer": "decidedness",
+      "explanation": "Dựa theo từ vựng của đề bài (Đáp án 9), 'decidedness' là danh từ chỉ sự kiên quyết/dứt khoát."
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "text": "Reducing the amount of ___________ is an effective way to lower carbon emissions.",
+      "options": {
+        "A": "drive",
+        "B": "driving",
+        "C": "driver",
+        "D": "driven"
+      },
+      "answer": "B",
+      "explanation": "Sau giới từ 'of' cần một danh động từ (V-ing) đóng vai trò danh từ."
+    },
+    {
+      "id": 93,
+      "type": "text",
+      "text": "Solar energy can help people save a lot on their ___________ expenses. (HOUSE)",
+      "options": null,
+      "answer": "household",
+      "explanation": "Cụm 'household expenses' nghĩa là chi phí sinh hoạt trong gia đình."
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "text": "The lawyer prepared a strong ___________ for his client in court.",
+      "options": {
+        "A": "defend",
+        "B": "defense",
+        "C": "defensive",
+        "D": "defenestration"
+      },
+      "answer": "B",
+      "explanation": "'Defense' nghĩa là sự bào chữa/bảo vệ. (Từ 'defenestration' trong đáp án gốc của đề là một từ rất hiếm, nghĩa là ném ai qua cửa sổ)."
+    },
+    {
+      "id": 95,
+      "type": "text",
+      "text": "Environmental ___________ is one of the most urgent issues today. (POLLUTE)",
+      "options": null,
+      "answer": "pollution",
+      "explanation": "Đứng sau tính từ 'environmental' và đóng vai trò chủ ngữ nên cần một danh từ: sự ô nhiễm."
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "text": "We should ___________ that all trash is disposed of correctly.",
+      "options": {
+        "A": "insure",
+        "B": "sure",
+        "C": "ensure",
+        "D": "assurance"
+      },
+      "answer": "C",
+      "explanation": "'Ensure' (đảm bảo điều gì xảy ra) là động từ phù hợp nhất trong ngữ cảnh này."
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "text": "The company was ___________ in 1995 and has since become a market leader.",
+      "options": {
+        "A": "established",
+        "B": "prevented",
+        "C": "educated",
+        "D": "grown"
+      },
+      "answer": "A",
+      "explanation": "'Establish' có nghĩa là thiết lập hoặc thành lập một tổ chức/công ty."
+    },
+    {
+      "id": 98,
+      "type": "text",
+      "text": "Wearing a seatbelt can help ___________ drivers from serious injuries. (PREVENTION)",
+      "options": null,
+      "answer": "prevent",
+      "explanation": "Sau 'can help' cần một động từ nguyên thể. 'Prevent someone from something' có nghĩa là ngăn chặn ai đó khỏi điều gì."
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "text": "He moved to the city ___________ of 20 to find a better job.",
+      "options": {
+        "A": "at the old",
+        "B": "in the age",
+        "C": "at the age",
+        "D": "by the age"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc cố định 'at the age of + số tuổi' có nghĩa là vào độ tuổi bao nhiêu."
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "text": "The school provides a high quality of ___________ for all students. (EDUCATE)",
+      "options": null,
+      "answer": "education",
+      "explanation": "Sau giới từ 'of' và tính từ 'quality' cần một danh từ. 'Education' có nghĩa là sự giáo dục."
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "text": "I can finish this project ___________; I don't need any help.",
+      "options": {
+        "A": "by myself",
+        "B": "to myself",
+        "C": "with myself",
+        "D": "for myself"
+      },
+      "answer": "A",
+      "explanation": "Cụm từ 'by oneself' có nghĩa là tự mình làm, không cần trợ giúp."
+    },
+    {
+      "id": 102,
+      "type": "text",
+      "text": "She made a quick ___________ to accept the job offer. (DECIDE)",
+      "options": null,
+      "answer": "decision",
+      "explanation": "Sau tính từ 'quick' cần một danh từ. 'Decision' có nghĩa là quyết định."
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "text": "The braces are designed to ___________ the teeth into the correct position.",
+      "options": {
+        "A": "pull",
+        "B": "push",
+        "C": "grow",
+        "D": "use"
+      },
+      "answer": "B",
+      "explanation": "Dựa trên ngữ cảnh nha khoa trong bài, 'push' (đẩy) răng về đúng vị trí."
+    },
+    {
+      "id": 104,
+      "type": "text",
+      "text": "We are planning a big party for our silver wedding ___________. (ANNIVERSARY)",
+      "options": null,
+      "answer": "anniversary",
+      "explanation": "Sử dụng danh từ 'anniversary' để chỉ ngày kỷ niệm năm kết hôn."
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "text": "If you follow these steps, you will be moving in the right ___________.",
+      "options": {
+        "A": "direct",
+        "B": "director",
+        "C": "direction",
+        "D": "directly"
+      },
+      "answer": "C",
+      "explanation": "Cụm từ 'in the right direction' có nghĩa là đi đúng hướng."
+    },
+    {
+      "id": 106,
+      "type": "text",
+      "text": "It is important ___________ (ensure) that all the data is correct before submitting.",
+      "options": null,
+      "answer": "to ensure",
+      "explanation": "Cấu trúc 'It is + adj + to-V' (Thật quan trọng để làm gì đó)."
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "text": "The primary goal of the ___________ is to promote world peace.",
+      "options": {
+        "A": "process",
+        "B": "committee",
+        "C": "anniversary",
+        "D": "wire"
+      },
+      "answer": "B",
+      "explanation": "'Committee' (ủy ban/hội đồng) là danh từ chỉ nhóm người thực hiện nhiệm vụ trao giải hoặc quản lý."
+    },
+    {
+      "id": 108,
+      "type": "text",
+      "text": "The scientist ___________ (work) on this invention for many years before it was successful.",
+      "options": null,
+      "answer": "had worked / worked",
+      "explanation": "Diễn tả một hành động lao động/làm việc trong quá khứ."
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "text": "I find ___________ books more interesting than biographies because I love imaginative stories.",
+      "options": {
+        "A": "non-fiction",
+        "B": "fiction",
+        "C": "textbooks",
+        "D": "reference"
+      },
+      "answer": "B",
+      "explanation": "'Fiction' (văn học hư cấu) phù hợp với ngữ cảnh 'imaginative stories' (những câu chuyện giàu trí tưởng tượng)."
+    },
+    {
+      "id": 110,
+      "type": "text",
+      "text": "It ___________ the students two weeks to prepare for the final presentation. (TAKE)",
+      "options": null,
+      "answer": "took",
+      "explanation": "Sử dụng cấu trúc 'It takes/took someone time to do something'. Chia ở thì quá khứ 'took' hoặc hiện tại 'takes' đều hợp lý về ngữ pháp, nhưng thường dùng 'took' cho một sự việc cụ thể."
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "text": "___________ you study more consistently, you won't be able to pass the entrance exam.",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Provided",
+        "D": "As long as"
+      },
+      "answer": "B",
+      "explanation": "'Unless' (Trừ khi) = If not. Câu này có nghĩa: Trừ khi bạn học tập kiên trì hơn, nếu không bạn sẽ không đỗ."
+    },
+    {
+      "id": 112,
+      "type": "text",
+      "text": "The price of the house was ___________ high for the young couple to buy. (EXTREME)",
+      "options": null,
+      "answer": "extremely",
+      "explanation": "Cần một trạng từ (adverb) để bổ nghĩa cho tính từ 'high'. 'Extremely' nghĩa là cực kỳ."
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "text": "Many people are ___________ by what they see on social media every day.",
+      "options": {
+        "A": "influenced",
+        "B": "influential",
+        "C": "influence",
+        "D": "influencing"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc bị động (be + V3/ed): 'are influenced by' nghĩa là bị ảnh hưởng bởi."
+    },
+    {
+      "id": 114,
+      "type": "text",
+      "text": "If he had known about the meeting, he would have ___________ it. (ATTEND)",
+      "options": null,
+      "answer": "attended",
+      "explanation": "Câu điều kiện loại 3: If + S + had + V3, S + would have + V3. 'Attend' có nghĩa là tham dự."
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "text": "My parents prefer living in the countryside ___________ living in a crowded city.",
+      "options": {
+        "A": "than",
+        "B": "more",
+        "C": "to",
+        "D": "rather"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Prefer V-ing to V-ing' (Thích làm việc này hơn việc kia)."
+    },
+    {
+      "id": 116,
+      "type": "text",
+      "text": "She has a very ___________ personality, which makes her a great leader. (INFLUENCE)",
+      "options": null,
+      "answer": "influential",
+      "explanation": "Cần một tính từ (adjective) bổ nghĩa cho danh từ 'personality'. 'Influential' nghĩa là có sức ảnh hưởng."
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "text": "This laptop is ___________ expensive for me to afford at the moment.",
+      "options": {
+        "A": "so",
+        "B": "such",
+        "C": "too",
+        "D": "enough"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc 'Too + adj + (for someone) + to-V' (Quá... đến nỗi không thể/để làm gì)."
+    },
+    {
+      "id": 118,
+      "type": "text",
+      "text": "The boy who lives ___________ is a very talented pianist. (DOOR)",
+      "options": null,
+      "answer": "next door",
+      "explanation": "Cụm từ 'next door' nghĩa là nhà bên cạnh/hàng xóm."
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "text": "He ___________ a lot of time and money on his book collection lately.",
+      "options": {
+        "A": "spends",
+        "B": "spent",
+        "C": "has spent",
+        "D": "is spending"
+      },
+      "answer": "C",
+      "explanation": "Dấu hiệu 'lately' (gần đây) thường đi với thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 120,
+      "type": "text",
+      "text": "The local ___________ are trying to cope with the heavy rain. (INHABIT)",
+      "options": null,
+      "answer": "inhabitants",
+      "explanation": "Cần một danh từ số nhiều chỉ người để làm chủ ngữ. 'Inhabitants' nghĩa là cư dân."
+    }
+  ]
+}
