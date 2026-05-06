@@ -247,13 +247,46 @@ def generate_html(exam_id):
         }
 
         function gradeTest() {
-            testData.questions.forEach(q => {
-                const block = document.getElementById('q-block-' + q.id);
+            let correct = 0;
+            const qs = testData.questions;
+            
+            qs.forEach(q => {
                 const expl = document.getElementById('explanation-' + q.id);
                 if (expl) expl.classList.remove('hidden');
+                
+                let userAns = "";
+                if (q.type === 'mcq') {
+                    const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+                    userAns = selected ? selected.value : "";
+                } else {
+                    const input = document.querySelector(`input[data-id="${q.id}"]`);
+                    userAns = input ? input.value.trim().toLowerCase() : "";
+                }
+                
+                const isCorrect = q.type === 'mcq' 
+                    ? userAns.toUpperCase() === q.answer.toUpperCase()
+                    : userAns === q.answer.toLowerCase();
+
+                if (isCorrect) correct++;
+                
+                const block = document.getElementById('q-block-' + q.id);
+                if (block) {
+                    block.classList.remove('border-slate-100');
+                    block.classList.add(isCorrect ? 'border-emerald-200' : 'border-rose-200');
+                    block.classList.add(isCorrect ? 'bg-emerald-50/30' : 'bg-rose-50/30');
+                }
             });
+            
+            const score = (correct / qs.length * 10).toFixed(1);
             document.getElementById('resultArea').classList.remove('hidden');
-            document.getElementById('scoreDisplay').textContent = "Đã Chấm Xong";
+            document.getElementById('scoreDisplay').textContent = `${correct} / ${qs.length}`;
+            document.getElementById('messageDisplay').textContent = `Bạn đạt ${score} điểm. Hãy xem lại các câu sai và phần giải thích chi tiết.`;
+            
+            // Save results to dashboard
+            const results = JSON.parse(localStorage.getItem('nam_khanh_results') || '{}');
+            results[currentTestId] = parseFloat(score);
+            localStorage.setItem('nam_khanh_results', JSON.stringify(results));
+
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
         }
 
