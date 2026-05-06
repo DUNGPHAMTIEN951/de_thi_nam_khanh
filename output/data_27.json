@@ -1,5 +1,717 @@
 {
-  "questions": [],
-  "vocab": [],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "Jack is……. His jokes often make his friends laugh a lot.",
+      "options": {
+        "A": "generous",
+        "B": "humorous",
+        "C": "easy-going",
+        "D": "unusual"
+      },
+      "answer": "B",
+      "explanation": "'Humorous' (hài hước) là từ phù hợp nhất để miêu tả một người hay kể chuyện cười làm bạn bè cười nhiều."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "I’m sorry. I’m not………to help you lift the table.",
+      "options": {
+        "A": "enough strong",
+        "B": "too strong",
+        "C": "strong enough",
+        "D": "enough strength."
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc: 'adj + enough' (đủ... để làm gì). 'Strong enough' nghĩa là đủ khỏe."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": "We…….in our present house for 5 years.",
+      "options": {
+        "A": "live",
+        "B": "have lived",
+        "C": "are living",
+        "D": "lived."
+      },
+      "answer": "B",
+      "explanation": "Dấu hiệu 'for 5 years' chỉ một hành động bắt đầu trong quá khứ và kéo dài đến hiện tại -> Dùng thì Hiện tại hoàn thành."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "We used to wash clothes by hand. Now we have a…….",
+      "options": {
+        "A": "washing machine",
+        "B": "dishwasher",
+        "C": "hair dryer",
+        "D": "refrigerator."
+      },
+      "answer": "A",
+      "explanation": "'Washing machine' (máy giặt) dùng để giặt quần áo thay vì giặt bằng tay."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "It took me a long time to get used……… glasses.",
+      "options": {
+        "A": "to wear",
+        "B": "to wearing",
+        "C": "wear",
+        "D": "wore."
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc: 'get used to + V-ing' (quen với việc làm gì)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "Last night he didn’t go home…….. 10 o’clock.",
+      "options": {
+        "A": "until",
+        "B": "at",
+        "C": "after",
+        "D": "in front of"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc: 'not... until' (mãi cho đến khi). Anh ấy không về nhà cho mãi đến 10 giờ tối."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "\"Don’t shout\", I said to Jim.",
+      "options": {
+        "A": "I told Jim don't shout",
+        "B": "I told to Jim not to shout",
+        "C": "I told Jim not to shout",
+        "D": "I said to Jim don't shout."
+      },
+      "answer": "C",
+      "explanation": "Câu gián tiếp dạng mệnh lệnh phủ định: 'S + told + O + not to V'."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "Hoa was very surprised when she looked at………………………..in the mirror.",
+      "options": {
+        "A": "she",
+        "B": "hers",
+        "C": "herself",
+        "D": "her"
+      },
+      "answer": "C",
+      "explanation": "Dùng đại từ phản thân 'herself' khi chủ ngữ và tân ngữ là cùng một người (Hoa tự nhìn mình trong gương)."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "She went to market without………. anything.",
+      "options": {
+        "A": "buy",
+        "B": "to buy",
+        "C": "bought",
+        "D": "buying"
+      },
+      "answer": "D",
+      "explanation": "Sau giới từ 'without' động từ phải thêm đuôi -ing."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "Since we have to be there by 8.30, we………. take a taxi.",
+      "options": {
+        "A": "had better",
+        "B": "may",
+        "C": "ought",
+        "D": "are able to"
+      },
+      "answer": "A",
+      "explanation": "'Had better' (nên/tốt hơn là) dùng để đưa ra lời khuyên hoặc sự cần thiết trong một tình huống cụ thể."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "I’ve never seen such an interesting …………..",
+      "options": {
+        "A": "performing",
+        "B": "performer",
+        "C": "performance",
+        "D": "performed"
+      },
+      "answer": "C",
+      "explanation": "Sau tính từ 'interesting' cần một danh từ. 'Performance' (buổi biểu diễn/màn trình diễn)."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "text": "It’s at least a month since……………….John.",
+      "options": {
+        "A": "I last seen",
+        "B": "I have last seen",
+        "C": "I last see",
+        "D": "I last saw"
+      },
+      "answer": "D",
+      "explanation": "Cấu trúc với 'since': 'It is + time + since + S + V(past simple)'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "I like my sister’s house. It is a ………………",
+      "options": {
+        "A": "new beautiful house",
+        "B": "beautiful house new",
+        "C": "beautiful new house",
+        "D": "new house beautiful"
+      },
+      "answer": "C",
+      "explanation": "Thứ tự tính từ: Opinion (beautiful) + Age (new) + Noun (house)."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "text": "Living in the country is not expensive. And it isn’t complex ……………….",
+      "options": {
+        "A": "either",
+        "B": "too",
+        "C": "neither",
+        "D": "so"
+      },
+      "answer": "A",
+      "explanation": "'Either' dùng ở cuối câu phủ định để chỉ sự đồng tình (cũng không)."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "The new shopping mall is quite …………..the present shopping area.",
+      "options": {
+        "A": "different from",
+        "B": "the same",
+        "C": "like to",
+        "D": "similar"
+      },
+      "answer": "A",
+      "explanation": "Cấu trúc: 'different from' (khác với)."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "text": "“What …………………?” – “She is very nice.”",
+      "options": {
+        "A": "did Sandra like",
+        "B": "is Sandra like",
+        "C": "does Sandra like",
+        "D": "was Sandra like"
+      },
+      "answer": "B",
+      "explanation": "Cấu trúc 'What is someone like?' dùng để hỏi về tính cách hoặc đặc điểm của ai đó."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "text": "Thank you very much .................... the Christmas gift .",
+      "options": {
+        "A": "of",
+        "B": "with",
+        "C": "for",
+        "D": "about"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc: 'Thank you for something' (Cảm ơn vì cái gì đó)."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "text": "………….. she plays the piano!",
+      "options": {
+        "A": "How well",
+        "B": "How good",
+        "C": "What well",
+        "D": "What good"
+      },
+      "answer": "A",
+      "explanation": "Câu cảm thán với 'How': 'How + adj/adv + S + V!'. 'Well' là trạng từ bổ nghĩa cho động từ 'plays'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "text": "Life here is very …………….",
+      "options": {
+        "A": "peace",
+        "B": "peacefully",
+        "C": "peaceful",
+        "D": "peacefulness"
+      },
+      "answer": "C",
+      "explanation": "Sau trạng từ 'very' cần một tính từ. 'Peaceful' (yên bình)."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "text": "It is raining outside, and Tom brought his umbrella with him …………..he wouldn’t get wet.",
+      "options": {
+        "A": "so as to",
+        "B": "in order",
+        "C": "so that",
+        "D": "in order to"
+      },
+      "answer": "C",
+      "explanation": "Cấu trúc chỉ mục đích: 'so that + mệnh đề' (để mà)."
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "text": "Bell experimented with ways of transmiting (SPEAK) over a long distance.",
+      "answer": "speech",
+      "explanation": "Cần danh từ sau giới từ. 'Speech' nghĩa là lời nói/giọng nói."
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "text": "The tiger wanted to see the farmer's (WISDOM)",
+      "answer": "wisdom",
+      "explanation": "Cần một danh từ sau sở hữu cách. 'Wisdom' nghĩa là trí khôn."
+    },
+    {
+      "id": 23,
+      "type": "text",
+      "text": "The scouts do the (VOLUNTEER) work",
+      "answer": "voluntary",
+      "explanation": "Cần tính từ bổ nghĩa cho danh từ 'work'. 'Voluntary work' là công việc tình nguyện."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "Nowadays, scouting is popular (WORLD)",
+      "answer": "worldwide",
+      "explanation": "'Worldwide' (trên toàn thế giới) là trạng từ/tính từ phù hợp để chỉ phạm vi phổ biến."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "After his parents died, he was sent to an (ORPHAN)",
+      "answer": "orphanage",
+      "explanation": "'Orphanage' là trại trẻ mồ côi."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "Huy makes friends very easily because he is very (SOCIAL)",
+      "answer": "sociable",
+      "explanation": "'Sociable' (hòa đồng) là tính từ miêu tả tính cách con người."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "Cook the meat in the (STEAM) for at least 30 minutes.",
+      "answer": "steamer",
+      "explanation": "'Steamer' là cái nồi hấp."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "My friend, Nga plays the piano (BEAUTIFUL).",
+      "answer": "beautifully",
+      "explanation": "Cần trạng từ bổ nghĩa cho động từ 'plays'."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "“The lost shoe” is one of the (TRADITION) stories I like best.",
+      "answer": "traditional",
+      "explanation": "Cần tính từ bổ nghĩa cho danh từ 'stories'."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "Our teacher always (COURAGE) us to work hard.",
+      "answer": "encourages",
+      "explanation": "Cần động từ chia ở ngôi thứ 3 số ít. 'Encourage' (khuyến khích)."
+    },
+    {
+      "id": 31,
+      "type": "text",
+      "text": "They (watch) their favorite TV programmes at the moment.",
+      "answer": "are watching",
+      "explanation": "Dấu hiệu 'at the moment' dùng thì hiện tại tiếp diễn."
+    },
+    {
+      "id": 32,
+      "type": "text",
+      "text": "Mary and John are neighbors. They (know) each other for a long time.",
+      "answer": "have known",
+      "explanation": "Dấu hiệu 'for a long time' dùng thì hiện tại hoàn thành."
+    },
+    {
+      "id": 33,
+      "type": "text",
+      "text": "They (arrive) in New York yesterday?",
+      "answer": "Did they arrive",
+      "explanation": "Câu hỏi ở thì quá khứ đơn (yesterday)."
+    },
+    {
+      "id": 34,
+      "type": "text",
+      "text": "I haven’t met him since he (move) to Ho Chi Minh City.",
+      "answer": "moved",
+      "explanation": "Sau 'since' dùng thì quá khứ đơn."
+    },
+    {
+      "id": 35,
+      "type": "text",
+      "text": "My mother is tired enough (cook) tonight.",
+      "answer": "to cook",
+      "explanation": "Cấu trúc: 'adj + enough + to-V'."
+    },
+    {
+      "id": 36,
+      "type": "text",
+      "text": "The teacher asked me (not make) noise in class.",
+      "answer": "not to make",
+      "explanation": "Cấu trúc: 'ask someone not to do something'."
+    },
+    {
+      "id": 37,
+      "type": "text",
+      "text": "The boys like (play) games but hate doing lessons.",
+      "answer": "playing",
+      "explanation": "Sau 'like' thường dùng V-ing để chỉ sở thích."
+    },
+    {
+      "id": 38,
+      "type": "text",
+      "text": "His doctor advised him (give) up smoking.",
+      "answer": "to give",
+      "explanation": "Cấu trúc: 'advise someone to do something'."
+    },
+    {
+      "id": 39,
+      "type": "text",
+      "text": "Look at those black clouds. It (rain).",
+      "answer": "is going to rain",
+      "explanation": "Dùng 'be going to' để dự đoán một sự việc sắp xảy ra dựa trên bằng chứng hiện tại."
+    },
+    {
+      "id": 40,
+      "type": "text",
+      "text": "This is the first time I (be) to Ha Noi.",
+      "answer": "have been",
+      "explanation": "Cấu trúc: 'This is the first time + S + Hiện tại hoàn thành'."
+    },
+    {
+      "id": 41,
+      "type": "text",
+      "text": "The country is (1) beautiful than a town and more pleasant to live in.",
+      "answer": "more",
+      "explanation": "Cấu trúc so sánh hơn với tính từ dài 'beautiful'."
+    },
+    {
+      "id": 42,
+      "type": "text",
+      "text": "Many people think so, and go to the country (2) the summer holiday...",
+      "answer": "for",
+      "explanation": "Giới từ 'for' chỉ khoảng thời gian hoặc mục đích (cho kỳ nghỉ hè)."
+    },
+    {
+      "id": 43,
+      "type": "text",
+      "text": "...though they can't live (3) all the year round.",
+      "answer": "there",
+      "explanation": "Trạng từ chỉ nơi chốn 'there' (ở đó/ở nông thôn)."
+    },
+    {
+      "id": 44,
+      "type": "text",
+      "text": "Some have cottage built in a village (4) that they can go there...",
+      "answer": "so",
+      "explanation": "Cụm từ 'so that' (để mà)."
+    },
+    {
+      "id": 45,
+      "type": "text",
+      "text": "...whenever they (5) find find the time.",
+      "answer": "can",
+      "explanation": "Động từ khuyết thiếu 'can' (có thể)."
+    },
+    {
+      "id": 46,
+      "type": "text",
+      "text": "English villages are not alike, but (6) some ways they are not very different...",
+      "answer": "in",
+      "explanation": "Cụm từ 'in some ways' (theo một số cách/phương diện)."
+    },
+    {
+      "id": 47,
+      "type": "text",
+      "text": "...they are not very different from (7) other.",
+      "answer": "each",
+      "explanation": "Cụm từ 'each other' (nhau/lẫn nhau)."
+    },
+    {
+      "id": 48,
+      "type": "text",
+      "text": "Almost every village (8) a church...",
+      "answer": "has",
+      "explanation": "Chủ ngữ số ít 'every village' đi với động từ 'has'."
+    },
+    {
+      "id": 49,
+      "type": "text",
+      "text": "...the round or square tower of which can (9) seen from many miles around.",
+      "answer": "be",
+      "explanation": "Cấu trúc bị động: 'can + be + V3'."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "text": "Surrounding the church is the church yard, (10) people are buried.",
+      "answer": "where",
+      "explanation": "Trạng từ quan hệ 'where' thay thế cho nơi chốn 'church yard'."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Every year students in many countries learn English. Some of these students are young children. Others are teenagers. Many are adults. Some learn at school, others study by themselves. A few learn English just by hearing the language, in film, on television, in the office, or among their friends. But not many are lucky enough to do that. Most people must work hard to learn another language.\n\nLearning another language! Learning English! Why do all these people want to learn English? It is difficult to answer that question. Many boys and girls learn English at school because it is one of their subjects. They study their own language, and mathematics .... and English. (In England, or America, or Australia, many boys and girls study their own language, which is English and mathematics .... and another language, perhaps French, or German, or Spanish)\n\nMany adults learn English because it is useful for their work. Teenagers often learn English for their high studies, because some of their books are in English at the college or university. Other people learn English because they want to read newspapers or magazines in English.\n\nQuestion: According to the writer, _______",
+      "options": {
+        "A": "only adults learn English.",
+        "B": "no children like learning English",
+        "C": "English is only useful to teenagers.",
+        "D": "English is popular in much of the world."
+      },
+      "answer": "D",
+      "explanation": "Đoạn văn mở đầu bằng việc nói học sinh ở nhiều quốc gia học tiếng Anh, bao gồm cả trẻ em, thanh thiếu niên và người lớn, cho thấy nó rất phổ biến trên thế giới."
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Many people learn English by _______",
+      "options": {
+        "A": "watching videos only.",
+        "B": "hearing the language in the office.",
+        "C": "talking with the film star",
+        "D": "working hard on their lesson."
+      },
+      "answer": "D",
+      "explanation": "Tác giả nêu rõ: 'Most people must work hard to learn another language'."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Many boys and girls learn English because _______",
+      "options": {
+        "A": "English can give them a job.",
+        "B": "it's included in their study courses.",
+        "C": "their parents make them.",
+        "D": "they have to study their own language."
+      },
+      "answer": "B",
+      "explanation": "Văn bản viết: 'Many boys and girls learn English at school because it is one of their subjects'."
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "In America or Australia many school children study _______",
+      "options": {
+        "A": "English as a foreign language.",
+        "B": "English and Mathematics only.",
+        "C": "such foreign languages as French, German, and Spanish.",
+        "D": "their own language and no foreign language."
+      },
+      "answer": "C",
+      "explanation": "Trong ngoặc đơn có ghi: '...study their own language... and another language, perhaps French, or German, or Spanish'."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Many adults learn English because _______",
+      "options": {
+        "A": "their work is useful.",
+        "B": "they want to go abroad.",
+        "C": "most of their books are in English",
+        "D": "it helps them in their work."
+      },
+      "answer": "D",
+      "explanation": "Văn bản ghi: 'Many adults learn English because it is useful for their work'."
+    },
+    {
+      "id": 56,
+      "type": "text",
+      "text": "It’s a long time since we became close friends. -> We have...",
+      "answer": "We have become close friends for a long time.",
+      "explanation": "Chuyển từ thì quá khứ đơn sang hiện tại hoàn thành với 'for + khoảng thời gian'."
+    },
+    {
+      "id": 57,
+      "type": "text",
+      "text": "No one is more intelligent than her in our school. -> She...",
+      "answer": "She is the most intelligent student/girl in our school.",
+      "explanation": "Chuyển từ so sánh hơn sang so sánh nhất."
+    },
+    {
+      "id": 58,
+      "type": "text",
+      "text": "‘Can I borrow your bike, Nga?’, Nam asked. -> Nam asked Nga...",
+      "answer": "Nam asked Nga if he could borrow her bike.",
+      "explanation": "Chuyển từ câu hỏi trực tiếp Yes/No sang gián tiếp."
+    },
+    {
+      "id": 59,
+      "type": "text",
+      "text": "Lan is 1.60m tall and Hoa is 1.60 tall, too. -> Lan...",
+      "answer": "Lan is the same height as Hoa.",
+      "explanation": "Cấu trúc so sánh bằng: 'the same + danh từ + as'."
+    },
+    {
+      "id": 60,
+      "type": "text",
+      "text": "Apples are usually cheaper than oranges. -> Apples are not...",
+      "answer": "Apples are not as expensive as oranges.",
+      "explanation": "Chuyển từ so sánh hơn sang so sánh bằng dạng phủ định."
+    },
+    {
+      "id": 61,
+      "type": "text",
+      "text": "He’d rather play golf than tennis. -> He prefers...",
+      "answer": "He prefers golf to tennis.",
+      "explanation": "Cấu trúc: 'prefer something to something'."
+    },
+    {
+      "id": 62,
+      "type": "text",
+      "text": "“You shouldn’t translate each sentence into Vietnamese,” my brother told me. -> My brother told...",
+      "answer": "My brother told me not to translate each sentence into Vietnamese.",
+      "explanation": "Câu gián tiếp dạng lời khuyên/mệnh lệnh: 'told someone (not) to V'."
+    },
+    {
+      "id": 63,
+      "type": "text",
+      "text": "When did you start playing the piano? -> How long...",
+      "answer": "How long have you played the piano?",
+      "explanation": "Chuyển từ quá khứ đơn sang hiện tại hoàn thành."
+    },
+    {
+      "id": 64,
+      "type": "text",
+      "text": "Your younger brother is too weak to lift that box. -> Your brother is not...",
+      "answer": "Your brother is not strong enough to lift that box.",
+      "explanation": "Chuyển từ 'too... to' sang 'not adj enough to'."
+    },
+    {
+      "id": 65,
+      "type": "text",
+      "text": "Hung is interested in collecting stamps. -> Hung’s...",
+      "answer": "Hung’s hobby is collecting stamps.",
+      "explanation": "Cách diễn đạt khác về sở thích."
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: though, enough, cough, rough",
+      "options": {
+        "A": "though",
+        "B": "enough",
+        "C": "cough",
+        "D": "rough"
+      },
+      "answer": "A",
+      "explanation": "Trong 'though', đuôi 'gh' câm (phát âm là /əʊ/). Trong 'enough', 'cough', 'rough', đuôi 'gh' phát âm là /f/."
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: chair, cheap, chorus, child",
+      "options": {
+        "A": "chair",
+        "B": "cheap",
+        "C": "chorus",
+        "D": "child"
+      },
+      "answer": "C",
+      "explanation": "Trong 'chorus', 'ch' phát âm là /k/. Trong các từ còn lại, 'ch' phát âm là /tʃ/."
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: missed, closed, called, planned",
+      "options": {
+        "A": "missed",
+        "B": "closed",
+        "C": "called",
+        "D": "planned"
+      },
+      "answer": "A",
+      "explanation": "Trong 'missed', 'ed' phát âm là /t/. Trong các từ còn lại, 'ed' phát âm là /d/."
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: fat, any, gas, hat",
+      "options": {
+        "A": "fat",
+        "B": "any",
+        "C": "gas",
+        "D": "hat"
+      },
+      "answer": "B",
+      "explanation": "Trong 'any', 'a' phát âm là /e/. Trong các từ còn lại, 'a' phát âm là /æ/."
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "text": "Choose the word whose underlined part is pronounced differently: physics, basic, sailor, subject",
+      "options": {
+        "A": "physics",
+        "B": "basic",
+        "C": "sailor",
+        "D": "subject"
+      },
+      "answer": "A",
+      "explanation": "Trong 'physics', 's' phát âm là /z/. Trong các từ còn lại, 's' phát âm là /s/."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "humorous",
+      "pron": "/ˈhjuːmərəs/",
+      "type": "adj",
+      "meaning": "hài hước, hóm hỉnh",
+      "example": "Jack's jokes often make his friends laugh a lot."
+    },
+    {
+      "word": "voluntary",
+      "pron": "/ˈvɒləntri/",
+      "type": "adj",
+      "meaning": "tình nguyện",
+      "example": "The scouts do the voluntary work."
+    },
+    {
+      "word": "sociable",
+      "pron": "/ˈsəʊʃəbl/",
+      "type": "adj",
+      "meaning": "hòa đồng, dễ gần",
+      "example": "Huy makes friends very easily because he is sociable."
+    },
+    {
+      "word": "orphanage",
+      "pron": "/ˈɔːfənɪdʒ/",
+      "type": "noun",
+      "meaning": "trại trẻ mồ côi",
+      "example": "After his parents died, he was sent to an orphanage."
+    },
+    {
+      "word": "traditional",
+      "pron": "/trəˈdɪʃənl/",
+      "type": "adj",
+      "meaning": "truyền thống",
+      "example": "'The lost shoe' is one of the traditional stories."
+    }
+  ],
   "exercises": []
 }

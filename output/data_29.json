@@ -1,5 +1,241 @@
 {
-  "questions": [],
-  "vocab": [],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "text": "I sometimes stay .................. bed until lunchtime.",
+      "options": { "A": "in", "B": "on", "C": "at", "D": "into" },
+      "answer": "A",
+      "explanation": "Cụm từ: 'stay in bed' (nằm trên giường/không rời giường)."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "text": "Please .................. the radio, it’s too noisy.",
+      "options": { "A": "slow down", "B": "turn down", "C": "put down", "D": "let down" },
+      "answer": "B",
+      "explanation": "Cụm động từ: 'turn down' (vặn nhỏ âm lượng)."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "text": ".................. to swim across a flooded river.",
+      "options": { "A": "Dangerous", "B": "There has danger", "C": "Very dangerous is", "D": "It’s dangerous" },
+      "answer": "D",
+      "explanation": "Cấu trúc chủ ngữ giả: 'It is + adj + to-V'."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "text": "Every car ........ a number at the back and front.",
+      "options": { "A": "is having", "B": "have", "C": "has", "D": "are having" },
+      "answer": "C",
+      "explanation": "Chủ ngữ 'Every car' là danh từ số ít nên dùng 'has'."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "text": "The singers were at the microphone at the time of the broadcast. ....................... .",
+      "options": { "A": "It was a successful broadcast", "B": "It was an education broadcast", "C": "It was a charity broadcast", "D": "It was a live broadcast" },
+      "answer": "D",
+      "explanation": "Phát sóng tại thời điểm đang diễn ra gọi là 'live broadcast' (truyền hình trực tiếp)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "text": "Good morning Susan. This is my sister, Emily. ................................... .",
+      "options": { "A": "What do you do?", "B": "How do you do?", "C": "What do you like?", "D": "Don't I meet you?" },
+      "answer": "B",
+      "explanation": "'How do you do?' là lời chào trang trọng khi lần đầu tiên gặp mặt ai đó."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "text": "........................... , Sir? - Fruit salad, please.",
+      "options": { "A": "What would you like for dessert", "B": "What dessert you would like", "C": "How would you like for dessert", "D": "How dessert would like" },
+      "answer": "A",
+      "explanation": "Cấu trúc 'What would you like for...?' dùng để hỏi về sự lựa chọn món ăn."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "text": "Airmail is much ................... than surface mail.",
+      "options": { "A": "expensive", "B": "very expensive", "C": "more expensive", "D": "most expensive" },
+      "answer": "C",
+      "explanation": "So sánh hơn với tính từ dài 'expensive': 'more expensive than'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "text": "Tommy is a better swimmer than Tony.",
+      "options": { "A": "No one can swim as well as Tommy and Tony.", "B": "Tommy is the best swimmer of all, apart from Tony.", "C": "Tony can’t swim so well as Tommy.", "D": "Tony can’t be better than Tommy." },
+      "answer": "C",
+      "explanation": "Tommy bơi tốt hơn Tony đồng nghĩa với việc Tony không thể bơi tốt bằng Tommy."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "text": "Christine finds it easy to make friends.",
+      "options": { "A": "It is easy to make friends to Christine", "B": "Christine has no difficulty making friends.", "C": "Christine has a lot of friends.", "D": "Christine is fond of making friends." },
+      "answer": "B",
+      "explanation": "Cảm thấy dễ dàng làm gì đó đồng nghĩa với việc 'không gặp khó khăn' (have no difficulty V-ing)."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "text": "She started learning English 3 years ago.",
+      "options": { "A": "She started learning English 3 years.", "B": "She has learnt English for 3 years.", "C": "She started learning English since 3 years.", "D": "She learnt English since 3 years." },
+      "answer": "B",
+      "explanation": "Bắt đầu học 3 năm trước nghĩa là đã học được 3 năm tính đến nay (dùng Hiện tại hoàn thành với 'for')."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "text": "Walking a mile a day is good exercise.",
+      "options": { "A": "It is good exercise for walking a mile a day.", "B": "It is good exercise walking a mile a day.", "C": "It is good exercise to walk a mile a day.", "D": "It is good exercise to walking a mile a day." },
+      "answer": "C",
+      "explanation": "Cấu trúc chủ ngữ giả: 'It is + adj + to-V'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "text": "We / collect stamps.",
+      "options": { "A": "We likes collecting stamps", "B": "We likes stamps collect", "C": "We like to colleting stamps", "D": "We enjoy collecting stamps." },
+      "answer": "D",
+      "explanation": "Câu đúng ngữ pháp: 'We enjoy collecting stamps'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "text": "What time / you / work ?",
+      "options": { "A": "What time you work ?", "B": "What time do you go work ?", "C": "What time do you start work ?", "D": "What time do you go to work ?" },
+      "answer": "D",
+      "explanation": "Cấu trúc câu hỏi thì hiện tại đơn đầy đủ: 'What time do you go to work?'."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "text": "I / ski / the winter / sometimes.",
+      "options": { "A": "I ski the winter sometimes.", "B": "I ski on winter sometimes.", "C": "I sometimes go skiing in the winter.", "D": "I sometimes go to ski in winter." },
+      "answer": "C",
+      "explanation": "Sắp xếp đúng: 'I sometimes go skiing in the winter'."
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "text": "He couldn't make his motor bike (start) ........ this morning.",
+      "answer": "start",
+      "explanation": "Cấu trúc: 'make someone/something do something' (động từ nguyên mẫu không to)."
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "text": "I dislike (listen) ......... to music while (do) .......... my homework.",
+      "answer": "listening / doing",
+      "explanation": "Sau 'dislike' dùng V-ing. 'While doing' là rút gọn mệnh đề cùng chủ ngữ."
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "text": "These tigers used (keep) .......... in iron cages .",
+      "answer": "to be kept",
+      "explanation": "Cấu trúc: 'used to + be + V3' (đã từng được làm gì - câu bị động)."
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "text": "What you (do) ........ when I (phone) ......... you last night ?",
+      "answer": "were you doing / phoned",
+      "explanation": "Hành động đang xảy ra (quá khứ tiếp diễn) thì hành động khác xen vào (quá khứ đơn)."
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "text": "When we entered his room, we (see) .......... him (sleep) ............... in an armchair.",
+      "answer": "saw / sleeping",
+      "explanation": "Chứng kiến một hành động đang diễn ra: 'see someone V-ing'."
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "text": "The new model costs twice (more than) last year’s model.",
+      "answer": "as much as",
+      "explanation": "So sánh gấp bội: 'twice as + adj/adv + as'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Why do people in many countries learn English?\nIt is not difficult to answer this question. Students learn English at school because it is one of their subjects. Many adults learn English because it is useful for their work. Teenagers learn it for their higher studies because some of their books are in English at the college or university. Other people learn English because they want to read newspapers and magazines in English.\n\nStatement: English is learnt by people in many countries.",
+      "options": { "T": "True", "F": "False" },
+      "answer": "T",
+      "explanation": "Ngay câu đầu tiên của bài đọc xác nhận điều này."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "tag": "Reading",
+      "text": "Statement: Students learn English because their parents make them.",
+      "options": { "T": "True", "F": "False" },
+      "answer": "F",
+      "explanation": "Học sinh học vì nó là một trong những môn học ở trường ('one of their subjects')."
+    },
+    {
+      "id": 24,
+      "type": "text",
+      "text": "Your shoes are as big as mine. (size) -> Your...",
+      "answer": "Your shoes and mine are the same size.",
+      "explanation": "Dùng danh từ 'size' để so sánh bằng."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "text": "If you run a lot, you’ll be fitter. (The) -> The...",
+      "answer": "The more you run, the fitter you will be.",
+      "explanation": "Cấu trúc so sánh càng... càng..."
+    },
+    {
+      "id": 26,
+      "type": "text",
+      "text": "Could you tell me the way to the nearest Post office, please? (mind) -> Would...",
+      "answer": "Would you mind telling me the way to the nearest Post Office?",
+      "explanation": "Cấu trúc yêu cầu lịch sự: 'Would you mind + V-ing?'."
+    },
+    {
+      "id": 27,
+      "type": "text",
+      "text": "She is too young to do that work. (enough) -> She...",
+      "answer": "She's not old enough to do that work.",
+      "explanation": "Chuyển từ 'too young' sang 'not old enough'."
+    },
+    {
+      "id": 28,
+      "type": "text",
+      "text": "Who wrote that poem? (by) -> Who...",
+      "answer": "Who was that poem written by?",
+      "explanation": "Chuyển sang câu bị động với giới từ 'by'."
+    },
+    {
+      "id": 29,
+      "type": "text",
+      "text": "When I was young, I regularly walked to school. (used) -> When...",
+      "answer": "When I was young, I used to walk to school.",
+      "explanation": "Sử dụng 'used to' để chỉ thói quen trong quá khứ."
+    },
+    {
+      "id": 30,
+      "type": "text",
+      "text": "I’m very sorry I don’t remember your birthday. (wish) -> I...",
+      "answer": "I wish I remembered your birthday.",
+      "explanation": "Câu ước cho hiện tại: S + wish + S + V(past simple)."
+    }
+  ],
+  "vocab": [
+    { "word": "broadcast", "pron": "/ˈbrɔːdkɑːst/", "type": "noun", "meaning": "buổi phát thanh/truyền hình", "example": "It was a live broadcast of the concert." },
+    { "word": "saucepan", "pron": "/ˈsɔːspən/", "type": "noun", "meaning": "cái xoong, chảo có tay cầm", "example": "What are you cooking in that saucepan?" },
+    { "word": "difficulty", "pron": "/ˈdɪfɪkəlti/", "type": "noun", "meaning": "sự khó khăn", "example": "Christine has no difficulty making friends." },
+    { "word": "airmail", "pron": "/ˈeəmeɪl/", "type": "noun", "meaning": "thư gửi bằng đường hàng không", "example": "Airmail is much more expensive than surface mail." },
+    { "word": "fluency", "pron": "/ˈfluːənsi/", "type": "noun", "meaning": "sự trôi chảy, lưu loát", "example": "Practice is the key to fluency in English." }
+  ],
   "exercises": []
 }
