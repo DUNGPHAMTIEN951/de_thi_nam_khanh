@@ -4,7 +4,12 @@
       "id": 1,
       "type": "mcq",
       "text": "Choose the word whose underlined part is pronounced differently: claim, wait, said, paid",
-      "options": { "A": "claim", "B": "wait", "C": "said", "D": "paid" },
+      "options": {
+        "A": "claim",
+        "B": "wait",
+        "C": "said",
+        "D": "paid"
+      },
       "answer": "C",
       "explanation": "Trong 'said', 'ai' phát âm là /e/. Trong các từ còn lại, 'ai' phát âm là /eɪ/."
     },
@@ -12,7 +17,12 @@
       "id": 2,
       "type": "mcq",
       "text": "Choose the word whose underlined part is pronounced differently: watch, bath, want, wash",
-      "options": { "A": "watch", "B": "bath", "C": "want", "D": "wash" },
+      "options": {
+        "A": "watch",
+        "B": "bath",
+        "C": "want",
+        "D": "wash"
+      },
       "answer": "B",
       "explanation": "Trong 'bath', 'a' phát âm là /ɑː/ (Anh-Anh) hoặc /æ/ (Anh-Mỹ). Trong 'watch', 'want', 'wash', 'a' phát âm là /ɒ/."
     },
@@ -20,7 +30,12 @@
       "id": 3,
       "type": "mcq",
       "text": "Choose the word whose underlined part is pronounced differently: sure, mixture, injure, pleasure",
-      "options": { "A": "sure", "B": "mixture", "C": "injure", "D": "pleasure" },
+      "options": {
+        "A": "sure",
+        "B": "mixture",
+        "C": "injure",
+        "D": "pleasure"
+      },
       "answer": "A",
       "explanation": "Trong 'sure', 's' phát âm là /ʃ/ (âm s nặng). Trong các từ còn lại, phần gạch chân phát âm là /ʒ/ hoặc /dʒ/."
     },
@@ -56,7 +71,12 @@
       "id": 8,
       "type": "mcq",
       "text": "Helen is my aunt’s daughter so she is my……………….…………..",
-      "options": { "a": "sister", "b": "cousin", "c": "niece", "d": "friend" },
+      "options": {
+        "a": "sister",
+        "b": "cousin",
+        "c": "niece",
+        "d": "friend"
+      },
       "answer": "b",
       "explanation": "'Cousin' (anh/chị/em họ) là con của cô/dì/chú/bác."
     },
@@ -64,7 +84,12 @@
       "id": 9,
       "type": "mcq",
       "text": "His………………..always makes people laugh.",
-      "options": { "a": "quiet character", "b": "sense of humor", "c": "smiles", "d": "humorous" },
+      "options": {
+        "a": "quiet character",
+        "b": "sense of humor",
+        "c": "smiles",
+        "d": "humorous"
+      },
       "answer": "b",
       "explanation": "'Sense of humor' (khiếu hài hước) làm mọi người cười."
     },
@@ -72,7 +97,12 @@
       "id": 10,
       "type": "mcq",
       "text": "This is a contest in which people have to arrange flowers so it’s a………………..contest.",
-      "options": { "a": "flower-arranging", "b": "flowers-arranging", "c": "arranging-flower", "d": "flower-arrange" },
+      "options": {
+        "a": "flower-arranging",
+        "b": "flowers-arranging",
+        "c": "arranging-flower",
+        "d": "flower-arrange"
+      },
       "answer": "a",
       "explanation": "Tính từ ghép: 'Noun + V-ing'. Noun ở đây phải ở dạng số ít."
     },
@@ -80,7 +110,12 @@
       "id": 11,
       "type": "mcq",
       "text": "Children who don’t have parents often live in a(n)………………………….….",
-      "options": { "a": "hotel", "b": "house", "c": "orphanage", "d": "hostel" },
+      "options": {
+        "a": "hotel",
+        "b": "house",
+        "c": "orphanage",
+        "d": "hostel"
+      },
       "answer": "c",
       "explanation": "'Orphanage' (trại trẻ mồ côi)."
     },
@@ -88,7 +123,12 @@
       "id": 12,
       "type": "mcq",
       "text": "My parents make me…………………………..for my exam .",
-      "options": { "a": "to study", "b": "study", "c": "studying", "d": "studied" },
+      "options": {
+        "a": "to study",
+        "b": "study",
+        "c": "studying",
+        "d": "studied"
+      },
       "answer": "b",
       "explanation": "Cấu trúc: 'make someone do something' (nguyên mẫu không to)."
     },
@@ -96,7 +136,12 @@
       "id": 13,
       "type": "mcq",
       "text": "I would rather you ……………….me the story.",
-      "options": { "a": "tell", "b": "told", "c": "to tell", "d": "telling" },
+      "options": {
+        "a": "tell",
+        "b": "told",
+        "c": "to tell",
+        "d": "telling"
+      },
       "answer": "b",
       "explanation": "Cấu trúc giả định: 'S1 + would rather + S2 + V(past simple)'."
     },
@@ -104,7 +149,12 @@
       "id": 14,
       "type": "mcq",
       "text": "Jane really enjoys ...................................................... to dinner parties.",
-      "options": { "a": "inviting", "b": "being inviting", "c": "being invited", "d": "be invited" },
+      "options": {
+        "a": "inviting",
+        "b": "being inviting",
+        "c": "being invited",
+        "d": "be invited"
+      },
       "answer": "c",
       "explanation": "Bị động sau 'enjoy': 'enjoy being + V3' (thích được mời)."
     },
@@ -224,11 +274,41 @@
     }
   ],
   "vocab": [
-    { "word": "cousin", "pron": "/ˈkʌzn/", "type": "noun", "meaning": "anh chị em họ", "example": "Helen is my cousin." },
-    { "word": "orphanage", "pron": "/ˈɔːfənɪdʒ/", "type": "noun", "meaning": "trại trẻ mồ côi", "example": "He lives in an orphanage." },
-    { "word": "stumbled", "pron": "/ˈstʌmbld/", "type": "verb", "meaning": "vấp ngã", "example": "She stumbled over a rock." },
-    { "word": "directory", "pron": "/dəˈrektəri/", "type": "noun", "meaning": "danh bạ, thư mục", "example": "Look up the number in the telephone directory." },
-    { "word": "marvelous", "pron": "/ˈmɑːvələs/", "type": "adj", "meaning": "tuyệt diệu, kỳ diệu", "example": "The performance was marvelous." }
+    {
+      "word": "cousin",
+      "pron": "/ˈkʌzn/",
+      "type": "noun",
+      "meaning": "anh chị em họ",
+      "example": "Helen is my cousin."
+    },
+    {
+      "word": "orphanage",
+      "pron": "/ˈɔːfənɪdʒ/",
+      "type": "noun",
+      "meaning": "trại trẻ mồ côi",
+      "example": "He lives in an orphanage."
+    },
+    {
+      "word": "stumbled",
+      "pron": "/ˈstʌmbld/",
+      "type": "verb",
+      "meaning": "vấp ngã",
+      "example": "She stumbled over a rock."
+    },
+    {
+      "word": "directory",
+      "pron": "/dəˈrektəri/",
+      "type": "noun",
+      "meaning": "danh bạ, thư mục",
+      "example": "Look up the number in the telephone directory."
+    },
+    {
+      "word": "marvelous",
+      "pron": "/ˈmɑːvələs/",
+      "type": "adj",
+      "meaning": "tuyệt diệu, kỳ diệu",
+      "example": "The performance was marvelous."
+    }
   ],
   "exercises": []
 }
