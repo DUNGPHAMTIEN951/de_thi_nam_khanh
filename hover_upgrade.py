@@ -1,175 +1,10 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Practice 29</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', system-ui, sans-serif; background-color: #f8fafc; }
-        .perspective-1000 { perspective: 1000px; }
-        .transform-style-3d { transform-style: preserve-3d; }
-        .backface-hidden { backface-visibility: hidden; }
-        .rotate-y-180 { transform: rotateY(180deg); }
-        .flip-card-inner { transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); }
-        .flip-card.flipped .flip-card-inner { transform: rotateY(180deg); }
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #f1f1f1; }
-        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
-        .question-block { border-bottom: 1px solid #e2e8f0; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
-        .question-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-        input[type="radio"]:checked + span { font-weight: 700; color: #1d4ed8; }
-        #sidebar { transition: transform 0.3s ease-in-out; }
-        .tooltip-arrow::before {
-            content: '';
-            position: absolute;
-            top: -6px;
-            left: 20px;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-            border-bottom: 6px solid white;
-        }
-    </style>
-</head>
-<body class="text-gray-800 antialiased flex h-screen overflow-hidden bg-gray-100">
+import os
 
-    <div id="sidebarOverlay" onclick="toggleSidebar()" class="fixed inset-0 bg-black bg-opacity-50 z-20 hidden lg:hidden transition-opacity"></div>
+directory = r'd:\notebookllm\de_thi_nam_khanh\output'
 
-    <aside id="sidebar" class="w-72 bg-white shadow-2xl h-full flex flex-col z-30 fixed lg:relative transform -translate-x-full lg:translate-x-0">
-        <div class="p-5 bg-blue-700 text-white flex justify-between items-center shrink-0 shadow-md">
-            <div class="flex items-center gap-3">
-                <i class="fa-solid fa-graduation-cap text-3xl"></i>
-                <h1 class="font-bold text-lg leading-tight">Luyện Thi Anh<br><span class="text-sm font-normal text-blue-200">Đề Ôn Tập Chi Tiết</span></h1>
-            </div>
-            <button onclick="toggleSidebar()" class="lg:hidden text-white hover:text-blue-200 focus:outline-none text-2xl">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-        </div>
-        <div class="flex-1 overflow-y-auto p-4" id="testList">
-            <a href="../index.html" class="w-full block text-center py-3 bg-gray-100 hover:bg-gray-200 rounded-lg font-bold text-gray-700 mb-4 transition">
-                <i class="fa-solid fa-house mr-2"></i> Quay lại trang chủ
-            </a>
-            <!-- Test items can be dynamically added or just link to index -->
-        </div>
-    </aside>
-
-    <main class="flex-1 flex flex-col h-full relative overflow-hidden w-full">
-        <header class="bg-white shadow-sm z-10 shrink-0">
-            <div class="px-4 md:px-6 py-4 flex justify-between items-center border-b border-gray-100">
-                <div class="flex items-center gap-4">
-                    <button onclick="toggleSidebar()" class="text-gray-500 hover:text-blue-600 focus:outline-none text-2xl p-2 rounded-lg hover:bg-gray-100 transition-colors">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-800 truncate" id="currentTestTitle">ENGLISH PRACTICE 29</h2>
-                </div>
-                <div class="text-sm font-bold text-blue-700 bg-blue-100 px-4 py-1.5 rounded-full flex items-center shadow-sm whitespace-nowrap">
-                    <i class="fa-solid fa-pen-nib mr-2"></i> <span id="qCountDisplay">0</span> Câu Hỏi
-                </div>
-            </div>
-            <div class="flex border-b border-gray-200 px-2 md:px-6 bg-gray-50 overflow-x-auto no-scrollbar">
-                <button onclick="switchTab('test')" id="tab-test" class="py-3 px-4 md:px-6 text-blue-700 border-b-2 border-blue-600 font-bold focus:outline-none flex items-center gap-2 bg-white whitespace-nowrap">
-                    <i class="fa-solid fa-file-pen"></i> Làm Bài Thi
-                </button>
-                <button onclick="switchTab('flashcard')" id="tab-flashcard" class="py-3 px-4 md:px-6 text-gray-500 hover:text-blue-600 font-semibold focus:outline-none flex items-center gap-2 transition-colors whitespace-nowrap">
-                    <i class="fa-solid fa-layer-group"></i> Flashcard
-                </button>
-                <button onclick="switchTab('quiz')" id="tab-quiz" class="py-3 px-4 md:px-6 text-gray-500 hover:text-blue-600 font-semibold focus:outline-none flex items-center gap-2 transition-colors whitespace-nowrap">
-                    <i class="fa-solid fa-brain"></i> Ôn Tập Từ Vựng
-                </button>
-            </div>
-        </header>
-
-        <div class="flex-1 overflow-y-auto relative w-full" id="mainScrollContainer">
-            
-            <!-- VIEW: TEST (QUIZ) -->
-            <div id="content-test" class="p-4 md:p-8">
-                <div class="max-w-6xl mx-auto">
-                    <form id="quizForm">
-                        <div id="questionsContainer" class="space-y-6"></div>
-                        <div class="mt-12 pt-8 border-t-2 border-gray-200 text-center pb-10">
-                            <button type="button" onclick="gradeTest('quizForm', 'questions')" class="bg-blue-600 hover:bg-blue-800 text-white font-black py-4 px-16 rounded-full shadow-2xl transition transform hover:scale-105 text-xl tracking-wide">
-                                <i class="fa-solid fa-check-double mr-2"></i> NỘP BÀI & CHẤM ĐIỂM
-                            </button>
-                        </div>
-                        <div id="resultArea-questions" class="hidden mt-10 p-8 md:p-12 rounded-3xl text-center border border-gray-100 bg-white shadow-2xl mb-10">
-                            <h3 class="text-3xl font-extrabold text-gray-800 mb-2">Kết Quả</h3>
-                            <div class="text-7xl font-black mb-6 scoreDisplay">0/0</div>
-                            <p class="text-xl text-gray-600 mb-10 font-medium leading-relaxed messageDisplay"></p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <!-- VIEW: FLASHCARDS -->
-            <div id="content-flashcard" class="hidden p-4 md:p-8 bg-gray-50 h-full">
-                <div class="max-w-3xl mx-auto h-full flex flex-col">
-                    <div class="text-center mb-6 shrink-0">
-                        <h2 class="text-2xl md:text-3xl font-extrabold text-gray-800 mb-2"><i class="fa-solid fa-layer-group text-blue-500 mr-2"></i>Bộ Thẻ Từ Vựng Thông Minh</h2>
-                        <p class="text-gray-600 text-sm md:text-base">Mũi tên <kbd class="bg-gray-200 px-2 py-1 rounded shadow-sm text-xs">Trái</kbd> / <kbd class="bg-gray-200 px-2 py-1 rounded shadow-sm text-xs">Phải</kbd> để chuyển thẻ.</p>
-                    </div>
-                    <div class="flex-1 flex flex-col items-center justify-center min-h-[400px] pb-10">
-                        <div class="perspective-1000 w-full max-w-lg h-80 cursor-pointer group flip-card" id="flashcardElement" onclick="flipCard()">
-                            <div class="flip-card-inner relative w-full h-full transform-style-3d shadow-2xl rounded-[2rem] transition-transform duration-500 ease-out" id="flashcardInner">
-                                <div class="backface-hidden absolute w-full h-full bg-white rounded-[2rem] flex flex-col items-center justify-center border border-gray-100 p-8 text-center shadow-lg">
-                                    <h3 class="text-4xl md:text-5xl font-black text-blue-700 mb-4 tracking-tight" id="fc-word">Word</h3>
-                                    <p class="text-gray-500 text-lg font-medium bg-gray-100 px-4 py-2 rounded-full" id="fc-pron">/pron/</p>
-                                </div>
-                                <div class="backface-hidden rotate-y-180 absolute w-full h-full bg-gradient-to-br from-blue-600 to-indigo-800 text-white rounded-[2rem] flex flex-col items-center justify-center p-8 shadow-2xl text-center">
-                                    <span class="bg-white/20 text-white text-sm font-bold px-4 py-1.5 rounded-full mb-4 uppercase tracking-wider shadow-sm" id="fc-type">Type</span>
-                                    <p class="text-3xl md:text-4xl font-bold mb-6 drop-shadow-md" id="fc-meaning">Meaning</p>
-                                    <p class="text-lg italic text-blue-50 font-light px-4 leading-relaxed" id="fc-example">"Example sentence"</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-6 mt-10 w-full max-w-md">
-                            <button onclick="prevCard()" id="btnPrev" class="w-14 h-14 rounded-full bg-white text-gray-700 shadow-md hover:shadow-lg hover:text-blue-600 flex items-center justify-center text-xl disabled:opacity-30 border border-gray-100"><i class="fa-solid fa-chevron-left"></i></button>
-                            <div class="bg-white px-6 py-3 rounded-full shadow-sm font-bold text-gray-600 text-lg border border-gray-100" id="fc-counter">1 / 1</div>
-                            <button onclick="nextCard()" id="btnNext" class="w-14 h-14 rounded-full bg-white text-gray-700 shadow-md hover:shadow-lg hover:text-blue-600 flex items-center justify-center text-xl disabled:opacity-30 border border-gray-100"><i class="fa-solid fa-chevron-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- VIEW: QUIZ (VOCAB EXERCISES) -->
-            <div id="content-quiz" class="hidden p-4 md:p-8">
-                <div class="max-w-6xl mx-auto">
-                    <form id="vocabQuizForm">
-                        <div id="exercisesContainer" class="space-y-6"></div>
-                        <div class="mt-12 pt-8 border-t-2 border-gray-200 text-center pb-10">
-                            <button type="button" onclick="gradeTest('vocabQuizForm', 'exercises')" class="bg-teal-600 hover:bg-teal-800 text-white font-black py-4 px-16 rounded-full shadow-2xl transition transform hover:scale-105 text-xl tracking-wide">
-                                <i class="fa-solid fa-check-double mr-2"></i> CHẤM ĐIỂM TỪ VỰNG
-                            </button>
-                        </div>
-                        <div id="resultArea-exercises" class="hidden mt-10 p-8 md:p-12 rounded-3xl text-center border border-gray-100 bg-white shadow-2xl mb-10">
-                            <h3 class="text-3xl font-extrabold text-gray-800 mb-2">Kết Quả Từ Vựng</h3>
-                            <div class="text-7xl font-black mb-6 scoreDisplay">0/0</div>
-                            <p class="text-xl text-gray-600 mb-10 font-medium leading-relaxed messageDisplay"></p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-
-        <div id="vocabTooltip" class="fixed z-50 hidden bg-white rounded-xl shadow-2xl border border-gray-200 p-5 w-72 text-left pointer-events-auto transition-opacity duration-200 opacity-0 tooltip-arrow">
-            <div class="flex justify-between items-start mb-3">
-                <div>
-                    <h4 class="text-xl font-black text-blue-700 capitalize" id="tt-word">Word</h4>
-                    <p class="text-sm text-gray-500 font-medium mt-1" id="tt-pron">/pron/</p>
-                </div>
-                <button onclick="speakWord()" class="w-10 h-10 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center transition shadow-sm border border-blue-100"><i class="fa-solid fa-volume-high"></i></button>
-            </div>
-            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded mb-3" id="tt-type">Type</span>
-            <p class="text-base text-gray-800 font-bold mb-3" id="tt-meaning">Meaning</p>
-            <p class="text-sm text-gray-600 italic border-l-4 border-blue-300 pl-3 leading-relaxed bg-blue-50/50 py-2" id="tt-example">"Example"</p>
-        </div>
-
-    </main>
-
-    <script>const database = {"29": {"questions": [], "vocab": [], "exercises": []}};
-
-        const currentTestId = "29";
+# Universal Script Template V6.0 - HOVER MODE for Dictionary
+universal_script_template = r"""
+        const currentTestId = "{TEST_ID}";
         const testData = database[currentTestId];
         let vocabList = testData.vocab || [];
         let currentVocabIndex = 0;
@@ -377,6 +212,38 @@
             }
         }
         window.onload = initApp;
-</script>
-</body>
-</html>
+"""
+
+for filename in os.listdir(directory):
+    if filename.endswith(".html") and filename.startswith("de_"):
+        filepath = os.path.join(directory, filename)
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        db_marker = "const database = "
+        db_start = content.find(db_marker)
+        if db_start == -1: continue
+        
+        json_start = db_start + len(db_marker)
+        brace_count = 0
+        json_end = -1
+        for i in range(json_start, len(content)):
+            if content[i] == '{': brace_count += 1
+            elif content[i] == '}': brace_count -= 1
+            if brace_count == 0 and i > json_start:
+                json_end = i + 1
+                break
+        
+        if json_end == -1: continue
+        database_str = content[json_start:json_end]
+        test_id = filename.replace('de_', '').replace('.html', '')
+        new_script_code = f"const database = {database_str};\n" + universal_script_template.replace("{TEST_ID}", test_id)
+        
+        script_tag_start = content.find("<script>")
+        script_tag_end = content.find("</script>", script_tag_start)
+        
+        if script_tag_start != -1 and script_tag_end != -1:
+            new_content = content[:script_tag_start] + "<script>" + new_script_code + "</script>" + content[script_tag_end + 9:]
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print(f"Hover Upgrade applied to {filename}")
