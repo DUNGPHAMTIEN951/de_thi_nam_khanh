@@ -359,8 +359,7 @@
 
     </main>
 
-    <script>
-        const database = {
+    <script>const database = {
   "3": {
     "questions": [
       {
@@ -3054,93 +3053,25 @@
     ]
   }
 };
+
         const currentTestId = "3";
         const testData = database[currentTestId];
-        let currentVocabIndex = 0;
         let vocabList = testData.vocab || [];
+        let currentVocabIndex = 0;
 
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('sidebarOverlay');
-            sidebar.classList.toggle('-translate-x-full');
-            overlay.classList.toggle('hidden');
+        function initApp() {
+            try {
+                if (document.getElementById('testList')) initTestList();
+                if (testData) {
+                    document.getElementById('qCountDisplay').textContent = (testData.questions || []).length;
+                    renderQuestions('questionsContainer', testData.questions);
+                    if (testData.exercises) renderQuestions('exercisesContainer', testData.exercises);
+                }
+                if (typeof loadNotes === 'function') loadNotes();
+                if (vocabList.length > 0 && typeof updateFlashcardView === 'function') updateFlashcardView();
+            } catch (e) { console.error("Init Error:", e); }
         }
 
-        function toggleNotes() {
-            const sidebar = document.getElementById('noteSidebar');
-            const btn = document.getElementById('btn-notes');
-            sidebar.classList.toggle('open');
-            
-            const isOpen = sidebar.classList.contains('open');
-            localStorage.setItem('notes_sidebar_open', isOpen);
-
-            if (isOpen) {
-                btn.classList.add('bg-amber-500', 'text-white', 'border-amber-600');
-                btn.classList.remove('bg-amber-50', 'text-amber-700', 'border-amber-200');
-            } else {
-                btn.classList.remove('bg-amber-500', 'text-white', 'border-amber-600');
-                btn.classList.add('bg-amber-50', 'text-amber-700', 'border-amber-200');
-            }
-        }
-
-        function saveNotes() {
-            const notes = document.getElementById('notesArea').value;
-            localStorage.setItem(`notes_test_${currentTestId}`, notes);
-        }
-
-        function loadNotes() {
-            const notes = localStorage.getItem(`notes_test_${currentTestId}`);
-            if (notes) document.getElementById('notesArea').value = notes;
-            
-            // Restore sidebar state
-            const sidebarOpen = localStorage.getItem('notes_sidebar_open') === 'true';
-            if (sidebarOpen) {
-                document.getElementById('noteSidebar').classList.add('open');
-                const btn = document.getElementById('btn-notes');
-                btn.classList.add('bg-amber-500', 'text-white', 'border-amber-600');
-                btn.classList.remove('bg-amber-50', 'text-amber-700', 'border-amber-200');
-            }
-        }
-
-        function switchTab(tab) {
-            // Hide all
-            document.getElementById('content-test').classList.add('hidden');
-            document.getElementById('content-flashcard').classList.add('hidden');
-            document.getElementById('content-quiz').classList.add('hidden');
-            
-            // Deactivate all tabs
-            document.querySelectorAll('[id^="tab-"]').forEach(el => {
-                el.classList.remove('text-blue-700', 'border-b-2', 'border-blue-600', 'bg-white');
-                el.classList.add('text-gray-500');
-            });
-
-            // Show active
-            document.getElementById(`content-${tab}`).classList.remove('hidden');
-            const activeTab = document.getElementById(`tab-${tab}`);
-            activeTab.classList.remove('text-gray-500');
-            activeTab.classList.add('text-blue-700', 'border-b-2', 'border-blue-600', 'bg-white');
-            
-            if (tab === 'flashcard') updateFlashcardView();
-            document.getElementById('mainScrollContainer').scrollTop = 0;
-        }
-
-        function initTestList() {
-            const list = document.getElementById('testList');
-            for (let i = 1; i <= 30; i++) {
-                const isActive = i == currentTestId;
-                const link = document.createElement('a');
-                link.href = `de_${i}.html`;
-                link.className = `flex items-center gap-3 p-3 rounded-xl mb-2 transition-all duration-200 border ${isActive ? 'bg-blue-50 border-blue-200 text-blue-700 font-bold shadow-sm' : 'bg-white border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-gray-200'}`;
-                link.innerHTML = `
-                    <div class="w-8 h-8 rounded-lg ${isActive ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-400'} flex items-center justify-center text-xs font-black">${i}</div>
-                    <span class="text-sm">Đề Thi Số ${i}</span>
-                    ${isActive ? '<i class="fa-solid fa-chevron-right ml-auto text-blue-400"></i>' : ''}
-                `;
-                list.appendChild(link);
-            }
-        }
-
-        /* DIAGNOSTIC: VERSION 2.1 - DEFENSIVE MCQ */
         function renderQuestions(containerId, data) {
             const container = document.getElementById(containerId);
             if (!data || data.length === 0) {
@@ -3148,230 +3079,146 @@
                 return;
             }
 
-            container.innerHTML = data.map((q, idx) => {
-                const qTypeIcon = q.type === 'mcq' ? 'fa-list-ul' : 'fa-keyboard';
-                const qTypeText = q.type === 'mcq' ? 'Trắc nghiệm' : 'Điền từ';
+            let html = '';
+            let i = 0;
+            while (i < data.length) {
+                let q = data[i];
                 
-                return `
-                <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden transition hover:shadow-md group">
-                    <div class="p-6 md:p-8">
-                        <div class="flex items-start gap-4 mb-6">
-                            <div class="shrink-0 w-10 h-10 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black text-lg shadow-lg group-hover:scale-110 transition-transform">${idx + 1}</div>
-                            <div class="flex-1 min-w-0">
-                                <div class="flex items-center gap-3 mb-2">
-                                    <span class="px-2.5 py-0.5 bg-blue-50 text-blue-600 rounded-md text-[10px] font-black uppercase tracking-wider flex items-center gap-1.5 border border-blue-100">
-                                        <i class="fa-solid ${qTypeIcon}"></i> ${qTypeText}
-                                    </span>
-                                    ${q.tag ? `<span class="px-2.5 py-0.5 bg-gray-100 text-gray-600 rounded-md text-[10px] font-bold uppercase tracking-tight">${q.tag}</span>` : ''}
-                                </div>
-                                <h3 class="text-lg md:text-xl font-bold text-gray-800 leading-relaxed">${q.text}</h3>
-                            </div>
-                        </div>
-
-                        <div class="ml-14 space-y-3">
-                            ${q.type === 'mcq' ? 
-                                Object.entries(q.options || {}).map(([key, val]) => `
-                                    <label class="flex items-center gap-4 p-4 rounded-2xl border-2 border-gray-50 hover:border-blue-200 hover:bg-blue-50/50 cursor-pointer transition group/opt">
-                                        <input type="radio" name="${containerId}-q${q.id}" value="${key}" class="w-5 h-5 text-blue-600 border-gray-300 focus:ring-blue-500">
-                                        <span class="flex-1 text-gray-700 font-medium group-hover/opt:text-blue-900 transition-colors">
-                                            <b class="mr-2 text-blue-400 group-hover/opt:text-blue-600">${key.toUpperCase()}.</b> ${val}
-                                        </span>
-                                    </label>
-                                `).join('')
-                            : 
-                                `<div class="relative group/input max-w-md">
-                                    <input type="text" id="${containerId}-q${q.id}" 
-                                        class="w-full pl-6 pr-12 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:border-blue-500 focus:bg-white focus:ring-0 transition-all text-gray-800 font-bold placeholder:text-gray-300"
-                                        placeholder="Nhập câu trả lời của bạn...">
-                                    <i class="fa-solid fa-pen-field absolute right-5 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within/input:text-blue-500 transition-colors"></i>
-                                </div>`
+                // CLOZE DETECTION
+                if (q.text.includes('(1)') || q.text.includes('(1-') || q.text.includes('(1 –')) {
+                    let passageQuestions = [];
+                    let passageText = '';
+                    let wordBox = [];
+                    let j = i;
+                    while (j < data.length) {
+                        let nextQ = data[j];
+                        let numMatch = nextQ.text.match(/\((\d+)[\s\-–)]/);
+                        if (numMatch || (j === i)) {
+                            passageQuestions.push(nextQ);
+                            if (nextQ.answer) {
+                                let ans = Array.isArray(nextQ.answer) ? nextQ.answer[0] : nextQ.answer;
+                                if (ans.length < 25) wordBox.push(ans);
                             }
+                            let cleanedText = nextQ.text.replace(/Write the correct form of verb for \(\d+\):|Write the suitable word to fill in the blank \(\d+\):|Complete the sentence:|Nowadays,/, '').trim();
+                            if (numMatch) {
+                                let num = numMatch[1];
+                                cleanedText = cleanedText.replace(numMatch[0], `
+                                    <span class="inline-block relative group/cloze mx-1">
+                                        <input type="text" id="${containerId}-q${nextQ.id}" 
+                                            class="w-28 px-2 py-0.5 bg-amber-50/50 border-b-2 border-amber-300 focus:border-indigo-600 focus:bg-white outline-none transition-all text-indigo-700 font-bold text-center placeholder:text-amber-200" 
+                                            placeholder="(${num})">
+                                        <div id="feedback-${containerId}-q${nextQ.id}" class="hidden absolute top-full left-0 z-20 w-48 mt-1"></div>
+                                    </span>
+                                `);
+                            }
+                            passageText += cleanedText + ' ';
+                            j++;
+                        } else { break; }
+                    }
+                    wordBox = [...new Set(wordBox)].sort(() => Math.random() - 0.5);
+                    html += `<div class="glass-card p-8 md:p-10 rounded-[2.5rem] border border-indigo-100 shadow-xl mb-12 bg-gradient-to-br from-white to-indigo-50/20 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-10"><i class="fa-solid fa-feather-pointed text-6xl text-indigo-600"></i></div>
+                        <div class="flex items-center gap-3 mb-8">
+                            <span class="px-4 py-1.5 bg-indigo-600 text-white rounded-xl text-[10px] font-black uppercase tracking-widest shadow-lg shadow-indigo-200">Cloze Test</span>
                         </div>
-
-                        <div class="mt-6 flex items-center gap-4 ml-14">
-                            <button type="button" onclick="toggleSimilar('${containerId}-q${q.id}', '${q.id}', '${containerId}')" 
-                                class="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-2 bg-indigo-50 px-4 py-2 rounded-xl transition-colors border border-indigo-100">
-                                <i class="fa-solid fa-sparkles"></i> Xem bài tương tự
-                            </button>
+                        ${wordBox.length > 0 ? `<div class="mb-8 p-6 bg-white/50 rounded-2xl border-2 border-dashed border-indigo-100 flex flex-wrap gap-3 justify-center">
+                            ${wordBox.map(w => `<span class="px-4 py-1.5 bg-white shadow-sm border border-indigo-50 rounded-lg text-sm font-bold text-indigo-600 cursor-default hover:scale-105 transition-transform">${w}</span>`).join('')}
+                        </div>` : ''}
+                        <div class="leading-[2.2] text-gray-700 text-lg font-medium text-justify">${passageText}</div>
+                    </div>`;
+                    i = j;
+                } else if (q.text.length > 500) {
+                     html += `<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-start">
+                        <div class="glass-card p-8 rounded-[2.5rem] bg-slate-50 border border-slate-200 lg:sticky lg:top-8 max-h-[85vh] overflow-y-auto shadow-inner">
+                            <div class="text-gray-800 leading-relaxed text-justify font-medium text-lg italic pr-4">${q.text}</div>
                         </div>
-
-                        <div id="similar-${containerId}-q${q.id}" class="hidden ml-14 animate-in fade-in slide-in-from-top-4 duration-300"></div>
-                        <div id="feedback-${containerId}-q${q.id}" class="hidden"></div>
-                    </div>
-                </div>
-                `;
-            }).join('');
-        }
-
-        function initApp() {
-            try {
-                console.log("Initializing App for Test:", currentTestId);
-                initTestList();
-                loadNotes();
-                
-                if (testData) {
-                    document.getElementById('qCountDisplay').textContent = (testData.questions || []).length;
-                    renderQuestions('questionsContainer', testData.questions);
-                    renderQuestions('exercisesContainer', testData.exercises);
+                        <div class="space-y-6">${renderSingleQuestion(q, i + 1, containerId)}</div>
+                    </div>`;
+                    i++;
+                } else {
+                    html += renderSingleQuestion(q, i + 1, containerId);
+                    i++;
                 }
-                
-                initVocabLookup();
-            } catch (e) {
-                console.error("Initialization error:", e);
             }
+            container.innerHTML = html;
         }
 
-
-
-        async function askAiSimilar(containerId, questionId) {
-            const area = document.getElementById(`similar-area-${containerId}-${questionId}`);
-            area.innerHTML = '<div class="mt-4 p-4 bg-gray-50 rounded-xl animate-pulse text-sm text-gray-500 flex items-center gap-3"><i class="fa-solid fa-robot"></i> AI đang tạo bài tập tương tự...</div>';
-            area.classList.remove('hidden');
-
-            try {
-                const response = await fetch('http://localhost:5679/ai_exercise', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        testId: currentTestId,
-                        questionId: questionId,
-                        container: containerId
-                    })
-                });
-                const result = await response.json();
-                if (result.success) {
-                    area.innerHTML = `
-                        <div class="mt-4 p-6 bg-indigo-50/50 rounded-2xl border border-indigo-100">
-                            <div class="flex items-center gap-2 mb-4 text-indigo-600 font-black text-[10px] uppercase tracking-widest"><i class="fa-solid fa-sparkles"></i> Bài Tập AI Gợi Ý</div>
-                            <div class="space-y-4">
-                                ${result.data.map((sq, i) => `
-                                    <div class="bg-white p-5 rounded-xl shadow-sm border border-indigo-100/50">
-                                        <p class="font-bold text-gray-800 mb-3 text-sm">${sq.text}</p>
-                                        <div class="grid grid-cols-1 gap-2">
-                                            ${Object.entries(sq.options || {}).map(([k, v]) => `<div class="text-xs text-gray-600 flex items-center gap-2"><span class="w-5 h-5 bg-gray-100 rounded flex items-center justify-center font-bold text-[10px] uppercase">${k}</span> ${v}</div>`).join('')}
-                                        </div>
-                                        <div class="mt-3 pt-3 border-t border-indigo-50 text-[10px] font-bold text-emerald-600 uppercase tracking-tight"><i class="fa-solid fa-circle-check"></i> Đáp án: ${sq.answer}</div>
-                                    </div>
-                                `).join('')}
+        function renderSingleQuestion(q, idx, containerId) {
+            const qTypeIcon = q.type === 'mcq' ? 'fa-list-ul' : 'fa-keyboard';
+            const qTypeText = q.type === 'mcq' ? 'Trắc nghiệm' : 'Điền từ';
+            return `<div class="bg-white rounded-[2.5rem] shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-indigo-100 group mb-6">
+                <div class="p-6 md:p-8">
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="shrink-0 w-12 h-12 bg-slate-50 text-slate-400 rounded-2xl flex items-center justify-center font-black text-lg border border-slate-100 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300">${idx}</div>
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="px-3 py-1 bg-slate-50 text-slate-500 rounded-lg text-[10px] font-black uppercase tracking-wider border border-slate-100 group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
+                                    <i class="fa-solid ${qTypeIcon}"></i> ${qTypeText}
+                                </span>
                             </div>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 leading-relaxed group-hover:text-indigo-900 transition-colors">${q.text}</h3>
                         </div>
-                    `;
-                }
-            } catch (e) {
-                area.innerHTML = '<div class="mt-4 p-4 bg-rose-50 text-rose-600 rounded-xl text-xs font-bold"><i class="fa-solid fa-circle-exclamation"></i> Không thể kết nối server AI.</div>';
-            }
+                    </div>
+                    <div class="ml-0 md:ml-16 space-y-3">
+                        ${q.type === 'mcq' ? Object.entries(q.options || {}).map(([key, val]) => `
+                            <label class="flex items-center gap-4 p-4 rounded-2xl border-2 border-slate-50 hover:border-indigo-200 hover:bg-indigo-50/50 cursor-pointer transition-all">
+                                <input type="radio" name="${containerId}-q${q.id}" value="${key}" class="w-5 h-5 text-indigo-600 border-slate-300">
+                                <span class="flex-1 text-slate-700 font-medium"><b>${key.toUpperCase()}.</b> ${val}</span>
+                            </label>
+                        `).join('') : `
+                            <input type="text" id="${containerId}-q${q.id}" class="w-full px-6 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:border-indigo-500 focus:bg-white outline-none text-slate-800 font-bold" placeholder="Nhập câu trả lời...">
+                        `}
+                    </div>
+                    <div id="feedback-${containerId}-q${q.id}" class="hidden mt-6 ml-0 md:ml-16"></div>
+                </div>
+            </div>`;
         }
 
         function gradeTest(formId, dataKey) {
             const questions = testData[dataKey];
             let score = 0;
-            const containerId = (formId === 'quizForm') ? 'questionsContainer' : 'exercisesContainer';
-
+            const containerId = (dataKey === 'questions') ? 'questionsContainer' : 'exercisesContainer';
             questions.forEach(q => {
                 const feedbackDiv = document.getElementById(`feedback-${containerId}-q${q.id}`);
                 feedbackDiv.classList.remove('hidden');
                 let isCorrect = false;
                 let userAns = '';
-
                 if (q.type === 'mcq') {
                     const selected = document.querySelector(`input[name="${containerId}-q${q.id}"]:checked`);
                     userAns = selected ? selected.value : '';
-                    isCorrect = (userAns.toLowerCase() === (q.answer || "").toLowerCase());
+                    isCorrect = userAns.toLowerCase() === (q.answer || "").toLowerCase();
                 } else {
                     const input = document.getElementById(`${containerId}-q${q.id}`);
                     userAns = (input.value || '').trim().toLowerCase();
                     const validAnswers = Array.isArray(q.answer) ? q.answer.map(a => a.toLowerCase()) : [(q.answer || "").toLowerCase()];
-                    isCorrect = validAnswers.some(ans => userAns.includes(ans) || ans.includes(userAns));
+                    isCorrect = validAnswers.some(ans => userAns === ans || ans.includes(userAns) && userAns.length > 2);
                 }
-
                 if (isCorrect) {
                     score++;
-                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-emerald-50 text-emerald-800 border-l-4 border-emerald-500 animate-in slide-in-from-left duration-300 shadow-sm ml-14";
-                    feedbackDiv.innerHTML = `<div class="flex items-center gap-3 font-black text-xs uppercase tracking-widest mb-1 text-emerald-600"><i class="fa-solid fa-circle-check"></i> Chính xác</div> <p class="text-sm leading-relaxed">${q.explanation || ''}</p>`;
+                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-emerald-50 text-emerald-800 border-l-4 border-emerald-500 shadow-sm";
+                    feedbackDiv.innerHTML = `<div class="font-black text-xs uppercase tracking-widest mb-1 text-emerald-600">Chính xác</div> <p class="text-sm">${q.explanation || ''}</p>`;
                 } else {
-                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-rose-50 text-rose-800 border-l-4 border-rose-500 animate-in slide-in-from-left duration-300 shadow-sm ml-14";
-                    feedbackDiv.innerHTML = `<div class="flex items-center gap-3 font-black text-xs uppercase tracking-widest mb-1 text-rose-600"><i class="fa-solid fa-circle-xmark"></i> Chưa đúng</div> <p class="text-sm font-bold mb-2">Đáp án: ${Array.isArray(q.answer) ? q.answer[0] : q.answer}</p><p class="text-xs opacity-80 leading-relaxed">${q.explanation || ''}</p>`;
+                    feedbackDiv.className = "mt-4 p-5 rounded-2xl bg-rose-50 text-rose-800 border-l-4 border-rose-500 shadow-sm";
+                    feedbackDiv.innerHTML = `<div class="font-black text-xs uppercase tracking-widest mb-1 text-rose-600">Chưa đúng</div> <p class="text-sm">Đáp án: ${Array.isArray(q.answer) ? q.answer[0] : q.answer}</p>`;
                 }
             });
-
             const resultArea = document.getElementById(`resultArea-${dataKey}`);
             resultArea.classList.remove('hidden');
             resultArea.querySelector('.scoreDisplay').textContent = `${score}/${questions.length}`;
             resultArea.scrollIntoView({ behavior: 'smooth' });
-
-            // Auto-Tracking for Portal
             try {
-                const examId = (typeof currentTestId !== 'undefined') ? currentTestId : window.location.pathname.split('/').pop().replace('.html', '').replace('de_', '');
                 const finalScoreNum = (score / questions.length) * 10;
-                const existingResults = JSON.parse(localStorage.getItem('nam_khanh_results') || '{}');
-                existingResults[examId] = Math.round(finalScoreNum * 10) / 10;
-                localStorage.setItem('nam_khanh_results', JSON.stringify(existingResults));
-                console.log("Portal Tracking: Saved score", existingResults[examId], "for Exam", examId);
-            } catch(e) { console.error("Tracking Error:", e); }
-
+                const results = JSON.parse(localStorage.getItem('nam_khanh_results') || '{}');
+                results[currentTestId] = Math.round(finalScoreNum * 10) / 10;
+                localStorage.setItem('nam_khanh_results', JSON.stringify(results));
+            } catch(e) {}
         }
 
-        function initVocabLookup() {
-            const trigger = document.getElementById('lookupTrigger');
-            
-            document.addEventListener('mouseup', (e) => {
-                const selection = window.getSelection().toString().trim();
-                if (selection && selection.length > 1 && selection.length < 50) {
-                    const range = window.getSelection().getRangeAt(0);
-                    const rect = range.getBoundingClientRect();
-                    
-                    trigger.style.left = `${rect.left + (rect.width/2) - 24}px`;
-                    trigger.style.top = `${rect.top + window.scrollY - 60}px`;
-                    trigger.classList.remove('hidden');
-                    trigger.classList.add('flex');
-                    
-                    trigger.onclick = () => {
-                        trigger.classList.add('hidden');
-                        performAiLookup(selection);
-                    };
-                } else {
-                    if (!trigger.contains(e.target)) trigger.classList.add('hidden');
-                }
-            });
-        }
-
-        async function performAiLookup(word) {
-            const modal = document.getElementById('aiLookupModal');
-            document.getElementById('lookup-word').textContent = word;
-            document.getElementById('lookup-ipa').textContent = 'Đang tìm kiếm...';
-            document.getElementById('lookup-meaning').textContent = '...';
-            document.getElementById('lookup-example').textContent = '...';
-            document.getElementById('lookup-context').textContent = '...';
-            
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-
-            try {
-                const response = await fetch('http://localhost:5679/lookup', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ word: word, testId: currentTestId })
-                });
-                const result = await response.json();
-                if (result.success) {
-                    document.getElementById('lookup-ipa').textContent = result.data.pron || '/.../';
-                    document.getElementById('lookup-type').textContent = result.data.type || 'N/A';
-                    document.getElementById('lookup-meaning').textContent = result.data.meaning || 'Không tìm thấy nghĩa';
-                    document.getElementById('lookup-example').textContent = result.data.example || '';
-                    document.getElementById('lookup-context').textContent = result.data.context || 'Thông tin thêm đang được cập nhật.';
-                }
-            } catch (e) {
-                document.getElementById('lookup-meaning').textContent = "Lỗi kết nối server AI.";
-            }
-        }
-
-        function closeLookup() {
-            document.getElementById('aiLookupModal').classList.add('hidden');
-            document.getElementById('aiLookupModal').classList.remove('flex');
-        }
-
+        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('-translate-x-full'); }
+        function flipCard() { document.getElementById('flashcardElement').classList.toggle('flipped'); }
+        function nextCard() { if (currentVocabIndex < vocabList.length - 1) { currentVocabIndex++; updateFlashcardView(); } }
+        function prevCard() { if (currentVocabIndex > 0) { currentVocabIndex--; updateFlashcardView(); } }
         function updateFlashcardView() {
-            if (!vocabList || vocabList.length === 0) return;
             const v = vocabList[currentVocabIndex];
             document.getElementById('fc-word').textContent = v.word;
             document.getElementById('fc-pron').textContent = v.pron;
@@ -3381,20 +3228,34 @@
             document.getElementById('fc-counter').textContent = `${currentVocabIndex + 1} / ${vocabList.length}`;
             document.getElementById('flashcardElement').classList.remove('flipped');
         }
-
-        function flipCard() { document.getElementById('flashcardElement').classList.toggle('flipped'); }
-        function nextCard() { if (currentVocabIndex < vocabList.length - 1) { currentVocabIndex++; updateFlashcardView(); } }
-        function prevCard() { if (currentVocabIndex > 0) { currentVocabIndex--; updateFlashcardView(); } }
-
-        function speakWord(word = null) {
-            const textToSpeak = word || document.getElementById('fc-word').textContent;
-            const utterance = new SpeechSynthesisUtterance(textToSpeak);
-            utterance.lang = 'en-US';
-            window.speechSynthesis.speak(utterance);
+        function switchTab(tab) {
+            ['test', 'flashcard', 'quiz'].forEach(t => {
+                const btn = document.getElementById(`tab-${t}`);
+                const content = document.getElementById(`content-${t}`);
+                if (btn) btn.className = "py-3 px-6 text-gray-500 hover:text-blue-600 font-semibold focus:outline-none flex items-center gap-2 transition-colors";
+                if (content) content.classList.add('hidden');
+            });
+            const activeBtn = document.getElementById(`tab-${tab}`);
+            const activeContent = document.getElementById(`content-${tab}`);
+            if (activeBtn) activeBtn.className = "py-3 px-6 text-blue-700 border-b-2 border-blue-600 font-bold focus:outline-none flex items-center gap-2 bg-white";
+            if (activeContent) activeContent.classList.remove('hidden');
+            if (tab === 'flashcard') updateFlashcardView();
         }
-
+        function initTestList() {
+            const list = document.getElementById('testList');
+            if (!list) return;
+            list.innerHTML = `<a href="../index.html" class="w-full block text-center py-3 bg-gray-100 hover:bg-gray-200 rounded-lg font-bold text-gray-700 mb-4 transition">Quay lại trang chủ</a>`;
+            for (let i = 1; i <= 30; i++) {
+                const isActive = i == currentTestId;
+                const link = document.createElement('a');
+                link.href = `de_${i}.html`;
+                link.className = `flex items-center gap-3 p-3 rounded-xl mb-2 border ${isActive ? 'bg-blue-50 border-blue-200 text-blue-700 font-bold' : 'bg-white border-gray-100 text-gray-600'}`;
+                link.innerHTML = `<div class="w-8 h-8 rounded-lg ${isActive ? 'bg-blue-600 text-white' : 'bg-gray-100'} flex items-center justify-center text-xs font-black">${i}</div><span>Đề Thi Số ${i}</span>`;
+                list.appendChild(link);
+            }
+        }
         window.onload = initApp;
-    </script>
+</script>
 </body>
 
 </html>
