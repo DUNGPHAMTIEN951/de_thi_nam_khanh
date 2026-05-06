@@ -2876,6 +2876,24 @@
         let vocabList = testData.vocab || [];
         let currentVocabIndex = 0;
 
+        // Custom Highlighting Logic
+        function highlightVocab(text) {
+            if (!vocabList || vocabList.length === 0) return text;
+            let highlighted = text;
+            // Sort by length descending to match longer phrases first
+            const sortedVocab = [...vocabList].sort((a, b) => b.word.length - a.word.length);
+            
+            sortedVocab.forEach(v => {
+                if (v.word.length < 3) return; // Skip very short words
+                const escapedWord = v.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
+                highlighted = highlighted.replace(regex, (match) => {
+                    return `<span class="vocab-highlight text-indigo-600 border-b-2 border-indigo-200 cursor-pointer hover:bg-indigo-50 px-0.5 rounded transition-colors" onclick="showVocabTooltip('${v.word.replace(/'/g, "\\'")}', event)">${match}</span>`;
+                });
+            });
+            return highlighted;
+        }
+
         function initApp() {
             try {
                 if (document.getElementById('testList')) initTestList();
@@ -2886,6 +2904,8 @@
                 }
                 if (typeof loadNotes === 'function') loadNotes();
                 if (vocabList.length > 0 && typeof updateFlashcardView === 'function') updateFlashcardView();
+                
+                setupSelectionLookup();
             } catch (e) { console.error("Init Error:", e); }
         }
 
@@ -2928,7 +2948,7 @@
                                     </span>
                                 `);
                             }
-                            passageText += cleanedText + ' ';
+                            passageText += highlightVocab(cleanedText) + ' ';
                             j++;
                         } else { break; }
                     }
@@ -2947,7 +2967,7 @@
                 } else if (q.text.length > 500) {
                      html += `<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-start">
                         <div class="glass-card p-8 rounded-[2.5rem] bg-slate-50 border border-slate-200 lg:sticky lg:top-8 max-h-[85vh] overflow-y-auto shadow-inner">
-                            <div class="text-gray-800 leading-relaxed text-justify font-medium text-lg italic pr-4">${q.text}</div>
+                            <div class="text-gray-800 leading-relaxed text-justify font-medium text-lg italic pr-4">${highlightVocab(q.text)}</div>
                         </div>
                         <div class="space-y-6">${renderSingleQuestion(q, i + 1, containerId)}</div>
                     </div>`;
@@ -2973,14 +2993,14 @@
                                     <i class="fa-solid ${qTypeIcon}"></i> ${qTypeText}
                                 </span>
                             </div>
-                            <h3 class="text-lg md:text-xl font-bold text-gray-800 leading-relaxed group-hover:text-indigo-900 transition-colors">${q.text}</h3>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800 leading-relaxed group-hover:text-indigo-900 transition-colors">${highlightVocab(q.text)}</h3>
                         </div>
                     </div>
                     <div class="ml-0 md:ml-16 space-y-3">
                         ${q.type === 'mcq' ? Object.entries(q.options || {}).map(([key, val]) => `
                             <label class="flex items-center gap-4 p-4 rounded-2xl border-2 border-slate-50 hover:border-indigo-200 hover:bg-indigo-50/50 cursor-pointer transition-all">
                                 <input type="radio" name="${containerId}-q${q.id}" value="${key}" class="w-5 h-5 text-indigo-600 border-slate-300">
-                                <span class="flex-1 text-slate-700 font-medium"><b>${key.toUpperCase()}.</b> ${val}</span>
+                                <span class="flex-1 text-slate-700 font-medium"><b>${key.toUpperCase()}.</b> ${highlightVocab(val)}</span>
                             </label>
                         `).join('') : `
                             <input type="text" id="${containerId}-q${q.id}" class="w-full px-6 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:border-indigo-500 focus:bg-white outline-none text-slate-800 font-bold" placeholder="Nhập câu trả lời...">
@@ -2997,6 +3017,7 @@
             const containerId = (dataKey === 'questions') ? 'questionsContainer' : 'exercisesContainer';
             questions.forEach(q => {
                 const feedbackDiv = document.getElementById(`feedback-${containerId}-q${q.id}`);
+                if (!feedbackDiv) return;
                 feedbackDiv.classList.remove('hidden');
                 let isCorrect = false;
                 let userAns = '';
@@ -3031,15 +3052,103 @@
             } catch(e) {}
         }
 
+        // TOOLTIP & LOOKUP LOGIC
+        function showVocabTooltip(word, event) {
+            const v = vocabList.find(item => item.word.toLowerCase() === word.toLowerCase());
+            if (!v) return;
+            
+            let tooltip = document.getElementById('vocabTooltip');
+            if (!tooltip) {
+                tooltip = document.createElement('div');
+                tooltip.id = 'vocabTooltip';
+                tooltip.className = 'fixed z-[100] bg-white/90 backdrop-blur-xl border border-indigo-100 shadow-2xl p-6 rounded-3xl w-72 transition-all duration-300 opacity-0 scale-90 pointer-events-none';
+                document.body.appendChild(tooltip);
+            }
+            
+            tooltip.innerHTML = `
+                <div class="flex justify-between items-start mb-3">
+                    <div>
+                        <h4 class="text-xl font-black text-indigo-600">${v.word}</h4>
+                        <p class="text-xs text-slate-400 font-bold tracking-widest uppercase">${v.pron || ''} • ${v.type || ''}</p>
+                    </div>
+                    <button onclick="speakWord('${v.word.replace(/'/g, "\\'")}')" class="w-8 h-8 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center hover:bg-indigo-600 hover:text-white transition-colors">
+                        <i class="fa-solid fa-volume-high text-xs"></i>
+                    </button>
+                </div>
+                <div class="h-px bg-indigo-50 mb-4"></div>
+                <p class="text-slate-800 font-bold text-sm mb-3">${v.meaning}</p>
+                <p class="text-xs text-slate-500 italic bg-slate-50 p-3 rounded-xl border border-slate-100 leading-relaxed">"${v.example}"</p>
+            `;
+            
+            const rect = event.target.getBoundingClientRect();
+            let top = rect.top + window.scrollY - tooltip.offsetHeight - 15;
+            let left = rect.left + window.scrollX + (rect.width / 2) - (tooltip.offsetWidth / 2);
+            
+            // Boundary checks
+            if (left < 10) left = 10;
+            if (left + tooltip.offsetWidth > window.innerWidth) left = window.innerWidth - tooltip.offsetWidth - 10;
+            if (top < 10) top = rect.bottom + window.scrollY + 15;
+
+            tooltip.style.top = `${top}px`;
+            tooltip.style.left = `${left}px`;
+            tooltip.classList.remove('opacity-0', 'scale-90', 'pointer-events-none');
+            tooltip.classList.add('opacity-100', 'scale-100');
+            
+            // Close on click outside
+            const closeHandler = (e) => {
+                if (!tooltip.contains(e.target) && e.target !== event.target) {
+                    tooltip.classList.add('opacity-0', 'scale-90', 'pointer-events-none');
+                    document.removeEventListener('click', closeHandler);
+                }
+            };
+            setTimeout(() => document.addEventListener('click', closeHandler), 10);
+        }
+
+        function setupSelectionLookup() {
+            let searchBtn = document.getElementById('selectionSearchBtn');
+            if (!searchBtn) {
+                searchBtn = document.createElement('button');
+                searchBtn.id = 'selectionSearchBtn';
+                searchBtn.className = 'fixed z-[101] hidden w-10 h-10 bg-indigo-600 text-white rounded-full shadow-xl flex items-center justify-center hover:scale-110 transition-transform';
+                searchBtn.innerHTML = '<i class="fa-solid fa-magnifying-glass text-sm"></i>';
+                document.body.appendChild(searchBtn);
+            }
+
+            document.addEventListener('mouseup', (e) => {
+                const selection = window.getSelection().toString().trim();
+                if (selection && selection.length > 1 && selection.length < 50) {
+                    const range = window.getSelection().getRangeAt(0);
+                    const rect = range.getBoundingClientRect();
+                    searchBtn.style.top = `${rect.top + window.scrollY - 50}px`;
+                    searchBtn.style.left = `${rect.left + window.scrollX + (rect.width/2) - 20}px`;
+                    searchBtn.classList.remove('hidden');
+                    searchBtn.onmousedown = (ev) => {
+                        ev.preventDefault();
+                        showVocabTooltip(selection, { target: { getBoundingClientRect: () => rect } });
+                        searchBtn.classList.add('hidden');
+                    };
+                } else {
+                    if (!searchBtn.contains(e.target)) searchBtn.classList.add('hidden');
+                }
+            });
+        }
+
+        function speakWord(word) {
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            window.speechSynthesis.speak(utterance);
+        }
+
         function toggleSidebar() { document.getElementById('sidebar').classList.toggle('-translate-x-full'); }
         function flipCard() { document.getElementById('flashcardElement').classList.toggle('flipped'); }
         function nextCard() { if (currentVocabIndex < vocabList.length - 1) { currentVocabIndex++; updateFlashcardView(); } }
         function prevCard() { if (currentVocabIndex > 0) { currentVocabIndex--; updateFlashcardView(); } }
         function updateFlashcardView() {
             const v = vocabList[currentVocabIndex];
+            if(!v) return;
             document.getElementById('fc-word').textContent = v.word;
-            document.getElementById('fc-pron').textContent = v.pron;
-            document.getElementById('fc-type').textContent = v.type;
+            document.getElementById('fc-pron').textContent = v.pron || '';
+            document.getElementById('fc-type').textContent = v.type || '';
             document.getElementById('fc-meaning').textContent = v.meaning;
             document.getElementById('fc-example').textContent = `"${v.example}"`;
             document.getElementById('fc-counter').textContent = `${currentVocabIndex + 1} / ${vocabList.length}`;
